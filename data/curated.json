@@ -1,5 +1,5 @@
 {
-  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image.",
+  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image. Set 'ongoing' for offers without an end date so they show under Claimable now.",
   "items": [
     {
       "name": "Not Today Spray",
@@ -7,8 +7,20 @@
       "category": "Events & Partnerships",
       "group": "ExpressVPN × VCT Americas / EMEA",
       "file": "Not Today Spray.gif",
-      "details": [{ "label": "Acquisition", "value": "Buy any ExpressVPN plan (1, 12 or 24 months) through the VCT partner offer." }],
-      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+      "details": [
+        {
+          "label": "Acquisition",
+          "value": "Buy any ExpressVPN plan (1, 12 or 24 months) through the VCT partner offer."
+        }
+      ],
+      "refs": [
+        "https://www.expressvpn.com/top/plus-partner/vct-us",
+        "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
+      ],
+      "ongoing": {
+        "since": null,
+        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+      }
     },
     {
       "name": "Dance Break Card",
@@ -16,8 +28,20 @@
       "category": "Events & Partnerships",
       "group": "ExpressVPN × VCT Americas / EMEA",
       "file": "Dance Break Card Large.png",
-      "details": [{ "label": "Acquisition", "value": "Buy a 12- or 24-month ExpressVPN plan through the VCT partner offer." }],
-      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+      "details": [
+        {
+          "label": "Acquisition",
+          "value": "Buy a 12- or 24-month ExpressVPN plan through the VCT partner offer."
+        }
+      ],
+      "refs": [
+        "https://www.expressvpn.com/top/plus-partner/vct-us",
+        "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
+      ],
+      "ongoing": {
+        "since": null,
+        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+      }
     },
     {
       "name": "Lightning Kicks Buddy",
@@ -25,8 +49,20 @@
       "category": "Events & Partnerships",
       "group": "ExpressVPN × VCT Americas / EMEA",
       "file": "Lightning Kicks Buddy.png",
-      "details": [{ "label": "Acquisition", "value": "Buy a 24-month ExpressVPN plan through the VCT partner offer." }],
-      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+      "details": [
+        {
+          "label": "Acquisition",
+          "value": "Buy a 24-month ExpressVPN plan through the VCT partner offer."
+        }
+      ],
+      "refs": [
+        "https://www.expressvpn.com/top/plus-partner/vct-us",
+        "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
+      ],
+      "ongoing": {
+        "since": null,
+        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+      }
     }
   ]
 }

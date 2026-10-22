@@ -28,7 +28,9 @@ jobs:
         with:
           node-version: 22
       - name: Rebuild data from the VALORANT Wiki
-        run: node scripts/build-data.mjs
+        run: |
+          cp data/items.js "$RUNNER_TEMP/items.old.js"
+          node scripts/build-data.mjs
       - name: Commit to production
         id: commit
         run: |
@@ -44,6 +46,13 @@ jobs:
           git commit -m "data: update items from VALORANT Wiki"
           git push origin production
           echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Post new items to Discord
+        if: steps.commit.outputs.changed == 'true'
+        # Runs after the push so the raw.githubusercontent.com image links resolve.
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node scripts/notify-discord.mjs "$RUNNER_TEMP/items.old.js" data/items.js
       - name: Merge production into development
         if: steps.commit.outputs.changed == 'true'
         run: |

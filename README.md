@@ -53,6 +53,15 @@ You can search and filter by source and by item type. The site also works on mob
 
 New rewards usually reach the wiki within hours of Riot announcing them. They show up on the site at the next scheduled run, or right away if you start **Update data** from the Actions tab.
 
+### Discord notifications
+
+When the update job finds new items, it posts them to a Discord channel with each item's image, dates or acquisition method, primary source, and a link to the item on the site. Setup:
+
+1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
+2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.
+
+If the secret isn't set, the step is skipped. A single run with more than 25 new items posts one summary message instead of flooding the channel. To preview the messages without posting anything, run `node scripts/notify-discord.mjs <old-items.js> data/items.js --dry-run`.
+
 ## Branches
 
 | Branch | Purpose |
@@ -81,6 +90,7 @@ data/items.js                    generated item data (window.VAL_DROPS)
 data/curated.json                hand-added items the wiki doesn't have yet
 img/                             item images downloaded from the wiki
 scripts/build-data.mjs           wiki scraper
+scripts/notify-discord.mjs       posts new items to a Discord webhook
 .github/workflows/               ci, update-data, deploy
 ```
 

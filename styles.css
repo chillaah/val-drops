@@ -60,6 +60,16 @@ a { color: inherit; }
 .src a:hover { color: var(--text); text-decoration: underline; }
 .src .off, .off { color: var(--ok); }
 
+.now { background: linear-gradient(180deg, rgba(61, 220, 151, .07), transparent 320px); border: 1px solid rgba(61, 220, 151, .25); border-radius: 14px; padding: 18px 16px 8px; }
+.now > h2::before { background: var(--ok); }
+.status { width: fit-content; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; }
+.status.active { background: rgba(61, 220, 151, .15); color: var(--ok); }
+.status.upcoming { background: rgba(255, 196, 0, .14); color: #ffc400; }
+.status.maybe { background: rgba(139, 151, 163, .18); color: var(--text); }
+.card.is-active { border-color: rgba(61, 220, 151, .45); }
+.how { margin: 0; font-size: 13px; }
+.how code { background: var(--panel-2); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; font-size: 12px; user-select: all; white-space: nowrap; }
+.how a, .meta a { color: var(--ok); }
 .empty { padding: 60px 0; text-align: center; color: var(--muted); }
 .foot { margin-top: 60px; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 .foot h2 { color: var(--text); font-size: 16px; }
