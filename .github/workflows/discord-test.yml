@@ -2,7 +2,12 @@ name: Discord test
 
 # Manually posts the newest item to the Discord webhook to check the setup.
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Post a test message (off = only show which webhook/channel the secret points to)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -15,7 +20,21 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+      - name: Show webhook target
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          test -n "$DISCORD_WEBHOOK_URL" || { echo "::error::DISCORD_WEBHOOK_URL secret is not set"; exit 1; }
+          # GET on a webhook URL returns its metadata; print only non-secret fields.
+          curl -sf "$DISCORD_WEBHOOK_URL" | node -e '
+            let s = ""; process.stdin.on("data", (c) => (s += c)).on("end", () => {
+              const w = JSON.parse(s);
+              console.log(`Webhook name: ${w.name}`);
+              console.log(`Channel ID:   ${w.channel_id}`);
+              console.log(`Server ID:    ${w.guild_id}`);
+            });'
       - name: Post newest item
+        if: inputs.post
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
