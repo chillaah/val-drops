@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-22T20:11:43.174Z",
+ "generated": "2026-10-22T20:32:21.700Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -45,6 +45,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "miga-title"
   },
@@ -88,6 +90,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "mais-que-amigas-friends-spray"
   },
@@ -131,6 +135,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "braba-title"
   },
@@ -179,6 +185,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "prepared-title"
   },
@@ -227,6 +235,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "stamp-of-approval-spray"
   },
@@ -281,6 +291,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -294,7 +306,8 @@ window.VAL_DROPS = {
        }
       ]
      ],
-     "period": null
+     "period": null,
+     "regions": []
     }
    ],
    "slug": "frag-or-die-trophy-card"
@@ -344,6 +357,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "the-catch-title"
   },
@@ -392,6 +407,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "crab-mentality-buddy"
   },
@@ -430,6 +447,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "zestify-title"
   },
@@ -479,6 +498,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "JP-IRL",
+     "label": "In person: Japan",
+     "partial": true
+    }
+   ],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -495,7 +522,13 @@ window.VAL_DROPS = {
      "period": {
       "start": "2026-07-17",
       "end": "2026-07-17"
-     }
+     },
+     "regions": [
+      {
+       "code": "JP-IRL",
+       "label": "In person: Japan"
+      }
+     ]
     }
    ],
    "slug": "versus-yoru-phoenix-card"
@@ -551,6 +584,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -571,7 +606,8 @@ window.VAL_DROPS = {
      "period": {
       "start": "2026-07-24",
       "end": "2026-07-24"
-     }
+     },
+     "regions": []
     }
    ],
    "slug": "slime-mosh-buddy"
@@ -616,6 +652,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "gutted-title"
   },
@@ -659,6 +697,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "rubbish-title"
   },
@@ -702,6 +742,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "party-of-1-spray"
   },
@@ -751,6 +793,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "JP",
+     "label": "Japan only",
+     "partial": true
+    }
+   ],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -767,7 +817,13 @@ window.VAL_DROPS = {
      "period": {
       "start": "2026-04-28",
       "end": "2026-04-29"
-     }
+     },
+     "regions": [
+      {
+       "code": "JP",
+       "label": "Japan only"
+      }
+     ]
     }
    ],
    "slug": "sakura-tokyo-card"
@@ -812,6 +868,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "bakan-title"
   },
@@ -855,6 +913,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "visionario-title"
   },
@@ -898,6 +958,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "barrida-spray"
   },
@@ -946,6 +1008,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "go-off-title"
   },
@@ -994,6 +1058,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "kay-o-punch-spray"
   },
@@ -1042,6 +1108,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "title"
   },
@@ -1090,6 +1158,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "melting-title"
   },
@@ -1138,6 +1208,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "unnie-title"
   },
@@ -1181,6 +1253,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cluuutch-spray"
   },
@@ -1224,6 +1298,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cluuutch-title"
   },
@@ -1272,6 +1348,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "oui-chef-title"
   },
@@ -1320,6 +1398,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "breadshot-spray"
   },
@@ -1368,6 +1448,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "no-fly-zone-card"
   },
@@ -1427,6 +1509,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "Prime Gaming",
@@ -1443,7 +1527,8 @@ window.VAL_DROPS = {
      "period": {
       "start": null,
       "end": "2021-09-30"
-     }
+     },
+     "regions": []
     }
    ],
    "slug": "just-business-spray"
@@ -1493,6 +1578,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ping-pong-buddy"
   },
@@ -1552,6 +1639,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -1565,7 +1654,8 @@ window.VAL_DROPS = {
        }
       ]
      ],
-     "period": null
+     "period": null,
+     "regions": []
     }
    ],
    "slug": "my-table-my-rules-card"
@@ -1610,6 +1700,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "fam-title"
   },
@@ -1653,6 +1745,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sorry-bro-spray"
   },
@@ -1696,6 +1790,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "crispy-title"
   },
@@ -1739,6 +1835,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "tuktuk-spray"
   },
@@ -1787,6 +1885,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "Broadcast Drops",
@@ -1803,7 +1903,8 @@ window.VAL_DROPS = {
      "period": {
       "start": "2023-11-02",
       "end": "2023-11-05"
-     }
+     },
+     "regions": []
     },
     {
      "category": "Broadcast Drops",
@@ -1820,7 +1921,8 @@ window.VAL_DROPS = {
      "period": {
       "start": "2022-12-11",
       "end": "2022-12-16"
-     }
+     },
+     "regions": []
     }
    ],
    "slug": "clutch-spray"
@@ -1865,6 +1967,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "polar-clutch-title"
   },
@@ -1908,6 +2012,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "icebreaker-spray"
   },
@@ -1951,6 +2057,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "frosty-freestyle-card"
   },
@@ -1994,6 +2102,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "horrors-i-ve-seen-card"
   },
@@ -2037,6 +2147,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "from-my-perspective-card"
   },
@@ -2080,6 +2192,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "main-character-title"
   },
@@ -2123,6 +2237,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2024-game-changers-championship-card"
   },
@@ -2166,6 +2282,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ribbit-title"
   },
@@ -2209,6 +2327,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "i-am-her-title"
   },
@@ -2252,6 +2372,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "13-0-club-title"
   },
@@ -2295,6 +2417,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "queen-title"
   },
@@ -2338,6 +2462,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "dan-the-champ-spray"
   },
@@ -2381,6 +2507,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "agents-on-leave-seoul-card"
   },
@@ -2424,6 +2552,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "jiayou-title"
   },
@@ -2467,6 +2597,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sheng-jian-bao-buddy"
   },
@@ -2510,6 +2642,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "n-title"
   },
@@ -2553,6 +2687,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-push-up-card"
   },
@@ -2596,6 +2732,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "louder-title"
   },
@@ -2639,6 +2777,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "game-changers-trophy-buddy"
   },
@@ -2682,6 +2822,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "clutch-card"
   },
@@ -2725,6 +2867,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "lowrider-title"
   },
@@ -2768,6 +2912,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "gekko-diff-spray"
   },
@@ -2811,6 +2957,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "champions-2023-lowrider-card"
   },
@@ -2854,6 +3002,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "unpredictable-title"
   },
@@ -2897,6 +3047,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "rank-up-masters-tokyo-2023-card"
   },
@@ -2940,6 +3092,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "locked-in-title"
   },
@@ -2983,6 +3137,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-lock-in-dad-hat-buddy"
   },
@@ -3021,6 +3177,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "clutch-title"
   },
@@ -3064,6 +3222,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "game-changer-title"
   },
@@ -3107,6 +3267,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2022-game-changers-championship-card"
   },
@@ -3145,6 +3307,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "shreddy-teddy-spray"
   },
@@ -3188,6 +3352,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "fire-title"
   },
@@ -3231,6 +3397,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "champions-2022-curse-spray"
   },
@@ -3274,6 +3442,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "champions-2022-hero-card"
   },
@@ -3317,6 +3487,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-2021-spark-spray"
   },
@@ -3360,6 +3532,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-2021-spark-buddy"
   },
@@ -3403,6 +3577,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "fishbones-buddy"
   },
@@ -3441,6 +3617,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "high-top-heat-buddy"
   },
@@ -3479,6 +3657,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "showdown-watch-card"
   },
@@ -3517,6 +3697,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "beta-watch-card"
   },
@@ -3555,6 +3737,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "netter-treter-buddy"
   },
@@ -3593,6 +3777,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pay-respects-buddy"
   },
@@ -3631,6 +3817,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "clip-it-spray"
   },
@@ -3669,6 +3857,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "zoomer-pop-buddy"
   },
@@ -3707,6 +3897,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "lovebyte-buddy"
   },
@@ -3745,6 +3937,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "hot-take-buddy"
   },
@@ -3783,6 +3977,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "200-iq-spray"
   },
@@ -3821,6 +4017,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pity-party-spray"
   },
@@ -3859,6 +4057,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "nice-smile-buddy"
   },
@@ -3897,6 +4097,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ep-2-formation-card"
   },
@@ -3935,6 +4137,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "can-t-teach-that-spray"
   },
@@ -3973,6 +4177,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "tower-of-power-buddy"
   },
@@ -4011,6 +4217,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "flames-in-my-veins-spray"
   },
@@ -4049,6 +4257,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "outta-this-world-buddy"
   },
@@ -4087,6 +4297,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "arcane-jinx-card"
   },
@@ -4125,6 +4337,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "bruno-coin-spray"
   },
@@ -4163,6 +4377,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "wayfinder-shorty"
   },
@@ -4201,6 +4417,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "dance-of-luck-buddy"
   },
@@ -4239,6 +4457,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "wayfinder-card"
   },
@@ -4277,6 +4497,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "googly-moogly-spray"
   },
@@ -4315,6 +4537,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "prime-time-buddy"
   },
@@ -4353,6 +4577,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "on-the-case-buddy"
   },
@@ -4391,6 +4617,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "eco-or-ego-spray"
   },
@@ -4429,6 +4657,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "up-in-arms-card"
   },
@@ -4467,6 +4697,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "runnin-on-empty-spray"
   },
@@ -4505,6 +4737,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ready-to-roll-buddy"
   },
@@ -4543,6 +4777,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sic-em-spray"
   },
@@ -4587,6 +4823,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "slay-ride-buddy"
   },
@@ -4625,6 +4863,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "doomscrolling-spray"
   },
@@ -4663,6 +4903,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "dimensional-drip-buddy"
   },
@@ -4701,6 +4943,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "caught-one-card"
   },
@@ -4739,6 +4983,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "claw-and-order"
   },
@@ -4777,6 +5023,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "daruma-charm-buddy"
   },
@@ -4815,6 +5063,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "predicament-pals-spray"
   },
@@ -4853,6 +5103,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "knight-s-market-buddy"
   },
@@ -4891,6 +5143,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "rope-burn-card"
   },
@@ -4929,6 +5183,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "scare-tactics-card"
   },
@@ -4967,6 +5223,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sip-n-spray"
   },
@@ -5005,6 +5263,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "all-yuck-no-yum-spray"
   },
@@ -5043,6 +5303,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "party-s-here-spray"
   },
@@ -5081,6 +5343,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "light-em-up-spray"
   },
@@ -5112,6 +5376,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "origin-buddy"
   },
@@ -5143,6 +5409,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "glitchpop-card"
   },
@@ -5174,6 +5442,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "blastx-spray"
   },
@@ -5205,6 +5475,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "celestial-spray"
   },
@@ -5233,6 +5505,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "reaver-ep-5-buddy"
   },
@@ -5261,6 +5535,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "crimsonbeast-card"
   },
@@ -5289,6 +5565,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "team-ace-raze-spray"
   },
@@ -5317,6 +5595,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "prime-2-0-spray"
   },
@@ -5345,6 +5625,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ion-ep5-buddy"
   },
@@ -5373,6 +5655,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "frontier-card"
   },
@@ -5401,13 +5685,16 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [
     {
      "category": "PlayStation Plus",
      "group": "PS+ Bundle — Year End",
      "subgroup": null,
      "details": [],
-     "period": null
+     "period": null,
+     "regions": []
     }
    ],
    "slug": "gaia-s-vengeance-spray"
@@ -5437,6 +5724,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "forsaken-spray"
   },
@@ -5465,6 +5754,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "altitude-buddy"
   },
@@ -5493,6 +5784,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "valiant-hero-card"
   },
@@ -5521,6 +5814,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "rgx-11z-pro-ep-4-spray"
   },
@@ -5549,6 +5844,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "soulstrife-spray"
   },
@@ -5577,6 +5874,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "araxys-buddy"
   },
@@ -5605,6 +5904,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "tigris-card"
   },
@@ -5633,6 +5934,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "magepunk-spray"
   },
@@ -5661,6 +5964,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "oni-spray"
   },
@@ -5689,6 +5994,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "prelude-to-chaos-buddy"
   },
@@ -5717,6 +6024,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "kohaku-matsuba-card"
   },
@@ -5745,6 +6054,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "imperium-spray"
   },
@@ -5773,6 +6084,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "chronovoid-spray"
   },
@@ -5801,6 +6114,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "snowfall-buddy"
   },
@@ -5829,6 +6144,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "celestial-card"
   },
@@ -5857,6 +6174,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sentinels-of-light-spray"
   },
@@ -5885,6 +6204,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sovereign-spray"
   },
@@ -5913,6 +6234,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "chronovoid-buddy"
   },
@@ -5941,6 +6264,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "magepunk-card"
   },
@@ -5969,6 +6294,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ion-spray"
   },
@@ -5997,6 +6324,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "team-ace-buddy"
   },
@@ -6025,6 +6354,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "no-limits-card"
   },
@@ -6053,6 +6384,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ego-spray"
   },
@@ -6081,6 +6414,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "origin-spray"
   },
@@ -6140,6 +6475,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "v26-conflict-hermanita-card"
   },
@@ -6199,6 +6541,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "v26-conflict-face-the-flames-card"
   },
@@ -6258,6 +6607,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "v26-conflict-blood-venom-card"
   },
@@ -6317,6 +6673,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "v26-conflict-the-fall-card"
   },
@@ -6357,6 +6720,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "frag-or-die-alpha-sage-card"
   },
@@ -6397,6 +6767,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "frag-or-die-omega-viper-card"
   },
@@ -6437,6 +6814,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "jade-venom-card"
   },
@@ -6481,6 +6865,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "broken-title"
   },
@@ -6525,6 +6916,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "official-seal-spray"
   },
@@ -6553,6 +6951,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "claw-and-order-spray"
   },
@@ -6600,6 +7000,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VLRNT-CCHAL-WNGMN",
+     "expires": "2023-12-31",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "drop-it-spray"
   },
@@ -6639,6 +7047,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL26-ALLUV-SPRAY",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "all-love-spray"
   },
@@ -6667,6 +7083,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "eureka-spray"
   },
@@ -6695,6 +7113,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "crystal-ball-spray"
   },
@@ -6738,6 +7158,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "KR",
+     "label": "South Korea only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "a-piece-of-rice-cake-spray"
   },
@@ -6786,6 +7213,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cake-or-spike-spray"
   },
@@ -6826,6 +7255,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cypher-figure-spray"
   },
@@ -6866,6 +7297,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "jett-figure-spray"
   },
@@ -6906,6 +7339,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "killjoy-figure-spray"
   },
@@ -6941,6 +7376,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "loose-cannon-spray"
   },
@@ -6984,6 +7421,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "more-creds-pls-spray"
   },
@@ -7019,6 +7458,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "round-start-spray"
   },
@@ -7059,6 +7500,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sage-figure-spray"
   },
@@ -7099,6 +7542,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "AMER-IRL",
+     "label": "In person: Americas"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-americas-aura-spray"
   },
@@ -7151,6 +7601,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sweet-calls-buddy"
   },
@@ -7193,6 +7645,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL25-FLYBY-BUDDY",
+     "expires": "2025-06-25",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "flyby-hug-buddy"
   },
@@ -7235,6 +7695,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL24-HEART-BUDDY",
+     "expires": "2024-06-25",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "bear-hug-buddy"
   },
@@ -7282,6 +7750,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VLRNT-CCHAL-00001",
+     "expires": "2023-12-31",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "seal-of-approval-buddy"
   },
@@ -7317,6 +7793,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "to-na-sombra-buddy"
   },
@@ -7352,6 +7830,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "stone-of-heaven-buddy"
   },
@@ -7387,6 +7867,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "ref-buddy"
   },
@@ -7422,6 +7904,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "rico-po-buddy"
   },
@@ -7457,6 +7941,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pocket-killjoy-buddy"
   },
@@ -7492,6 +7978,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "g-o-a-t-buddy"
   },
@@ -7527,6 +8015,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sweet-victory-buddy"
   },
@@ -7562,6 +8052,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "gonggi-buddy"
   },
@@ -7597,6 +8089,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-to-na-sombra-buddy"
   },
@@ -7632,6 +8126,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-stone-of-heaven-buddy"
   },
@@ -7667,6 +8163,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-ref-buddy"
   },
@@ -7702,6 +8200,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-rico-po-buddy"
   },
@@ -7737,6 +8237,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-pocket-killjoy-buddy"
   },
@@ -7772,6 +8274,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-ems-master-g-o-a-t-buddy"
   },
@@ -7807,6 +8311,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-em-master-sweet-victory-buddy"
   },
@@ -7842,6 +8348,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pick-em-master-gonggi-buddy"
   },
@@ -7921,6 +8429,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "game-changers-winner-buddy"
   },
@@ -7990,6 +8500,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-champions-winner-buddy"
   },
@@ -8025,6 +8537,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-lock-in-winner-buddy"
   },
@@ -8220,6 +8734,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-winner-buddy"
   },
@@ -8259,6 +8775,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "arcane-poro-buddy"
   },
@@ -8311,6 +8829,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cloudburst-soles-buddy"
   },
@@ -8355,6 +8875,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "downtime-buddy"
   },
@@ -8413,6 +8935,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "fist-bump-buddy"
   },
@@ -8452,6 +8976,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "frgmt-x-wngmn-buddy"
   },
@@ -8524,6 +9050,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "golden-smite-knife-buddy"
   },
@@ -8568,6 +9096,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "hang-time-buddy"
   },
@@ -8612,6 +9142,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "i-create-buddy"
   },
@@ -8651,6 +9183,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "keep-it-safer-buddy"
   },
@@ -8690,6 +9224,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "pocket-sage-buddy"
   },
@@ -8729,6 +9265,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "riptide-buddy"
   },
@@ -8743,7 +9281,7 @@ window.VAL_DROPS = {
    "title": null,
    "image": "img/For_Retribution_Card_Large.png",
    "imageLarge": "https://wiki.playvalorant.com/en-us/images/For_Retribution_Card_Large.png?54528",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/For_Retribution_Card_Wide.png?e0f39",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/For_Retribution_Card_Wide.png/900px-For_Retribution_Card_Wide.png?02988",
    "details": [
     [
      {
@@ -8771,6 +9309,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL26-ALPHA-OMEGA",
+     "expires": "2026-05-31",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "for-retribution-card"
   },
@@ -8818,6 +9364,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VLRNT-CCHAL-00002",
+     "expires": "2023-12-31",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "not-a-peep-card"
   },
@@ -8860,6 +9414,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VLRNT-CCHAL-00002",
+     "expires": "2023-12-31",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "versus-deadlock-gekko-card"
   },
@@ -8906,6 +9468,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "COTTONCANDY",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-cotton-candy-card"
   },
@@ -8952,6 +9537,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "GALACTIC",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-galactic-card"
   },
@@ -8998,6 +9606,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "PRIMARY",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-primary-card"
   },
@@ -9044,6 +9675,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "PRISMATIC",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-rainbow-card"
   },
@@ -9090,6 +9744,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "SHERBET",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-sherbet-card"
   },
@@ -9136,6 +9813,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "SUNSET",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-sunset-card"
   },
@@ -9182,6 +9882,29 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "TWILIGHT",
+     "expires": "2021-06-30",
+     "defunct": true
+    },
+    {
+     "code": "CC-VAL24-PLAYR-CARDS",
+     "expires": "2024-06-25",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL25-PLAYR-CARDS",
+     "expires": "2025-06-30",
+     "defunct": false
+    },
+    {
+     "code": "CC-VAL26-PLAYR-CARDS",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pride-twilight-card"
   },
@@ -9243,6 +9966,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries",
+     "partial": true
+    }
+   ],
    "alsoFrom": [
     {
      "category": "Events & Partnerships",
@@ -9259,7 +9990,8 @@ window.VAL_DROPS = {
      "period": {
       "start": null,
       "end": "2024-09-01"
-     }
+     },
+     "regions": []
     }
    ],
    "slug": "dance-break-card"
@@ -9304,6 +10036,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "KR",
+     "label": "South Korea only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "seoul-night-jett-card"
   },
@@ -9344,6 +10083,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "sloth-slugs-card"
   },
@@ -9383,6 +10124,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL26-HOLDN-SPACE",
+     "expires": null,
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "holding-space-title"
   },
@@ -9425,6 +10174,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL25-ATE25-TITLE",
+     "expires": "2025-06-25",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "ate-title"
   },
@@ -9467,6 +10224,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "CC-VAL24-BETTR-2GTHR",
+     "expires": "2024-06-25",
+     "defunct": false
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "better-together-title"
   },
@@ -9509,6 +10274,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "JUBILANT02",
+     "expires": "2021-06-30",
+     "defunct": true
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "ally-title"
   },
@@ -9551,6 +10324,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "JUBILANT01",
+     "expires": "2021-06-30",
+     "defunct": true
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "proud-title"
   },
@@ -9593,6 +10374,14 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": [
+    {
+     "code": "XINCHAO",
+     "expires": "2021-04-30",
+     "defunct": true
+    }
+   ],
+   "regions": [],
    "alsoFrom": [],
    "slug": "pioneer-title"
   },
@@ -9621,6 +10410,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "genio-title"
   },
@@ -9649,6 +10440,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "calculated-title"
   },
@@ -9677,6 +10470,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "bossman-title"
   },
@@ -9705,6 +10500,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "cachando-title"
   },
@@ -9733,6 +10530,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "aura-farming-title"
   },
@@ -9761,6 +10560,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "eh-title"
   },
@@ -9789,6 +10590,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "100-title"
   },
@@ -9828,6 +10631,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-game-changer-title"
   },
@@ -9949,6 +10754,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2021-vct-regional-masters-winner-title"
   },
@@ -9994,6 +10801,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-reykjavik-winner-title"
   },
@@ -10033,6 +10842,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-berlin-winner-title"
   },
@@ -10072,6 +10883,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2021-vct-champion-title"
   },
@@ -10107,6 +10920,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-copenhagen-winner-title"
   },
@@ -10142,6 +10957,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2022-vct-champion-title"
   },
@@ -10181,6 +10998,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2022-game-changers-winner-title"
   },
@@ -10216,6 +11035,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-lock-in-winner-title"
   },
@@ -10251,6 +11072,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-tokyo-winner-title"
   },
@@ -10286,6 +11109,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2023-vct-champion-title"
   },
@@ -10325,6 +11150,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2023-game-changers-winner-title"
   },
@@ -10360,6 +11187,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-madrid-winner-title"
   },
@@ -10395,6 +11224,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-shanghai-winner-title"
   },
@@ -10430,6 +11261,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2024-vct-champion-title"
   },
@@ -10469,6 +11302,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2024-game-changers-winner-title"
   },
@@ -10504,6 +11339,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-bangkok-winner-title"
   },
@@ -10539,6 +11376,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-toronto-winner-title"
   },
@@ -10574,6 +11413,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2025-vct-champion-title"
   },
@@ -10613,6 +11454,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2025-game-changers-winner-title"
   },
@@ -10648,6 +11491,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-santiago-winner-title"
   },
@@ -10683,6 +11528,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "vct-masters-london-winner-title"
   },
@@ -10718,6 +11565,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2026-vct-champion-title"
   },
@@ -10757,6 +11606,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "2026-game-changers-winner-title"
   },
@@ -10797,6 +11648,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "armchair-igl-title"
   },
@@ -10845,6 +11698,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "gajeua-title"
   },
@@ -10885,6 +11740,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "JP-IRL",
+     "label": "In person: Japan"
+    }
+   ],
    "alsoFrom": [],
    "slug": "one-2022-title"
   },
@@ -10925,6 +11787,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [],
    "alsoFrom": [],
    "slug": "valorant-partner-title"
   },
@@ -10967,6 +11831,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "not-today-spray"
   },
@@ -11009,6 +11880,13 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "lightning-kicks-buddy"
   }
