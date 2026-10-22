@@ -1,0 +1,31 @@
+name: Discord test
+
+# Manually posts the newest item to the Discord webhook to check the setup.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Post newest item
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          test -n "$DISCORD_WEBHOOK_URL" || { echo "::error::DISCORD_WEBHOOK_URL secret is not set"; exit 1; }
+          # Fake an "old" snapshot without the first (newest) item so exactly one post goes out.
+          node -e '
+            global.window = {};
+            require("./data/items.js");
+            const d = window.VAL_DROPS;
+            d.items = d.items.slice(1);
+            require("fs").writeFileSync(process.argv[1], "window.VAL_DROPS = " + JSON.stringify(d) + ";\n");
+          ' "$RUNNER_TEMP/old.js"
+          node scripts/notify-discord.mjs "$RUNNER_TEMP/old.js" data/items.js
