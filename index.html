@@ -21,6 +21,7 @@
       <input id="q" type="search" placeholder="Search items, events, partners…" aria-label="Search">
       <div class="chips" id="cats" role="group" aria-label="Source"></div>
       <div class="chips" id="types" role="group" aria-label="Item type"></div>
+      <div class="chips sort" id="sort" role="group" aria-label="Sort"></div>
     </div>
   </div>
 
@@ -31,6 +32,11 @@
     <p>Item lists and images come from the <a href="https://wiki.playvalorant.com/en-us/" target="_blank" rel="noopener">VALORANT Wiki</a> (wiki.playvalorant.com), a community-edited wiki run by Weird Gloop. It isn't owned or operated by Riot Games. Wiki text is used under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>. Because a wiki can be edited by anyone, each item also links to the primary source the wiki cites wherever one exists: VALORANT Esports articles, PlayVALORANT news, Riot Support pages, official Riot/VCT social posts, or the partner's own campaign page. Links marked <span class="off">✓</span> are Riot-owned. A few items the wiki doesn't list yet come from a hand-curated list, and each of those cites the official partner page.</p>
     <p>This is a fan project. It isn't affiliated with or endorsed by Riot Games. VALORANT and all related assets are trademarks of Riot Games, Inc.</p>
   </footer>
+
+  <dialog id="item" aria-labelledby="item-title">
+    <button type="button" id="item-close" aria-label="Close">×</button>
+    <div id="item-body"></div>
+  </dialog>
 
   <script src="data/items.js"></script>
   <script src="app.js"></script>

@@ -12,24 +12,31 @@
   ];
   const TYPES = ["Title", "Player Card", "Gun Buddy", "Spray", "Gun Skin"];
 
-  const state = { q: "", cat: null, type: null };
+  const SORTS = [["group", "Group by source"], ["newest", "Newest first"]];
+  const RECENT_DAYS = 30;
+
+  const params = new URLSearchParams(location.search);
+  const state = { q: "", cat: null, type: null, sort: params.get("sort") === "newest" ? "newest" : "group" };
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   const haystack = new Map(items.map((i) => [i, [
     i.name, i.type, i.category, i.group, i.subgroup,
     ...i.details.flat().map((d) => d.value),
+    ...i.alsoFrom.flatMap((a) => [a.category, a.group, a.subgroup, ...a.details.flat().map((d) => d.value)]),
   ].join(" ").toLowerCase()]));
 
+  const categoriesOf = (i) => [i.category, ...i.alsoFrom.map((a) => a.category)];
+
   function matches(i, ignore) {
-    if (ignore !== "cat" && state.cat && i.category !== state.cat) return false;
+    if (ignore !== "cat" && state.cat && !categoriesOf(i).includes(state.cat)) return false;
     if (ignore !== "type" && state.type && i.type !== state.type) return false;
     if (state.q && !state.q.split(/\s+/).every((w) => haystack.get(i).includes(w))) return false;
     return true;
   }
 
   function chips(el, values, key) {
-    const counts = (v) => items.filter((i) => matches(i, key) && (v === null || (key === "cat" ? i.category : i.type) === v)).length;
+    const counts = (v) => items.filter((i) => matches(i, key) && (v === null || (key === "cat" ? categoriesOf(i).includes(v) : i.type === v))).length;
     el.innerHTML = [[null, "All"], ...values.map((v) => [v, v])].map(([v, label]) =>
       `<button class="chip" data-v="${esc(v ?? "")}" aria-pressed="${state[key] === v}">${esc(label)}<small>${counts(v)}</small></button>`
     ).join("");
@@ -68,7 +75,7 @@
 
   function statusLabel(i) {
     const st = status(i);
-    if (st === "active" && i.period) {
+    if (st === "active" && i.period && i.period.end >= TODAY && (!i.period.start || i.period.start <= TODAY)) {
       const n = daysFrom(i.period.end);
       return n === 0 ? "Ends today" : n === 1 ? "Ends tomorrow" : `Ends in ${n} days · ${fmtDay(i.period.end)}`;
     }
@@ -101,27 +108,121 @@
   // Wiki bullet lists arrive flattened as "• a • b"; put each on its own line.
   const bullets = (v) => esc(v).split(/\s*• /).filter(Boolean).map((x, k, a) => (a.length > 1 ? "• " : "") + x).join("<br>");
 
-  function card(i, { claim = false } = {}) {
-    const details = i.details.map((row) =>
-      `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
-    ).join("");
-    const sources = i.sources.map((s) =>
-      `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
-    ).join("");
+  // The date an item belongs to: when its claim window opened, or closed if that's all we know.
+  const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
+  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS;
+
+  const detailsHtml = (i) => i.details.map((row) =>
+    `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
+  ).join("");
+  const alsoHtml = (i) => i.alsoFrom.map((a) => {
+    const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
+    const info = a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
+    return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
+  }).join("");
+  const sourcesHtml = (i) => i.sources.map((s) =>
+    `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
+  ).join("");
+  const contextOf = (i) => [i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · ");
+  const badges = (i) => {
     const st = status(i);
     const label = statusLabel(i);
+    return (label ? `<span class="status ${st}">${esc(label)}</span>` : "") +
+      (isRecent(i) ? `<span class="added">New · added ${esc(fmtDay(i.firstSeen))}</span>` : "");
+  };
+
+  function card(i, { claim = false, context = false } = {}) {
+    const details = detailsHtml(i);
+    const also = alsoHtml(i);
+    const st = status(i);
     const how = claim ? howToClaim(i) : "";
-    return `<article class="card${st ? " is-" + st : ""}">${thumb(i)}<div class="body">
-      ${label ? `<span class="status ${st}">${esc(label)}</span>` : ""}
-      <p class="name">${esc(i.name)}</p><span class="type">${esc(i.type)}</span>
+    return `<article class="card${st ? " is-" + st : ""}" data-slug="${esc(i.slug)}">${thumb(i)}<div class="body">
+      ${badges(i)}
+      <button class="name" type="button" aria-haspopup="dialog">${esc(i.name)}</button><span class="type">${esc(i.type)}</span>
+      ${context ? `<p class="ctx">${esc(contextOf(i))}</p>` : ""}
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${details ? `<div class="details">${details}</div>` : ""}
-      <div class="src">${sources}</div></div></article>`;
+      ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
+      <div class="src">${sourcesHtml(i)}</div></div></article>`;
   }
 
+  // ---------- item detail dialog (?item=<slug>) ----------
+  const bySlug = new Map(items.map((i) => [i.slug, i]));
+  const dlg = $("#item");
+
+  function itemUrl(slug) {
+    const u = new URL(location.href);
+    if (slug) u.searchParams.set("item", slug); else u.searchParams.delete("item");
+    return u;
+  }
+
+  function bigImage(i) {
+    if (i.type === "Title") return `<div class="d-media"><div class="ptitle big">${esc(i.title || i.name.replace(/ Title$/, ""))}</div></div>`;
+    if (!i.image) return "";
+    // Larger copy comes from the wiki; fall back to the local thumbnail if it fails.
+    const img = `<img class="d-main${i.type === "Player Card" ? " tall" : ""}" src="${esc(i.imageLarge || i.image)}" alt="${esc(i.name)}"
+      onerror="this.onerror=null;this.src='${esc(i.image)}'">`;
+    const wideImg = i.imageWide ? `<img class="d-wide" src="${esc(i.imageWide)}" alt="${esc(i.name)} (wide banner)" onerror="this.remove()">` : "";
+    return `<div class="d-media">${img}${wideImg}</div>`;
+  }
+
+  function openItem(slug, { push = true } = {}) {
+    const i = bySlug.get(slug);
+    if (!i) return;
+    const how = status(i) ? howToClaim(i) : "";
+    const also = alsoHtml(i);
+    $("#item-body").innerHTML = `${bigImage(i)}<div class="d-info">
+      <div class="d-badges">${badges(i)}</div>
+      <h2 id="item-title">${esc(i.name)}</h2>
+      <span class="type">${esc(i.type)}</span>
+      <p class="ctx">${esc(contextOf(i))}</p>
+      ${i.groupNote ? `<p class="note">${esc(i.groupNote)}</p>` : ""}
+      ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
+      ${i.details.length ? `<div class="details">${detailsHtml(i)}</div>` : ""}
+      ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
+      <div class="src"><span class="lbl">Sources:</span> ${sourcesHtml(i)}</div>
+      <div class="d-actions"><button type="button" class="chip" id="copy-link">Copy link</button></div>
+    </div>`;
+    $("#copy-link").onclick = async (e) => {
+      try {
+        await navigator.clipboard.writeText(itemUrl(slug).href);
+        e.target.textContent = "Link copied";
+      } catch {
+        e.target.textContent = "Copy failed";
+      }
+    };
+    if (push) history.pushState({ item: slug }, "", itemUrl(slug));
+    document.title = `${i.name} · VALORANT Out-of-Game Rewards`;
+    if (!dlg.open) dlg.showModal();
+    $("#item-body").scrollTop = 0;
+  }
+
+  const BASE_TITLE = document.title;
+  function closed() {
+    document.title = BASE_TITLE;
+    if (new URLSearchParams(location.search).has("item")) {
+      // Opened from the page: go back so Back doesn't reopen it. Opened from a shared link: just clear it.
+      if (history.state?.item) history.back();
+      else history.replaceState(null, "", itemUrl(null));
+    }
+  }
+  dlg.addEventListener("close", closed);
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); }); // backdrop
+  $("#item-close").onclick = () => dlg.close();
+  window.addEventListener("popstate", () => {
+    const slug = new URLSearchParams(location.search).get("item");
+    if (slug) openItem(slug, { push: false });
+    else if (dlg.open) { dlg.removeEventListener("close", closed); dlg.close(); dlg.addEventListener("close", closed); document.title = BASE_TITLE; }
+  });
+  $("#list").addEventListener("click", (e) => {
+    if (e.target.closest("a, code")) return;
+    const c = e.target.closest(".card");
+    if (c) openItem(c.dataset.slug);
+  });
+
   function nowSection(visible) {
-    const active = visible.filter((i) => status(i) === "active")
-      .sort((a, b) => (a.period?.end || "9999").localeCompare(b.period?.end || "9999"));
+    const endOf = (i) => (i.period && i.period.end >= TODAY ? i.period.end : "9999");
+    const active = visible.filter((i) => status(i) === "active").sort((a, b) => endOf(a).localeCompare(endOf(b)));
     const upcoming = visible.filter((i) => status(i) === "upcoming")
       .sort((a, b) => a.period.start.localeCompare(b.period.start));
     const maybe = visible.filter((i) => status(i) === "maybe");
@@ -136,13 +237,68 @@
     return html + `</section>`;
   }
 
+  function recentSection(visible) {
+    const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
+    if (!recent.length) return "";
+    return `<section class="cat" id="recent"><h2>Recently added</h2>
+      <p>New on this site in the last ${RECENT_DAYS} days, newest first.</p>
+      <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
+  }
+
+  // Timeline view: items grouped by the month of their own date, newest first.
+  function timeline(visible) {
+    const months = new Map();
+    for (const i of [...visible].sort((a, b) => (itemDate(b) || "").localeCompare(itemDate(a) || ""))) {
+      const d = itemDate(i);
+      const k = d ? d.slice(0, 7) : "undated";
+      if (!months.has(k)) months.set(k, []);
+      months.get(k).push(i);
+    }
+    let html = "";
+    for (const [k, list] of months) {
+      const title = k === "undated"
+        ? "Date not listed"
+        : new Date(Date.UTC(+k.slice(0, 4), +k.slice(5, 7) - 1, 1)).toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
+      html += `<section class="cat month"><h2>${esc(title)}</h2>`;
+      if (k === "undated") html += `<p>The wiki doesn't give a date for these (most Pick'Ems, pro play and some promos).</p>`;
+      html += `<div class="grid">${list.map((i) => card(i, { context: true })).join("")}</div></section>`;
+    }
+    return html;
+  }
+
+  function sortChips() {
+    const el = $("#sort");
+    el.innerHTML = `<span class="lbl">Sort:</span>` + SORTS.map(([v, label]) =>
+      `<button class="chip" data-v="${v}" aria-pressed="${state.sort === v}">${esc(label)}</button>`).join("");
+    el.onclick = (e) => {
+      const b = e.target.closest(".chip");
+      if (!b) return;
+      state.sort = b.dataset.v;
+      const u = new URL(location.href);
+      if (state.sort === "newest") u.searchParams.set("sort", "newest"); else u.searchParams.delete("sort");
+      history.replaceState(null, "", u);
+      render();
+    };
+  }
+
   function render() {
     chips($("#cats"), CATEGORIES.map((c) => c[0]), "cat");
     chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)), "type");
     const visible = items.filter((i) => matches(i));
-    let html = nowSection(visible);
+    sortChips();
+    let html = nowSection(visible) + recentSection(visible);
+    if (state.sort === "newest") {
+      $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
+      return;
+    }
+    // With a source filter on, show items under the way that matches it.
+    const placed = visible.map((i) => {
+      if (!state.cat || i.category === state.cat) return i;
+      const a = i.alsoFrom.find((x) => x.category === state.cat);
+      return { ...i, category: a.category, group: a.group, subgroup: a.subgroup, groupNote: null };
+    });
     for (const [cat, blurb] of CATEGORIES) {
-      const inCat = visible.filter((i) => i.category === cat);
+      const inCat = placed.filter((i) => i.category === cat);
       if (!inCat.length) continue;
       html += `<section class="cat"><h2>${esc(cat)}</h2><p>${esc(blurb)}</p>`;
       const groups = [...new Set(inCat.map((i) => i.group))];
@@ -164,10 +320,11 @@
   }
 
   // ?q= pre-fills the search (used by links posted to Discord).
-  const initial = new URLSearchParams(location.search).get("q");
+  const initial = params.get("q");
   if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
   const live = items.filter((i) => status(i) === "active").length;
   $("#meta").innerHTML = `${items.length} items · ${live ? `<a href="#now">${live} claimable now</a> · ` : ""}data refreshed ${esc(new Date(generated).toLocaleDateString(undefined, { dateStyle: "medium" }))}`;
   render();
+  if (params.get("item")) openItem(params.get("item"), { push: false });
 })();
