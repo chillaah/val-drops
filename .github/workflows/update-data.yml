@@ -1,0 +1,65 @@
+name: Update data
+
+# Pulls new items from the VALORANT Wiki straight into production (data-only
+# commits), redeploys, then merges production back into development.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild data from the VALORANT Wiki
+        run: node scripts/build-data.mjs
+      - name: Commit to production
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data img
+          # Ignore the "generated" timestamp so unchanged data doesn't create commits.
+          if git diff --cached --quiet -I '"generated"'; then
+            echo "No new items."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "data: update items from VALORANT Wiki"
+          git push origin production
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Merge production into development
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          git checkout development
+          if git merge --no-edit production; then
+            git push origin development
+          else
+            git merge --abort
+            echo "::warning::Could not merge production into development automatically. Merge it by hand."
+          fi
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

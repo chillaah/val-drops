@@ -1,0 +1,74 @@
+:root {
+  --bg: #0f1419;
+  --panel: #1a2129;
+  --panel-2: #222b35;
+  --line: #2e3945;
+  --text: #ece8e1;
+  --muted: #8b97a3;
+  --accent: #ff4655;
+  --ok: #3ddc97;
+  --radius: 10px;
+}
+* { box-sizing: border-box; }
+html { color-scheme: dark; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: inherit; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+.top { padding: 40px 0 24px; border-bottom: 1px solid var(--line); }
+.top h1 { margin: 0 0 8px; font-size: clamp(26px, 4vw, 40px); letter-spacing: .02em; text-transform: uppercase; }
+.top h1 span { color: var(--accent); }
+.lede { margin: 0; max-width: 70ch; color: var(--muted); }
+.meta { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+
+.controls { position: sticky; top: 0; z-index: 5; background: rgba(15, 20, 25, .95); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); padding: 12px 0; }
+#q { width: 100%; padding: 10px 14px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--panel); color: var(--text); font-size: 15px; }
+#q:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip small { opacity: .7; margin-left: 4px; }
+
+.cat { margin: 32px 0 8px; }
+.cat > h2 { font-size: 22px; margin: 0 0 4px; text-transform: uppercase; letter-spacing: .03em; }
+.cat > h2::before { content: ""; display: inline-block; width: 6px; height: 18px; background: var(--accent); margin-right: 10px; vertical-align: -2px; }
+.cat > p { margin: 0 0 12px; color: var(--muted); max-width: 80ch; }
+.group { margin: 20px 0; }
+.group h3 { font-size: 16px; margin: 0 0 4px; }
+.group .note { margin: 0 0 8px; font-size: 13px; color: var(--muted); max-width: 90ch; }
+.sub { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin: 12px 0 6px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+.thumb { height: 150px; display: grid; place-items: center; background: var(--panel-2); padding: 10px; }
+.thumb img { max-width: 100%; max-height: 130px; object-fit: contain; }
+.thumb.card-img img { max-height: 140px; }
+.ptitle { background: linear-gradient(90deg, transparent, rgba(255,255,255,.08), transparent); padding: 8px 18px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; text-align: center; color: #f5e6b8; border-top: 1px solid rgba(245,230,184,.3); border-bottom: 1px solid rgba(245,230,184,.3); }
+.body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.name { font-weight: 600; margin: 0; }
+.type { display: inline-block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; width: fit-content; }
+.details { margin: 0; font-size: 13px; color: var(--muted); }
+.details div + div { margin-top: 4px; padding-top: 4px; border-top: 1px dashed var(--line); }
+.details b { color: var(--text); font-weight: 500; }
+.src { margin-top: auto; font-size: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; padding-top: 6px; border-top: 1px solid var(--line); }
+.src a { color: var(--muted); text-decoration: none; }
+.src a:hover { color: var(--text); text-decoration: underline; }
+.src .off, .off { color: var(--ok); }
+
+.empty { padding: 60px 0; text-align: center; color: var(--muted); }
+.foot { margin-top: 60px; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.foot h2 { color: var(--text); font-size: 16px; }
+.foot a { color: var(--text); }
+
+@media (max-width: 520px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .controls { position: static; }
+  .thumb { height: 110px; }
+  .thumb img, .thumb.card-img img { max-height: 92px; }
+  .ptitle { font-size: 12px; padding: 6px 8px; }
+}

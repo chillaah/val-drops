@@ -1,0 +1,32 @@
+{
+  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image.",
+  "items": [
+    {
+      "name": "Not Today Spray",
+      "type": "Spray",
+      "category": "Events & Partnerships",
+      "group": "ExpressVPN × VCT Americas / EMEA",
+      "file": "Not Today Spray.gif",
+      "details": [{ "label": "Acquisition", "value": "Buy any ExpressVPN plan (1, 12 or 24 months) through the VCT partner offer." }],
+      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+    },
+    {
+      "name": "Dance Break Card",
+      "type": "Player Card",
+      "category": "Events & Partnerships",
+      "group": "ExpressVPN × VCT Americas / EMEA",
+      "file": "Dance Break Card Large.png",
+      "details": [{ "label": "Acquisition", "value": "Buy a 12- or 24-month ExpressVPN plan through the VCT partner offer." }],
+      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+    },
+    {
+      "name": "Lightning Kicks Buddy",
+      "type": "Gun Buddy",
+      "category": "Events & Partnerships",
+      "group": "ExpressVPN × VCT Americas / EMEA",
+      "file": "Lightning Kicks Buddy.png",
+      "details": [{ "label": "Acquisition", "value": "Buy a 24-month ExpressVPN plan through the VCT partner offer." }],
+      "refs": ["https://www.expressvpn.com/top/plus-partner/vct-us", "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"]
+    }
+  ]
+}

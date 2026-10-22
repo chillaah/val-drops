@@ -1,0 +1,9 @@
+{
+  "name": "val-drops",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}

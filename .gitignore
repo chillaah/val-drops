@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Local env
+.env
+.env.*
+
+# Pages build output
+_site/
+
+# Local tooling
+.gstack/
+.claude/
