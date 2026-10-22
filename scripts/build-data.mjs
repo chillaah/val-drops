@@ -490,13 +490,13 @@ function describeSource(url) {
   return { url, label: host.replace(/^www\./, ""), official: false };
 }
 
-async function resolveImages(files) {
+async function resolveImages(files, width = 256) {
   const out = {};
   const list = [...new Set(files.filter(Boolean))];
   for (let i = 0; i < list.length; i += 50) {
     const batch = list.slice(i, i + 50);
     const d = await api({
-      action: "query", prop: "imageinfo", iiprop: "url", iiurlwidth: "256",
+      action: "query", prop: "imageinfo", iiprop: "url", iiurlwidth: String(width),
       titles: batch.map((f) => "File:" + f).join("|"),
     });
     const norm = Object.fromEntries((d.query.normalized || []).map((n) => [n.to, n.from]));
@@ -548,6 +548,8 @@ function mergeDuplicates(items) {
     out.push({
       ...primary,
       image: primary.image || rest.find((w) => w.image)?.image || null,
+      imageLarge: primary.imageLarge || rest.find((w) => w.imageLarge)?.imageLarge || null,
+      imageWide: primary.imageWide || rest.find((w) => w.imageWide)?.imageWide || null,
       period: periods.sort((a, b) => b.end.localeCompare(a.end))[0] || null,
       ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
       maybeActive: ways.some((w) => w.maybeActive),
@@ -559,7 +561,16 @@ function mergeDuplicates(items) {
       })),
     });
   }
-  return out.map((i, n) => ({ ...i, id: n + 1 }));
+  // Stable, readable ids for share links (?item=slime-mosh-buddy).
+  const used = new Set();
+  return out.map((i, n) => {
+    const base = i.name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-|-$/g, "") || "item";
+    let slug = base;
+    for (let k = 2; used.has(slug); k++) slug = `${base}-${k}`;
+    used.add(slug);
+    return { ...i, id: n + 1, slug };
+  });
 }
 
 // When each item first appeared on the site, carried forward from the previous
@@ -625,7 +636,13 @@ async function main() {
   }
 
   const firstSeen = await loadFirstSeen();
-  const images = await resolveImages([...merged.values()].map((i) => i.file));
+  const files = [...merged.values()].map((i) => i.file);
+  const images = await resolveImages(files);
+  // Larger copies for the item detail view, loaded from the wiki on demand.
+  const large = await resolveImages(files, 600);
+  // Player cards also have a wide banner version ("X Card Wide.png").
+  const wideName = (f) => (f && / Large\.\w+$/.test(f) ? f.replace(/ Large(\.\w+)$/, " Wide$1") : null);
+  const wide = await resolveImages(files.map(wideName), 900);
   const imgDir = path.join(ROOT, "img");
   await mkdir(imgDir, { recursive: true });
 
@@ -655,6 +672,8 @@ async function main() {
       groupNote: it.groupNote || null,
       title: it.title,
       image,
+      imageLarge: large[it.file]?.thumb || null,
+      imageWide: wide[wideName(it.file)]?.thumb || null,
       details: it.detailRows.filter((r) => r.length),
       ...(() => {
         const { period, openCode } = itemPeriod(it.detailRows);

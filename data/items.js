@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-22T20:05:54.115Z",
+ "generated": "2026-10-22T20:11:43.174Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -15,6 +15,8 @@ window.VAL_DROPS = {
    "groupNote": "For the Co-Streamers title, more information will announced at a later date.",
    "title": "MIGA",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -43,7 +45,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "miga-title"
   },
   {
    "id": 2,
@@ -55,6 +58,8 @@ window.VAL_DROPS = {
    "groupNote": "For the Co-Streamers title, more information will announced at a later date.",
    "title": null,
    "image": "img/Mais_que_amigas_friends_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Mais_que_amigas%2C_friends_Spray.png?e2f7a",
+   "imageWide": null,
    "details": [
     [
      {
@@ -83,7 +88,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "mais-que-amigas-friends-spray"
   },
   {
    "id": 3,
@@ -95,6 +101,8 @@ window.VAL_DROPS = {
    "groupNote": "For the Co-Streamers title, more information will announced at a later date.",
    "title": "Braba",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -123,7 +131,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "braba-title"
   },
   {
    "id": 4,
@@ -135,6 +144,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT. Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Twitch Drop during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
    "title": "Prepared",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -168,7 +179,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "prepared-title"
   },
   {
    "id": 5,
@@ -180,6 +192,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT. Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Twitch Drop during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
    "title": null,
    "image": "img/Stamp_of_Approval_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Stamp_of_Approval_Spray.png?1b57f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -213,7 +227,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "stamp-of-approval-spray"
   },
   {
    "id": 6,
@@ -225,6 +240,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT. Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Twitch Drop during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
    "title": null,
    "image": "img/Frag_or_Die_Trophy_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Large.png/600px-Frag_or_Die_Trophy_Card_Large.png?949b0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Wide.png/900px-Frag_or_Die_Trophy_Card_Wide.png?b5e87",
    "details": [
     [
      {
@@ -279,7 +296,8 @@ window.VAL_DROPS = {
      ],
      "period": null
     }
-   ]
+   ],
+   "slug": "frag-or-die-trophy-card"
   },
   {
    "id": 7,
@@ -291,6 +309,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT. Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Twitch Drop during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
    "title": "The Catch",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -324,7 +344,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "the-catch-title"
   },
   {
    "id": 8,
@@ -336,6 +357,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT. Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Twitch Drop during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
    "title": null,
    "image": "img/Crab_Mentality_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Crab_Mentality_Buddy.png?133a8",
+   "imageWide": null,
    "details": [
     [
      {
@@ -369,7 +392,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "crab-mentality-buddy"
   },
   {
    "id": 9,
@@ -381,6 +405,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Zestify",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -404,7 +430,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "zestify-title"
   },
   {
    "id": 10,
@@ -416,6 +443,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Versus_Yoru_Phoenix_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Versus_Yoru_%2B_Phoenix_Card_Large.png?9d0e0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Versus_Yoru_%2B_Phoenix_Card_Wide.png?54453",
    "details": [
     [
      {
@@ -468,7 +497,8 @@ window.VAL_DROPS = {
       "end": "2026-07-17"
      }
     }
-   ]
+   ],
+   "slug": "versus-yoru-phoenix-card"
   },
   {
    "id": 11,
@@ -480,6 +510,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Slime_Mosh_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Slime_Mosh_Buddy.png?51219",
+   "imageWide": null,
    "details": [
     [
      {
@@ -541,7 +573,8 @@ window.VAL_DROPS = {
       "end": "2026-07-24"
      }
     }
-   ]
+   ],
+   "slug": "slime-mosh-buddy"
   },
   {
    "id": 12,
@@ -553,6 +586,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": "Gutted",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -581,7 +616,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "gutted-title"
   },
   {
    "id": 13,
@@ -593,6 +629,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": "Rubbish",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -621,7 +659,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "rubbish-title"
   },
   {
    "id": 14,
@@ -633,6 +672,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": null,
    "image": "img/Party_of_1_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Party_of_1_Spray.png?a9e83",
+   "imageWide": null,
    "details": [
     [
      {
@@ -661,7 +702,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "party-of-1-spray"
   },
   {
    "id": 15,
@@ -673,6 +715,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sakura_Tokyo_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sakura_Tokyo_Card_Large.png?d78e9",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Sakura_Tokyo_Card_Wide.png/900px-Sakura_Tokyo_Card_Wide.png?b9735",
    "details": [
     [
      {
@@ -725,7 +769,8 @@ window.VAL_DROPS = {
       "end": "2026-04-29"
      }
     }
-   ]
+   ],
+   "slug": "sakura-tokyo-card"
   },
   {
    "id": 16,
@@ -737,6 +782,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": "Bakán",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -765,7 +812,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "bakan-title"
   },
   {
    "id": 17,
@@ -777,6 +825,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": "Visionario",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -805,7 +855,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "visionario-title"
   },
   {
    "id": 18,
@@ -817,6 +868,8 @@ window.VAL_DROPS = {
    "groupNote": "To be eligible to receive the Shotcall Extension rewards, watchers are to place predictions during live tasked by VALORANT.",
    "title": null,
    "image": "img/_Barrida_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/%C2%A1Barrida%21_Spray.png?e1ae5",
+   "imageWide": null,
    "details": [
     [
      {
@@ -845,7 +898,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "barrida-spray"
   },
   {
    "id": 19,
@@ -857,6 +911,8 @@ window.VAL_DROPS = {
    "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible co-streamers were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
    "title": "Go Off",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -890,7 +946,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "go-off-title"
   },
   {
    "id": 20,
@@ -902,6 +959,8 @@ window.VAL_DROPS = {
    "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible co-streamers were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
    "title": null,
    "image": "img/KAYO_Punch_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/KAYO_Punch_Spray.png?802f5",
+   "imageWide": null,
    "details": [
     [
      {
@@ -935,7 +994,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "kay-o-punch-spray"
   },
   {
    "id": 21,
@@ -947,6 +1007,8 @@ window.VAL_DROPS = {
    "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible co-streamers were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
    "title": "^>.<^",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -980,7 +1042,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "title"
   },
   {
    "id": 22,
@@ -992,6 +1055,8 @@ window.VAL_DROPS = {
    "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible co-streamers were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
    "title": "Melting",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1025,7 +1090,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "melting-title"
   },
   {
    "id": 23,
@@ -1037,6 +1103,8 @@ window.VAL_DROPS = {
    "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible co-streamers were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
    "title": "Unnie",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1070,7 +1138,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "unnie-title"
   },
   {
    "id": 24,
@@ -1082,6 +1151,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/CLUUUTCH_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/CLUUUTCH_Spray.png?e312f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1110,7 +1181,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cluuutch-spray"
   },
   {
    "id": 25,
@@ -1122,6 +1194,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "CLUUUTCH",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1150,7 +1224,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cluuutch-title"
   },
   {
    "id": 26,
@@ -1162,6 +1237,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Oui Chef",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1195,7 +1272,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "oui-chef-title"
   },
   {
    "id": 27,
@@ -1207,6 +1285,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Breadshot_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Breadshot_Spray.png?d1442",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1240,7 +1320,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "breadshot-spray"
   },
   {
    "id": 28,
@@ -1252,6 +1333,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/No_Fly_Zone_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Large.png?dfb22",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Wide.png?96c6b",
    "details": [
     [
      {
@@ -1285,7 +1368,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "no-fly-zone-card"
   },
   {
    "id": 29,
@@ -1297,6 +1381,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Just_Business_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Just_Business_Spray.png?a76a1",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1359,7 +1445,8 @@ window.VAL_DROPS = {
       "end": "2021-09-30"
      }
     }
-   ]
+   ],
+   "slug": "just-business-spray"
   },
   {
    "id": 30,
@@ -1371,6 +1458,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Ping_Pong_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Ping_Pong_Buddy.png?d7119",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1404,7 +1493,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ping-pong-buddy"
   },
   {
    "id": 31,
@@ -1416,6 +1506,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/My_Table_My_Rules_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Large.png?6a0d8",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Wide.png?10ed1",
    "details": [
     [
      {
@@ -1475,7 +1567,8 @@ window.VAL_DROPS = {
      ],
      "period": null
     }
-   ]
+   ],
+   "slug": "my-table-my-rules-card"
   },
   {
    "id": 32,
@@ -1487,6 +1580,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Fam",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1515,7 +1610,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "fam-title"
   },
   {
    "id": 33,
@@ -1527,6 +1623,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sorry_Bro_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sorry%2C_Bro%21_Spray.png?87736",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1555,7 +1653,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sorry-bro-spray"
   },
   {
    "id": 34,
@@ -1567,6 +1666,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Crispy",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1595,7 +1696,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "crispy-title"
   },
   {
    "id": 35,
@@ -1607,6 +1709,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/TukTuk_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/TukTuk_Spray.png?19d1d",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1635,7 +1739,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "tuktuk-spray"
   },
   {
    "id": 36,
@@ -1647,6 +1752,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Clutch_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Clutch_Spray.png?5cc50",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1715,7 +1822,8 @@ window.VAL_DROPS = {
       "end": "2022-12-16"
      }
     }
-   ]
+   ],
+   "slug": "clutch-spray"
   },
   {
    "id": 37,
@@ -1727,6 +1835,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Polar Clutch",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1755,7 +1865,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "polar-clutch-title"
   },
   {
    "id": 38,
@@ -1767,6 +1878,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Icebreaker_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Icebreaker_Spray.png?e9697",
+   "imageWide": null,
    "details": [
     [
      {
@@ -1795,7 +1908,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "icebreaker-spray"
   },
   {
    "id": 39,
@@ -1807,6 +1921,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Frosty_Freestyle_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Large.png?922e0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Wide.png?a1371",
    "details": [
     [
      {
@@ -1835,7 +1951,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "frosty-freestyle-card"
   },
   {
    "id": 40,
@@ -1847,6 +1964,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Horrors_I_ve_Seen_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Large.png?0a09d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Wide.png?78d2e",
    "details": [
     [
      {
@@ -1875,7 +1994,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "horrors-i-ve-seen-card"
   },
   {
    "id": 41,
@@ -1887,6 +2007,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/From_My_Perspective_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Large.png?cf96c",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Wide.png?c60ea",
    "details": [
     [
      {
@@ -1915,7 +2037,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "from-my-perspective-card"
   },
   {
    "id": 42,
@@ -1927,6 +2050,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": "Main Character",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -1955,7 +2080,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "main-character-title"
   },
   {
    "id": 43,
@@ -1967,6 +2093,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": null,
    "image": "img/2024_Game_Changers_Championship_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Large.png?fdffd",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Wide.png?4efbf",
    "details": [
     [
      {
@@ -1995,7 +2123,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2024-game-changers-championship-card"
   },
   {
    "id": 44,
@@ -2007,6 +2136,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": "Ribbit",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2035,7 +2166,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ribbit-title"
   },
   {
    "id": 45,
@@ -2047,6 +2179,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": "I am her",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2075,7 +2209,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "i-am-her-title"
   },
   {
    "id": 46,
@@ -2087,6 +2222,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": "13-0",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2115,7 +2252,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "13-0-club-title"
   },
   {
    "id": 47,
@@ -2127,6 +2265,8 @@ window.VAL_DROPS = {
    "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
    "title": "Queen",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2155,7 +2295,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "queen-title"
   },
   {
    "id": 48,
@@ -2167,6 +2308,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Dan_the_Champ_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Dan_the_Champ_Spray.png?7b144",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2195,7 +2338,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "dan-the-champ-spray"
   },
   {
    "id": 49,
@@ -2207,6 +2351,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Agents_on_Leave_Seoul_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Large.png?e0e5d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Wide.png?2e5de",
    "details": [
     [
      {
@@ -2235,7 +2381,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "agents-on-leave-seoul-card"
   },
   {
    "id": 50,
@@ -2247,6 +2394,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Jiāyóu",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2275,7 +2424,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "jiayou-title"
   },
   {
    "id": 51,
@@ -2287,6 +2437,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sheng_Jian_Bao_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sheng_Jian_Bao_Buddy.png?8b7b9",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2315,7 +2467,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sheng-jian-bao-buddy"
   },
   {
    "id": 52,
@@ -2327,6 +2480,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Ñ",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2355,7 +2510,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "n-title"
   },
   {
    "id": 53,
@@ -2367,6 +2523,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_Push_Up_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Large.png?e7c9e",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Wide.png?de6ef",
    "details": [
     [
      {
@@ -2395,7 +2553,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-push-up-card"
   },
   {
    "id": 54,
@@ -2407,6 +2566,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Louder",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2435,7 +2596,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "louder-title"
   },
   {
    "id": 55,
@@ -2447,6 +2609,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Game_Changers_Trophy_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Game_Changers_Trophy_Buddy.png?f3c51",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2475,7 +2639,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "game-changers-trophy-buddy"
   },
   {
    "id": 56,
@@ -2487,6 +2652,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Clutch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Large.png?e8c35",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Wide.png?a3188",
    "details": [
     [
      {
@@ -2515,7 +2682,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "clutch-card"
   },
   {
    "id": 57,
@@ -2527,6 +2695,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Lowrider",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2555,7 +2725,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "lowrider-title"
   },
   {
    "id": 58,
@@ -2567,6 +2738,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Gekko_Diff_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Gekko_Diff_Spray.png?39d50",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2595,7 +2768,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "gekko-diff-spray"
   },
   {
    "id": 59,
@@ -2607,6 +2781,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Champions_2023_Lowrider_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Large.png?e6c3d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Wide.png?cbeea",
    "details": [
     [
      {
@@ -2635,7 +2811,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "champions-2023-lowrider-card"
   },
   {
    "id": 60,
@@ -2647,6 +2824,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Unpredictable",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2675,7 +2854,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "unpredictable-title"
   },
   {
    "id": 61,
@@ -2687,6 +2867,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Rank_Up_Masters_Tokyo_2023_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Large.png?4c146",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Wide.png?e898c",
    "details": [
     [
      {
@@ -2715,7 +2897,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "rank-up-masters-tokyo-2023-card"
   },
   {
    "id": 62,
@@ -2727,6 +2910,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Locked In",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2755,7 +2940,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "locked-in-title"
   },
   {
    "id": 63,
@@ -2767,6 +2953,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_LOCKIN_Dad_Hat_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_LOCKIN_Dad_Hat_Buddy.png?0c4fb",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2795,7 +2983,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-lock-in-dad-hat-buddy"
   },
   {
    "id": 64,
@@ -2807,6 +2996,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Clutch",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2830,7 +3021,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "clutch-title"
   },
   {
    "id": 65,
@@ -2842,6 +3034,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Game Changer",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2870,7 +3064,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "game-changer-title"
   },
   {
    "id": 66,
@@ -2882,6 +3077,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/2022_Game_Changers_Championship_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Large.png?35c65",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Wide.png?25514",
    "details": [
     [
      {
@@ -2910,7 +3107,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2022-game-changers-championship-card"
   },
   {
    "id": 67,
@@ -2922,6 +3120,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Shreddy_Teddy_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Shreddy_Teddy_Spray.png?b74c0",
+   "imageWide": null,
    "details": [
     [
      {
@@ -2945,7 +3145,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "shreddy-teddy-spray"
   },
   {
    "id": 68,
@@ -2957,6 +3158,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Fire",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -2985,7 +3188,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "fire-title"
   },
   {
    "id": 69,
@@ -2997,6 +3201,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Champions_2022_Curse_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Curse_Spray.png?b353c",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3025,7 +3231,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "champions-2022-curse-spray"
   },
   {
    "id": 70,
@@ -3037,6 +3244,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Champions_2022_Hero_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Large.png?5dbed",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Wide.png?c1718",
    "details": [
     [
      {
@@ -3065,7 +3274,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "champions-2022-hero-card"
   },
   {
    "id": 71,
@@ -3077,6 +3287,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_2021_Spark_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_2021_Spark_Spray.gif?db2d1",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3105,7 +3317,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-2021-spark-spray"
   },
   {
    "id": 72,
@@ -3117,6 +3330,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_2021_Spark_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_2021_Spark_Buddy.png?af708",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3145,7 +3360,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-2021-spark-buddy"
   },
   {
    "id": 73,
@@ -3157,6 +3373,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Fishbones_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Fishbones_Buddy.png?62567",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3185,7 +3403,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "fishbones-buddy"
   },
   {
    "id": 74,
@@ -3197,6 +3416,8 @@ window.VAL_DROPS = {
    "groupNote": "Item was also available as part of promotion organized by Verizon during VALORANT Champions Tour 2023.",
    "title": null,
    "image": "img/High_Top_Heat_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/High_Top_Heat_Buddy.png?5d6bd",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3220,7 +3441,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "high-top-heat-buddy"
   },
   {
    "id": 75,
@@ -3232,6 +3454,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Showdown_Watch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Large.png?d0894",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Wide.png?3926e",
    "details": [
     [
      {
@@ -3255,7 +3479,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "showdown-watch-card"
   },
   {
    "id": 76,
@@ -3267,6 +3492,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Beta_Watch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Large.png?2210f",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Wide.png?0fcec",
    "details": [
     [
      {
@@ -3290,7 +3517,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "beta-watch-card"
   },
   {
    "id": 77,
@@ -3302,6 +3530,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Netter_Treter_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Netter_Treter_Buddy.png?dfd42",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3325,7 +3555,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "netter-treter-buddy"
   },
   {
    "id": 78,
@@ -3337,6 +3568,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pay_Respects_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pay_Respects_Buddy.png?dabad",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3360,7 +3593,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pay-respects-buddy"
   },
   {
    "id": 79,
@@ -3372,6 +3606,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Clip_It_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/Clip_It_Spray.gif/600px-Clip_It_Spray.gif?ce7b8",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3395,7 +3631,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "clip-it-spray"
   },
   {
    "id": 80,
@@ -3407,6 +3644,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Zoomer_Pop_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Zoomer_Pop_Buddy.png?34193",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3430,7 +3669,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "zoomer-pop-buddy"
   },
   {
    "id": 81,
@@ -3442,6 +3682,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Lovebyte_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Lovebyte_Buddy.png?860e2",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3465,7 +3707,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "lovebyte-buddy"
   },
   {
    "id": 82,
@@ -3477,6 +3720,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Hot_Take_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Hot_Take_Buddy.png?528a4",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3500,7 +3745,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "hot-take-buddy"
   },
   {
    "id": 83,
@@ -3512,6 +3758,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/200_IQ_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/200_IQ_Spray.png?ae777",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3535,7 +3783,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "200-iq-spray"
   },
   {
    "id": 84,
@@ -3547,6 +3796,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pity_Party_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pity_Party_Spray.png?c591e",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3570,7 +3821,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pity-party-spray"
   },
   {
    "id": 85,
@@ -3582,6 +3834,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Nice_Smile_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Nice_Smile_Buddy.png?925e0",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3605,7 +3859,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "nice-smile-buddy"
   },
   {
    "id": 86,
@@ -3617,6 +3872,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/EP_2_FORMATION_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/EP_2_FORMATION_Card_Large.png?17c89",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/EP_2_FORMATION_Card_Wide.png?6b9c4",
    "details": [
     [
      {
@@ -3640,7 +3897,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ep-2-formation-card"
   },
   {
    "id": 87,
@@ -3652,6 +3910,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Can_t_Teach_That_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Can%27t_Teach_That_Spray.png?3da70",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3675,7 +3935,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "can-t-teach-that-spray"
   },
   {
    "id": 88,
@@ -3687,6 +3948,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Tower_of_Power_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Tower_of_Power_Buddy.png?96ead",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3710,7 +3973,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "tower-of-power-buddy"
   },
   {
    "id": 89,
@@ -3722,6 +3986,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Flames_in_my_Veins_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Flames_in_my_Veins_Spray.png?24a9c",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3745,7 +4011,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "flames-in-my-veins-spray"
   },
   {
    "id": 90,
@@ -3757,6 +4024,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Outta_This_World_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Outta_This_World_Buddy.png?91f7a",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3780,7 +4049,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "outta-this-world-buddy"
   },
   {
    "id": 91,
@@ -3792,6 +4062,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Arcane_Jinx_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Arcane_Jinx_Card_Large.png?c5fa4",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Arcane_Jinx_Card_Wide.png?802d4",
    "details": [
     [
      {
@@ -3815,7 +4087,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "arcane-jinx-card"
   },
   {
    "id": 92,
@@ -3827,6 +4100,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Bruno_Coin_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Bruno_Coin_Spray.png?e30a9",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3850,7 +4125,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "bruno-coin-spray"
   },
   {
    "id": 93,
@@ -3862,6 +4138,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Wayfinder_Shorty.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Wayfinder_Shorty.png?a848a",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3885,7 +4163,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "wayfinder-shorty"
   },
   {
    "id": 94,
@@ -3897,6 +4176,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Dance_of_Luck_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Dance_of_Luck_Buddy.png?3a8e4",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3920,7 +4201,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "dance-of-luck-buddy"
   },
   {
    "id": 95,
@@ -3932,6 +4214,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Wayfinder_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Wayfinder_Card_Large.png?afc60",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Wayfinder_Card_Wide.png?7961d",
    "details": [
     [
      {
@@ -3955,7 +4239,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "wayfinder-card"
   },
   {
    "id": 96,
@@ -3967,6 +4252,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Googly_Moogly_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Googly_Moogly_Spray.gif?fe7dd",
+   "imageWide": null,
    "details": [
     [
      {
@@ -3990,7 +4277,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "googly-moogly-spray"
   },
   {
    "id": 97,
@@ -4002,6 +4290,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Prime_Time_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Prime_Time_Buddy.png?62462",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4025,7 +4315,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "prime-time-buddy"
   },
   {
    "id": 98,
@@ -4037,6 +4328,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/On_The_Case_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/On_The_Case_Buddy.png?4c9f0",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4060,7 +4353,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "on-the-case-buddy"
   },
   {
    "id": 99,
@@ -4072,6 +4366,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Eco_or_Ego_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Eco_or_Ego_Spray.gif?8a9d4",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4095,7 +4391,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "eco-or-ego-spray"
   },
   {
    "id": 100,
@@ -4107,6 +4404,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Up_in_Arms_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Up_in_Arms_Card_Large.png?90c35",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Up_in_Arms_Card_Wide.png?0a253",
    "details": [
     [
      {
@@ -4130,7 +4429,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "up-in-arms-card"
   },
   {
    "id": 101,
@@ -4142,6 +4442,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Runnin_on_Empty_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Runnin%27_on_Empty_Spray.png?94721",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4165,7 +4467,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "runnin-on-empty-spray"
   },
   {
    "id": 102,
@@ -4177,6 +4480,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Ready_to_Roll_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Ready_to_Roll_Buddy.png?e5978",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4200,7 +4505,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ready-to-roll-buddy"
   },
   {
    "id": 103,
@@ -4212,6 +4518,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sic_Em_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sic%27_Em_Spray.gif?dffe5",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4235,7 +4543,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sic-em-spray"
   },
   {
    "id": 104,
@@ -4247,6 +4556,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Slay_Ride_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Slay_Ride_Buddy.png?f3cd2",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4276,7 +4587,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "slay-ride-buddy"
   },
   {
    "id": 105,
@@ -4288,6 +4600,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Doomscrolling_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Doomscrolling_Spray.png?45fa1",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4311,7 +4625,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "doomscrolling-spray"
   },
   {
    "id": 106,
@@ -4323,6 +4638,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Dimensional_Drip_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Dimensional_Drip_Buddy.png?c12ac",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4346,7 +4663,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "dimensional-drip-buddy"
   },
   {
    "id": 107,
@@ -4358,6 +4676,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Caught_One_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Caught_One_Card_Large.png?d1533",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Caught_One_Card_Wide.png?c8e23",
    "details": [
     [
      {
@@ -4381,7 +4701,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "caught-one-card"
   },
   {
    "id": 108,
@@ -4393,6 +4714,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Claw_and_Order_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Claw_and_Order_Spray.gif?a800b",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4416,7 +4739,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "claw-and-order"
   },
   {
    "id": 109,
@@ -4428,6 +4752,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Daruma_Charm_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Daruma_Charm_Buddy.png?d6592",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4451,7 +4777,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "daruma-charm-buddy"
   },
   {
    "id": 110,
@@ -4463,6 +4790,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Predicament_Pals_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Predicament_Pals_Spray.gif?dc446",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4486,7 +4815,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "predicament-pals-spray"
   },
   {
    "id": 111,
@@ -4498,6 +4828,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Knight_s_Market_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Knight%27s_Market_Buddy.png?eebdb",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4521,7 +4853,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "knight-s-market-buddy"
   },
   {
    "id": 112,
@@ -4533,6 +4866,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Rope_Burn_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Rope_Burn_Card_Large.png?d872a",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Rope_Burn_Card_Wide.png?31ed2",
    "details": [
     [
      {
@@ -4556,7 +4891,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "rope-burn-card"
   },
   {
    "id": 113,
@@ -4568,6 +4904,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Scare_Tactics_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Scare_Tactics_Card_Large.png?a056d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Scare_Tactics_Card_Wide.png?49e58",
    "details": [
     [
      {
@@ -4591,7 +4929,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "scare-tactics-card"
   },
   {
    "id": 114,
@@ -4603,6 +4942,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sip_n_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sip_n%27_Spray.gif?0e630",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4626,7 +4967,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sip-n-spray"
   },
   {
    "id": 115,
@@ -4638,6 +4980,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/All_Yuck_No_Yum_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/All_Yuck%2C_No_Yum_Spray.png?c34c6",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4661,7 +5005,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "all-yuck-no-yum-spray"
   },
   {
    "id": 116,
@@ -4673,6 +5018,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Party_s_Here_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Party%27s_Here_Spray.png?883b8",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4696,7 +5043,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "party-s-here-spray"
   },
   {
    "id": 117,
@@ -4708,6 +5056,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Light_Em_Up_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Light_%27Em_Up_Spray.gif?536bf",
+   "imageWide": null,
    "details": [
     [
      {
@@ -4731,7 +5081,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "light-em-up-spray"
   },
   {
    "id": 118,
@@ -4743,6 +5094,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Origin_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Origin_Buddy.png?516e9",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": {
@@ -4759,7 +5112,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "origin-buddy"
   },
   {
    "id": 119,
@@ -4771,6 +5125,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Glitchpop_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Glitchpop_Card_Large.png?4adae",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Glitchpop_Card_Wide.png?79300",
    "details": [],
    "period": null,
    "ongoing": {
@@ -4787,7 +5143,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "glitchpop-card"
   },
   {
    "id": 120,
@@ -4799,6 +5156,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/BlastX_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/BlastX_Spray.png?ea0a3",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": {
@@ -4815,7 +5174,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "blastx-spray"
   },
   {
    "id": 121,
@@ -4827,6 +5187,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Celestial_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Celestial_Spray.gif?f7ac9",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": {
@@ -4843,7 +5205,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "celestial-spray"
   },
   {
    "id": 122,
@@ -4855,6 +5218,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Reaver_EP_5_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Reaver%2C_EP_5_Buddy.png?72afa",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4868,7 +5233,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "reaver-ep-5-buddy"
   },
   {
    "id": 123,
@@ -4880,6 +5246,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Crimsonbeast_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Crimsonbeast_Card_Large.png?1655d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Crimsonbeast_Card_Wide.png?1cd11",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4893,7 +5261,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "crimsonbeast-card"
   },
   {
    "id": 124,
@@ -4905,6 +5274,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Team_Ace_Raze_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Team_Ace_Raze_Spray.png?60dbe",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4918,7 +5289,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "team-ace-raze-spray"
   },
   {
    "id": 125,
@@ -4930,6 +5302,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Prime_2.0_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Prime_2.0_Spray.png?7e9c8",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4943,7 +5317,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "prime-2-0-spray"
   },
   {
    "id": 126,
@@ -4955,6 +5330,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Ion_Ep5_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Ion%2C_Ep5_Buddy.png?a559c",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4968,7 +5345,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ion-ep5-buddy"
   },
   {
    "id": 127,
@@ -4980,6 +5358,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Frontier_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frontier_Card_Large.png?6967a",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Frontier_Card_Wide.png?11cce",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -4993,7 +5373,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "frontier-card"
   },
   {
    "id": 128,
@@ -5005,6 +5386,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Gaia_s_Vengeance_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Gaia%27s_Vengeance_Spray.png?edfe0",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5026,7 +5409,8 @@ window.VAL_DROPS = {
      "details": [],
      "period": null
     }
-   ]
+   ],
+   "slug": "gaia-s-vengeance-spray"
   },
   {
    "id": 129,
@@ -5038,6 +5422,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Forsaken_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Forsaken_Spray.png?6f81c",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5051,7 +5437,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "forsaken-spray"
   },
   {
    "id": 130,
@@ -5063,6 +5450,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Altitude_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Altitude_Buddy.png?9c7a2",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5076,7 +5465,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "altitude-buddy"
   },
   {
    "id": 131,
@@ -5088,6 +5478,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Valiant_Hero_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Valiant_Hero_Card_Large.png?cdd55",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Valiant_Hero_Card_Wide.png?0b32b",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5101,7 +5493,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "valiant-hero-card"
   },
   {
    "id": 132,
@@ -5113,6 +5506,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/RGX_11z_Pro_Ep_4_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/RGX_11z_Pro%2C_Ep_4_Spray.gif?60384",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5126,7 +5521,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "rgx-11z-pro-ep-4-spray"
   },
   {
    "id": 133,
@@ -5138,6 +5534,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Soulstrife_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Soulstrife_Spray.gif?544e1",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5151,7 +5549,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "soulstrife-spray"
   },
   {
    "id": 134,
@@ -5163,6 +5562,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Araxys_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Araxys_Buddy.png?6ade7",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5176,7 +5577,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "araxys-buddy"
   },
   {
    "id": 135,
@@ -5188,6 +5590,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Tigris_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Tigris_Card_Large.png?b76bc",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Tigris_Card_Wide.png?9c612",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5201,7 +5605,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "tigris-card"
   },
   {
    "id": 136,
@@ -5213,6 +5618,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Magepunk_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Magepunk_Spray.png?26c23",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5226,7 +5633,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "magepunk-spray"
   },
   {
    "id": 137,
@@ -5238,6 +5646,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Oni_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Oni_Spray.gif?60cd5",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5251,7 +5661,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "oni-spray"
   },
   {
    "id": 138,
@@ -5263,6 +5674,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Prelude_to_Chaos_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Prelude_to_Chaos_Buddy.png?6d88c",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5276,7 +5689,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "prelude-to-chaos-buddy"
   },
   {
    "id": 139,
@@ -5288,6 +5702,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Kohaku_Matsuba_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Kohaku_%26_Matsuba_Card_Large.png?6e0f1",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Kohaku_%26_Matsuba_Card_Wide.png?6da0b",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5301,7 +5717,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "kohaku-matsuba-card"
   },
   {
    "id": 140,
@@ -5313,6 +5730,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Imperium_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Imperium_Spray.png?f032d",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5326,7 +5745,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "imperium-spray"
   },
   {
    "id": 141,
@@ -5338,6 +5758,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/ChronoVoid_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/ChronoVoid_Spray.png/600px-ChronoVoid_Spray.png?53ce3",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5351,7 +5773,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "chronovoid-spray"
   },
   {
    "id": 142,
@@ -5363,6 +5786,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Snowfall_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Snowfall_Buddy.png?42ade",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5376,7 +5801,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "snowfall-buddy"
   },
   {
    "id": 143,
@@ -5388,6 +5814,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Celestial_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Celestial_Card_Large.png?c0d56",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Celestial_Card_Wide.png?6e39f",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5401,7 +5829,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "celestial-card"
   },
   {
    "id": 144,
@@ -5413,6 +5842,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sentinels_of_Light_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sentinels_of_Light_Spray.png?f289f",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5426,7 +5857,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sentinels-of-light-spray"
   },
   {
    "id": 145,
@@ -5438,6 +5870,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sovereign_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sovereign_Spray.png?60cd5",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5451,7 +5885,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sovereign-spray"
   },
   {
    "id": 146,
@@ -5463,6 +5898,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/ChronoVoid_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/ChronoVoid_Buddy.png?f7162",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5476,7 +5913,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "chronovoid-buddy"
   },
   {
    "id": 147,
@@ -5488,6 +5926,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Magepunk_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Magepunk_Card_Large.png?c2abf",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Magepunk_Card_Wide.png?9690e",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5501,7 +5941,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "magepunk-card"
   },
   {
    "id": 148,
@@ -5513,6 +5954,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Ion_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Ion_Spray.gif?7501a",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5526,7 +5969,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ion-spray"
   },
   {
    "id": 149,
@@ -5538,6 +5982,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Team_Ace_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Team_Ace_Buddy.png?72a8b",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5551,7 +5997,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "team-ace-buddy"
   },
   {
    "id": 150,
@@ -5563,6 +6010,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/NO_LIMITS_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/NO_LIMITS_Card_Large.png?30ce0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/NO_LIMITS_Card_Wide.png?deb49",
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5576,7 +6025,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "no-limits-card"
   },
   {
    "id": 151,
@@ -5588,6 +6038,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Ego_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/Ego_Spray.gif/600px-Ego_Spray.gif?a9e81",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5601,7 +6053,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ego-spray"
   },
   {
    "id": 152,
@@ -5613,6 +6066,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Origin_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Origin_Spray.png?6c787",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -5626,7 +6081,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "origin-spray"
   },
   {
    "id": 153,
@@ -5638,6 +6094,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/V26_Conflict_Hermanita_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Hermanita_Card_Large.png?0d829",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Hermanita_Card_Wide.png?e05b8",
    "details": [
     [
      {
@@ -5682,7 +6140,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "v26-conflict-hermanita-card"
   },
   {
    "id": 154,
@@ -5694,6 +6153,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/V26_Conflict_Face_the_Flames_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Face_the_Flames_Card_Large.png?572b6",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Face_the_Flames_Card_Wide.png?dff5c",
    "details": [
     [
      {
@@ -5738,7 +6199,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "v26-conflict-face-the-flames-card"
   },
   {
    "id": 155,
@@ -5750,6 +6212,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/V26_Conflict_Blood_Venom_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Blood_%26_Venom_Card_Large.png?0647e",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_Blood_%26_Venom_Card_Wide.png?750f1",
    "details": [
     [
      {
@@ -5794,7 +6258,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "v26-conflict-blood-venom-card"
   },
   {
    "id": 156,
@@ -5806,6 +6271,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/V26_Conflict_The_Fall_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_The_Fall_Card_Large.png?e3eee",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/V26_Conflict_The_Fall_Card_Wide.png?29d4f",
    "details": [
     [
      {
@@ -5850,7 +6317,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "v26-conflict-the-fall-card"
   },
   {
    "id": 157,
@@ -5862,6 +6330,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Frag_or_Die_Alpha_Sage_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frag_or_Die_Alpha_Sage_Card_Large.png?baf0a",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Alpha_Sage_Card_Wide.png/900px-Frag_or_Die_Alpha_Sage_Card_Wide.png?b5e87",
    "details": [
     [
      {
@@ -5887,7 +6357,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "frag-or-die-alpha-sage-card"
   },
   {
    "id": 158,
@@ -5899,6 +6370,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Frag_or_Die_Omega_Viper_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frag_or_Die_Omega_Viper_Card_Large.png?baf0a",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Omega_Viper_Card_Wide.png/900px-Frag_or_Die_Omega_Viper_Card_Wide.png?b5e87",
    "details": [
     [
      {
@@ -5924,7 +6397,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "frag-or-die-omega-viper-card"
   },
   {
    "id": 159,
@@ -5936,6 +6410,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Jade_Venom_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Jade_%26_Venom_Card_Large.png?f02a1",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Jade_%26_Venom_Card_Wide.png/900px-Jade_%26_Venom_Card_Wide.png?b5e87",
    "details": [
     [
      {
@@ -5961,7 +6437,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "jade-venom-card"
   },
   {
    "id": 160,
@@ -5973,6 +6450,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Broken",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -6002,7 +6481,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "broken-title"
   },
   {
    "id": 161,
@@ -6014,6 +6494,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Official_Seal_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Official_Seal_Spray.png?1b57f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6043,7 +6525,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "official-seal-spray"
   },
   {
    "id": 162,
@@ -6055,6 +6538,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Claw_and_Order_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Claw_and_Order_Spray.gif?a800b",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -6068,7 +6553,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "claw-and-order-spray"
   },
   {
    "id": 163,
@@ -6080,6 +6566,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Drop_It_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Drop_It_Spray.png?7bcd1",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6112,7 +6600,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "drop-it-spray"
   },
   {
    "id": 164,
@@ -6124,6 +6613,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/All_Love_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/All_Love_Spray.png?6b298",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6148,7 +6639,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "all-love-spray"
   },
   {
    "id": 165,
@@ -6160,6 +6652,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/_Eureka_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/%C2%A1Eureka%21_Spray.png?a8700",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -6173,7 +6667,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "eureka-spray"
   },
   {
    "id": 166,
@@ -6185,6 +6680,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Crystal_Ball_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Crystal_Ball_Spray.png?23e20",
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -6198,7 +6695,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "crystal-ball-spray"
   },
   {
    "id": 167,
@@ -6210,6 +6708,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/A_Piece_of_Rice_Cake_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/A_Piece_of_Rice_Cake_Spray.png?39313",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6238,7 +6738,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "a-piece-of-rice-cake-spray"
   },
   {
    "id": 168,
@@ -6250,6 +6751,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Cake_or_Spike_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Cake_or_Spike_Spray.gif?dafc4",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6283,7 +6786,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cake-or-spike-spray"
   },
   {
    "id": 169,
@@ -6295,6 +6799,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Cypher_Figure_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Cypher_Figure_Spray.png?9b4f2",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6320,7 +6826,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cypher-figure-spray"
   },
   {
    "id": 170,
@@ -6332,6 +6839,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Jett_Figure_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Jett_Figure_Spray.png?8c85c",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6357,7 +6866,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "jett-figure-spray"
   },
   {
    "id": 171,
@@ -6369,6 +6879,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Killjoy_Figure_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Killjoy_Figure_Spray.png?c30aa",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6394,7 +6906,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "killjoy-figure-spray"
   },
   {
    "id": 172,
@@ -6406,6 +6919,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Loose_Cannon_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Loose_Cannon_Spray.png?ff84f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6426,7 +6941,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "loose-cannon-spray"
   },
   {
    "id": 173,
@@ -6438,6 +6954,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/More_Creds_Pls_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/More_Creds_Pls_Spray.png?39313",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6466,7 +6984,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "more-creds-pls-spray"
   },
   {
    "id": 174,
@@ -6478,6 +6997,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Round_Start_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Round_Start_Spray.png?ba481",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6498,7 +7019,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "round-start-spray"
   },
   {
    "id": 175,
@@ -6510,6 +7032,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sage_Figure_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sage_Figure_Spray.png?bb172",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6535,7 +7059,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sage-figure-spray"
   },
   {
    "id": 176,
@@ -6547,6 +7072,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_Americas_Aura_Spray.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Americas_Aura_Spray.png?39313",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6572,7 +7099,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-americas-aura-spray"
   },
   {
    "id": 177,
@@ -6584,6 +7112,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sweet_Calls_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sweet_Calls_Buddy.png?6e525",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6621,7 +7151,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sweet-calls-buddy"
   },
   {
    "id": 178,
@@ -6633,6 +7164,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Flyby_Hug_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Flyby_Hug_Buddy.png?cd903",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6660,7 +7193,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "flyby-hug-buddy"
   },
   {
    "id": 179,
@@ -6672,6 +7206,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Bear_Hug_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Bear_Hug_Buddy.png?e0d83",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6699,7 +7235,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "bear-hug-buddy"
   },
   {
    "id": 180,
@@ -6711,6 +7248,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Seal_of_Approval_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Seal_of_Approval_Buddy.png?b19af",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6743,7 +7282,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "seal-of-approval-buddy"
   },
   {
    "id": 181,
@@ -6755,6 +7295,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/to_na_sombra_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/T%C3%B4_na_sombra_Buddy.png?dea77",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6775,7 +7317,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "to-na-sombra-buddy"
   },
   {
    "id": 182,
@@ -6787,6 +7330,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Stone_of_Heaven_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Stone_of_Heaven_Buddy.png?63a53",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6807,7 +7352,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "stone-of-heaven-buddy"
   },
   {
    "id": 183,
@@ -6819,6 +7365,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/REF_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/REF%21_Buddy.png?94f6b",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6839,7 +7387,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ref-buddy"
   },
   {
    "id": 184,
@@ -6851,6 +7400,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/_Rico_po_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/%C2%A1Rico%2C_po%21_Buddy.png?a2d4f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6871,7 +7422,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "rico-po-buddy"
   },
   {
    "id": 185,
@@ -6883,6 +7435,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pocket_Killjoy_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pocket_Killjoy_Buddy.png?3f0a5",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6903,7 +7457,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pocket-killjoy-buddy"
   },
   {
    "id": 186,
@@ -6915,6 +7470,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/G.O.A.T._Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/G.O.A.T._Buddy.png?7d8ef",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6935,7 +7492,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "g-o-a-t-buddy"
   },
   {
    "id": 187,
@@ -6947,6 +7505,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sweet_Victory_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sweet_Victory_Buddy.png?c1e09",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6967,7 +7527,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sweet-victory-buddy"
   },
   {
    "id": 188,
@@ -6979,6 +7540,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Gonggi_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Gonggi_Buddy.png?d4a27",
+   "imageWide": null,
    "details": [
     [
      {
@@ -6999,7 +7562,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "gonggi-buddy"
   },
   {
    "id": 189,
@@ -7011,6 +7575,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_to_na_sombra_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_t%C3%B4_na_sombra_Buddy.png?3a02e",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7031,7 +7597,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-to-na-sombra-buddy"
   },
   {
    "id": 190,
@@ -7043,6 +7610,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_Stone_of_Heaven_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_Stone_of_Heaven_Buddy.png?133a8",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7063,7 +7632,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-stone-of-heaven-buddy"
   },
   {
    "id": 191,
@@ -7075,6 +7645,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_REF_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_REF%21_Buddy.png?e5471",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7095,7 +7667,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-ref-buddy"
   },
   {
    "id": 192,
@@ -7107,6 +7680,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_Rico_po_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_%C2%A1Rico%2C_po%21_Buddy.png?91b4c",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7127,7 +7702,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-rico-po-buddy"
   },
   {
    "id": 193,
@@ -7139,6 +7715,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_Pocket_Killjoy_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_Pocket_Killjoy_Buddy.png?f425b",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7159,7 +7737,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-pocket-killjoy-buddy"
   },
   {
    "id": 194,
@@ -7171,6 +7750,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Ems_Master_G.O.A.T._Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick%27Ems_Master_G.O.A.T._Buddy.png?aa80f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7191,7 +7772,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-ems-master-g-o-a-t-buddy"
   },
   {
    "id": 195,
@@ -7203,6 +7785,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Em_Master_Sweet_Victory_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick_%27Em_Master_Sweet_Victory_Buddy.png?9a4b6",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7223,7 +7807,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-em-master-sweet-victory-buddy"
   },
   {
    "id": 196,
@@ -7235,6 +7820,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pick_Em_Master_Gonggi_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pick_%27Em_Master_Gonggi_Buddy.png?1dff6",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7255,7 +7842,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pick-em-master-gonggi-buddy"
   },
   {
    "id": 197,
@@ -7267,6 +7855,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Game_Changers_Winner_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Game_Changers_Winner_Buddy.png?6521f",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7331,7 +7921,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "game-changers-winner-buddy"
   },
   {
    "id": 198,
@@ -7343,6 +7934,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_Champions_Winner_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Champions_Winner_Buddy.png?4adc7",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7397,7 +7990,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-champions-winner-buddy"
   },
   {
    "id": 199,
@@ -7409,6 +8003,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_LOCKIN_Winner_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_LOCKIN_Winner_Buddy.png?767be",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7429,7 +8025,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-lock-in-winner-buddy"
   },
   {
    "id": 200,
@@ -7441,6 +8038,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VCT_Masters_Winner_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Masters_Winner_Buddy.png?36411",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7621,7 +8220,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-winner-buddy"
   },
   {
    "id": 201,
@@ -7633,6 +8233,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Arcane_Poro_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Arcane_Poro_Buddy.png?ba66a",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7657,7 +8259,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "arcane-poro-buddy"
   },
   {
    "id": 202,
@@ -7669,6 +8272,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Cloudburst_Soles_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Cloudburst_Soles_Buddy.png?91e17",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7706,7 +8311,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cloudburst-soles-buddy"
   },
   {
    "id": 203,
@@ -7718,6 +8324,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Downtime_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Downtime_Buddy.png?133a8",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7747,7 +8355,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "downtime-buddy"
   },
   {
    "id": 204,
@@ -7759,6 +8368,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Fist_Bump_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Fist_Bump_Buddy.png?0c9c7",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7802,7 +8413,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "fist-bump-buddy"
   },
   {
    "id": 205,
@@ -7814,6 +8426,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/FRGMT_x_WNGMN_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/FRGMT_x_WNGMN%2B_Buddy.png?7d4b7",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7838,7 +8452,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "frgmt-x-wngmn-buddy"
   },
   {
    "id": 206,
@@ -7850,6 +8465,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Golden_Smite_Knife_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Golden_Smite_Knife_Buddy.png?719cd",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7907,7 +8524,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "golden-smite-knife-buddy"
   },
   {
    "id": 207,
@@ -7919,6 +8537,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Hang_Time_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Hang_Time_Buddy.png?b8bb6",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7948,7 +8568,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "hang-time-buddy"
   },
   {
    "id": 208,
@@ -7960,6 +8581,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/I_Create_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/I_Create_Buddy.png?c1012",
+   "imageWide": null,
    "details": [
     [
      {
@@ -7989,7 +8612,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "i-create-buddy"
   },
   {
    "id": 209,
@@ -8001,6 +8625,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Keep_it_Safer_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Keep_it_Safer_Buddy.png?bdcbb",
+   "imageWide": null,
    "details": [
     [
      {
@@ -8025,7 +8651,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "keep-it-safer-buddy"
   },
   {
    "id": 210,
@@ -8037,6 +8664,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pocket_Sage_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pocket_Sage_Buddy.png?7428d",
+   "imageWide": null,
    "details": [
     [
      {
@@ -8061,7 +8690,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pocket-sage-buddy"
   },
   {
    "id": 211,
@@ -8073,6 +8703,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Riptide_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Riptide_Buddy.png?83f81",
+   "imageWide": null,
    "details": [
     [
      {
@@ -8097,7 +8729,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "riptide-buddy"
   },
   {
    "id": 212,
@@ -8109,6 +8742,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/For_Retribution_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/For_Retribution_Card_Large.png?54528",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/For_Retribution_Card_Wide.png?e0f39",
    "details": [
     [
      {
@@ -8136,7 +8771,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "for-retribution-card"
   },
   {
    "id": 213,
@@ -8148,6 +8784,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Not_A_Peep_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Not_A_Peep_Card_Large.png?b893e",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Not_A_Peep_Card_Wide.png?1738f",
    "details": [
     [
      {
@@ -8180,7 +8818,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "not-a-peep-card"
   },
   {
    "id": 214,
@@ -8192,6 +8831,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/VERSUS_Deadlock_Gekko_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VERSUS_Deadlock_%2B_Gekko_Card_Large.png?2b8a1",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/VERSUS_Deadlock_%2B_Gekko_Card_Wide.png?bfe45",
    "details": [
     [
      {
@@ -8219,7 +8860,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "versus-deadlock-gekko-card"
   },
   {
    "id": 215,
@@ -8231,6 +8873,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Cotton_Candy_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Cotton_Candy_Card_Large.png?a9639",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Cotton_Candy_Card_Wide.png?da9d6",
    "details": [
     [
      {
@@ -8262,7 +8906,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-cotton-candy-card"
   },
   {
    "id": 216,
@@ -8274,6 +8919,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Galactic_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Galactic_Card_Large.png?bdd02",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Galactic_Card_Wide.png?31b42",
    "details": [
     [
      {
@@ -8305,7 +8952,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-galactic-card"
   },
   {
    "id": 217,
@@ -8317,6 +8965,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Primary_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Primary_Card_Large.png?8ef94",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Primary_Card_Wide.png?5622c",
    "details": [
     [
      {
@@ -8348,7 +8998,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-primary-card"
   },
   {
    "id": 218,
@@ -8360,6 +9011,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Rainbow_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Rainbow_Card_Large.png?dbe21",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Rainbow_Card_Wide.png?f0a16",
    "details": [
     [
      {
@@ -8391,7 +9044,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-rainbow-card"
   },
   {
    "id": 219,
@@ -8403,6 +9057,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Sherbet_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Sherbet_Card_Large.png?3a780",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Sherbet_Card_Wide.png?15f26",
    "details": [
     [
      {
@@ -8434,7 +9090,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-sherbet-card"
   },
   {
    "id": 220,
@@ -8446,6 +9103,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Sunset_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Sunset_Card_Large.png?003b5",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Sunset_Card_Wide.png?69853",
    "details": [
     [
      {
@@ -8477,7 +9136,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-sunset-card"
   },
   {
    "id": 221,
@@ -8489,6 +9149,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Pride_Twilight_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Pride_Twilight_Card_Large.png?901bd",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Pride_Twilight_Card_Wide.png?c7736",
    "details": [
     [
      {
@@ -8520,7 +9182,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pride-twilight-card"
   },
   {
    "id": 222,
@@ -8532,6 +9195,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Dance_Break_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Dance_Break_Card_Large.png?e4211",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Dance_Break_Card_Wide.png?d6a99",
    "details": [
     [
      {
@@ -8596,7 +9261,8 @@ window.VAL_DROPS = {
       "end": "2024-09-01"
      }
     }
-   ]
+   ],
+   "slug": "dance-break-card"
   },
   {
    "id": 223,
@@ -8608,6 +9274,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Seoul_Night_Jett_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Seoul_Night_Jett_Card_Large.png?dd192",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Seoul_Night_Jett_Card_Wide.png/900px-Seoul_Night_Jett_Card_Wide.png?b305e",
    "details": [
     [
      {
@@ -8636,7 +9304,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "seoul-night-jett-card"
   },
   {
    "id": 224,
@@ -8648,6 +9317,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Sloth_Slugs_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Sloth_Slugs_Card_Large.png?7b18c",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Sloth_Slugs_Card_Wide.png?186a5",
    "details": [
     [
      {
@@ -8673,7 +9344,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "sloth-slugs-card"
   },
   {
    "id": 225,
@@ -8685,6 +9357,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Holding Space",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8709,7 +9383,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "holding-space-title"
   },
   {
    "id": 226,
@@ -8721,6 +9396,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Ate",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8748,7 +9425,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ate-title"
   },
   {
    "id": 227,
@@ -8760,6 +9438,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Better Together",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8787,7 +9467,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "better-together-title"
   },
   {
    "id": 228,
@@ -8799,6 +9480,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Ally",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8826,7 +9509,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "ally-title"
   },
   {
    "id": 229,
@@ -8838,6 +9522,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Proud",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8865,7 +9551,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "proud-title"
   },
   {
    "id": 230,
@@ -8877,6 +9564,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Pioneer",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -8904,7 +9593,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "pioneer-title"
   },
   {
    "id": 231,
@@ -8916,6 +9606,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Gênio",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -8929,7 +9621,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "genio-title"
   },
   {
    "id": 232,
@@ -8941,6 +9634,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Calculated",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -8954,7 +9649,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "calculated-title"
   },
   {
    "id": 233,
@@ -8966,6 +9662,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Bossman",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -8979,7 +9677,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "bossman-title"
   },
   {
    "id": 234,
@@ -8991,6 +9690,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Cachando",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -9004,7 +9705,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "cachando-title"
   },
   {
    "id": 235,
@@ -9016,6 +9718,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Aura Farming",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -9029,7 +9733,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "aura-farming-title"
   },
   {
    "id": 236,
@@ -9041,6 +9746,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Eh?",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -9054,7 +9761,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "eh-title"
   },
   {
    "id": 237,
@@ -9066,6 +9774,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "100%",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [],
    "period": null,
    "ongoing": null,
@@ -9079,7 +9789,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "100-title"
   },
   {
    "id": 238,
@@ -9091,6 +9802,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Game Changer",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9115,7 +9828,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-game-changer-title"
   },
   {
    "id": 239,
@@ -9127,6 +9841,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2021 VCT Regional Masters Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9233,7 +9949,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2021-vct-regional-masters-winner-title"
   },
   {
    "id": 240,
@@ -9245,6 +9962,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Reykjavik Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9275,7 +9994,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-reykjavik-winner-title"
   },
   {
    "id": 241,
@@ -9287,6 +10007,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Berlin Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9311,7 +10033,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-berlin-winner-title"
   },
   {
    "id": 242,
@@ -9323,6 +10046,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2021 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9347,7 +10072,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2021-vct-champion-title"
   },
   {
    "id": 243,
@@ -9359,6 +10085,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Copenhagen Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9379,7 +10107,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-copenhagen-winner-title"
   },
   {
    "id": 244,
@@ -9391,6 +10120,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2022 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9411,7 +10142,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2022-vct-champion-title"
   },
   {
    "id": 245,
@@ -9423,6 +10155,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2022 Game Changers Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9447,7 +10181,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2022-game-changers-winner-title"
   },
   {
    "id": 246,
@@ -9459,6 +10194,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT LOCK//IN Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9479,7 +10216,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-lock-in-winner-title"
   },
   {
    "id": 247,
@@ -9491,6 +10229,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Tokyo Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9511,7 +10251,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-tokyo-winner-title"
   },
   {
    "id": 248,
@@ -9523,6 +10264,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2023 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9543,7 +10286,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2023-vct-champion-title"
   },
   {
    "id": 249,
@@ -9555,6 +10299,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2023 Game Changers Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9579,7 +10325,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2023-game-changers-winner-title"
   },
   {
    "id": 250,
@@ -9591,6 +10338,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Madrid Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9611,7 +10360,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-madrid-winner-title"
   },
   {
    "id": 251,
@@ -9623,6 +10373,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Shanghai Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9643,7 +10395,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-shanghai-winner-title"
   },
   {
    "id": 252,
@@ -9655,6 +10408,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2024 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9675,7 +10430,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2024-vct-champion-title"
   },
   {
    "id": 253,
@@ -9687,6 +10443,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2024 Game Changers Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9711,7 +10469,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2024-game-changers-winner-title"
   },
   {
    "id": 254,
@@ -9723,6 +10482,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Bangkok Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9743,7 +10504,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-bangkok-winner-title"
   },
   {
    "id": 255,
@@ -9755,6 +10517,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Toronto Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9775,7 +10539,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-toronto-winner-title"
   },
   {
    "id": 256,
@@ -9787,6 +10552,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2025 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9807,7 +10574,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2025-vct-champion-title"
   },
   {
    "id": 257,
@@ -9819,6 +10587,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2025 Game Changers Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9843,7 +10613,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2025-game-changers-winner-title"
   },
   {
    "id": 258,
@@ -9855,6 +10626,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters Santiago Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9875,7 +10648,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-santiago-winner-title"
   },
   {
    "id": 259,
@@ -9887,6 +10661,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VCT Masters London Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9907,7 +10683,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "vct-masters-london-winner-title"
   },
   {
    "id": 260,
@@ -9919,6 +10696,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2026 VCT Champion",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9939,7 +10718,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2026-vct-champion-title"
   },
   {
    "id": 261,
@@ -9951,6 +10731,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "2026 Game Changers Winner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -9975,7 +10757,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "2026-game-changers-winner-title"
   },
   {
    "id": 262,
@@ -9987,6 +10770,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Armchair IGL",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -10012,7 +10797,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "armchair-igl-title"
   },
   {
    "id": 263,
@@ -10024,6 +10810,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "Gajeua",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -10057,7 +10845,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "gajeua-title"
   },
   {
    "id": 264,
@@ -10069,6 +10858,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "ONE // 2022",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -10094,7 +10885,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "one-2022-title"
   },
   {
    "id": 265,
@@ -10106,6 +10898,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": "VALORANT Partner",
    "image": null,
+   "imageLarge": null,
+   "imageWide": null,
    "details": [
     [
      {
@@ -10131,7 +10925,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "valorant-partner-title"
   },
   {
    "id": 266,
@@ -10143,6 +10938,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Not_Today_Spray.gif",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Not_Today_Spray.gif?ad7fc",
+   "imageWide": null,
    "details": [
     [
      {
@@ -10170,7 +10967,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "not-today-spray"
   },
   {
    "id": 267,
@@ -10182,6 +10980,8 @@ window.VAL_DROPS = {
    "groupNote": null,
    "title": null,
    "image": "img/Lightning_Kicks_Buddy.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Lightning_Kicks_Buddy.png?e0879",
+   "imageWide": null,
    "details": [
     [
      {
@@ -10209,7 +11009,8 @@ window.VAL_DROPS = {
     }
    ],
    "firstSeen": null,
-   "alsoFrom": []
+   "alsoFrom": [],
+   "slug": "lightning-kicks-buddy"
   }
  ]
 };

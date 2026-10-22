@@ -45,7 +45,7 @@ function embed(item) {
   if (primary) fields.push({ name: "Source", value: `[${primary.label}](${primary.url})`, inline: true });
   const e = {
     title: clip(item.name, 256),
-    url: `${SITE_URL}?q=${encodeURIComponent(item.name)}`,
+    url: item.slug ? `${SITE_URL}?item=${encodeURIComponent(item.slug)}` : `${SITE_URL}?q=${encodeURIComponent(item.name)}`,
     description: clip(`**${item.type}** · ${item.category}${where && where !== item.category ? `\n${where}` : ""}`, 4096),
     color: COLOR,
     fields,

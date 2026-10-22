@@ -112,31 +112,113 @@
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
   const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS;
 
-  function card(i, { claim = false, context = false } = {}) {
-    const details = i.details.map((row) =>
-      `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
-    ).join("");
-    const also = i.alsoFrom.map((a) => {
-      const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
-      const info = a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
-      return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
-    }).join("");
-    const sources = i.sources.map((s) =>
-      `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
-    ).join("");
+  const detailsHtml = (i) => i.details.map((row) =>
+    `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
+  ).join("");
+  const alsoHtml = (i) => i.alsoFrom.map((a) => {
+    const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
+    const info = a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
+    return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
+  }).join("");
+  const sourcesHtml = (i) => i.sources.map((s) =>
+    `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
+  ).join("");
+  const contextOf = (i) => [i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · ");
+  const badges = (i) => {
     const st = status(i);
     const label = statusLabel(i);
+    return (label ? `<span class="status ${st}">${esc(label)}</span>` : "") +
+      (isRecent(i) ? `<span class="added">New · added ${esc(fmtDay(i.firstSeen))}</span>` : "");
+  };
+
+  function card(i, { claim = false, context = false } = {}) {
+    const details = detailsHtml(i);
+    const also = alsoHtml(i);
+    const st = status(i);
     const how = claim ? howToClaim(i) : "";
-    return `<article class="card${st ? " is-" + st : ""}">${thumb(i)}<div class="body">
-      ${label ? `<span class="status ${st}">${esc(label)}</span>` : ""}
-      ${isRecent(i) ? `<span class="added">New · added ${esc(fmtDay(i.firstSeen))}</span>` : ""}
-      <p class="name">${esc(i.name)}</p><span class="type">${esc(i.type)}</span>
-      ${context ? `<p class="ctx">${esc([i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · "))}</p>` : ""}
+    return `<article class="card${st ? " is-" + st : ""}" data-slug="${esc(i.slug)}">${thumb(i)}<div class="body">
+      ${badges(i)}
+      <button class="name" type="button" aria-haspopup="dialog">${esc(i.name)}</button><span class="type">${esc(i.type)}</span>
+      ${context ? `<p class="ctx">${esc(contextOf(i))}</p>` : ""}
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${details ? `<div class="details">${details}</div>` : ""}
       ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
-      <div class="src">${sources}</div></div></article>`;
+      <div class="src">${sourcesHtml(i)}</div></div></article>`;
   }
+
+  // ---------- item detail dialog (?item=<slug>) ----------
+  const bySlug = new Map(items.map((i) => [i.slug, i]));
+  const dlg = $("#item");
+
+  function itemUrl(slug) {
+    const u = new URL(location.href);
+    if (slug) u.searchParams.set("item", slug); else u.searchParams.delete("item");
+    return u;
+  }
+
+  function bigImage(i) {
+    if (i.type === "Title") return `<div class="d-media"><div class="ptitle big">${esc(i.title || i.name.replace(/ Title$/, ""))}</div></div>`;
+    if (!i.image) return "";
+    // Larger copy comes from the wiki; fall back to the local thumbnail if it fails.
+    const img = `<img class="d-main${i.type === "Player Card" ? " tall" : ""}" src="${esc(i.imageLarge || i.image)}" alt="${esc(i.name)}"
+      onerror="this.onerror=null;this.src='${esc(i.image)}'">`;
+    const wideImg = i.imageWide ? `<img class="d-wide" src="${esc(i.imageWide)}" alt="${esc(i.name)} (wide banner)" onerror="this.remove()">` : "";
+    return `<div class="d-media">${img}${wideImg}</div>`;
+  }
+
+  function openItem(slug, { push = true } = {}) {
+    const i = bySlug.get(slug);
+    if (!i) return;
+    const how = status(i) ? howToClaim(i) : "";
+    const also = alsoHtml(i);
+    $("#item-body").innerHTML = `${bigImage(i)}<div class="d-info">
+      <div class="d-badges">${badges(i)}</div>
+      <h2 id="item-title">${esc(i.name)}</h2>
+      <span class="type">${esc(i.type)}</span>
+      <p class="ctx">${esc(contextOf(i))}</p>
+      ${i.groupNote ? `<p class="note">${esc(i.groupNote)}</p>` : ""}
+      ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
+      ${i.details.length ? `<div class="details">${detailsHtml(i)}</div>` : ""}
+      ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
+      <div class="src"><span class="lbl">Sources:</span> ${sourcesHtml(i)}</div>
+      <div class="d-actions"><button type="button" class="chip" id="copy-link">Copy link</button></div>
+    </div>`;
+    $("#copy-link").onclick = async (e) => {
+      try {
+        await navigator.clipboard.writeText(itemUrl(slug).href);
+        e.target.textContent = "Link copied";
+      } catch {
+        e.target.textContent = "Copy failed";
+      }
+    };
+    if (push) history.pushState({ item: slug }, "", itemUrl(slug));
+    document.title = `${i.name} · VALORANT Out-of-Game Rewards`;
+    if (!dlg.open) dlg.showModal();
+    $("#item-body").scrollTop = 0;
+  }
+
+  const BASE_TITLE = document.title;
+  function closed() {
+    document.title = BASE_TITLE;
+    if (new URLSearchParams(location.search).has("item")) {
+      // Opened from the page: go back so Back doesn't reopen it. Opened from a shared link: just clear it.
+      if (history.state?.item) history.back();
+      else history.replaceState(null, "", itemUrl(null));
+    }
+  }
+  dlg.addEventListener("close", closed);
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); }); // backdrop
+  $("#item-close").onclick = () => dlg.close();
+  window.addEventListener("popstate", () => {
+    const slug = new URLSearchParams(location.search).get("item");
+    if (slug) openItem(slug, { push: false });
+    else if (dlg.open) { dlg.removeEventListener("close", closed); dlg.close(); dlg.addEventListener("close", closed); document.title = BASE_TITLE; }
+  });
+  $("#list").addEventListener("click", (e) => {
+    if (e.target.closest("a, code")) return;
+    const c = e.target.closest(".card");
+    if (c) openItem(c.dataset.slug);
+  });
 
   function nowSection(visible) {
     const endOf = (i) => (i.period && i.period.end >= TODAY ? i.period.end : "9999");
@@ -244,4 +326,5 @@
   const live = items.filter((i) => status(i) === "active").length;
   $("#meta").innerHTML = `${items.length} items · ${live ? `<a href="#now">${live} claimable now</a> · ` : ""}data refreshed ${esc(new Date(generated).toLocaleDateString(undefined, { dateStyle: "medium" }))}`;
   render();
+  if (params.get("item")) openItem(params.get("item"), { push: false });
 })();
