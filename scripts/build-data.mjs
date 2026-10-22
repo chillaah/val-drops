@@ -117,7 +117,8 @@ function clean(s) {
     .replace(/^\s*[*:]\s*/gm, "• ")
     .replace(/\s*\n\s*/g, " ")
     .replace(/\s{2,}/g, " ")
-    .trim();
+    .trim()
+    .replace(/^[/\s]+/, "");
 }
 
 // Split a wikitext table cell into [attrs, content]
@@ -251,7 +252,7 @@ function itemsFromTable(tableSrc, defaults) {
     let name;
     if (titleM) {
       const next = clean(cells[i + 1]?.text);
-      if (next && /title$/i.test(next)) name = next;
+      if (next && / Title$/.test(next)) name = next;
       else { name = `${titleM[1].trim()} Title`; nameIdx = i; }
     } else {
       name = clean(cells[i + 1]?.text);
@@ -323,13 +324,16 @@ async function parsePrimeGaming() {
 async function parsePSPlus() {
   const text = await wikitext("VALORANT X PS+ Bundles");
   const items = [];
-  for (const sec of sections(text, 3)) {
+  // Sections are newest first; the newest bundle is the one currently claimable.
+  sections(text, 3).forEach((sec, idx) => {
+    const start = monthStart(sec.title);
     for (const t of findTables(sec.body)) {
       for (const it of itemsFromTable(t, { category: "PlayStation Plus", group: `PS+ Bundle — ${sec.title}`, wikiPage: "VALORANT X PS+ Bundles" })) {
+        if (idx === 0) it.ongoing = { since: start, note: "Current PS+ bundle. Bundles rotate about every three months." };
         items.push(it);
       }
     }
-  }
+  });
   return items;
 }
 
@@ -379,6 +383,77 @@ async function parseEventPage(page) {
     }
   }
   return items;
+}
+
+// ---------- dates ----------
+// Wiki dates are mostly Pacific time. Periods are stored as YYYY-MM-DD and the
+// site treats them as whole days in PT.
+
+const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+const MON = `(${MONTHS.join("|")})`;
+const DAY = "(\\d{1,2})(?:st|nd|rd|th)?";
+const iso = (y, m, d) => `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+const monthIdx = (s) => MONTHS.indexOf(s.toLowerCase());
+
+function monthStart(s) {
+  const m = s.match(new RegExp(`${MON}\\s+(\\d{4})`, "i"));
+  return m ? iso(+m[2], monthIdx(m[1]), 1) : null;
+}
+
+// Every date range or single date in a string, as [{start, end}] (start may be null).
+function findPeriods(text) {
+  const s = text
+    .replace(/\b\d{1,2}:\d{2}\s*(am|pm)?/gi, "") // times
+    .replace(/\b(PT|PST|PDT|KST|JST|UTC)\b/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/(\s*,)+/g, ",");
+  const out = [];
+  const taken = [];
+  const range = new RegExp(`${MON} ${DAY}(?:,? (\\d{4}))?,? ?(?:-|–|to|&) ?(?:${MON} )?${DAY},? (\\d{4})`, "gi");
+  for (const m of s.matchAll(range)) {
+    const y2 = +m[6], m2 = m[4] ? monthIdx(m[4]) : monthIdx(m[1]);
+    const m1 = monthIdx(m[1]);
+    const y1 = m[3] ? +m[3] : m1 > m2 ? y2 - 1 : y2;
+    out.push({ start: iso(y1, m1, +m[2]), end: iso(y2, m2, +m[5]) });
+    taken.push([m.index, m.index + m[0].length]);
+  }
+  const single = new RegExp(`(till|until|by|before|redeemable)?\\s*${MON} ${DAY},? (\\d{4})`, "gi");
+  for (const m of s.matchAll(single)) {
+    const at = m.index + m[0].length;
+    if (taken.some(([a, b]) => at > a && at <= b)) continue;
+    const d = iso(+m[4], monthIdx(m[2]), +m[3]);
+    out.push({ start: m[1] ? null : d, end: d });
+  }
+  // "Expiry: May 2026" style: whole month.
+  if (!out.length) {
+    const m = s.match(new RegExp(`^${MON} (\\d{4})\\*?$`, "i"));
+    if (m) {
+      const y = +m[2], mo = monthIdx(m[1]);
+      out.push({ start: null, end: iso(y, mo, new Date(Date.UTC(y, mo + 1, 0)).getUTCDate()) });
+    }
+  }
+  return out;
+}
+
+// The claim window for an item: the period with the latest end across its details.
+function itemPeriod(detailRows) {
+  let best = null;
+  let openCode = false;
+  for (const row of detailRows) {
+    for (const d of row) {
+      const label = d.label || "";
+      if (!/date|expir|acqui|objective/i.test(label)) continue;
+      if (/expir/i.test(label) && /unknown/i.test(d.value)) openCode = true;
+      // Some tables put the year only in the column header, e.g. "Challenge Dates (2026, PT)".
+      const headerYear = (label.match(/\b(20\d\d)\b/) || [])[1];
+      const value = headerYear && !/\b(19|20)\d\d\b/.test(d.value) ? `${d.value}, ${headerYear}` : d.value;
+      for (const p of findPeriods(value)) {
+        if (/expir/i.test(label)) p.start = null; // an expiry date only bounds the end
+        if (!best || p.end > best.end) best = p;
+      }
+    }
+  }
+  return { period: best, openCode };
 }
 
 // ---------- merge, images, sources ----------
@@ -516,6 +591,15 @@ async function main() {
       title: it.title,
       image,
       details: it.detailRows.filter((r) => r.length),
+      ...(() => {
+        const { period, openCode } = itemPeriod(it.detailRows);
+        return {
+          period,
+          ongoing: it.ongoing || null,
+          // A public code whose expiry the wiki lists as unknown may still work.
+          maybeActive: it.category === "Code Redemption" && openCode,
+        };
+      })(),
       sources,
     });
     if (n % 50 === 0) process.stdout.write(`  ${n} items\r`);
