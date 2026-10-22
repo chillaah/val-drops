@@ -76,6 +76,11 @@ a { color: inherit; }
 .ctx { margin: 0; font-size: 12px; color: var(--muted); }
 .month { margin-top: 28px; }
 .month > h2 { font-size: 18px; }
+.also { font-size: 13px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 6px; }
+.also-h { margin: 0 0 2px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.also > div + div { margin-top: 6px; }
+.also .where { color: var(--text); font-weight: 500; }
+.also b { color: var(--text); font-weight: 500; }
 .empty { padding: 60px 0; text-align: center; color: var(--muted); }
 .foot { margin-top: 60px; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 .foot h2 { color: var(--text); font-size: 16px; }

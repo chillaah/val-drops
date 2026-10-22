@@ -23,17 +23,20 @@
   const haystack = new Map(items.map((i) => [i, [
     i.name, i.type, i.category, i.group, i.subgroup,
     ...i.details.flat().map((d) => d.value),
+    ...i.alsoFrom.flatMap((a) => [a.category, a.group, a.subgroup, ...a.details.flat().map((d) => d.value)]),
   ].join(" ").toLowerCase()]));
 
+  const categoriesOf = (i) => [i.category, ...i.alsoFrom.map((a) => a.category)];
+
   function matches(i, ignore) {
-    if (ignore !== "cat" && state.cat && i.category !== state.cat) return false;
+    if (ignore !== "cat" && state.cat && !categoriesOf(i).includes(state.cat)) return false;
     if (ignore !== "type" && state.type && i.type !== state.type) return false;
     if (state.q && !state.q.split(/\s+/).every((w) => haystack.get(i).includes(w))) return false;
     return true;
   }
 
   function chips(el, values, key) {
-    const counts = (v) => items.filter((i) => matches(i, key) && (v === null || (key === "cat" ? i.category : i.type) === v)).length;
+    const counts = (v) => items.filter((i) => matches(i, key) && (v === null || (key === "cat" ? categoriesOf(i).includes(v) : i.type === v))).length;
     el.innerHTML = [[null, "All"], ...values.map((v) => [v, v])].map(([v, label]) =>
       `<button class="chip" data-v="${esc(v ?? "")}" aria-pressed="${state[key] === v}">${esc(label)}<small>${counts(v)}</small></button>`
     ).join("");
@@ -72,7 +75,7 @@
 
   function statusLabel(i) {
     const st = status(i);
-    if (st === "active" && i.period) {
+    if (st === "active" && i.period && i.period.end >= TODAY && (!i.period.start || i.period.start <= TODAY)) {
       const n = daysFrom(i.period.end);
       return n === 0 ? "Ends today" : n === 1 ? "Ends tomorrow" : `Ends in ${n} days · ${fmtDay(i.period.end)}`;
     }
@@ -113,6 +116,11 @@
     const details = i.details.map((row) =>
       `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
     ).join("");
+    const also = i.alsoFrom.map((a) => {
+      const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
+      const info = a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
+      return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
+    }).join("");
     const sources = i.sources.map((s) =>
       `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
     ).join("");
@@ -126,12 +134,13 @@
       ${context ? `<p class="ctx">${esc([i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · "))}</p>` : ""}
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${details ? `<div class="details">${details}</div>` : ""}
+      ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
       <div class="src">${sources}</div></div></article>`;
   }
 
   function nowSection(visible) {
-    const active = visible.filter((i) => status(i) === "active")
-      .sort((a, b) => (a.period?.end || "9999").localeCompare(b.period?.end || "9999"));
+    const endOf = (i) => (i.period && i.period.end >= TODAY ? i.period.end : "9999");
+    const active = visible.filter((i) => status(i) === "active").sort((a, b) => endOf(a).localeCompare(endOf(b)));
     const upcoming = visible.filter((i) => status(i) === "upcoming")
       .sort((a, b) => a.period.start.localeCompare(b.period.start));
     const maybe = visible.filter((i) => status(i) === "maybe");
@@ -200,8 +209,14 @@
       $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
       return;
     }
+    // With a source filter on, show items under the way that matches it.
+    const placed = visible.map((i) => {
+      if (!state.cat || i.category === state.cat) return i;
+      const a = i.alsoFrom.find((x) => x.category === state.cat);
+      return { ...i, category: a.category, group: a.group, subgroup: a.subgroup, groupNote: null };
+    });
     for (const [cat, blurb] of CATEGORIES) {
-      const inCat = visible.filter((i) => i.category === cat);
+      const inCat = placed.filter((i) => i.category === cat);
       if (!inCat.length) continue;
       html += `<section class="cat"><h2>${esc(cat)}</h2><p>${esc(blurb)}</p>`;
       const groups = [...new Set(inCat.map((i) => i.group))];

@@ -521,6 +521,47 @@ async function download(url, dest) {
   return true;
 }
 
+// Compare names ignoring case, spacing and punctuation, but keep letters in any
+// script so e.g. "Ñ Title" and "^>.<^ Title" stay distinct.
+const normName = (s) => s.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+
+// One entry per item: an item listed under several sources (e.g. a broadcast
+// drop that was also a Coinbase reward) becomes one item whose most recent
+// source is primary and the rest are listed in alsoFrom.
+function mergeDuplicates(items) {
+  // Ongoing offers count as the most recent way to get an item.
+  const date = (i) => (i.ongoing ? "9999" : i.period?.start || i.period?.end || "");
+  const groups = new Map();
+  for (const i of items) {
+    const k = i.type + "§" + normName(i.name);
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(i);
+  }
+  const out = [];
+  for (const ways of groups.values()) {
+    if (ways.length === 1) { out.push({ ...ways[0], alsoFrom: [] }); continue; }
+    // Stable sort keeps wiki order for undated ways.
+    const sorted = [...ways].sort((a, b) => date(b).localeCompare(date(a)));
+    const [primary, ...rest] = sorted;
+    const periods = ways.map((w) => w.period).filter(Boolean);
+    const seen = new Set();
+    out.push({
+      ...primary,
+      image: primary.image || rest.find((w) => w.image)?.image || null,
+      period: periods.sort((a, b) => b.end.localeCompare(a.end))[0] || null,
+      ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
+      maybeActive: ways.some((w) => w.maybeActive),
+      sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
+      // Known before (null) if any way was; otherwise the earliest date.
+      firstSeen: ways.some((w) => w.firstSeen == null) ? null : ways.map((w) => w.firstSeen).sort()[0],
+      alsoFrom: rest.map((w) => ({
+        category: w.category, group: w.group, subgroup: w.subgroup, details: w.details, period: w.period,
+      })),
+    });
+  }
+  return out.map((i, n) => ({ ...i, id: n + 1 }));
+}
+
 // When each item first appeared on the site, carried forward from the previous
 // data/items.js. Items from the very first build have no known date (null).
 async function loadFirstSeen() {
@@ -534,7 +575,7 @@ async function loadFirstSeen() {
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
   const keyOf = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
   // Fallback match on type + name so a renamed wiki section doesn't make old items look new.
-  const nameOf = (i) => i.type + "§" + i.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const nameOf = (i) => i.type + "§" + normName(i.name);
   const byKey = new Map(prev.map((i) => [keyOf(i), i.firstSeen ?? null]));
   const byName = new Map();
   for (const i of prev) if (!byName.has(nameOf(i)) || i.firstSeen == null) byName.set(nameOf(i), i.firstSeen ?? null);
@@ -556,12 +597,11 @@ async function main() {
 
   // Type pages fill gaps; an item already listed by a dedicated page in the same
   // category just contributes its extra citations.
-  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const byName = new Map(raw.map((it) => [it.category + "§" + norm(it.name), it]));
+  const byName = new Map(raw.map((it) => [it.category + "§" + normName(it.name), it]));
   const typeItems = (await Promise.all(TYPE_PAGES.map(parseTypePage))).flat();
   for (const it of typeItems) {
     if (!it.name) continue;
-    const dup = byName.get(it.category + "§" + norm(it.name));
+    const dup = byName.get(it.category + "§" + normName(it.name));
     if (dup) { dup.refs.push(...it.refs); continue; }
     if (it.category === "Broadcast Drops") it.group = "Other broadcast drops";
     if (it.category === "Prime Gaming") it.group = "Prime Gaming Drops (2020–2024)";
@@ -634,11 +674,11 @@ async function main() {
   const out = {
     generated: new Date().toISOString(),
     primarySource: { label: "VALORANT Wiki", url: WIKI },
-    items,
+    items: mergeDuplicates(items),
   };
   await writeFile(path.join(ROOT, "data/items.js"), "window.VAL_DROPS = " + JSON.stringify(out, null, 1) + ";\n");
-  const counts = items.reduce((a, i) => ((a[i.category] = (a[i.category] || 0) + 1), a), {});
-  console.log(`Wrote ${items.length} items`, counts);
+  const counts = out.items.reduce((a, i) => ((a[i.category] = (a[i.category] || 0) + 1), a), {});
+  console.log(`Wrote ${out.items.length} items (${items.length - out.items.length} duplicates merged)`, counts);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-22T20:03:07.253Z",
+ "generated": "2026-10-22T20:05:54.115Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -42,7 +42,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 2,
@@ -81,7 +82,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 3,
@@ -120,7 +122,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 4,
@@ -164,7 +167,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 5,
@@ -208,7 +212,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 6,
@@ -250,9 +255,31 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Shotcall (Twitch extension)",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "Participate in Shotcall during 2026 VALORANT Champions Shanghai"
+       }
+      ]
+     ],
+     "period": null
+    }
+   ]
   },
   {
    "id": 7,
@@ -296,7 +323,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 8,
@@ -340,7 +368,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 9,
@@ -374,7 +403,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 10,
@@ -406,9 +436,39 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
+     "label": "X @RiotGamesJapan",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Watch parties, co-streams & live events",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-07-17",
+      "end": "2026-07-17"
+     }
+    }
+   ]
   },
   {
    "id": 11,
@@ -440,9 +500,48 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://www.coinbase.com/en/campaigns/valorant25",
+     "label": "Coinbase",
+     "official": false
+    },
+    {
+     "url": "https://www.riotgames.com/en/news/lol-valorant-esports-coinbase-partnership",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Buddies",
+     "label": "VALORANT Wiki: Buddies",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Brand partnerships",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Given to first 3,000 entrants for Coinbase x VCT campaign for 2025 VALORANT Champions Paris • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 24th 2026"
+       },
+       {
+        "label": "Inventory",
+        "value": "x1"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-07-24",
+      "end": "2026-07-24"
+     }
+    }
+   ]
   },
   {
    "id": 12,
@@ -481,7 +580,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 13,
@@ -520,7 +620,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 14,
@@ -559,7 +660,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 15,
@@ -596,9 +698,34 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Other promotions & rewards",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Drops for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-04-28",
+      "end": "2026-04-29"
+     }
+    }
+   ]
   },
   {
    "id": 16,
@@ -637,7 +764,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 17,
@@ -676,7 +804,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 18,
@@ -715,7 +844,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 19,
@@ -759,7 +889,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 20,
@@ -803,7 +934,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 21,
@@ -847,7 +979,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 22,
@@ -891,7 +1024,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 23,
@@ -935,7 +1069,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 24,
@@ -974,7 +1109,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 25,
@@ -1013,7 +1149,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 26,
@@ -1057,7 +1194,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 27,
@@ -1101,7 +1239,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 28,
@@ -1145,7 +1284,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 29,
@@ -1187,9 +1327,39 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
+     "label": "Riot Support",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
+     "label": "VALORANT Wiki: Prime Gaming Drops",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Prime Gaming",
+     "group": "Prime Gaming Drops (2020–2024)",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Date",
+        "value": "September 2021"
+       }
+      ]
+     ],
+     "period": {
+      "start": null,
+      "end": "2021-09-30"
+     }
+    }
+   ]
   },
   {
    "id": 30,
@@ -1233,7 +1403,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 31,
@@ -1275,9 +1446,36 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
+     "label": "Riot Support",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Shotcall (Twitch extension)",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "Finish at top 3% in a map from Shotcall during an ongoing Twitch stream in 2025 VCT Champions Paris."
+       }
+      ]
+     ],
+     "period": null
+    }
+   ]
   },
   {
    "id": 32,
@@ -1316,7 +1514,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 33,
@@ -1355,7 +1554,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 34,
@@ -1394,7 +1594,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 35,
@@ -1433,7 +1634,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 36,
@@ -1470,9 +1672,50 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Broadcast Drops",
      "official": false,
      "wiki": true
+    },
+    {
+     "url": "https://x.com/redbullgaming/status/1720259674103324789",
+     "label": "X @redbullgaming",
+     "official": false
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Broadcast Drops",
+     "group": "Red Bull Home Ground #4",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Eligible Dates",
+        "value": "November 2-5, 2023"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2023-11-02",
+      "end": "2023-11-05"
+     }
+    },
+    {
+     "category": "Broadcast Drops",
+     "group": "Red Bull Campus Clutch 2022 - World Final Stage",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Eligible Dates",
+        "value": "December 11 & 16, 2022"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2022-12-11",
+      "end": "2022-12-16"
+     }
+    }
+   ]
   },
   {
    "id": 37,
@@ -1511,7 +1754,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 38,
@@ -1550,7 +1794,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 39,
@@ -1589,7 +1834,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 40,
@@ -1628,7 +1874,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 41,
@@ -1667,7 +1914,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 42,
@@ -1706,7 +1954,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 43,
@@ -1745,7 +1994,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 44,
@@ -1784,7 +2034,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 45,
@@ -1823,7 +2074,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 46,
@@ -1862,7 +2114,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 47,
@@ -1901,7 +2154,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 48,
@@ -1940,7 +2194,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 49,
@@ -1979,7 +2234,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 50,
@@ -2018,7 +2274,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 51,
@@ -2057,7 +2314,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 52,
@@ -2096,7 +2354,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 53,
@@ -2135,7 +2394,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 54,
@@ -2174,7 +2434,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 55,
@@ -2213,7 +2474,8 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 56,
@@ -2252,49 +2514,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
    "id": 57,
-   "name": "Clutch Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Red Bull Home Ground #4",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Clutch_Spray.png",
-   "details": [
-    [
-     {
-      "label": "Eligible Dates",
-      "value": "November 2-5, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-11-02",
-    "end": "2023-11-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://x.com/redbullgaming/status/1720259674103324789",
-     "label": "X @redbullgaming",
-     "official": false
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 58,
    "name": "Lowrider Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2330,10 +2554,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 59,
+   "id": 58,
    "name": "Gekko Diff Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -2369,10 +2594,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 60,
+   "id": 59,
    "name": "Champions 2023 Lowrider Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -2408,10 +2634,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 61,
+   "id": 60,
    "name": "Unpredictable Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2447,10 +2674,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 62,
+   "id": 61,
    "name": "Rank Up! // Masters Tokyo 2023 Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -2486,10 +2714,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 63,
+   "id": 62,
    "name": "Locked In Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2525,10 +2754,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 64,
+   "id": 63,
    "name": "VCT LOCK//IN Dad Hat Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -2564,10 +2794,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 65,
+   "id": 64,
    "name": "Clutch Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2598,44 +2829,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 66,
-   "name": "Clutch Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Red Bull Campus Clutch 2022 - World Final Stage",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Clutch_Spray.png",
-   "details": [
-    [
-     {
-      "label": "Eligible Dates",
-      "value": "December 11 & 16, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-12-11",
-    "end": "2022-12-16"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 67,
+   "id": 65,
    "name": "Game Changer Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2671,10 +2869,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 68,
+   "id": 66,
    "name": "2022 Game Changers Championship Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -2710,10 +2909,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 69,
+   "id": 67,
    "name": "Shreddy Teddy Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -2744,10 +2944,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 70,
+   "id": 68,
    "name": "Fire Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -2783,10 +2984,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 71,
+   "id": 69,
    "name": "Champions 2022 Curse Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -2822,10 +3024,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 72,
+   "id": 70,
    "name": "Champions 2022 Hero Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -2861,10 +3064,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 73,
+   "id": 71,
    "name": "VCT 2021 Spark Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -2900,10 +3104,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 74,
+   "id": 72,
    "name": "VCT 2021 Spark Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -2939,10 +3144,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 75,
+   "id": 73,
    "name": "Fishbones Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -2978,10 +3184,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 76,
+   "id": 74,
    "name": "High Top Heat Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -3012,10 +3219,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 77,
+   "id": 75,
    "name": "Showdown Watch Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -3046,10 +3254,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 78,
+   "id": 76,
    "name": "Beta Watch Card",
    "type": "Player Card",
    "category": "Broadcast Drops",
@@ -3080,10 +3289,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 79,
+   "id": 77,
    "name": "Netter Treter Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3114,10 +3324,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 80,
+   "id": 78,
    "name": "Pay Respects Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3148,10 +3359,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 81,
+   "id": 79,
    "name": "Clip It Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3182,10 +3394,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 82,
+   "id": 80,
    "name": "Zoomer Pop Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3216,10 +3429,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 83,
+   "id": 81,
    "name": "Lovebyte Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3250,10 +3464,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 84,
+   "id": 82,
    "name": "Hot Take Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3284,10 +3499,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 85,
+   "id": 83,
    "name": "200 IQ Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3318,10 +3534,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 86,
+   "id": 84,
    "name": "Pity Party Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3352,10 +3569,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 87,
+   "id": 85,
    "name": "Nice Smile Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3386,10 +3604,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 88,
+   "id": 86,
    "name": "EP 2 // FORMATION Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -3420,10 +3639,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 89,
+   "id": 87,
    "name": "Can't Teach That Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3454,10 +3674,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 90,
+   "id": 88,
    "name": "Tower of Power Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3488,49 +3709,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 91,
-   "name": "Just Business Spray",
-   "type": "Spray",
-   "category": "Prime Gaming",
-   "group": "Prime Gaming Drops (2020–2024)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Just_Business_Spray.png",
-   "details": [
-    [
-     {
-      "label": "Date",
-      "value": "September 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": null,
-    "end": "2021-09-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
-     "label": "Riot Support",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
-     "label": "VALORANT Wiki: Prime Gaming Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 92,
+   "id": 89,
    "name": "Flames in my Veins Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3561,10 +3744,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 93,
+   "id": 90,
    "name": "Outta This World Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3595,10 +3779,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 94,
+   "id": 91,
    "name": "Arcane Jinx Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -3629,10 +3814,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 95,
+   "id": 92,
    "name": "Bruno Coin Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3663,10 +3849,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 96,
+   "id": 93,
    "name": "Wayfinder Shorty",
    "type": "Gun Skin",
    "category": "Prime Gaming",
@@ -3697,10 +3884,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 97,
+   "id": 94,
    "name": "Dance of Luck Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3731,10 +3919,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 98,
+   "id": 95,
    "name": "Wayfinder Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -3765,10 +3954,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 99,
+   "id": 96,
    "name": "Googly Moogly Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3799,10 +3989,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 100,
+   "id": 97,
    "name": "Prime Time Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3833,10 +4024,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 101,
+   "id": 98,
    "name": "On The Case Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -3867,10 +4059,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 102,
+   "id": 99,
    "name": "Eco or Ego Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3901,10 +4094,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 103,
+   "id": 100,
    "name": "Up in Arms Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -3935,10 +4129,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 104,
+   "id": 101,
    "name": "Runnin' on Empty Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3969,10 +4164,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 105,
+   "id": 102,
    "name": "Ready to Roll Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -4003,10 +4199,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 106,
+   "id": 103,
    "name": "Sic' Em Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4037,10 +4234,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 107,
+   "id": 104,
    "name": "Slay Ride Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -4077,10 +4275,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 108,
+   "id": 105,
    "name": "Doomscrolling Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4111,10 +4310,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 109,
+   "id": 106,
    "name": "Dimensional Drip Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -4145,10 +4345,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 110,
+   "id": 107,
    "name": "Caught One Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -4179,10 +4380,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 111,
+   "id": 108,
    "name": "Claw and Order",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4213,10 +4415,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 112,
+   "id": 109,
    "name": "Daruma Charm Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -4247,10 +4450,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 113,
+   "id": 110,
    "name": "Predicament Pals Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4281,10 +4485,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 114,
+   "id": 111,
    "name": "Knight's Market Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -4315,10 +4520,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 115,
+   "id": 112,
    "name": "Rope Burn Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -4349,10 +4555,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 116,
+   "id": 113,
    "name": "Scare Tactics Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -4383,10 +4590,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 117,
+   "id": 114,
    "name": "Sip n' Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4417,10 +4625,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 118,
+   "id": 115,
    "name": "All Yuck, No Yum Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4451,10 +4660,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 119,
+   "id": 116,
    "name": "Party's Here Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4485,10 +4695,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 120,
+   "id": 117,
    "name": "Light 'Em Up Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -4519,10 +4730,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 121,
+   "id": 118,
    "name": "Origin Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -4546,10 +4758,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 122,
+   "id": 119,
    "name": "Glitchpop Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -4573,10 +4786,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 123,
+   "id": 120,
    "name": "BlastX Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4600,10 +4814,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 124,
+   "id": 121,
    "name": "Celestial Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4627,10 +4842,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 125,
+   "id": 122,
    "name": "Reaver, EP 5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -4651,10 +4867,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 126,
+   "id": 123,
    "name": "Crimsonbeast Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -4675,10 +4892,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 127,
+   "id": 124,
    "name": "Team Ace // Raze Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4699,10 +4917,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 128,
+   "id": 125,
    "name": "Prime//2.0 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4723,10 +4942,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 129,
+   "id": 126,
    "name": "Ion, Ep5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -4747,10 +4967,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 130,
+   "id": 127,
    "name": "Frontier Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -4771,10 +4992,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 131,
+   "id": 128,
    "name": "Gaia's Vengeance Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4795,10 +5017,19 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "PlayStation Plus",
+     "group": "PS+ Bundle — Year End",
+     "subgroup": null,
+     "details": [],
+     "period": null
+    }
+   ]
   },
   {
-   "id": 132,
+   "id": 129,
    "name": "Forsaken Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4819,10 +5050,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 133,
+   "id": 130,
    "name": "Altitude Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -4843,10 +5075,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 134,
+   "id": 131,
    "name": "Valiant Hero Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -4867,10 +5100,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 135,
+   "id": 132,
    "name": "RGX 11z Pro, Ep 4 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4891,10 +5125,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 136,
+   "id": 133,
    "name": "Soulstrife Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4915,10 +5150,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 137,
+   "id": 134,
    "name": "Araxys Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -4939,10 +5175,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 138,
+   "id": 135,
    "name": "Tigris Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -4963,10 +5200,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 139,
+   "id": 136,
    "name": "Magepunk Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -4987,10 +5225,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 140,
+   "id": 137,
    "name": "Oni Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5011,10 +5250,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 141,
+   "id": 138,
    "name": "Prelude to Chaos Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5035,10 +5275,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 142,
+   "id": 139,
    "name": "Kohaku & Matsuba Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5059,10 +5300,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 143,
+   "id": 140,
    "name": "Imperium Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5083,10 +5325,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 144,
+   "id": 141,
    "name": "ChronoVoid Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5107,10 +5350,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 145,
+   "id": 142,
    "name": "Snowfall Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5131,10 +5375,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 146,
+   "id": 143,
    "name": "Celestial Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5155,10 +5400,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 147,
+   "id": 144,
    "name": "Sentinels of Light Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5179,10 +5425,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 148,
+   "id": 145,
    "name": "Sovereign Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5203,10 +5450,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 149,
+   "id": 146,
    "name": "ChronoVoid Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5227,10 +5475,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 150,
+   "id": 147,
    "name": "Magepunk Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5251,34 +5500,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 151,
-   "name": "Gaia's Vengeance Spray",
-   "type": "Spray",
-   "category": "PlayStation Plus",
-   "group": "PS+ Bundle — Year End",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Gaia_s_Vengeance_Spray.png",
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
-     "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 152,
+   "id": 148,
    "name": "Ion Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5299,10 +5525,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 153,
+   "id": 149,
    "name": "Team Ace Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5323,10 +5550,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 154,
+   "id": 150,
    "name": "NO LIMITS Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5347,10 +5575,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 155,
+   "id": 151,
    "name": "Ego Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5371,10 +5600,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 156,
+   "id": 152,
    "name": "Origin Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5395,10 +5625,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 157,
+   "id": 153,
    "name": "V26 Conflict Hermanita Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5450,10 +5681,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 158,
+   "id": 154,
    "name": "V26 Conflict Face the Flames Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5505,10 +5737,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 159,
+   "id": 155,
    "name": "V26 Conflict Blood & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5560,10 +5793,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 160,
+   "id": 156,
    "name": "V26 Conflict The Fall Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5615,10 +5849,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 161,
+   "id": 157,
    "name": "Frag or Die: Alpha Sage Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5651,10 +5886,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 162,
+   "id": 158,
    "name": "Frag or Die: Omega Viper Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5687,10 +5923,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 163,
+   "id": 159,
    "name": "Jade & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -5723,10 +5960,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 164,
+   "id": 160,
    "name": "Broken Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -5763,10 +6001,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 165,
+   "id": 161,
    "name": "Official Seal Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -5803,10 +6042,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 166,
+   "id": 162,
    "name": "Claw and Order Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -5827,10 +6067,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 167,
+   "id": 163,
    "name": "Drop It Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -5870,10 +6111,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 168,
+   "id": 164,
    "name": "All Love Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -5905,10 +6147,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 169,
+   "id": 165,
    "name": "¡Eureka! Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -5929,10 +6172,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 170,
+   "id": 166,
    "name": "Crystal Ball Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -5953,10 +6197,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 171,
+   "id": 167,
    "name": "A Piece of Rice Cake Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -5992,10 +6237,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 172,
+   "id": 168,
    "name": "Cake or Spike? Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6036,10 +6282,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 173,
+   "id": 169,
    "name": "Cypher Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6072,10 +6319,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 174,
+   "id": 170,
    "name": "Jett Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6108,10 +6356,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 175,
+   "id": 171,
    "name": "Killjoy Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6144,10 +6393,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 176,
+   "id": 172,
    "name": "Loose Cannon Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6175,10 +6425,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 177,
+   "id": 173,
    "name": "More Creds Pls Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6214,10 +6465,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 178,
+   "id": 174,
    "name": "Round Start Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6245,10 +6497,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 179,
+   "id": 175,
    "name": "Sage Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6281,10 +6534,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 180,
+   "id": 176,
    "name": "VCT Americas Aura Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -6317,10 +6571,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 181,
+   "id": 177,
    "name": "Sweet Calls Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -6365,10 +6620,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 182,
+   "id": 178,
    "name": "Flyby Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -6403,10 +6659,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 183,
+   "id": 179,
    "name": "Bear Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -6441,10 +6698,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 184,
+   "id": 180,
    "name": "Seal of Approval Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -6484,10 +6742,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 185,
+   "id": 181,
    "name": "tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6515,10 +6774,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 186,
+   "id": 182,
    "name": "Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6546,10 +6806,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 187,
+   "id": 183,
    "name": "REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6577,10 +6838,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 188,
+   "id": 184,
    "name": "¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6608,10 +6870,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 189,
+   "id": 185,
    "name": "Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6639,10 +6902,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 190,
+   "id": 186,
    "name": "G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6670,10 +6934,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 191,
+   "id": 187,
    "name": "Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6701,10 +6966,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 192,
+   "id": 188,
    "name": "Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6732,10 +6998,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 193,
+   "id": 189,
    "name": "Pick'Ems Master: tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6763,10 +7030,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 194,
+   "id": 190,
    "name": "Pick'Ems Master: Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6794,10 +7062,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 195,
+   "id": 191,
    "name": "Pick'Ems Master: REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6825,10 +7094,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 196,
+   "id": 192,
    "name": "Pick'Ems Master: ¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6856,10 +7126,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 197,
+   "id": 193,
    "name": "Pick'Ems Master: Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6887,10 +7158,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 198,
+   "id": 194,
    "name": "Pick'Ems Master: G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6918,10 +7190,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 199,
+   "id": 195,
    "name": "Pick 'Em Master Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6949,10 +7222,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 200,
+   "id": 196,
    "name": "Pick 'Em Master Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -6980,10 +7254,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 201,
+   "id": 197,
    "name": "Game Changers Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -7055,10 +7330,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 202,
+   "id": 198,
    "name": "VCT Champions Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -7120,10 +7396,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 203,
+   "id": 199,
    "name": "VCT LOCK//IN Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -7151,10 +7428,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 204,
+   "id": 200,
    "name": "VCT Masters Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -7342,10 +7620,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 205,
+   "id": 201,
    "name": "Arcane Poro Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7377,10 +7656,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 206,
+   "id": 202,
    "name": "Cloudburst Soles Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7425,10 +7705,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 207,
+   "id": 203,
    "name": "Downtime Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7465,10 +7746,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 208,
+   "id": 204,
    "name": "Fist Bump Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7519,10 +7801,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 209,
+   "id": 205,
    "name": "FRGMT x WNGMN+ Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7554,10 +7837,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 210,
+   "id": 206,
    "name": "Golden Smite Knife Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7622,10 +7906,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 211,
+   "id": 207,
    "name": "Hang Time Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7662,10 +7947,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 212,
+   "id": 208,
    "name": "\"I Create\" Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7702,10 +7988,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 213,
+   "id": 209,
    "name": "Keep it Safer Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7737,10 +8024,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 214,
+   "id": 210,
    "name": "Pocket Sage Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7772,10 +8060,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 215,
+   "id": 211,
    "name": "Riptide Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -7807,64 +8096,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 216,
-   "name": "Slime Mosh Buddy",
-   "type": "Gun Buddy",
-   "category": "Events & Partnerships",
-   "group": "Brand partnerships",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Slime_Mosh_Buddy.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Given to first 3,000 entrants for Coinbase x VCT campaign for 2025 VALORANT Champions Paris • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 24th 2026"
-     },
-     {
-      "label": "Inventory",
-      "value": "x1"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-07-24",
-    "end": "2026-07-24"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://www.coinbase.com/en/campaigns/valorant25",
-     "label": "Coinbase",
-     "official": false
-    },
-    {
-     "url": "https://www.riotgames.com/en/news/lol-valorant-esports-coinbase-partnership",
-     "label": "Riot Games",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 217,
+   "id": 212,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7899,10 +8135,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 218,
+   "id": 213,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7942,10 +8179,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 219,
+   "id": 214,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7980,10 +8218,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 220,
+   "id": 215,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8022,10 +8261,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 221,
+   "id": 216,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8064,10 +8304,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 222,
+   "id": 217,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8106,10 +8347,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 223,
+   "id": 218,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8148,10 +8390,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 224,
+   "id": 219,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8190,10 +8433,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 225,
+   "id": 220,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8232,10 +8476,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 226,
+   "id": 221,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -8274,14 +8519,15 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 227,
+   "id": 222,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
-   "group": "Watch parties, co-streams & live events",
+   "group": "ExpressVPN × VCT Americas / EMEA",
    "subgroup": null,
    "groupNote": null,
    "title": null,
@@ -8290,7 +8536,7 @@ window.VAL_DROPS = {
     [
      {
       "label": "Acquisition",
-      "value": "Redeem a private code by attending the Watch Party of 2024 VCT Champions Seoul. Code redeemable till September 1, 2024."
+      "value": "Buy a 12- or 24-month ExpressVPN plan through the VCT partner offer."
      }
     ]
    ],
@@ -8298,7 +8544,10 @@ window.VAL_DROPS = {
     "start": null,
     "end": "2024-09-01"
    },
-   "ongoing": null,
+   "ongoing": {
+    "since": null,
+    "note": "Ongoing ExpressVPN partner offer. No end date announced."
+   },
    "maybeActive": false,
    "sources": [
     {
@@ -8316,119 +8565,41 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Player Cards",
      "official": false,
      "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 228,
-   "name": "Frag or Die: Trophy Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Shotcall (Twitch extension)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Frag_or_Die_Trophy_Card_Large.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "Participate in Shotcall during 2026 VALORANT Champions Shanghai"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 229,
-   "name": "My Table, My Rules Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Shotcall (Twitch extension)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/My_Table_My_Rules_Card_Large.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "Finish at top 3% in a map from Shotcall during an ongoing Twitch stream in 2025 VCT Champions Paris."
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
-     "label": "Riot Support",
-     "official": true
     },
     {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 230,
-   "name": "Sakura // Tokyo Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Other promotions & rewards",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Sakura_Tokyo_Card_Large.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Drops for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-04-28",
-    "end": "2026-04-29"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
+     "url": "https://www.expressvpn.com/top/plus-partner/vct-us",
+     "label": "ExpressVPN",
+     "official": false
     },
     {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
+     "url": "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships",
+     "label": "tomsguide.com",
+     "official": false
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Watch parties, co-streams & live events",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "Redeem a private code by attending the Watch Party of 2024 VCT Champions Seoul. Code redeemable till September 1, 2024."
+       }
+      ]
+     ],
+     "period": {
+      "start": null,
+      "end": "2024-09-01"
+     }
+    }
+   ]
   },
   {
-   "id": 231,
+   "id": 223,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8464,10 +8635,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 232,
+   "id": 224,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8500,55 +8672,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 233,
-   "name": "Versus // Yoru + Phoenix Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Watch parties, co-streams & live events",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Versus_Yoru_Phoenix_Card_Large.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-07-17",
-    "end": "2026-07-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
-     "label": "X @RiotGamesJapan",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 234,
+   "id": 225,
    "name": "Holding Space Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8580,10 +8708,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 235,
+   "id": 226,
    "name": "Ate Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8618,10 +8747,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 236,
+   "id": 227,
    "name": "Better Together Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8656,10 +8786,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 237,
+   "id": 228,
    "name": "Ally Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8694,10 +8825,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 238,
+   "id": 229,
    "name": "Proud Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8732,10 +8864,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 239,
+   "id": 230,
    "name": "Pioneer Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8770,10 +8903,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 240,
+   "id": 231,
    "name": "Gênio Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8794,10 +8928,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 241,
+   "id": 232,
    "name": "Calculated Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8818,10 +8953,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 242,
+   "id": 233,
    "name": "Bossman Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8842,10 +8978,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 243,
+   "id": 234,
    "name": "Cachando Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8866,10 +9003,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 244,
+   "id": 235,
    "name": "Aura Farming Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8890,10 +9028,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 245,
+   "id": 236,
    "name": "Eh? Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8914,10 +9053,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 246,
+   "id": 237,
    "name": "100% Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8938,10 +9078,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 247,
+   "id": 238,
    "name": "VCT Game Changer Title",
    "type": "Title",
    "category": "Pro Play",
@@ -8973,10 +9114,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 248,
+   "id": 239,
    "name": "2021 VCT Regional Masters Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9090,10 +9232,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 249,
+   "id": 240,
    "name": "VCT Masters Reykjavik Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9131,10 +9274,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 250,
+   "id": 241,
    "name": "VCT Masters Berlin Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9166,10 +9310,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 251,
+   "id": 242,
    "name": "2021 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9201,10 +9346,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 252,
+   "id": 243,
    "name": "VCT Masters Copenhagen Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9232,10 +9378,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 253,
+   "id": 244,
    "name": "2022 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9263,10 +9410,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 254,
+   "id": 245,
    "name": "2022 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9298,10 +9446,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 255,
+   "id": 246,
    "name": "VCT LOCK//IN Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9329,10 +9478,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 256,
+   "id": 247,
    "name": "VCT Masters Tokyo Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9360,10 +9510,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 257,
+   "id": 248,
    "name": "2023 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9391,10 +9542,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 258,
+   "id": 249,
    "name": "2023 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9426,10 +9578,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 259,
+   "id": 250,
    "name": "VCT Masters Madrid Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9457,10 +9610,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 260,
+   "id": 251,
    "name": "VCT Masters Shanghai Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9488,10 +9642,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 261,
+   "id": 252,
    "name": "2024 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9519,10 +9674,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 262,
+   "id": 253,
    "name": "2024 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9554,10 +9710,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 263,
+   "id": 254,
    "name": "VCT Masters Bangkok Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9585,10 +9742,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 264,
+   "id": 255,
    "name": "VCT Masters Toronto Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9616,10 +9774,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 265,
+   "id": 256,
    "name": "2025 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9647,10 +9806,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 266,
+   "id": 257,
    "name": "2025 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9682,10 +9842,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 267,
+   "id": 258,
    "name": "VCT Masters Santiago Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9713,10 +9874,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 268,
+   "id": 259,
    "name": "VCT Masters London Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9744,10 +9906,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 269,
+   "id": 260,
    "name": "2026 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9775,10 +9938,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 270,
+   "id": 261,
    "name": "2026 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9810,10 +9974,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 271,
+   "id": 262,
    "name": "Armchair IGL Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9846,10 +10011,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 272,
+   "id": 263,
    "name": "Gajeua Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9890,10 +10056,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 273,
+   "id": 264,
    "name": "ONE // 2022 Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9926,10 +10093,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 274,
+   "id": 265,
    "name": "VALORANT Partner Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9962,10 +10130,11 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 275,
+   "id": 266,
    "name": "Not Today Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10000,48 +10169,11 @@ window.VAL_DROPS = {
      "official": false
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   },
   {
-   "id": 276,
-   "name": "Dance Break Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "ExpressVPN × VCT Americas / EMEA",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Dance_Break_Card_Large.png",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "Buy a 12- or 24-month ExpressVPN plan through the VCT partner offer."
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": {
-    "since": null,
-    "note": "Ongoing ExpressVPN partner offer. No end date announced."
-   },
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://www.expressvpn.com/top/plus-partner/vct-us",
-     "label": "ExpressVPN",
-     "official": false
-    },
-    {
-     "url": "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships",
-     "label": "tomsguide.com",
-     "official": false
-    }
-   ],
-   "firstSeen": null
-  },
-  {
-   "id": 277,
+   "id": 267,
    "name": "Lightning Kicks Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10076,7 +10208,8 @@ window.VAL_DROPS = {
      "official": false
     }
    ],
-   "firstSeen": null
+   "firstSeen": null,
+   "alsoFrom": []
   }
  ]
 };
