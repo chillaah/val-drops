@@ -172,7 +172,7 @@
     const also = alsoHtml(i);
     const st = status(i);
     const how = claim ? howToClaim(i) : "";
-    return `<article class="card${st ? " is-" + st : ""}" data-slug="${esc(i.slug)}">${thumb(i)}<div class="body">
+    return `<article class="card${st ? " is-" + st : ""}" data-slug="${esc(i.slug)}" data-type="${esc(i.type)}">${thumb(i)}<div class="body">
       ${badges(i)}
       <button class="name" type="button" aria-haspopup="dialog">${esc(i.name)}</button><span class="type">${esc(i.type)}</span>
       ${context ? `<p class="ctx">${esc(contextOf(i))}</p>` : ""}
@@ -287,7 +287,7 @@
     const maybe = visible.filter((i) => status(i) === "maybe");
     if (!active.length && !upcoming.length && !maybe.length) return "";
     const grid = (list) => `<div class="grid">${list.map((i) => card(i, { claim: true })).join("")}</div>`;
-    let html = `<section class="cat now" id="now"><h2>Claimable now</h2>
+    let html = `<section class="cat now" id="now"><h2><span class="live" aria-hidden="true"></span>Claimable now<span class="count">${active.length}</span></h2>
       <p>Rewards you can still get, soonest-ending first. Dates are in Pacific time and follow the wiki, so check the linked source before relying on them.</p>`;
     html += active.length ? grid(active) : `<p class="note">Nothing claimable right now.</p>`;
     if (upcoming.length) html += `<div class="group"><h3>Coming soon</h3>${grid(upcoming)}</div>`;
@@ -299,7 +299,7 @@
   function recentSection(visible) {
     const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
     if (!recent.length) return "";
-    return `<section class="cat" id="recent"><h2>Recently added</h2>
+    return `<section class="cat" id="recent"><h2>Recently added<span class="count">${recent.length}</span></h2>
       <p>New on this site in the last ${RECENT_DAYS} days, newest first.</p>
       <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
   }
@@ -318,7 +318,7 @@
       const title = k === "undated"
         ? "Date not listed"
         : new Date(Date.UTC(+k.slice(0, 4), +k.slice(5, 7) - 1, 1)).toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
-      html += `<section class="cat month"><h2>${esc(title)}</h2>`;
+      html += `<section class="cat month"><h2>${esc(title)}<span class="count">${list.length}</span></h2>`;
       if (k === "undated") html += `<p>The wiki doesn't give a date for these (most Pick'Ems, pro play and some promos).</p>`;
       html += `<div class="grid">${list.map((i) => card(i, { context: true })).join("")}</div></section>`;
     }
@@ -327,7 +327,7 @@
 
   function sortChips() {
     const el = $("#sort");
-    el.innerHTML = `<span class="lbl">Sort:</span>` + SORTS.map(([v, label]) =>
+    el.innerHTML = `<span class="lbl">Sort</span>` + SORTS.map(([v, label]) =>
       `<button class="chip" data-v="${v}" aria-pressed="${state.sort === v}">${esc(label)}</button>`).join("");
     el.onclick = (e) => {
       const b = e.target.closest(".chip");
@@ -341,9 +341,9 @@
   }
 
   function render() {
-    chips($("#cats"), CATEGORIES.map((c) => [c[0], c[0]]), "cat", (v) => (i) => categoriesOf(i).includes(v));
-    chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)).map((t) => [t, t]), "type", (v) => (i) => i.type === v);
-    chips($("#regions"), REGIONS.map(([v, label]) => [v, label]), "region", regionTest, `<span class="lbl">Region:</span>`);
+    chips($("#cats"), CATEGORIES.map((c) => [c[0], c[0]]), "cat", (v) => (i) => categoriesOf(i).includes(v), `<span class="lbl">Source</span>`);
+    chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)).map((t) => [t, t]), "type", (v) => (i) => i.type === v, `<span class="lbl">Type</span>`);
+    chips($("#regions"), REGIONS.map(([v, label]) => [v, label]), "region", regionTest, `<span class="lbl">Region</span>`);
     const visible = items.filter((i) => matches(i));
     sortChips();
     let html = nowSection(visible) + recentSection(visible);
@@ -360,7 +360,7 @@
     for (const [cat, blurb] of CATEGORIES) {
       const inCat = placed.filter((i) => i.category === cat);
       if (!inCat.length) continue;
-      html += `<section class="cat"><h2>${esc(cat)}</h2><p>${esc(blurb)}</p>`;
+      html += `<section class="cat"><h2>${esc(cat)}<span class="count">${inCat.length}</span></h2><p>${esc(blurb)}</p>`;
       const groups = [...new Set(inCat.map((i) => i.group))];
       for (const g of groups) {
         const gi = inCat.filter((i) => i.group === g);
@@ -384,7 +384,12 @@
   if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
   const live = items.filter((i) => status(i) === "active").length;
-  $("#meta").innerHTML = `${items.length} items · ${live ? `<a href="#now">${live} claimable now</a> · ` : ""}data refreshed ${esc(new Date(generated).toLocaleDateString(undefined, { dateStyle: "medium" }))}`;
+  const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
+  $("#meta").innerHTML =
+    stat(items.length, "items tracked") +
+    stat(live, "claimable now", live ? "#now" : null) +
+    stat(new Set(items.map((i) => i.group)).size, "events & sources") +
+    stat(esc(new Date(generated).toLocaleDateString(undefined, { month: "short", day: "numeric" })), "last updated");
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 })();
