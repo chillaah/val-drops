@@ -12,7 +12,11 @@
   ];
   const TYPES = ["Title", "Player Card", "Gun Buddy", "Spray", "Gun Skin"];
 
-  const state = { q: "", cat: null, type: null };
+  const SORTS = [["group", "Group by source"], ["newest", "Newest first"]];
+  const RECENT_DAYS = 30;
+
+  const params = new URLSearchParams(location.search);
+  const state = { q: "", cat: null, type: null, sort: params.get("sort") === "newest" ? "newest" : "group" };
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -101,7 +105,11 @@
   // Wiki bullet lists arrive flattened as "• a • b"; put each on its own line.
   const bullets = (v) => esc(v).split(/\s*• /).filter(Boolean).map((x, k, a) => (a.length > 1 ? "• " : "") + x).join("<br>");
 
-  function card(i, { claim = false } = {}) {
+  // The date an item belongs to: when its claim window opened, or closed if that's all we know.
+  const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
+  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS;
+
+  function card(i, { claim = false, context = false } = {}) {
     const details = i.details.map((row) =>
       `<div>${row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")}</div>`
     ).join("");
@@ -113,7 +121,9 @@
     const how = claim ? howToClaim(i) : "";
     return `<article class="card${st ? " is-" + st : ""}">${thumb(i)}<div class="body">
       ${label ? `<span class="status ${st}">${esc(label)}</span>` : ""}
+      ${isRecent(i) ? `<span class="added">New · added ${esc(fmtDay(i.firstSeen))}</span>` : ""}
       <p class="name">${esc(i.name)}</p><span class="type">${esc(i.type)}</span>
+      ${context ? `<p class="ctx">${esc([i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · "))}</p>` : ""}
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${details ? `<div class="details">${details}</div>` : ""}
       <div class="src">${sources}</div></div></article>`;
@@ -136,11 +146,60 @@
     return html + `</section>`;
   }
 
+  function recentSection(visible) {
+    const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
+    if (!recent.length) return "";
+    return `<section class="cat" id="recent"><h2>Recently added</h2>
+      <p>New on this site in the last ${RECENT_DAYS} days, newest first.</p>
+      <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
+  }
+
+  // Timeline view: items grouped by the month of their own date, newest first.
+  function timeline(visible) {
+    const months = new Map();
+    for (const i of [...visible].sort((a, b) => (itemDate(b) || "").localeCompare(itemDate(a) || ""))) {
+      const d = itemDate(i);
+      const k = d ? d.slice(0, 7) : "undated";
+      if (!months.has(k)) months.set(k, []);
+      months.get(k).push(i);
+    }
+    let html = "";
+    for (const [k, list] of months) {
+      const title = k === "undated"
+        ? "Date not listed"
+        : new Date(Date.UTC(+k.slice(0, 4), +k.slice(5, 7) - 1, 1)).toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
+      html += `<section class="cat month"><h2>${esc(title)}</h2>`;
+      if (k === "undated") html += `<p>The wiki doesn't give a date for these (most Pick'Ems, pro play and some promos).</p>`;
+      html += `<div class="grid">${list.map((i) => card(i, { context: true })).join("")}</div></section>`;
+    }
+    return html;
+  }
+
+  function sortChips() {
+    const el = $("#sort");
+    el.innerHTML = `<span class="lbl">Sort:</span>` + SORTS.map(([v, label]) =>
+      `<button class="chip" data-v="${v}" aria-pressed="${state.sort === v}">${esc(label)}</button>`).join("");
+    el.onclick = (e) => {
+      const b = e.target.closest(".chip");
+      if (!b) return;
+      state.sort = b.dataset.v;
+      const u = new URL(location.href);
+      if (state.sort === "newest") u.searchParams.set("sort", "newest"); else u.searchParams.delete("sort");
+      history.replaceState(null, "", u);
+      render();
+    };
+  }
+
   function render() {
     chips($("#cats"), CATEGORIES.map((c) => c[0]), "cat");
     chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)), "type");
     const visible = items.filter((i) => matches(i));
-    let html = nowSection(visible);
+    sortChips();
+    let html = nowSection(visible) + recentSection(visible);
+    if (state.sort === "newest") {
+      $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
+      return;
+    }
     for (const [cat, blurb] of CATEGORIES) {
       const inCat = visible.filter((i) => i.category === cat);
       if (!inCat.length) continue;
@@ -164,7 +223,7 @@
   }
 
   // ?q= pre-fills the search (used by links posted to Discord).
-  const initial = new URLSearchParams(location.search).get("q");
+  const initial = params.get("q");
   if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
   const live = items.filter((i) => status(i) === "active").length;

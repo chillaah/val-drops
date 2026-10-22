@@ -521,6 +521,30 @@ async function download(url, dest) {
   return true;
 }
 
+// When each item first appeared on the site, carried forward from the previous
+// data/items.js. Items from the very first build have no known date (null).
+async function loadFirstSeen() {
+  let prev = [];
+  try {
+    const src = await readFile(path.join(ROOT, "data/items.js"), "utf8");
+    prev = JSON.parse(src.replace(/^window\.VAL_DROPS\s*=\s*/, "").replace(/;\s*$/, "")).items;
+  } catch (e) {
+    if (e.code !== "ENOENT") throw e;
+  }
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
+  const keyOf = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
+  // Fallback match on type + name so a renamed wiki section doesn't make old items look new.
+  const nameOf = (i) => i.type + "§" + i.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const byKey = new Map(prev.map((i) => [keyOf(i), i.firstSeen ?? null]));
+  const byName = new Map();
+  for (const i of prev) if (!byName.has(nameOf(i)) || i.firstSeen == null) byName.set(nameOf(i), i.firstSeen ?? null);
+  return (it) => {
+    if (byKey.has(keyOf(it))) return byKey.get(keyOf(it));
+    if (byName.has(nameOf(it))) return byName.get(nameOf(it));
+    return prev.length ? today : null;
+  };
+}
+
 async function main() {
   console.log("Fetching wiki pages…");
   const raw = [
@@ -560,6 +584,7 @@ async function main() {
     }
   }
 
+  const firstSeen = await loadFirstSeen();
   const images = await resolveImages([...merged.values()].map((i) => i.file));
   const imgDir = path.join(ROOT, "img");
   await mkdir(imgDir, { recursive: true });
@@ -601,6 +626,7 @@ async function main() {
         };
       })(),
       sources,
+      firstSeen: firstSeen(it),
     });
     if (n % 50 === 0) process.stdout.write(`  ${n} items\r`);
   }

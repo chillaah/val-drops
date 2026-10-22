@@ -33,6 +33,10 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 
 You can search and filter by source and by item type. The site also works on mobile.
 
+- **Claimable now:** rewards you can still get, each with a countdown and a "how to claim" line, plus what's coming soon.
+- **Recently added:** items that appeared on the site in the last 30 days. The build script records the date each item was first seen.
+- **Newest first:** a month-by-month timeline view, which you can link to with `?sort=newest`.
+
 ## Sources and accuracy
 
 - Item data and images come from the **[VALORANT Wiki](https://wiki.playvalorant.com/en-us/)** through its MediaWiki API. The wiki is community-edited and run by Weird Gloop. **Riot doesn't run it.**

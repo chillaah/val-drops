@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-22T19:51:48.793Z",
+ "generated": "2026-10-22T20:03:07.253Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -41,7 +41,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 2,
@@ -79,7 +80,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 3,
@@ -117,7 +119,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 4,
@@ -160,7 +163,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 5,
@@ -203,7 +207,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 6,
@@ -246,7 +251,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 7,
@@ -289,7 +295,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 8,
@@ -332,7 +339,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 9,
@@ -365,7 +373,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 10,
@@ -398,7 +407,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 11,
@@ -431,7 +441,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 12,
@@ -469,7 +480,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 13,
@@ -507,7 +519,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 14,
@@ -545,7 +558,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 15,
@@ -583,7 +597,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 16,
@@ -621,7 +636,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 17,
@@ -659,7 +675,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 18,
@@ -697,7 +714,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 19,
@@ -740,7 +758,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 20,
@@ -783,7 +802,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 21,
@@ -826,7 +846,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 22,
@@ -869,7 +890,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 23,
@@ -912,7 +934,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 24,
@@ -950,7 +973,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 25,
@@ -988,7 +1012,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 26,
@@ -1031,7 +1056,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 27,
@@ -1074,7 +1100,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 28,
@@ -1117,7 +1144,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 29,
@@ -1160,7 +1188,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 30,
@@ -1203,7 +1232,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 31,
@@ -1246,7 +1276,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 32,
@@ -1284,7 +1315,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 33,
@@ -1322,7 +1354,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 34,
@@ -1360,7 +1393,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 35,
@@ -1398,7 +1432,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 36,
@@ -1436,7 +1471,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 37,
@@ -1474,7 +1510,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 38,
@@ -1512,7 +1549,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 39,
@@ -1550,7 +1588,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 40,
@@ -1588,7 +1627,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 41,
@@ -1626,7 +1666,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 42,
@@ -1664,7 +1705,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 43,
@@ -1702,7 +1744,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 44,
@@ -1740,7 +1783,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 45,
@@ -1778,7 +1822,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 46,
@@ -1816,7 +1861,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 47,
@@ -1854,7 +1900,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 48,
@@ -1892,7 +1939,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 49,
@@ -1930,7 +1978,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 50,
@@ -1968,7 +2017,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 51,
@@ -2006,7 +2056,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 52,
@@ -2044,7 +2095,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 53,
@@ -2082,7 +2134,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 54,
@@ -2120,7 +2173,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 55,
@@ -2158,7 +2212,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 56,
@@ -2196,7 +2251,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 57,
@@ -2234,7 +2290,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 58,
@@ -2272,7 +2329,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 59,
@@ -2310,7 +2368,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 60,
@@ -2348,7 +2407,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 61,
@@ -2386,7 +2446,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 62,
@@ -2424,7 +2485,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 63,
@@ -2462,7 +2524,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 64,
@@ -2500,7 +2563,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 65,
@@ -2533,7 +2597,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 66,
@@ -2566,7 +2631,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 67,
@@ -2604,7 +2670,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 68,
@@ -2642,7 +2709,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 69,
@@ -2675,7 +2743,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 70,
@@ -2713,7 +2782,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 71,
@@ -2751,7 +2821,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 72,
@@ -2789,7 +2860,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 73,
@@ -2827,7 +2899,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 74,
@@ -2865,7 +2938,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 75,
@@ -2903,7 +2977,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 76,
@@ -2936,7 +3011,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 77,
@@ -2969,7 +3045,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 78,
@@ -3002,7 +3079,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 79,
@@ -3035,7 +3113,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 80,
@@ -3068,7 +3147,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 81,
@@ -3101,7 +3181,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 82,
@@ -3134,7 +3215,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 83,
@@ -3167,7 +3249,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 84,
@@ -3200,7 +3283,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 85,
@@ -3233,7 +3317,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 86,
@@ -3266,7 +3351,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 87,
@@ -3299,7 +3385,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 88,
@@ -3332,7 +3419,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 89,
@@ -3365,7 +3453,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 90,
@@ -3398,7 +3487,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 91,
@@ -3436,7 +3526,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 92,
@@ -3469,7 +3560,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 93,
@@ -3502,7 +3594,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 94,
@@ -3535,7 +3628,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 95,
@@ -3568,7 +3662,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 96,
@@ -3601,7 +3696,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 97,
@@ -3634,7 +3730,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 98,
@@ -3667,7 +3764,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 99,
@@ -3700,7 +3798,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 100,
@@ -3733,7 +3832,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 101,
@@ -3766,7 +3866,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 102,
@@ -3799,7 +3900,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 103,
@@ -3832,7 +3934,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 104,
@@ -3865,7 +3968,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 105,
@@ -3898,7 +4002,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 106,
@@ -3931,7 +4036,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 107,
@@ -3970,7 +4076,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 108,
@@ -4003,7 +4110,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 109,
@@ -4036,7 +4144,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 110,
@@ -4069,7 +4178,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 111,
@@ -4102,7 +4212,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 112,
@@ -4135,7 +4246,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 113,
@@ -4168,7 +4280,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 114,
@@ -4201,7 +4314,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 115,
@@ -4234,7 +4348,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 116,
@@ -4267,7 +4382,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 117,
@@ -4300,7 +4416,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 118,
@@ -4333,7 +4450,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 119,
@@ -4366,7 +4484,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 120,
@@ -4399,7 +4518,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 121,
@@ -4425,7 +4545,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 122,
@@ -4451,7 +4572,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 123,
@@ -4477,7 +4599,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 124,
@@ -4503,7 +4626,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 125,
@@ -4526,7 +4650,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 126,
@@ -4549,7 +4674,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 127,
@@ -4572,7 +4698,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 128,
@@ -4595,7 +4722,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 129,
@@ -4618,7 +4746,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 130,
@@ -4641,7 +4770,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 131,
@@ -4664,7 +4794,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 132,
@@ -4687,7 +4818,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 133,
@@ -4710,7 +4842,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 134,
@@ -4733,7 +4866,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 135,
@@ -4756,7 +4890,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 136,
@@ -4779,7 +4914,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 137,
@@ -4802,7 +4938,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 138,
@@ -4825,7 +4962,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 139,
@@ -4848,7 +4986,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 140,
@@ -4871,7 +5010,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 141,
@@ -4894,7 +5034,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 142,
@@ -4917,7 +5058,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 143,
@@ -4940,7 +5082,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 144,
@@ -4963,7 +5106,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 145,
@@ -4986,7 +5130,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 146,
@@ -5009,7 +5154,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 147,
@@ -5032,7 +5178,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 148,
@@ -5055,7 +5202,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 149,
@@ -5078,7 +5226,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 150,
@@ -5101,7 +5250,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 151,
@@ -5124,7 +5274,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 152,
@@ -5147,7 +5298,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 153,
@@ -5170,7 +5322,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 154,
@@ -5193,7 +5346,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 155,
@@ -5216,7 +5370,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 156,
@@ -5239,7 +5394,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 157,
@@ -5293,7 +5449,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 158,
@@ -5347,7 +5504,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 159,
@@ -5401,7 +5559,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 160,
@@ -5455,7 +5614,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 161,
@@ -5490,7 +5650,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 162,
@@ -5525,7 +5686,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 163,
@@ -5560,7 +5722,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 164,
@@ -5599,7 +5762,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 165,
@@ -5638,7 +5802,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 166,
@@ -5661,7 +5826,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 167,
@@ -5703,7 +5869,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 168,
@@ -5737,7 +5904,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 169,
@@ -5760,7 +5928,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 170,
@@ -5783,7 +5952,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 171,
@@ -5821,7 +5991,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 172,
@@ -5864,7 +6035,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 173,
@@ -5899,7 +6071,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 174,
@@ -5934,7 +6107,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 175,
@@ -5969,7 +6143,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 176,
@@ -5999,7 +6174,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 177,
@@ -6037,7 +6213,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 178,
@@ -6067,7 +6244,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 179,
@@ -6102,7 +6280,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 180,
@@ -6137,7 +6316,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 181,
@@ -6184,7 +6364,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 182,
@@ -6221,7 +6402,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 183,
@@ -6258,7 +6440,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 184,
@@ -6300,7 +6483,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 185,
@@ -6330,7 +6514,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 186,
@@ -6360,7 +6545,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 187,
@@ -6390,7 +6576,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 188,
@@ -6420,7 +6607,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 189,
@@ -6450,7 +6638,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 190,
@@ -6480,7 +6669,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 191,
@@ -6510,7 +6700,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 192,
@@ -6540,7 +6731,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 193,
@@ -6570,7 +6762,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 194,
@@ -6600,7 +6793,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 195,
@@ -6630,7 +6824,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 196,
@@ -6660,7 +6855,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 197,
@@ -6690,7 +6886,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 198,
@@ -6720,7 +6917,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 199,
@@ -6750,7 +6948,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 200,
@@ -6780,7 +6979,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 201,
@@ -6854,7 +7054,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 202,
@@ -6918,7 +7119,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 203,
@@ -6948,7 +7150,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 204,
@@ -7138,7 +7341,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 205,
@@ -7172,7 +7376,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 206,
@@ -7219,7 +7424,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 207,
@@ -7258,7 +7464,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 208,
@@ -7311,7 +7518,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 209,
@@ -7345,7 +7553,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 210,
@@ -7412,7 +7621,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 211,
@@ -7451,7 +7661,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 212,
@@ -7490,7 +7701,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 213,
@@ -7524,7 +7736,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 214,
@@ -7558,7 +7771,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 215,
@@ -7592,7 +7806,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 216,
@@ -7645,7 +7860,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 217,
@@ -7682,7 +7898,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 218,
@@ -7724,7 +7941,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 219,
@@ -7761,7 +7979,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 220,
@@ -7802,7 +8021,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 221,
@@ -7843,7 +8063,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 222,
@@ -7884,7 +8105,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 223,
@@ -7925,7 +8147,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 224,
@@ -7966,7 +8189,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 225,
@@ -8007,7 +8231,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 226,
@@ -8048,7 +8273,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 227,
@@ -8091,7 +8317,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 228,
@@ -8121,7 +8348,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 229,
@@ -8156,7 +8384,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 230,
@@ -8195,7 +8424,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 231,
@@ -8233,7 +8463,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 232,
@@ -8268,7 +8499,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 233,
@@ -8312,7 +8544,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 234,
@@ -8346,7 +8579,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 235,
@@ -8383,7 +8617,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 236,
@@ -8420,7 +8655,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 237,
@@ -8457,7 +8693,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 238,
@@ -8494,7 +8731,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 239,
@@ -8531,7 +8769,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 240,
@@ -8554,7 +8793,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 241,
@@ -8577,7 +8817,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 242,
@@ -8600,7 +8841,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 243,
@@ -8623,7 +8865,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 244,
@@ -8646,7 +8889,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 245,
@@ -8669,7 +8913,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 246,
@@ -8692,7 +8937,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 247,
@@ -8726,7 +8972,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 248,
@@ -8842,7 +9089,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 249,
@@ -8882,7 +9130,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 250,
@@ -8916,7 +9165,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 251,
@@ -8950,7 +9200,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 252,
@@ -8980,7 +9231,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 253,
@@ -9010,7 +9262,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 254,
@@ -9044,7 +9297,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 255,
@@ -9074,7 +9328,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 256,
@@ -9104,7 +9359,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 257,
@@ -9134,7 +9390,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 258,
@@ -9168,7 +9425,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 259,
@@ -9198,7 +9456,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 260,
@@ -9228,7 +9487,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 261,
@@ -9258,7 +9518,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 262,
@@ -9292,7 +9553,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 263,
@@ -9322,7 +9584,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 264,
@@ -9352,7 +9615,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 265,
@@ -9382,7 +9646,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 266,
@@ -9416,7 +9681,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 267,
@@ -9446,7 +9712,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 268,
@@ -9476,7 +9743,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 269,
@@ -9506,7 +9774,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 270,
@@ -9540,7 +9809,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 271,
@@ -9575,7 +9845,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 272,
@@ -9618,7 +9889,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 273,
@@ -9653,7 +9925,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 274,
@@ -9688,7 +9961,8 @@ window.VAL_DROPS = {
      "official": false,
      "wiki": true
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 275,
@@ -9725,7 +9999,8 @@ window.VAL_DROPS = {
      "label": "tomsguide.com",
      "official": false
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 276,
@@ -9762,7 +10037,8 @@ window.VAL_DROPS = {
      "label": "tomsguide.com",
      "official": false
     }
-   ]
+   ],
+   "firstSeen": null
   },
   {
    "id": 277,
@@ -9799,7 +10075,8 @@ window.VAL_DROPS = {
      "label": "tomsguide.com",
      "official": false
     }
-   ]
+   ],
+   "firstSeen": null
   }
  ]
 };

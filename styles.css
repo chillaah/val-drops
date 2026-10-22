@@ -70,6 +70,12 @@ a { color: inherit; }
 .how { margin: 0; font-size: 13px; }
 .how code { background: var(--panel-2); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; font-size: 12px; user-select: all; white-space: nowrap; }
 .how a, .meta a { color: var(--ok); }
+.sort { align-items: center; }
+.sort .lbl { font-size: 12px; color: var(--muted); margin-right: 2px; }
+.added { width: fit-content; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: rgba(255, 70, 85, .15); color: var(--accent); }
+.ctx { margin: 0; font-size: 12px; color: var(--muted); }
+.month { margin-top: 28px; }
+.month > h2 { font-size: 18px; }
 .empty { padding: 60px 0; text-align: center; color: var(--muted); }
 .foot { margin-top: 60px; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 .foot h2 { color: var(--text); font-size: 16px; }
