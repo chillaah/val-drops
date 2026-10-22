@@ -91,6 +91,9 @@
     $("#list").innerHTML = html || `<p class="empty">No items match your filters.</p>`;
   }
 
+  // ?q= pre-fills the search (used by links posted to Discord).
+  const initial = new URLSearchParams(location.search).get("q");
+  if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
   $("#meta").textContent = `${items.length} items · data refreshed ${new Date(generated).toLocaleDateString(undefined, { dateStyle: "medium" })}`;
   render();
