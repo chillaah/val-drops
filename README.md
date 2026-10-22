@@ -37,6 +37,8 @@ You can search and filter by source and by item type. The site also works on mob
 - **Recently added:** items that appeared on the site in the last 30 days. The build script records the date each item was first seen.
 - **One card per item:** items you can get in more than one way (like Slime Mosh, a Twitch drop and a Coinbase reward) appear once, with an "Also from" list.
 - **Item pages:** click any card for a detail view with a larger image (plus the wide banner for player cards) and a shareable link such as `?item=slime-mosh-buddy`. Discord posts link straight to these.
+- **Codes:** each public redemption code has a Copy button. Expired codes, and codes for Riot's old redemption site, are struck through and marked expired.
+- **Region filter:** items with a stated restriction are tagged and filterable: South Korea only, Japan only, in person only, or not available in some countries. Tags only come from what the source says.
 - **Newest first:** a month-by-month timeline view, which you can link to with `?sort=newest`.
 
 ## Sources and accuracy

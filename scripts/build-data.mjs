@@ -456,6 +456,46 @@ function itemPeriod(detailRows) {
   return { period: best, openCode };
 }
 
+// ---------- redemption codes ----------
+// Pairs each public code with its expiry. Rows can hold several codes and
+// expiries as parallel bullet lists (e.g. the yearly Pride card codes).
+function parseCodes(detailRows) {
+  const split = (v) => v.split(/\s*•\s*/).map((x) => x.trim()).filter(Boolean);
+  const cells = detailRows.flat();
+  const codes = cells.filter((d) => /^code$/i.test(d.label)).flatMap((d) => split(d.value));
+  const expiries = cells.filter((d) => /expir/i.test(d.label)).flatMap((d) => split(d.value));
+  if (!codes.length) return null;
+  return codes.map((raw, k) => {
+    const exp = expiries.length === codes.length ? expiries[k] : expiries[0] || "";
+    const end = findPeriods(exp.replace(/\*$/, ""))[0]?.end || null;
+    return {
+      code: raw.replace(/\*$/, ""),
+      expires: end,
+      // "*" marks codes for Riot's old redemption site, which no longer exists.
+      defunct: raw.endsWith("*") || exp.endsWith("*"),
+    };
+  });
+}
+
+// ---------- region limits ----------
+// Only restrictions the source text states outright; nothing inferred from a
+// partner's home country or a timezone.
+const REGION_RULES = [
+  [/residing (in )?South Korea|players in (South )?Korea/i, { code: "KR", label: "South Korea only" }],
+  [/exclusively for players in Japan|players residing (in )?Japan/i, { code: "JP", label: "Japan only" }],
+  [/ONE Pro Invitational in Japan/i, { code: "JP-IRL", label: "In person: Japan" }],
+  [/in-person Watch Parties across the Americas/i, { code: "AMER-IRL", label: "In person: Americas" }],
+  // Riot's FTW challenge rules list banned regions/countries.
+  [/Frag Or Die|Alpha Vs\. Omega Conflict/i, { code: "EXCL", label: "Not in some countries" }],
+];
+
+function regionTags(it) {
+  const text = [it.group, it.subgroup, ...it.detailRows.flat().map((d) => d.value)].filter(Boolean).join(" | ");
+  const tags = REGION_RULES.filter(([re]) => re.test(text)).map(([, t]) => t);
+  for (const t of it.regions || []) tags.push(t); // curated entries can declare their own
+  return [...new Map(tags.map((t) => [t.code, t])).values()];
+}
+
 // ---------- merge, images, sources ----------
 
 const SOURCE_LABELS = [
@@ -556,8 +596,11 @@ function mergeDuplicates(items) {
       sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
       // Known before (null) if any way was; otherwise the earliest date.
       firstSeen: ways.some((w) => w.firstSeen == null) ? null : ways.map((w) => w.firstSeen).sort()[0],
+      // A tag that applies to only some ways is "partial": the item can still be had elsewhere.
+      regions: [...new Map(ways.flatMap((w) => w.regions).map((t) => [t.code, t])).values()]
+        .map((t) => ({ ...t, partial: !ways.every((w) => w.regions.some((r) => r.code === t.code)) })),
       alsoFrom: rest.map((w) => ({
-        category: w.category, group: w.group, subgroup: w.subgroup, details: w.details, period: w.period,
+        category: w.category, group: w.group, subgroup: w.subgroup, details: w.details, period: w.period, regions: w.regions,
       })),
     });
   }
@@ -686,6 +729,8 @@ async function main() {
       })(),
       sources,
       firstSeen: firstSeen(it),
+      codes: it.category === "Code Redemption" ? parseCodes(it.detailRows) : null,
+      regions: regionTags(it),
     });
     if (n % 50 === 0) process.stdout.write(`  ${n} items\r`);
   }
