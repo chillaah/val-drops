@@ -208,6 +208,7 @@
     if (!i) return;
     const how = status(i) ? howToClaim(i) : "";
     const also = alsoHtml(i);
+    $("#item-body").dataset.type = i.type;
     $("#item-body").innerHTML = `${bigImage(i)}<div class="d-info">
       <div class="d-badges">${badges(i)}</div>
       <h2 id="item-title">${esc(i.name)}</h2>

@@ -31,7 +31,7 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 | **PlayStation Plus** | Rotating PS+ member bundles |
 | **Pro Play** | Tournament winner buddies and titles given to pros |
 
-You can search and filter by source and by item type. The site also works on mobile.
+You can search and filter by source and by item type. The site works on mobile and has light and dark themes (it follows your system setting until you pick one).
 
 - **Claimable now:** rewards you can still get, each with a countdown and a "how to claim" line, plus what's coming soon.
 - **Recently added:** items that appeared on the site in the last 30 days. The build script records the date each item was first seen.
@@ -100,10 +100,11 @@ The site loads nothing from other domains: fonts are self-hosted and a Content S
 
 ```
 index.html, app.js, styles.css   static site (no framework, no build step)
+theme.js                         light/dark theme: follows the system, toggle in the header remembers a choice
 404.html                         not-found page (GitHub Pages serves it for any missing path)
 robots.txt, sitemap.xml          for search engines
 assets/                          favicon, touch icon, og.png social preview, no-JS stylesheet
-assets/fonts/                    self-hosted Barlow and Barlow Condensed (SIL OFL, see OFL.txt)
+assets/fonts/                    self-hosted Geist and Geist Mono (SIL OFL, see OFL.txt)
 data/items.js                    generated item data (window.VAL_DROPS)
 data/curated.json                hand-added items the wiki doesn't have yet
 img/                             item images saved from the wiki (thumbnails, *_600 large copies, card banners)

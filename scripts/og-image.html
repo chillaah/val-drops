@@ -3,40 +3,30 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@500&display=block">
 <style>
+  @font-face { font-family: "Geist"; font-weight: 400 700; src: url(../assets/fonts/geist-latin.woff2) format("woff2"); }
   body { margin: 0; }
   #og {
-    position: relative; width: 1200px; height: 630px; overflow: hidden; box-sizing: border-box; padding: 72px 80px;
-    background:
-      radial-gradient(900px 500px at 90% -10%, rgba(255, 70, 85, .22), transparent 60%),
-      radial-gradient(700px 400px at -10% 110%, rgba(143, 184, 255, .10), transparent 60%),
-      #0b0f14;
-    color: #ece8e1; font-family: "Barlow", sans-serif;
+    width: 1200px; height: 630px; box-sizing: border-box; padding: 76px 84px;
+    display: flex; flex-direction: column; background: #09090b; color: #fafafa; font-family: "Geist", sans-serif;
   }
-  #og::before {
-    content: ""; position: absolute; inset: 0;
-    background-image: linear-gradient(rgba(236, 232, 225, .06) 1px, transparent 1px), linear-gradient(90deg, rgba(236, 232, 225, .06) 1px, transparent 1px);
-    background-size: 60px 60px;
-  }
-  #og::after {
-    content: ""; position: absolute; right: -60px; top: 0; bottom: 0; width: 560px;
-    background: linear-gradient(115deg, transparent 42%, rgba(255, 70, 85, .22) 42.2%, rgba(255, 70, 85, .05) 60%, transparent 60.2%);
-  }
-  .in { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; }
-  .brand { display: flex; align-items: center; gap: 18px; font: 800 40px/1 "Barlow Condensed"; letter-spacing: .08em; }
-  .brand svg { width: 56px; height: 56px; }
-  .brand b { color: #ff4655; }
-  h1 { margin: auto 0 0; font: 800 132px/.9 "Barlow Condensed"; text-transform: uppercase; letter-spacing: .01em; }
-  h1 em { font-style: normal; color: #ff4655; }
-  p { margin: 28px 0 0; font-size: 30px; color: #8e99a5; max-width: 900px; }
+  .brand { display: flex; align-items: center; gap: 16px; font-size: 32px; font-weight: 650; letter-spacing: -.01em; }
+  .brand svg { width: 48px; height: 48px; }
+  .brand span { color: #a1a1aa; font-weight: 500; }
+  h1 { margin: auto 0 0; font-size: 104px; line-height: 1; font-weight: 650; letter-spacing: -.045em; }
+  h1 em { font-style: normal; color: #a1a1aa; }
+  p { margin: 28px 0 0; font-size: 30px; color: #a1a1aa; max-width: 920px; line-height: 1.35; }
+  .pill { display: inline-flex; align-items: center; gap: 10px; margin-top: 36px; padding: 8px 16px; width: fit-content;
+    font-size: 22px; color: #d4d4d8; border: 1px solid #34343a; border-radius: 999px; }
+  .pill::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: #4ade80; }
 </style>
 </head>
 <body>
-<div id="og"><div class="in">
-  <div class="brand"><svg viewBox="0 0 32 32"><path fill="#ff4655" d="M0 0h32v22.4L22.4 32H0z"/><path fill="#fff" d="M7 7h4.6L16 19.6 20.4 7H25l-6.6 18h-4.8z"/></svg>VAL <b>DROPS</b></div>
+<div id="og">
+  <div class="brand"><svg viewBox="0 0 32 32"><path fill="#ff4655" d="M0 0h32v22.4L22.4 32H0z"/><path fill="#fff" d="M7 7h4.6L16 19.6 20.4 7H25l-6.6 18h-4.8z"/></svg>VAL <span>DROPS</span></div>
   <h1>Out-of-game <em>rewards</em></h1>
   <p>Every VALORANT drop, Pick'Ems reward, partner promo and code, with what's claimable right now.</p>
-</div></div>
+  <div class="pill">Refreshed every 6 hours</div>
+</div>
 </body>
 </html>

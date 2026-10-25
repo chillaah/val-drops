@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 22
       - name: Syntax check
-        run: for f in scripts/*.mjs app.js; do node --check "$f"; done
+        run: for f in scripts/*.mjs app.js theme.js; do node --check "$f"; done
       - name: Build data (no image download)
         run: |
           cp data/items.js "$RUNNER_TEMP/items.old.js"
@@ -28,4 +28,4 @@ jobs:
       - name: Sanity-check output
         run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
       - name: Check site files exist
-        run: for f in index.html 404.html app.js styles.css robots.txt sitemap.xml assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
+        run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
