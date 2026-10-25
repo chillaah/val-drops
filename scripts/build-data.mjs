@@ -2,8 +2,10 @@
 // plus a small hand-curated file (data/curated.json) for items the wiki lacks.
 //
 // Usage: node scripts/build-data.mjs [--no-images]
-import { mkdir, readFile, writeFile, access } from "node:fs/promises";
+import { mkdir, readFile, writeFile, access, readdir, unlink } from "node:fs/promises";
+import { execFile } from "node:child_process";
 import path from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -11,6 +13,9 @@ const API = "https://wiki.playvalorant.com/en-us/api.php";
 const WIKI = "https://wiki.playvalorant.com/en-us/";
 const UA = "val-drops/1.0 (fan site; data aggregation)";
 const SKIP_IMAGES = process.argv.includes("--no-images");
+// Card thumbnails show at most 256x144 CSS pixels; this box is enough for
+// high-DPI screens. The wiki scales tall player cards down to fit.
+const THUMB_BOX = [256, 288];
 
 // Item-type pages and the sections on them that cover out-of-game rewards.
 // Broadcast/Prime sections overlap the dedicated pages; duplicates are merged in main().
@@ -530,13 +535,13 @@ function describeSource(url) {
   return { url, label: host.replace(/^www\./, ""), official: false };
 }
 
-async function resolveImages(files, width = 256) {
+async function resolveImages(files, width = 256, height = null) {
   const out = {};
   const list = [...new Set(files.filter(Boolean))];
   for (let i = 0; i < list.length; i += 50) {
     const batch = list.slice(i, i + 50);
     const d = await api({
-      action: "query", prop: "imageinfo", iiprop: "url", iiurlwidth: String(width),
+      action: "query", prop: "imageinfo", iiprop: "url", iiurlwidth: String(width), ...(height && { iiurlheight: String(height) }),
       titles: batch.map((f) => "File:" + f).join("|"),
     });
     const norm = Object.fromEntries((d.query.normalized || []).map((n) => [n.to, n.from]));
@@ -553,12 +558,45 @@ const slug = (s) => s.normalize("NFKD").replace(/[^\w.-]+/g, "_").replace(/_+/g,
 
 async function exists(p) { try { await access(p); return true; } catch { return false; } }
 
-async function download(url, dest) {
-  if (await exists(dest)) return true;
+async function download(url, dest, { force = false } = {}) {
+  if (!force && (await exists(dest))) return true;
   const res = await fetch(url, { headers: { "User-Agent": UA } });
   if (!res.ok) return false;
   await writeFile(dest, Buffer.from(await res.arrayBuffer()));
   return true;
+}
+
+// Lossless WebP is about a quarter the size of the wiki's PNGs with identical
+// pixels. Needs cwebp and gif2webp (the "webp" package in apt and Homebrew);
+// without them images keep their original format.
+const run = promisify(execFile);
+let webpTools;
+const hasWebp = () => (webpTools ??= Promise.all([run("cwebp", ["-version"]), run("gif2webp", ["-version"])]).then(() => true, () => false));
+
+// Saves an item's thumbnail under img/ and returns its path, or null if the
+// download failed. An existing WebP is reused, so each image is fetched once.
+async function localImage(img, file) {
+  const base = "img/" + slug(file.replace(/\.\w+$/, ""));
+  const orig = base + (path.extname(new URL(img.thumb).pathname) || ".png");
+  if (!(await hasWebp())) return (await download(img.thumb, path.join(ROOT, orig))) ? orig : null;
+
+  const webp = base + ".webp";
+  if (await exists(path.join(ROOT, webp))) return webp;
+  // Always fetch fresh: a leftover original may be an older, larger thumbnail.
+  if (!(await download(img.thumb, path.join(ROOT, orig), { force: true }))) return null;
+  const [src, dest] = [path.join(ROOT, orig), path.join(ROOT, webp)];
+  if (orig.endsWith(".gif")) await run("gif2webp", ["-quiet", "-m", "6", src, "-o", dest]);
+  else await run("cwebp", ["-quiet", "-lossless", "-z", "9", src, "-o", dest]);
+  await unlink(src);
+  return webp;
+}
+
+// Deletes files in img/ that no item uses any more (old formats, removed items).
+async function pruneImages(items) {
+  const used = new Set(items.map((i) => i.image));
+  for (const f of await readdir(path.join(ROOT, "img"))) {
+    if (!used.has("img/" + f)) await unlink(path.join(ROOT, "img", f));
+  }
 }
 
 // Compare names ignoring case, spacing and punctuation, but keep letters in any
@@ -680,7 +718,7 @@ async function main() {
 
   const firstSeen = await loadFirstSeen();
   const files = [...merged.values()].map((i) => i.file);
-  const images = await resolveImages(files);
+  const images = await resolveImages(files, ...THUMB_BOX);
   // Larger copies for the item detail view, loaded from the wiki on demand.
   const large = await resolveImages(files, 600);
   // Player cards also have a wide banner version ("X Card Wide.png").
@@ -695,9 +733,7 @@ async function main() {
     const img = it.file && images[it.file];
     let image = null;
     if (img) {
-      const ext = path.extname(new URL(img.thumb).pathname) || ".png";
-      const local = "img/" + slug(it.file.replace(/\.\w+$/, "")) + ext;
-      image = SKIP_IMAGES ? img.thumb : (await download(img.thumb, path.join(ROOT, local))) ? local : img.thumb;
+      image = (!SKIP_IMAGES && (await localImage(img, it.file))) || img.thumb;
     } else if (it.file && !it.curated) {
       console.warn("  ! no image for", it.file);
     }
@@ -740,6 +776,7 @@ async function main() {
     primarySource: { label: "VALORANT Wiki", url: WIKI },
     items: mergeDuplicates(items),
   };
+  if (!SKIP_IMAGES) await pruneImages(out.items);
   await writeFile(path.join(ROOT, "data/items.js"), "window.VAL_DROPS = " + JSON.stringify(out, null, 1) + ";\n");
   const counts = out.items.reduce((a, i) => ((a[i.category] = (a[i.category] || 0) + 1), a), {});
   console.log(`Wrote ${out.items.length} items (${items.length - out.items.length} duplicates merged)`, counts);

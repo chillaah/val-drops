@@ -9,7 +9,7 @@
   --line-2: rgba(236, 232, 225, .14);
   --text: #ece8e1;
   --muted: #8e99a5;
-  --dim: #5f6b78;
+  --dim: #8591a0; /* darkest grey that still meets 4.5:1 on every panel */
   --accent: #ff4655;
   --accent-soft: rgba(255, 70, 85, .14);
   --ok: #3ddc97;
@@ -105,6 +105,9 @@ a.stat b { color: var(--ok); }
 .chips .lbl { flex: none; font: 600 12px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin-right: 4px; min-width: 56px; }
 /* Type, Region and Sort share one line on wide screens */
 .filter-row { display: flex; flex-wrap: wrap; column-gap: 36px; }
+/* Hold space for the stats and chips app.js fills in, so the page doesn't jump on load. */
+.chips:empty { min-height: 28px; }
+.stats:empty { min-height: 81px; }
 @media (min-width: 1100px) {
   .filter-row .sort .lbl { min-width: 0; }
 }
@@ -117,7 +120,7 @@ a.stat b { color: var(--ok); }
 .chip:hover { color: var(--text); border-color: rgba(236, 232, 225, .3); }
 .chip small { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; }
 .chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
-.chip[aria-pressed="true"] small { color: rgba(11, 15, 20, .55); }
+.chip[aria-pressed="true"] small { color: rgba(11, 15, 20, .62); }
 
 /* ---------- sections ---------- */
 main.wrap { padding-bottom: 20px; }
@@ -296,6 +299,7 @@ button.name:focus-visible { outline: 2px solid var(--accent); outline-offset: 2p
 /* ---------- small screens ---------- */
 @media (max-width: 760px) {
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stats:empty { min-height: 160px; }
   .links a:not(:first-child) { display: none; }
 }
 @media (max-width: 680px) {
@@ -325,3 +329,10 @@ button.name:focus-visible { outline: 2px solid var(--accent); outline-offset: 2p
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- prerendered list (no-JS fallback, replaced by app.js) ---------- */
+.plain-list { margin: 0; padding: 0; list-style: none; columns: 3 280px; column-gap: 28px; }
+.plain-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.plain-list a { color: var(--text); text-decoration: none; font-weight: 600; }
+.plain-list a:hover { color: var(--accent); }
+.plain-list span { color: var(--muted); font-size: 13px; }

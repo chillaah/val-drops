@@ -24,7 +24,8 @@ jobs:
         run: |
           cp data/items.js "$RUNNER_TEMP/items.old.js"
           node scripts/build-data.mjs --no-images
+          node scripts/prerender.mjs
       - name: Sanity-check output
         run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
       - name: Check site files exist
-        run: for f in index.html 404.html app.js styles.css assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
+        run: for f in index.html 404.html app.js styles.css robots.txt sitemap.xml assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done

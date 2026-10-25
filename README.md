@@ -83,20 +83,23 @@ To release, open a PR from `development` into `production` and merge it.
 
 ## Running locally
 
-Requires Node 18+. There are no dependencies.
+Requires Node 18+. There are no npm dependencies. Install `webp` (`brew install webp` or `apt install webp`) to save images as WebP. Without it the build still works and keeps the wiki's PNG and GIF files.
 
 ```sh
-npm run build   # scrape the wiki into data/items.js and download images into img/
+npm run build   # scrape the wiki into data/items.js, save images into img/, prerender index.html
 npm run serve   # http://localhost:8080
 ```
 
 `node scripts/build-data.mjs --no-images` skips image downloads and uses wiki URLs instead.
+
+Thumbnails are requested from the wiki at display size (within 256×288) and stored as lossless WebP, so they look the same as the wiki's images at about a quarter of the size. Images no item uses any more are deleted from `img/`.
 
 ## Project layout
 
 ```
 index.html, app.js, styles.css   static site (no framework, no build step)
 404.html                         not-found page (GitHub Pages serves it for any missing path)
+robots.txt, sitemap.xml          for search engines
 assets/                          favicon, touch icon and og.png social preview
 data/items.js                    generated item data (window.VAL_DROPS)
 data/curated.json                hand-added items the wiki doesn't have yet
@@ -104,6 +107,7 @@ img/                             item images downloaded from the wiki
 scripts/build-data.mjs           wiki scraper
 scripts/notify-discord.mjs       posts new items to a Discord webhook
 scripts/check-data.mjs           blocks publishing if a scrape looks broken
+scripts/prerender.mjs            writes a plain item list into index.html for search engines and no-JS visitors
 scripts/og-image.html            source for assets/og.png (screenshot #og at 1200×630)
 .github/workflows/               ci, update-data, deploy
 ```

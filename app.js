@@ -382,7 +382,12 @@
   // ?q= pre-fills the search (used by links posted to Discord).
   const initial = params.get("q");
   if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
-  $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+  // Each render rebuilds every card, so wait for a pause in typing.
+  let typing;
+  $("#q").addEventListener("input", (e) => {
+    clearTimeout(typing);
+    typing = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
+  });
   const live = items.filter((i) => status(i) === "active").length;
   const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
   $("#meta").innerHTML =

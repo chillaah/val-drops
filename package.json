@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-data.mjs",
+    "build": "node scripts/build-data.mjs && node scripts/prerender.mjs",
     "serve": "python3 -m http.server 8080"
   }
 }
