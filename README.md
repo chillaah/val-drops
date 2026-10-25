@@ -92,7 +92,9 @@ npm run serve   # http://localhost:8080
 
 `node scripts/build-data.mjs --no-images` skips image downloads and uses wiki URLs instead.
 
-Thumbnails are requested from the wiki at display size (within 256×288) and stored as lossless WebP, so they look the same as the wiki's images at about a quarter of the size. Images no item uses any more are deleted from `img/`.
+Thumbnails are requested from the wiki at display size (within 256×288) and stored as lossless WebP, so they look the same as the wiki's images at about a quarter of the size. The item view's larger image (600px) and player-card banner are saved the same way and only load when an item is opened. Images no item uses any more are deleted from `img/`.
+
+The site loads nothing from other domains: fonts are self-hosted and a Content Security Policy in `index.html` allows only this site, plus wiki images as a fallback if a download failed.
 
 ## Project layout
 
@@ -100,10 +102,11 @@ Thumbnails are requested from the wiki at display size (within 256×288) and sto
 index.html, app.js, styles.css   static site (no framework, no build step)
 404.html                         not-found page (GitHub Pages serves it for any missing path)
 robots.txt, sitemap.xml          for search engines
-assets/                          favicon, touch icon and og.png social preview
+assets/                          favicon, touch icon, og.png social preview, no-JS stylesheet
+assets/fonts/                    self-hosted Barlow and Barlow Condensed (SIL OFL, see OFL.txt)
 data/items.js                    generated item data (window.VAL_DROPS)
 data/curated.json                hand-added items the wiki doesn't have yet
-img/                             item images downloaded from the wiki
+img/                             item images saved from the wiki (thumbnails, *_600 large copies, card banners)
 scripts/build-data.mjs           wiki scraper
 scripts/notify-discord.mjs       posts new items to a Discord webhook
 scripts/check-data.mjs           blocks publishing if a scrape looks broken

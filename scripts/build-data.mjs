@@ -573,17 +573,18 @@ const run = promisify(execFile);
 let webpTools;
 const hasWebp = () => (webpTools ??= Promise.all([run("cwebp", ["-version"]), run("gif2webp", ["-version"])]).then(() => true, () => false));
 
-// Saves an item's thumbnail under img/ and returns its path, or null if the
-// download failed. An existing WebP is reused, so each image is fetched once.
-async function localImage(img, file) {
-  const base = "img/" + slug(file.replace(/\.\w+$/, ""));
-  const orig = base + (path.extname(new URL(img.thumb).pathname) || ".png");
-  if (!(await hasWebp())) return (await download(img.thumb, path.join(ROOT, orig))) ? orig : null;
+// Saves a wiki image under img/ and returns its path, or null if the download
+// failed. An existing WebP is reused, so each image is fetched once. suffix
+// keeps different sizes of the same file apart.
+async function localImage(url, file, suffix = "") {
+  const base = "img/" + slug(file.replace(/\.\w+$/, "")) + suffix;
+  const orig = base + (path.extname(new URL(url).pathname) || ".png");
+  if (!(await hasWebp())) return (await download(url, path.join(ROOT, orig))) ? orig : null;
 
   const webp = base + ".webp";
   if (await exists(path.join(ROOT, webp))) return webp;
   // Always fetch fresh: a leftover original may be an older, larger thumbnail.
-  if (!(await download(img.thumb, path.join(ROOT, orig), { force: true }))) return null;
+  if (!(await download(url, path.join(ROOT, orig), { force: true }))) return null;
   const [src, dest] = [path.join(ROOT, orig), path.join(ROOT, webp)];
   if (orig.endsWith(".gif")) await run("gif2webp", ["-quiet", "-m", "6", src, "-o", dest]);
   else await run("cwebp", ["-quiet", "-lossless", "-z", "9", src, "-o", dest]);
@@ -593,7 +594,7 @@ async function localImage(img, file) {
 
 // Deletes files in img/ that no item uses any more (old formats, removed items).
 async function pruneImages(items) {
-  const used = new Set(items.map((i) => i.image));
+  const used = new Set(items.flatMap((i) => [i.image, i.imageLarge, i.imageWide]));
   for (const f of await readdir(path.join(ROOT, "img"))) {
     if (!used.has("img/" + f)) await unlink(path.join(ROOT, "img", f));
   }
@@ -719,7 +720,7 @@ async function main() {
   const firstSeen = await loadFirstSeen();
   const files = [...merged.values()].map((i) => i.file);
   const images = await resolveImages(files, ...THUMB_BOX);
-  // Larger copies for the item detail view, loaded from the wiki on demand.
+  // Larger copies for the item detail view, only loaded when it opens.
   const large = await resolveImages(files, 600);
   // Player cards also have a wide banner version ("X Card Wide.png").
   const wideName = (f) => (f && / Large\.\w+$/.test(f) ? f.replace(/ Large(\.\w+)$/, " Wide$1") : null);
@@ -727,16 +728,24 @@ async function main() {
   const imgDir = path.join(ROOT, "img");
   await mkdir(imgDir, { recursive: true });
 
+  // Local copy when possible; the wiki URL if downloads are off or fail.
+  const save = async (url, file, suffix) => (url && !SKIP_IMAGES && (await localImage(url, file, suffix))) || url || null;
   const items = [];
   let n = 0;
   for (const it of merged.values()) {
     const img = it.file && images[it.file];
     let image = null;
+    let imageLarge = null;
     if (img) {
-      image = (!SKIP_IMAGES && (await localImage(img, it.file))) || img.thumb;
+      image = await save(img.thumb, it.file);
+      // Small originals come back at the same URL for both sizes, so reuse the thumbnail.
+      const big = large[it.file]?.thumb;
+      imageLarge = big === img.thumb ? image : await save(big, it.file, "_600");
     } else if (it.file && !it.curated) {
       console.warn("  ! no image for", it.file);
     }
+    const wideFile = wideName(it.file);
+    const imageWide = await save(wide[wideFile]?.thumb, wideFile);
     const urls = [...new Set(it.refs)];
     const sources = urls.map(describeSource).filter(Boolean);
     const wikiPages = [...new Set([it.wikiPage, ...it.wikiLinks].filter(Boolean))];
@@ -751,8 +760,8 @@ async function main() {
       groupNote: it.groupNote || null,
       title: it.title,
       image,
-      imageLarge: large[it.file]?.thumb || null,
-      imageWide: wide[wideName(it.file)]?.thumb || null,
+      imageLarge,
+      imageWide,
       details: it.detailRows.filter((r) => r.length),
       ...(() => {
         const { period, openCode } = itemPeriod(it.detailRows);

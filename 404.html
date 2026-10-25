@@ -3,23 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Everything is served from this site; the wiki is only a fallback for images that failed to download. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://wiki.playvalorant.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <title>Page not found · VALORANT Out-of-Game Rewards</title>
   <meta name="robots" content="noindex">
   <meta name="theme-color" content="#0b0f14">
   <!-- Served for any missing path, so links are absolute to the site root. -->
   <link rel="icon" href="/val-drops/assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="preload" href="/val-drops/assets/fonts/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/val-drops/assets/fonts/barlow-condensed-800-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/val-drops/styles.css">
-  <style>
-    .top { min-height: 100vh; border-bottom: 0; }
-    .nf { padding-top: 96px; padding-bottom: 120px; }
-    .nf .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
-    .nf .actions a { text-decoration: none; }
-  </style>
 </head>
-<body>
+<body class="page-404">
   <header class="top">
     <nav class="wrap bar" aria-label="Site">
       <a class="brand" href="/val-drops/"><span class="mark" aria-hidden="true">V</span>VAL<span>DROPS</span></a>

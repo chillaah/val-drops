@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Everything is served from this site; the wiki is only a fallback for images that failed to download. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://wiki.playvalorant.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <title>VALORANT Out-of-Game Rewards</title>
   <meta name="description" content="Every VALORANT cosmetic earned outside the in-game store and battle pass: broadcast drops, Pick'Ems, partner promos, code redemptions, Prime Gaming, PS+ and more — with images and sources.">
   <meta name="theme-color" content="#0b0f14">
@@ -33,11 +35,10 @@
     }
   }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="preload" href="assets/fonts/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/barlow-condensed-800-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
-  <noscript><style>.controls, #meta { display: none; } .nojs { margin: 32px 0 0; }</style></noscript>
+  <noscript><link rel="stylesheet" href="assets/nojs.css"></noscript>
 </head>
 <body>
   <header class="top">
