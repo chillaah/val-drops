@@ -197,10 +197,9 @@
   function bigImage(i) {
     if (i.type === "Title") return `<div class="d-media"><div class="ptitle big">${esc(i.title || i.name.replace(/ Title$/, ""))}</div></div>`;
     if (!i.image) return "";
-    // Larger copy comes from the wiki; fall back to the local thumbnail if it fails.
-    const img = `<img class="d-main${i.type === "Player Card" ? " tall" : ""}" src="${esc(i.imageLarge || i.image)}" alt="${esc(i.name)}"
-      onerror="this.onerror=null;this.src='${esc(i.image)}'">`;
-    const wideImg = i.imageWide ? `<img class="d-wide" src="${esc(i.imageWide)}" alt="${esc(i.name)} (wide banner)" onerror="this.remove()">` : "";
+    // Error handlers are attached in openItem (no inline handlers, for the CSP).
+    const img = `<img class="d-main${i.type === "Player Card" ? " tall" : ""}" src="${esc(i.imageLarge || i.image)}" alt="${esc(i.name)}">`;
+    const wideImg = i.imageWide ? `<img class="d-wide" src="${esc(i.imageWide)}" alt="${esc(i.name)} (wide banner)">` : "";
     return `<div class="d-media">${img}${wideImg}</div>`;
   }
 
@@ -209,6 +208,7 @@
     if (!i) return;
     const how = status(i) ? howToClaim(i) : "";
     const also = alsoHtml(i);
+    $("#item-body").dataset.type = i.type;
     $("#item-body").innerHTML = `${bigImage(i)}<div class="d-info">
       <div class="d-badges">${badges(i)}</div>
       <h2 id="item-title">${esc(i.name)}</h2>
@@ -223,6 +223,12 @@
       <div class="src"><span class="lbl">Sources:</span> ${sourcesHtml(i)}</div>
       <div class="d-actions"><button type="button" class="chip" id="copy-link">Copy link</button></div>
     </div>`;
+    // If the large copy fails, fall back to the thumbnail; drop a missing banner.
+    const main = $("#item-body .d-main");
+    if (main && i.image && main.getAttribute("src") !== i.image) {
+      main.addEventListener("error", () => { main.src = i.image; }, { once: true });
+    }
+    $("#item-body .d-wide")?.addEventListener("error", (e) => e.target.remove());
     $("#copy-link").onclick = async (e) => {
       e.target.textContent = (await copyText(itemUrl(slug).href)) ? "Link copied" : "Copy failed";
     };
@@ -382,7 +388,12 @@
   // ?q= pre-fills the search (used by links posted to Discord).
   const initial = params.get("q");
   if (initial) { $("#q").value = initial; state.q = initial.trim().toLowerCase(); }
-  $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+  // Each render rebuilds every card, so wait for a pause in typing.
+  let typing;
+  $("#q").addEventListener("input", (e) => {
+    clearTimeout(typing);
+    typing = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
+  });
   const live = items.filter((i) => status(i) === "active").length;
   const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
   $("#meta").innerHTML =

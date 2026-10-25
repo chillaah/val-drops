@@ -27,16 +27,22 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+      - name: Install WebP tools
+        run: sudo apt-get update -q && sudo apt-get install -y -q webp
       - name: Rebuild data from the VALORANT Wiki
         run: |
           cp data/items.js "$RUNNER_TEMP/items.old.js"
           node scripts/build-data.mjs
+          node scripts/prerender.mjs
+      - name: Check data before publishing
+        # Stops a broken scrape (wiki layout change) from going live.
+        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
       - name: Commit to production
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data img
+          git add -A data img index.html
           # Ignore the "generated" timestamp so unchanged data doesn't create commits.
           if git diff --cached --quiet -I '"generated"'; then
             echo "No new items."
