@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-24T15:31:25.339Z",
+ "generated": "2026-10-25T15:41:12.846Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -6726,628 +6726,6 @@ window.VAL_DROPS = {
   },
   {
    "id": 162,
-   "name": "Beta Watch Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Beta_Watch_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Large.png?2210f",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Wide.png?0fcec",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Closed Beta Twitch streams"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "April 7 - May 22, 2020"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2020-04-07",
-    "end": "2020-05-22"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
-     "label": "VALORANT Wiki: Closed Beta",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "beta-watch-card"
-  },
-  {
-   "id": 163,
-   "name": "Showdown Watch Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Showdown_Watch_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Large.png?d0894",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Wide.png?3926e",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "AfreecaTV Asia VALORANT Showdown"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 18 - 20, 2020"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2020-09-18",
-    "end": "2020-09-20"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "showdown-watch-card"
-  },
-  {
-   "id": 164,
-   "name": "Champions 2022 Hero Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Champions_2022_Hero_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Large.png?5dbed",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Wide.png?c1718",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Champions Istanbul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 18, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-09-18",
-    "end": "2022-09-18"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "champions-2022-hero-card"
-  },
-  {
-   "id": 165,
-   "name": "2022 Game Changers Championship Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/2022_Game_Changers_Championship_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Large.png?35c65",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Wide.png?25514",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-11-20",
-    "end": "2022-11-20"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "2022-game-changers-championship-card"
-  },
-  {
-   "id": 166,
-   "name": "Rank Up! // Masters Tokyo 2023 Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Rank_Up_Masters_Tokyo_2023_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Large.png?4c146",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Wide.png?e898c",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Masters Tokyo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 25, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-06-25",
-    "end": "2023-06-25"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "rank-up-masters-tokyo-2023-card"
-  },
-  {
-   "id": 167,
-   "name": "Champions 2023 Lowrider Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Champions_2023_Lowrider_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Large.png?e6c3d",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Wide.png?cbeea",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Champions Los Angeles"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 26, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-08-26",
-    "end": "2023-08-26"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "champions-2023-lowrider-card"
-  },
-  {
-   "id": 168,
-   "name": "Clutch Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Clutch_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Large.png?e8c35",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Wide.png?a3188",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #4"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 2 - 5, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-11-02",
-    "end": "2023-11-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "clutch-card"
-  },
-  {
-   "id": 169,
-   "name": "VCT Push Up Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/VCT_Push_Up_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Large.png?e7c9e",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Wide.png?de6ef",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Masters Madrid"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "March 24, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-03-24",
-    "end": "2024-03-24"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "vct-push-up-card"
-  },
-  {
-   "id": 170,
-   "name": "Agents on Leave Seoul Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Agents_on_Leave_Seoul_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Large.png?e0e5d",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Wide.png?2e5de",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Champions Seoul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 25, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-08-25",
-    "end": "2024-08-25"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "agents-on-leave-seoul-card"
-  },
-  {
-   "id": 171,
-   "name": "2024 Game Changers Championship Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/2024_Game_Changers_Championship_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Large.png?fdffd",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Wide.png?4efbf",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-17",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "2024-game-changers-championship-card"
-  },
-  {
-   "id": 172,
-   "name": "Horrors I've Seen Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Horrors_I_ve_Seen_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Large.png?0a09d",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Wide.png?78d2e",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Arcane Season 2 Premiere"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "• November 8, 2024 • November 16 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-16",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "horrors-i-ve-seen-card"
-  },
-  {
-   "id": 173,
-   "name": "From My Perspective Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/From_My_Perspective_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Large.png?cf96c",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Wide.png?c60ea",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Arcane Season 2 Premiere"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 16 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-16",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "from-my-perspective-card"
-  },
-  {
-   "id": 174,
-   "name": "Frosty Freestyle Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Frosty_Freestyle_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Large.png?922e0",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Wide.png?a1371",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #5"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-20",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "frosty-freestyle-card"
-  },
-  {
-   "id": 175,
-   "name": "No Fly Zone Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/No_Fly_Zone_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Large.png?dfb22",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Wide.png?96c6b",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 5, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-10-05",
-    "end": "2025-10-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "no-fly-zone-card"
-  },
-  {
-   "id": 176,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7397,7 +6775,7 @@ window.VAL_DROPS = {
    "slug": "for-retribution-card"
   },
   {
-   "id": 177,
+   "id": 163,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7452,7 +6830,7 @@ window.VAL_DROPS = {
    "slug": "not-a-peep-card"
   },
   {
-   "id": 178,
+   "id": 164,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7502,7 +6880,7 @@ window.VAL_DROPS = {
    "slug": "versus-deadlock-gekko-card"
   },
   {
-   "id": 179,
+   "id": 165,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7525,16 +6903,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7562,7 +6940,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7571,7 +6949,7 @@ window.VAL_DROPS = {
    "slug": "pride-cotton-candy-card"
   },
   {
-   "id": 180,
+   "id": 166,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7594,16 +6972,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7631,7 +7009,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7640,7 +7018,7 @@ window.VAL_DROPS = {
    "slug": "pride-galactic-card"
   },
   {
-   "id": 181,
+   "id": 167,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7663,16 +7041,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7700,7 +7078,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7709,7 +7087,7 @@ window.VAL_DROPS = {
    "slug": "pride-primary-card"
   },
   {
-   "id": 182,
+   "id": 168,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7732,16 +7110,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7769,7 +7147,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7778,7 +7156,7 @@ window.VAL_DROPS = {
    "slug": "pride-rainbow-card"
   },
   {
-   "id": 183,
+   "id": 169,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7801,16 +7179,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7838,7 +7216,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7847,7 +7225,7 @@ window.VAL_DROPS = {
    "slug": "pride-sherbet-card"
   },
   {
-   "id": 184,
+   "id": 170,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7870,16 +7248,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7907,7 +7285,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7916,7 +7294,7 @@ window.VAL_DROPS = {
    "slug": "pride-sunset-card"
   },
   {
-   "id": 185,
+   "id": 171,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7939,16 +7317,16 @@ window.VAL_DROPS = {
      },
      {
       "label": "Expiry Date",
-      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • Unknown"
+      "value": "• June 30, 2021* • June 25, 2024 • June 30, 2025 • June 30, 2026"
      }
     ]
    ],
    "period": {
     "start": null,
-    "end": "2025-06-30"
+    "end": "2026-06-30"
    },
    "ongoing": null,
-   "maybeActive": true,
+   "maybeActive": false,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -7976,7 +7354,7 @@ window.VAL_DROPS = {
     },
     {
      "code": "CC-VAL26-PLAYR-CARDS",
-     "expires": null,
+     "expires": "2026-06-30",
      "defunct": false
     }
    ],
@@ -7985,7 +7363,7 @@ window.VAL_DROPS = {
    "slug": "pride-twilight-card"
   },
   {
-   "id": 186,
+   "id": 172,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8073,86 +7451,7 @@ window.VAL_DROPS = {
    "slug": "dance-break-card"
   },
   {
-   "id": 187,
-   "name": "Frag or Die: Trophy Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Shotcall (Twitch extension)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Frag_or_Die_Trophy_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Large.png/600px-Frag_or_Die_Trophy_Card_Large.png?949b0",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Wide.png/900px-Frag_or_Die_Trophy_Card_Wide.png?b5e87",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "Participate in Shotcall during 2026 VALORANT Champions Shanghai"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "frag-or-die-trophy-card"
-  },
-  {
-   "id": 188,
-   "name": "My Table, My Rules Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Shotcall (Twitch extension)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/My_Table_My_Rules_Card_Large.png",
-   "imageLarge": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Large.png?6a0d8",
-   "imageWide": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Wide.png?10ed1",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "Finish at top 3% in a map from Shotcall during an ongoing Twitch stream in 2025 VCT Champions Paris."
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
-     "label": "Riot Support",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "my-table-my-rules-card"
-  },
-  {
-   "id": 189,
+   "id": 173,
    "name": "Sakura // Tokyo Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8167,7 +7466,7 @@ window.VAL_DROPS = {
     [
      {
       "label": "Acquisition",
-      "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Drops for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
+      "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Rewards for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
      }
     ]
    ],
@@ -8185,8 +7484,8 @@ window.VAL_DROPS = {
      "wiki": true
     },
     {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+     "label": "VALORANT Wiki: Broadcast Rewards",
      "official": false,
      "wiki": true
     }
@@ -8203,7 +7502,7 @@ window.VAL_DROPS = {
    "slug": "sakura-tokyo-card"
   },
   {
-   "id": 190,
+   "id": 174,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8253,7 +7552,7 @@ window.VAL_DROPS = {
    "slug": "seoul-night-jett-card"
   },
   {
-   "id": 191,
+   "id": 175,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8295,7 +7594,7 @@ window.VAL_DROPS = {
    "slug": "sloth-slugs-card"
   },
   {
-   "id": 192,
+   "id": 176,
    "name": "Versus // Yoru + Phoenix Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -8310,7 +7609,7 @@ window.VAL_DROPS = {
     [
      {
       "label": "Acquisition",
-      "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
+      "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Broadcast Rewards of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
      }
     ]
    ],
@@ -8333,8 +7632,8 @@ window.VAL_DROPS = {
      "wiki": true
     },
     {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+     "label": "VALORANT Wiki: Broadcast Rewards",
      "official": false,
      "wiki": true
     }
@@ -8349,6 +7648,716 @@ window.VAL_DROPS = {
    ],
    "alsoFrom": [],
    "slug": "versus-yoru-phoenix-card"
+  },
+  {
+   "id": 177,
+   "name": "Beta Watch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Beta_Watch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Large.png?2210f",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Beta_Watch_Card_Wide.png?0fcec",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Closed Beta Twitch streams"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 22, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "beta-watch-card"
+  },
+  {
+   "id": 178,
+   "name": "Showdown Watch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Showdown_Watch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Large.png?d0894",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Showdown_Watch_Card_Wide.png?3926e",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "AfreecaTV Asia VALORANT Showdown"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "September 18 - 20, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-09-18",
+    "end": "2020-09-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "showdown-watch-card"
+  },
+  {
+   "id": 179,
+   "name": "Champions 2022 Hero Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Champions_2022_Hero_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Large.png?5dbed",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2022_Hero_Card_Wide.png?c1718",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2022 VALORANT Champions Istanbul"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "September 18, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-09-18",
+    "end": "2022-09-18"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "champions-2022-hero-card"
+  },
+  {
+   "id": 180,
+   "name": "2022 Game Changers Championship Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/2022_Game_Changers_Championship_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Large.png?35c65",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/2022_Game_Changers_Championship_Card_Wide.png?25514",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2022 VALORANT Game Changers Championship Berlin"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 20, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-11-20",
+    "end": "2022-11-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "2022-game-changers-championship-card"
+  },
+  {
+   "id": 181,
+   "name": "Rank Up! // Masters Tokyo 2023 Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Rank_Up_Masters_Tokyo_2023_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Large.png?4c146",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Rank_Up%21_Masters_Tokyo_2023_Card_Wide.png?e898c",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2023 VALORANT Masters Tokyo"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "June 25, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-06-25",
+    "end": "2023-06-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "rank-up-masters-tokyo-2023-card"
+  },
+  {
+   "id": 182,
+   "name": "Champions 2023 Lowrider Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Champions_2023_Lowrider_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Large.png?e6c3d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Champions_2023_Lowrider_Card_Wide.png?cbeea",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2023 VALORANT Champions Los Angeles"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "August 26, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-08-26",
+    "end": "2023-08-26"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "champions-2023-lowrider-card"
+  },
+  {
+   "id": 183,
+   "name": "Clutch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Clutch_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Large.png?e8c35",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Clutch_Card_Wide.png?a3188",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Red Bull Home Ground #4"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 2 - 5, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-11-02",
+    "end": "2023-11-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "clutch-card"
+  },
+  {
+   "id": 184,
+   "name": "VCT Push Up Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VCT_Push_Up_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Large.png?e7c9e",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/VCT_Push_Up_Card_Wide.png?de6ef",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2024 VALORANT Masters Madrid"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "March 24, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-03-24",
+    "end": "2024-03-24"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "vct-push-up-card"
+  },
+  {
+   "id": 185,
+   "name": "Agents on Leave Seoul Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Agents_on_Leave_Seoul_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Large.png?e0e5d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Agents_on_Leave_Seoul_Card_Wide.png?2e5de",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2024 VALORANT Champions Seoul"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "August 25, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-25",
+    "end": "2024-08-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "agents-on-leave-seoul-card"
+  },
+  {
+   "id": 186,
+   "name": "2024 Game Changers Championship Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/2024_Game_Changers_Championship_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Large.png?fdffd",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/2024_Game_Changers_Championship_Card_Wide.png?4efbf",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2024 VALORANT Game Changers Championship Berlin"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-17",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "2024-game-changers-championship-card"
+  },
+  {
+   "id": 187,
+   "name": "Horrors I've Seen Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Horrors_I_ve_Seen_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Large.png?0a09d",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Horrors_I%27ve_Seen_Card_Wide.png?78d2e",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Arcane Season 2 Premiere"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "• November 8, 2024 • November 16 - 23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-16",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "horrors-i-ve-seen-card"
+  },
+  {
+   "id": 188,
+   "name": "From My Perspective Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/From_My_Perspective_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Large.png?cf96c",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/From_My_Perspective_Card_Wide.png?c60ea",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Arcane Season 2 Premiere"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 16 - 23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-16",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "from-my-perspective-card"
+  },
+  {
+   "id": 189,
+   "name": "Frosty Freestyle Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Frosty_Freestyle_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Large.png?922e0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/Frosty_Freestyle_Card_Wide.png?a1371",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Red Bull Home Ground #5"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 20 - 23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-20",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "frosty-freestyle-card"
+  },
+  {
+   "id": 190,
+   "name": "No Fly Zone Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/No_Fly_Zone_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Large.png?dfb22",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/No_Fly_Zone_Card_Wide.png?96c6b",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2025 VALORANT Champions Paris"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-10-05",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "no-fly-zone-card"
+  },
+  {
+   "id": 191,
+   "name": "My Table, My Rules Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/My_Table_My_Rules_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Large.png?6a0d8",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/My_Table%2C_My_Rules_Card_Wide.png?10ed1",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2025 VALORANT Champions Paris"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "September 12 - October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-12",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "my-table-my-rules-card"
+  },
+  {
+   "id": 192,
+   "name": "Frag or Die: Trophy Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Other broadcast drops",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Frag_or_Die_Trophy_Card_Large.png",
+   "imageLarge": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Large.png/600px-Frag_or_Die_Trophy_Card_Large.png?949b0",
+   "imageWide": "https://wiki.playvalorant.com/en-us/images/thumb/Frag_or_Die_Trophy_Card_Wide.png/900px-Frag_or_Die_Trophy_Card_Wide.png?b5e87",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "2026 VALORANT Champions Shanghai"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "September 24 - October 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-24",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "frag-or-die-trophy-card"
   },
   {
    "id": 193,
