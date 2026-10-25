@@ -29,7 +29,7 @@ jobs:
       - name: Assemble site
         run: |
           mkdir _site
-          cp -r index.html app.js styles.css data img _site/
+          cp -r index.html 404.html app.js styles.css assets data img _site/
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

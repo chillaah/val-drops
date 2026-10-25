@@ -19,15 +19,12 @@ jobs:
         with:
           node-version: 22
       - name: Syntax check
-        run: node --check scripts/build-data.mjs && node --check app.js
+        run: for f in scripts/*.mjs app.js; do node --check "$f"; done
       - name: Build data (no image download)
-        run: node scripts/build-data.mjs --no-images
-      - name: Sanity-check output
         run: |
-          node -e '
-            global.window = {};
-            require("./data/items.js");
-            const n = window.VAL_DROPS.items.length;
-            console.log(n + " items");
-            if (n < 200) { console.error("Too few items, the wiki layout may have changed."); process.exit(1); }
-          '
+          cp data/items.js "$RUNNER_TEMP/items.old.js"
+          node scripts/build-data.mjs --no-images
+      - name: Sanity-check output
+        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
+      - name: Check site files exist
+        run: for f in index.html 404.html app.js styles.css assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done

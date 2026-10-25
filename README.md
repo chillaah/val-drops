@@ -59,6 +59,8 @@ You can search and filter by source and by item type. The site also works on mob
                                                                  └────────────┘
 ```
 
+Before anything is committed, `scripts/check-data.mjs` checks the new data: at least 200 items, no more than a 10% drop from the last run, required fields present and slugs unique. If a wiki layout change breaks the scraper, the run fails and the live site keeps its last good data.
+
 New rewards usually reach the wiki within hours of Riot announcing them. They show up on the site at the next scheduled run, or right away if you start **Update data** from the Actions tab.
 
 ### Discord notifications
@@ -94,11 +96,15 @@ npm run serve   # http://localhost:8080
 
 ```
 index.html, app.js, styles.css   static site (no framework, no build step)
+404.html                         not-found page (GitHub Pages serves it for any missing path)
+assets/                          favicon, touch icon and og.png social preview
 data/items.js                    generated item data (window.VAL_DROPS)
 data/curated.json                hand-added items the wiki doesn't have yet
 img/                             item images downloaded from the wiki
 scripts/build-data.mjs           wiki scraper
 scripts/notify-discord.mjs       posts new items to a Discord webhook
+scripts/check-data.mjs           blocks publishing if a scrape looks broken
+scripts/og-image.html            source for assets/og.png (screenshot #og at 1200×630)
 .github/workflows/               ci, update-data, deploy
 ```
 

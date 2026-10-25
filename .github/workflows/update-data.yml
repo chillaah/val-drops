@@ -31,6 +31,9 @@ jobs:
         run: |
           cp data/items.js "$RUNNER_TEMP/items.old.js"
           node scripts/build-data.mjs
+      - name: Check data before publishing
+        # Stops a broken scrape (wiki layout change) from going live.
+        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
       - name: Commit to production
         id: commit
         run: |
