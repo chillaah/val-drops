@@ -105,13 +105,14 @@ a { color: inherit; }
 .links a { color: var(--muted); text-decoration: none; font-size: 14px; padding: 6px 10px; border-radius: var(--radius-sm); transition: color .15s, background .15s; }
 .links a:hover { color: var(--text); background: var(--surface-2); }
 
+/* Styled like the nav links next to it: no box until hovered. */
 .theme-toggle {
-  display: grid; place-items: center; width: 34px; height: 34px; margin-left: 4px; padding: 0;
-  border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--muted); cursor: pointer;
-  transition: color .15s, border-color .15s;
+  display: grid; place-items: center; width: 34px; height: 34px; padding: 0;
+  border: 0; border-radius: var(--radius-sm); background: none; color: var(--muted); cursor: pointer;
+  transition: color .15s, background .15s;
 }
-.theme-toggle:hover { color: var(--text); border-color: var(--border-strong); }
-.theme-toggle svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle:hover { color: var(--text); background: var(--surface-2); }
+.theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
 /* Show the icon for the theme a click switches to. */
 .theme-toggle .sun { display: none; }
 :root[data-theme="dark"] .theme-toggle .sun { display: block; }

@@ -15,7 +15,8 @@
     root.dataset.theme = theme;
     for (const m of document.querySelectorAll('meta[name="theme-color"]')) m.content = COLORS[theme];
     const b = document.getElementById("theme");
-    if (b) b.setAttribute("aria-label", theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
+    const label = theme === "dark" ? "Switch to light theme" : "Switch to dark theme";
+    if (b) { b.setAttribute("aria-label", label); b.title = label; }
   }
 
   const pick = saved();
