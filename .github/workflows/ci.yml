@@ -14,8 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
       - name: Syntax check
@@ -26,6 +26,7 @@ jobs:
           node scripts/build-data.mjs --no-images
           node scripts/prerender.mjs
       - name: Sanity-check output
-        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
+        # --approve: CI only checks the scraper; reviewing wiki edits is the update job's call.
+        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js" --approve
       - name: Check site files exist
         run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done

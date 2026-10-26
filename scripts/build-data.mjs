@@ -503,19 +503,20 @@ function regionTags(it) {
 
 // ---------- merge, images, sources ----------
 
+// Matched against the whole hostname, so "riotgames.com.example.net" isn't labelled official.
 const SOURCE_LABELS = [
-  [/valorantesports\.com/, "VALORANT Esports", true],
-  [/playvalorant\.com/, "PlayVALORANT.com", true],
-  [/support-valorant\.riotgames\.com/, "Riot Support", true],
-  [/merch\.riotgames\.com/, "Riot Games Merch", true],
-  [/riotgames\.com/, "Riot Games", true],
-  [/lolesports\.com/, "LoL Esports", true],
-  [/coinbase\.com/, "Coinbase", false],
-  [/expressvpn\.com/, "ExpressVPN", false],
-  [/popmart\.com/, "POP MART", false],
-  [/youtube\.com|youtu\.be/, "YouTube", false],
-  [/instagram\.com/, "Instagram", false],
-  [/(twitter|x)\.com/, "X", false],
+  [/(^|\.)valorantesports\.com$/, "VALORANT Esports", true],
+  [/(^|\.)playvalorant\.com$/, "PlayVALORANT.com", true],
+  [/^support-valorant\.riotgames\.com$/, "Riot Support", true],
+  [/^merch\.riotgames\.com$/, "Riot Games Merch", true],
+  [/(^|\.)riotgames\.com$/, "Riot Games", true],
+  [/(^|\.)lolesports\.com$/, "LoL Esports", true],
+  [/(^|\.)coinbase\.com$/, "Coinbase", false],
+  [/(^|\.)expressvpn\.com$/, "ExpressVPN", false],
+  [/(^|\.)popmart\.com$/, "POP MART", false],
+  [/(^|\.)(youtube\.com|youtu\.be)$/, "YouTube", false],
+  [/(^|\.)instagram\.com$/, "Instagram", false],
+  [/(^|\.)(twitter|x)\.com$/, "X", false],
 ];
 const RIOT_HANDLES = /^(valorant\w*|playvalorant|riot\w*|valesports\w*|vct\w*|lolesports)$/i;
 
