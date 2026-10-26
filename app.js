@@ -161,13 +161,18 @@
     `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
   ).join("");
   const contextOf = (i) => [i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · ");
+  // The part after " · " is detail that phone cards drop, so the badge stays on one line.
+  const badgeText = (s) => {
+    const [main, ...more] = s.split(" · ");
+    return `<span>${esc(main)}${more.length ? `<span class="more"> · ${esc(more.join(" · "))}</span>` : ""}</span>`;
+  };
   const badges = (i) => {
     const st = status(i);
     const label = statusLabel(i);
     const allExpired = i.codes && i.codes.every(codeExpired);
-    return (label ? `<span class="status ${st}">${esc(label)}</span>` : "") +
+    return (label ? `<span class="status ${st}">${badgeText(label)}</span>` : "") +
       (allExpired ? `<span class="status expired">Expired</span>` : "") +
-      (isRecent(i) ? `<span class="added">New · added ${esc(fmtDay(i.firstSeen))}</span>` : "");
+      (isRecent(i) ? `<span class="added">${badgeText(`New · added ${fmtDay(i.firstSeen)}`)}</span>` : "");
   };
 
   function card(i, { claim = false, context = false } = {}) {
@@ -237,7 +242,8 @@
     };
     if (push) history.pushState({ item: slug }, "", itemUrl(slug));
     document.title = `${i.name} · VALORANT Out-of-Game Rewards`;
-    if (!dlg.open) dlg.showModal();
+    // Focus the dialog, not ×: a deep link would otherwise open with a focus ring on it.
+    if (!dlg.open) { dlg.showModal(); dlg.focus(); }
     $("#item-body").scrollTop = 0;
   }
 
@@ -406,4 +412,13 @@
     stat(esc(new Date(generated).toLocaleDateString(undefined, { month: "short", day: "numeric" })), "last updated");
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
+
+  // The whole filter bar would cover a quarter of the screen, so pin only the search
+  // box (last in the bar): offset the sticky bar by everything above it.
+  const controls = $(".controls");
+  const pin = () => {
+    const above = $(".search").getBoundingClientRect().top - controls.getBoundingClientRect().top - 10;
+    controls.style.setProperty("--controls-top", `${-Math.round(above)}px`);
+  };
+  new ResizeObserver(pin).observe(controls);
 })();

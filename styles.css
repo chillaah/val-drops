@@ -82,7 +82,7 @@
 
 /* ---------- base ---------- */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 200px; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.55 var(--sans); font-feature-settings: "ss01";
@@ -136,12 +136,15 @@ a.stat b { color: var(--ok); }
 a.stat:hover span { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------- filter bar ---------- */
+/* Only the search box stays pinned: it sits last in the bar, and app.js offsets the
+   sticky bar by the chip rows' height so they scroll away above it. */
 .controls {
-  position: sticky; top: 0; z-index: 5; padding: 12px 0 10px;
+  position: sticky; top: var(--controls-top, 0); z-index: 5; padding: 4px 0 10px;
   background: var(--header-bg); backdrop-filter: blur(12px) saturate(160%); -webkit-backdrop-filter: blur(12px) saturate(160%);
   border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
 }
-.search { position: relative; display: block; }
+.controls > .wrap { display: flex; flex-direction: column; }
+.search { position: relative; display: block; order: 1; margin-top: 10px; }
 .search svg { position: absolute; left: 12px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); fill: none; stroke: var(--dim); stroke-width: 2; stroke-linecap: round; }
 #q {
   width: 100%; padding: 10px 12px 10px 36px; border-radius: 10px; border: 1px solid var(--border);
@@ -281,6 +284,8 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
   box-shadow: 0 30px 80px -20px rgba(0, 0, 0, .45);
 }
 #item[open] { display: flex; animation: pop .18s ease; }
+/* app.js focuses the dialog itself on open; it isn't a control, so no ring. */
+#item:focus-visible { outline: none; }
 #item::backdrop { background: var(--backdrop); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
 @keyframes pop { from { opacity: 0; transform: translateY(8px) scale(.99); } to { opacity: 1; transform: none; } }
 #item-close {
@@ -324,12 +329,14 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
   .stats:empty { min-height: 108px; }
 }
 @media (max-width: 680px) {
-  html { scroll-padding-top: 170px; }
   .hero { padding: 28px 16px 28px; }
   /* one swipeable line per filter row instead of a tall wall of chips */
   .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-left: -16px; margin-right: -16px; padding: 0 16px; }
   .chips::-webkit-scrollbar { display: none; }
   .chips .lbl { min-width: 0; }
+  .chip { padding: 6px 12px; }
+  /* Cards stay short; tapping one opens the item view with the details, "Also from", sources and dates. */
+  .card .details, .card .also, .card .src, .card .more { display: none; }
   .filter-row { display: block; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .thumb { height: 120px; padding: 10px; }
