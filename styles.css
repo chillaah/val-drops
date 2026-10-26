@@ -333,8 +333,8 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
   .chips::-webkit-scrollbar { display: none; }
   .chips .lbl { min-width: 0; }
   .chip { padding: 6px 12px; }
-  /* Cards stay short; tapping one opens the item view with the details, "Also from" and sources. */
-  .card .details, .card .also, .card .src { display: none; }
+  /* Cards stay short; tapping one opens the item view with the details, "Also from", sources and dates. */
+  .card .details, .card .also, .card .src, .card .more { display: none; }
   .filter-row { display: block; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .thumb { height: 120px; padding: 10px; }
