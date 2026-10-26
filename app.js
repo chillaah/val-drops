@@ -406,4 +406,15 @@
     stat(esc(new Date(generated).toLocaleDateString(undefined, { month: "short", day: "numeric" })), "last updated");
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
+
+  // On phones the filter bar would cover a quarter of the screen, so pin only the
+  // search box (last in the bar there): offset the sticky bar by everything above it.
+  const controls = $(".controls");
+  const phone = matchMedia("(max-width: 680px)");
+  const pin = () => {
+    const above = $(".search").getBoundingClientRect().top - controls.getBoundingClientRect().top - 10;
+    controls.style.setProperty("--controls-top", phone.matches ? `${-Math.round(above)}px` : "0");
+  };
+  new ResizeObserver(pin).observe(controls);
+  phone.addEventListener("change", pin);
 })();
