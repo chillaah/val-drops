@@ -3,8 +3,9 @@
 // Usage: node scripts/notify-discord.mjs <old-items.js> <new-items.js> [--dry-run]
 // Env:   DISCORD_WEBHOOK_URL (required unless --dry-run)
 //        SITE_URL            (default: https://<owner>.github.io/<repo>/ from GITHUB_REPOSITORY)
-//        RAW_BASE            (default: raw.githubusercontent.com/<repo>/production/)
+//        RAW_BASE            (default: raw.githubusercontent.com/<repo>/<current commit>/)
 import { readFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 
 const [oldPath, newPath] = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const DRY_RUN = process.argv.includes("--dry-run");
@@ -12,7 +13,10 @@ const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
 const REPO = process.env.GITHUB_REPOSITORY || "chillaah/val-drops";
 const [OWNER, NAME] = REPO.split("/");
 const SITE_URL = process.env.SITE_URL || `https://${OWNER}.github.io/${NAME}/`;
-const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${REPO}/production/`;
+// Image links point at this commit, not the branch: later runs convert or prune
+// images, and Discord fetches embed images long after the post goes out.
+const commit = () => { try { return execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(); } catch { return "production"; } };
+const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${REPO}/${commit()}/`;
 
 // More new items than this in one run usually means the scraper or the wiki
 // layout changed, so post one summary instead of flooding the channel.
@@ -29,8 +33,13 @@ async function loadItems(file) {
   }
 }
 
-// ids are sequential and shift between builds, so match on what the item is.
-const key = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
+// ids shift between builds and the wiki moves items between sections, so match
+// on type + name (the same fallback build-data uses for firstSeen).
+const key = (i) => i.type + "§" + i.name.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+
+// Wiki dates are Pacific time. Items whose claim window has closed aren't worth a ping.
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
+const ended = (i) => !i.ongoing && i.period?.end && i.period.end < TODAY;
 
 const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
@@ -87,8 +96,10 @@ async function main() {
     return;
   }
   const before = new Set((await loadItems(oldPath)).map(key));
-  const added = (await loadItems(newPath)).filter((i) => !before.has(key(i)));
-  console.log(`${added.length} new item(s).`);
+  const fresh = (await loadItems(newPath)).filter((i) => !before.has(key(i)));
+  const added = fresh.filter((i) => !ended(i));
+  console.log(`${fresh.length} new item(s), ${added.length} still claimable or undated.`);
+  for (const i of fresh.filter(ended)) console.log(`  skipped (ended ${i.period.end}): ${i.name}`);
   if (!added.length) return;
 
   if (!before.size || added.length > MAX_ITEMS) {

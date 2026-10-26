@@ -23,8 +23,8 @@ async function loadItems(file) {
   return JSON.parse(src.replace(/^window\.VAL_DROPS\s*=\s*/, "").replace(/;\s*$/, "")).items;
 }
 
-// ids shift between builds, so match items on what they are.
-const key = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
+// ids shift between builds and the wiki moves items between sections, so match on type + name.
+const key = (i) => i.type + "§" + i.name.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 const host = (url) => { try { return new URL(url).hostname; } catch { return url; } };
 const codesOf = (i) => (i.codes || []).map((c) => c.code).sort().join(", ");
 

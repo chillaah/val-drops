@@ -162,7 +162,7 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 
 ### Discord notifications
 
-When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site.
+When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Items whose claim window has already ended are left out, and an item the wiki only moved to another section doesn't count as new.
 
 1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.
