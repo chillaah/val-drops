@@ -40,6 +40,8 @@ const key = (i) => i.type + "§" + i.name.normalize("NFC").toLowerCase().replace
 // Wiki dates are Pacific time. Items whose claim window has closed aren't worth a ping.
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
 const ended = (i) => !i.ongoing && i.period?.end && i.period.end < TODAY;
+// China-exclusive items can't be claimed on other servers.
+const chinaOnly = (i) => i.regions?.some((r) => r.code === "CN");
 
 const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
@@ -97,9 +99,9 @@ async function main() {
   }
   const before = new Set((await loadItems(oldPath)).map(key));
   const fresh = (await loadItems(newPath)).filter((i) => !before.has(key(i)));
-  const added = fresh.filter((i) => !ended(i));
-  console.log(`${fresh.length} new item(s), ${added.length} still claimable or undated.`);
-  for (const i of fresh.filter(ended)) console.log(`  skipped (ended ${i.period.end}): ${i.name}`);
+  const added = fresh.filter((i) => !ended(i) && !chinaOnly(i));
+  console.log(`${fresh.length} new item(s), ${added.length} worth posting.`);
+  for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : `ended ${i.period.end}`}): ${i.name}`);
   if (!added.length) return;
 
   if (!before.size || added.length > MAX_ITEMS) {

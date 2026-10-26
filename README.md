@@ -53,11 +53,13 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 |---|---|
 | **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch and Kick drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
 | **Pick'Ems** | Top 50% and top 20% buddies, Pick'Ems sprays, participation and perfect-picks titles |
-| **Events & Partnerships** | Alpha vs. Omega Conflict, Champions Conflict: Frag or Die, Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
+| **Events & Partnerships** | Challenge events on Riot's FTW site (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |
 | **Prime Gaming** | Monthly Prime Gaming drops from 2020 to 2024, including the Wayfinder Shorty skin |
 | **PlayStation Plus** | Rotating PS+ member bundles |
 | **Pro Play** | Tournament winner buddies and titles given to pros |
+| **Closed Beta** | The 2020 Closed Beta reward pass, entered through Twitch drops (items removed at launch are left out) |
+| **China Exclusive** | Items only obtainable on the China version of VALORANT, tagged "China only" and not posted to Discord |
 
 ## Sources and accuracy
 

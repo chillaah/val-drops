@@ -4,11 +4,13 @@
   const CATEGORIES = [
     ["Broadcast Drops", "Rewards for watching official VCT broadcasts, co-streams and partner streams with a linked Riot account (Twitch and Kick Drops, Shotcall extension)."],
     ["Pick'Ems", "Rewards for taking part in the official VCT Pick'Ems bracket predictions."],
-    ["Events & Partnerships", "Web events like Alpha vs. Omega and Frag or Die, brand promos (Coinbase, ExpressVPN, Verizon, Xbox), merch codes, watch parties and Shotcall."],
+    ["Events & Partnerships", "Challenge events on Riot's FTW website (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), brand promos (Coinbase, ExpressVPN, Verizon, Xbox), merch codes, watch parties and Shotcall."],
     ["Code Redemption", "Items unlocked with public codes Riot announced, redeemable at the Riot redemption site."],
     ["Prime Gaming", "Monthly Prime Gaming (Amazon) drops, discontinued in March 2024."],
     ["PlayStation Plus", "Free rotating bundles for PlayStation Plus members on PS5."],
     ["Pro Play", "Items given to pro players and staff for competing in or winning Riot-run tournaments."],
+    ["Closed Beta", "Rewards from the 2020 Closed Beta, which players got into through Twitch drops. They stayed on accounts after launch."],
+    ["China Exclusive", "Items only obtainable on the separate China version of VALORANT. Players on other servers can't get them."],
   ];
   const TYPES = ["Title", "Player Card", "Gun Buddy", "Spray", "Gun Skin"];
 
@@ -20,6 +22,7 @@
   const REGIONS = [
     ["KR", "South Korea only", (i) => i.regions.some((r) => r.code === "KR")],
     ["JP", "Japan only", (i) => i.regions.some((r) => r.code === "JP")],
+    ["CN", "China only", (i) => i.regions.some((r) => r.code === "CN")],
     ["IRL", "In person only", (i) => i.regions.some((r) => r.code.endsWith("-IRL"))],
     ["EXCL", "Not in some countries", (i) => i.regions.some((r) => r.code === "EXCL")],
     ["NONE", "No listed limits", (i) => !i.regions.length],

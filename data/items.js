@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-25T20:38:42.555Z",
+ "generated": "2026-10-26T10:08:24.841Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -7,6 +7,3700 @@ window.VAL_DROPS = {
  "items": [
   {
    "id": 1,
+   "name": "MIGA Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": "Channel Drops",
+   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "title": "MIGA",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 22 - 31, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-22",
+    "end": "2026-10-31"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "miga-title"
+  },
+  {
+   "id": 2,
+   "name": "Mais que amigas, friends Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": "Channel Drops",
+   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "title": null,
+   "image": "img/Mais_que_amigas_friends_Spray.webp",
+   "imageLarge": "img/Mais_que_amigas_friends_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 1, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-11-01",
+    "end": "2026-11-01"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "mais-que-amigas-friends-spray"
+  },
+  {
+   "id": 3,
+   "name": "Braba Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": "Co-Streamers Channel Drops",
+   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "title": "Braba",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 30 - November 1, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-30",
+    "end": "2026-11-01"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "braba-title"
+  },
+  {
+   "id": 4,
+   "name": "Prepared Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": "Channel Drops",
+   "groupNote": "Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Channel Drops during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
+   "title": "Prepared",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 24 - October 17, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-24",
+    "end": "2026-10-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/ValorantEsports/status/2107904832543818010",
+     "label": "X @ValorantEsports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "prepared-title"
+  },
+  {
+   "id": 5,
+   "name": "Stamp of Approval Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": "Channel Drops",
+   "groupNote": "Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Channel Drops during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
+   "title": null,
+   "image": "img/Stamp_of_Approval_Spray.webp",
+   "imageLarge": "img/Stamp_of_Approval_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "(formerly a Grand Finals Channel Drops reward) / October 7 - 17, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-07",
+    "end": "2026-10-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/ValorantEsports/status/2107904832543818010",
+     "label": "X @ValorantEsports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "stamp-of-approval-spray"
+  },
+  {
+   "id": 6,
+   "name": "Frag or Die: Trophy Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": "Channel Drops",
+   "groupNote": "Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Channel Drops during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
+   "title": null,
+   "image": "img/Frag_or_Die_Trophy_Card_Large.webp",
+   "imageLarge": "img/Frag_or_Die_Trophy_Card_Large_600.webp",
+   "imageWide": "img/Frag_or_Die_Trophy_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 18, 2026 (formerly a Shotcall Extension reward on September 24 - October 18, 2026)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-18",
+    "end": "2026-10-18"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/ValorantEsports/status/2107904832543818010",
+     "label": "X @ValorantEsports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "frag-or-die-trophy-card"
+  },
+  {
+   "id": 7,
+   "name": "The Catch Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": "Shotcall Extension",
+   "groupNote": "Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Channel Drops during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
+   "title": "The Catch",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 24 - October 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-24",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/ValorantEsports/status/2107904832543818010",
+     "label": "X @ValorantEsports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "the-catch-title"
+  },
+  {
+   "id": 8,
+   "name": "Crab Mentality Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": "Shotcall Extension",
+   "groupNote": "Announced on October 7 2026, due to a glitch with the Shotcall Extension feature, the Frag or Die: Trophy Card was moved to a Channel Drops during the Grand Finals (October 18 2026). If viewers made at least one Shotcall prediction during the time while Shotcall was working, all three of the Shotcall Extension rewards (including Frag or Die: Trophy Card) will be rewarded to them. The Catch Title and Crab Mentality Buddy will be available in a future event to those who did not get a chance to earn them. Since its announcement, Shotcall has not been enabled.",
+   "title": null,
+   "image": "img/Crab_Mentality_Buddy.webp",
+   "imageLarge": "img/Crab_Mentality_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 24 - October 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-24",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/ValorantEsports/status/2107904832543818010",
+     "label": "X @ValorantEsports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "crab-mentality-buddy"
+  },
+  {
+   "id": 9,
+   "name": "Zestify Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "Gauntlet: Glitched - OhnePixel Tournament",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Zestify",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 18, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-18",
+    "end": "2026-09-18"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "zestify-title"
+  },
+  {
+   "id": 10,
+   "name": "Versus // Yoru + Phoenix Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Abe's VALORANT Invitational on Twitch Rivals",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Versus_Yoru_Phoenix_Card_Large.webp",
+   "imageLarge": "img/Versus_Yoru_Phoenix_Card_Large_600.webp",
+   "imageWide": "img/Versus_Yoru_Phoenix_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "July 17, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-07-17",
+    "end": "2026-07-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
+     "label": "X @RiotGamesJapan",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+     "label": "VALORANT Wiki: Broadcast Rewards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "JP-IRL",
+     "label": "In person: Japan",
+     "partial": true
+    }
+   ],
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Watch parties, co-streams & live events",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Broadcast Rewards of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-07-17",
+      "end": "2026-07-17"
+     },
+     "regions": [
+      {
+       "code": "JP-IRL",
+       "label": "In person: Japan"
+      }
+     ]
+    }
+   ],
+   "slug": "versus-yoru-phoenix-card"
+  },
+  {
+   "id": 11,
+   "name": "Slime Mosh Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "Abe's VALORANT Invitational on Twitch Rivals",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Slime_Mosh_Buddy.webp",
+   "imageLarge": "img/Slime_Mosh_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "July 24, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-07-24",
+    "end": "2026-07-24"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://www.coinbase.com/en/campaigns/valorant25",
+     "label": "Coinbase",
+     "official": false
+    },
+    {
+     "url": "https://www.riotgames.com/en/news/lol-valorant-esports-coinbase-partnership",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Buddies",
+     "label": "VALORANT Wiki: Buddies",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Brand partnerships",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Given to first 3,000 entrants for Coinbase x VCT campaign for 2025 VALORANT Champions Paris • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 24th 2026"
+       },
+       {
+        "label": "Inventory",
+        "value": "x1"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-07-24",
+      "end": "2026-07-24"
+     },
+     "regions": []
+    }
+   ],
+   "slug": "slime-mosh-buddy"
+  },
+  {
+   "id": 12,
+   "name": "Gutted Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": "Channel Drops",
+   "groupNote": null,
+   "title": "Gutted",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 6-21, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-06-06",
+    "end": "2026-06-21"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "gutted-title"
+  },
+  {
+   "id": 13,
+   "name": "Rubbish Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": "Rubbish",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 6-21, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-06-06",
+    "end": "2026-06-21"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "rubbish-title"
+  },
+  {
+   "id": 14,
+   "name": "Party of 1 Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": null,
+   "image": "img/Party_of_1_Spray.webp",
+   "imageLarge": "img/Party_of_1_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 6-21, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-06-06",
+    "end": "2026-06-21"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "party-of-1-spray"
+  },
+  {
+   "id": 15,
+   "name": "Sakura // Tokyo Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Devil Clutch Cup 2026 #1",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Sakura_Tokyo_Card_Large.webp",
+   "imageLarge": "img/Sakura_Tokyo_Card_Large_600.webp",
+   "imageWide": "img/Sakura_Tokyo_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates (JST)",
+      "value": "April 28-29, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-04-28",
+    "end": "2026-04-29"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/VALORANTjp/status/2041088446090080490",
+     "label": "X @VALORANTjp",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+     "label": "VALORANT Wiki: Broadcast Rewards",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [
+    {
+     "code": "JP",
+     "label": "Japan only",
+     "partial": true
+    }
+   ],
+   "alsoFrom": [
+    {
+     "category": "Events & Partnerships",
+     "group": "Other promotions & rewards",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Acquisition",
+        "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Rewards for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-04-28",
+      "end": "2026-04-29"
+     },
+     "regions": [
+      {
+       "code": "JP",
+       "label": "Japan only"
+      }
+     ]
+    }
+   ],
+   "slug": "sakura-tokyo-card"
+  },
+  {
+   "id": 16,
+   "name": "Bakán Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": "Channel Drops",
+   "groupNote": null,
+   "title": "Bakán",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "February 28 - March 15, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-28",
+    "end": "2026-03-15"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "bakan-title"
+  },
+  {
+   "id": 17,
+   "name": "Visionario Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": "Visionario",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "February 28 - March 15, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-28",
+    "end": "2026-03-15"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "visionario-title"
+  },
+  {
+   "id": 18,
+   "name": "¡Barrida! Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": null,
+   "image": "img/_Barrida_Spray.webp",
+   "imageLarge": "img/_Barrida_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "February 28 - March 15, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-28",
+    "end": "2026-03-15"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "barrida-spray"
+  },
+  {
+   "id": 19,
+   "name": "Go Off Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": "Channel Drops",
+   "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible Co-Streamers Channel Drops were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
+   "title": "Go Off",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20-29, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-20",
+    "end": "2025-11-29"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/VALORANT/status/1994676623606780346",
+     "label": "X @VALORANT",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "go-off-title"
+  },
+  {
+   "id": 20,
+   "name": "KAY/O Punch Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": "Channel Drops",
+   "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible Co-Streamers Channel Drops were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
+   "title": null,
+   "image": "img/KAYO_Punch_Spray.webp",
+   "imageLarge": "img/KAYO_Punch_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 30, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-30",
+    "end": "2025-11-30"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/VALORANT/status/1994676623606780346",
+     "label": "X @VALORANT",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "kay-o-punch-spray"
+  },
+  {
+   "id": 21,
+   "name": "^>.<^ Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": "Co-Streamers Channel Drops",
+   "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible Co-Streamers Channel Drops were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
+   "title": "^>.<^",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 28-30, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-28",
+    "end": "2025-11-30"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/VALORANT/status/1994676623606780346",
+     "label": "X @VALORANT",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "title"
+  },
+  {
+   "id": 22,
+   "name": "Melting Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": "Co-Streamers Channel Drops",
+   "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible Co-Streamers Channel Drops were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
+   "title": "Melting",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 28-30, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-28",
+    "end": "2025-11-30"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/VALORANT/status/1994676623606780346",
+     "label": "X @VALORANT",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "melting-title"
+  },
+  {
+   "id": 23,
+   "name": "Unnie Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": "Co-Streamers Channel Drops",
+   "groupNote": "For the NA and JP Co-Streamer titles, they were available exclusively on Twitch. To obtain these titles, connect their Riot account to their Twitch account, watch 30 minutes of each eligible streamer, and then claim the respective items from Drops & Rewards page. Streams could not be watched at the same time; the watch progress would only work on the first stream being watched. For the KR streamer title, it was available exclusively on SOOP. • Before November 29th, it was only available on the Korean website of SOOP; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from 보관함 (inventory) via 드롭스 (drops) where the progress can be seen from that page. A code will be shown to the user and must be redeemed via Riot Game's redemption website. • From November 29th onwards, the global website of SOOP was also included with the drops; to obtain the title, log in to SOOP, watch 1 hour of an eligible streamer, and then claim the item from the Drops Inventory. A code will be shown to the user and must be redeemed via the same redemption website. The eligible Co-Streamers Channel Drops were, for each region, to obtain the respective titles: • NA: TenZ featuring Kyedae for ^>.<^ Title • JP: Aco & Curumi for Melting Title • KR: Fennel Mint & Kimgyutae for Unnie Title",
+   "title": "Unnie",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 28-30, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-28",
+    "end": "2025-11-30"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://x.com/VALORANT/status/1994676623606780346",
+     "label": "X @VALORANT",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "unnie-title"
+  },
+  {
+   "id": 24,
+   "name": "CLUUUTCH Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground 2025",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/CLUUUTCH_Spray.webp",
+   "imageLarge": "img/CLUUUTCH_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 13-16, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-13",
+    "end": "2025-11-16"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1989003798958711293",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "cluuutch-spray"
+  },
+  {
+   "id": 25,
+   "name": "CLUUUTCH Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground 2025",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "CLUUUTCH",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 13-16, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-13",
+    "end": "2025-11-16"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1989003798958711293",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "cluuutch-title"
+  },
+  {
+   "id": 26,
+   "name": "Oui Chef Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Channel Drops",
+   "groupNote": null,
+   "title": "Oui Chef",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 12-29, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-12",
+    "end": "2025-09-29"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "oui-chef-title"
+  },
+  {
+   "id": 27,
+   "name": "Breadshot Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Channel Drops",
+   "groupNote": null,
+   "title": null,
+   "image": "img/Breadshot_Spray.webp",
+   "imageLarge": "img/Breadshot_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 3-4, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-10-03",
+    "end": "2025-10-04"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "breadshot-spray"
+  },
+  {
+   "id": 28,
+   "name": "No Fly Zone Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Channel Drops",
+   "groupNote": null,
+   "title": null,
+   "image": "img/No_Fly_Zone_Card_Large.webp",
+   "imageLarge": "img/No_Fly_Zone_Card_Large_600.webp",
+   "imageWide": "img/No_Fly_Zone_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-10-05",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "no-fly-zone-card"
+  },
+  {
+   "id": 29,
+   "name": "Just Business Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": null,
+   "image": "img/Just_Business_Spray.webp",
+   "imageLarge": "img/Just_Business_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 12 - October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-12",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
+     "label": "Riot Support",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
+     "label": "VALORANT Wiki: Prime Gaming Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [
+    {
+     "category": "Prime Gaming",
+     "group": "Prime Gaming Drops (2020–2024)",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Date",
+        "value": "September 2021"
+       }
+      ]
+     ],
+     "period": {
+      "start": null,
+      "end": "2021-09-30"
+     },
+     "regions": []
+    }
+   ],
+   "slug": "just-business-spray"
+  },
+  {
+   "id": 30,
+   "name": "Ping Pong Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": null,
+   "image": "img/Ping_Pong_Buddy.webp",
+   "imageLarge": "img/Ping_Pong_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 12 - October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-12",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "ping-pong-buddy"
+  },
+  {
+   "id": 31,
+   "name": "My Table, My Rules Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": "Shotcall Extension",
+   "groupNote": null,
+   "title": null,
+   "image": "img/My_Table_My_Rules_Card_Large.webp",
+   "imageLarge": "img/My_Table_My_Rules_Card_Large_600.webp",
+   "imageWide": "img/My_Table_My_Rules_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 12 - October 5, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-12",
+    "end": "2025-10-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/shotcall-for-champions",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "my-table-my-rules-card"
+  },
+  {
+   "id": 32,
+   "name": "Fam Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Masters Toronto",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Fam",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 7-21, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-07",
+    "end": "2025-06-21"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "fam-title"
+  },
+  {
+   "id": 33,
+   "name": "Sorry, Bro! Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Masters Toronto",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Sorry_Bro_Spray.webp",
+   "imageLarge": "img/Sorry_Bro_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 22, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-22",
+    "end": "2025-06-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "sorry-bro-spray"
+  },
+  {
+   "id": 34,
+   "name": "Crispy Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Masters Bangkok",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Crispy",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "February 20 - March 1, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-02-20",
+    "end": "2025-03-01"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-bangkok-eyntk-2025",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "crispy-title"
+  },
+  {
+   "id": 35,
+   "name": "TukTuk Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2025 VALORANT Masters Bangkok",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/TukTuk_Spray.webp",
+   "imageLarge": "img/TukTuk_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "March 2, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-03-02",
+    "end": "2025-03-02"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/masters-bangkok-eyntk-2025",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "tuktuk-spray"
+  },
+  {
+   "id": 36,
+   "name": "Clutch Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground #5",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Clutch_Spray.webp",
+   "imageLarge": "img/Clutch_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-20",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1859186587407355997",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://x.com/redbullgaming/status/1720259674103324789",
+     "label": "X @redbullgaming",
+     "official": false
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [
+    {
+     "category": "Broadcast Drops",
+     "group": "Red Bull Home Ground #4",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Eligible Dates",
+        "value": "November 2-5, 2023"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2023-11-02",
+      "end": "2023-11-05"
+     },
+     "regions": []
+    },
+    {
+     "category": "Broadcast Drops",
+     "group": "Red Bull Campus Clutch 2022 - World Final Stage",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Eligible Dates",
+        "value": "December 11 & 16, 2022"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2022-12-11",
+      "end": "2022-12-16"
+     },
+     "regions": []
+    }
+   ],
+   "slug": "clutch-spray"
+  },
+  {
+   "id": 37,
+   "name": "Polar Clutch Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground #5",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Polar Clutch",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-20",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1859186587407355997",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "polar-clutch-title"
+  },
+  {
+   "id": 38,
+   "name": "Icebreaker Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground #5",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Icebreaker_Spray.webp",
+   "imageLarge": "img/Icebreaker_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-20",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1859186587407355997",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "icebreaker-spray"
+  },
+  {
+   "id": 39,
+   "name": "Frosty Freestyle Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground #5",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Frosty_Freestyle_Card_Large.webp",
+   "imageLarge": "img/Frosty_Freestyle_Card_Large_600.webp",
+   "imageWide": "img/Frosty_Freestyle_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-20",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1859186587407355997",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "frosty-freestyle-card"
+  },
+  {
+   "id": 40,
+   "name": "Horrors I've Seen Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Arcane Season 2 Premiere Twitch Stream",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Horrors_I_ve_Seen_Card_Large.webp",
+   "imageLarge": "img/Horrors_I_ve_Seen_Card_Large_600.webp",
+   "imageWide": "img/Horrors_I_ve_Seen_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 8, 2024 / November 16-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-16",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/game-updates/valorant-x-arcane-the-season-2-arcane-collectors-set-is-coming/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "horrors-i-ve-seen-card"
+  },
+  {
+   "id": 41,
+   "name": "From My Perspective Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Arcane Season 2 Premiere Twitch Stream",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/From_My_Perspective_Card_Large.webp",
+   "imageLarge": "img/From_My_Perspective_Card_Large_600.webp",
+   "imageWide": "img/From_My_Perspective_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 16-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-16",
+    "end": "2024-11-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/game-updates/valorant-x-arcane-the-season-2-arcane-collectors-set-is-coming/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "from-my-perspective-card"
+  },
+  {
+   "id": 42,
+   "name": "Main Character Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "Championship Matches",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": "Main Character",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 8-16, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-08",
+    "end": "2024-11-16"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "main-character-title"
+  },
+  {
+   "id": 43,
+   "name": "2024 Game Changers Championship Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "Championship Matches",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": null,
+   "image": "img/2024_Game_Changers_Championship_Card_Large.webp",
+   "imageLarge": "img/2024_Game_Changers_Championship_Card_Large_600.webp",
+   "imageWide": "img/2024_Game_Changers_Championship_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-17",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "2024-game-changers-championship-card"
+  },
+  {
+   "id": 44,
+   "name": "Ribbit Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "On Site Watch Parties",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": "Ribbit",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 15-17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-15",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "ribbit-title"
+  },
+  {
+   "id": 45,
+   "name": "I am her Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "On Site Watch Parties",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": "I am her",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 15-17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-15",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "i-am-her-title"
+  },
+  {
+   "id": 46,
+   "name": "13-0 Club Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "On Site Watch Parties",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": "13-0",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 15-17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-15",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "13-0-club-title"
+  },
+  {
+   "id": 47,
+   "name": "Queen Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Game Changers Championship Berlin",
+   "subgroup": "On Site Watch Parties",
+   "groupNote": "For player titles from On Site Watch Parties, the eligible streamers were: • Kyedae for Ribbit Title • Helydia for I am her Title • Mixwell for 13-0 Club Title • Sliggy for Queen Title",
+   "title": "Queen",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 15-17, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-15",
+    "end": "2024-11-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "queen-title"
+  },
+  {
+   "id": 48,
+   "name": "Dan the Champ Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Champions Seoul",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Dan_the_Champ_Spray.webp",
+   "imageLarge": "img/Dan_the_Champ_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 1-24, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-01",
+    "end": "2024-08-24"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/everything-you-need-to-know-champions-seoul",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "dan-the-champ-spray"
+  },
+  {
+   "id": 49,
+   "name": "Agents on Leave Seoul Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Champions Seoul",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Agents_on_Leave_Seoul_Card_Large.webp",
+   "imageLarge": "img/Agents_on_Leave_Seoul_Card_Large_600.webp",
+   "imageWide": "img/Agents_on_Leave_Seoul_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 25, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-25",
+    "end": "2024-08-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/everything-you-need-to-know-champions-seoul",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "agents-on-leave-seoul-card"
+  },
+  {
+   "id": 50,
+   "name": "Jiāyóu Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Masters Shanghai",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Jiāyóu",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "May 23 - June 8, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-05-23",
+    "end": "2024-06-08"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-shanghai",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "jiayou-title"
+  },
+  {
+   "id": 51,
+   "name": "Sheng Jian Bao Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Masters Shanghai",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Sheng_Jian_Bao_Buddy.webp",
+   "imageLarge": "img/Sheng_Jian_Bao_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 9, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-06-09",
+    "end": "2024-06-09"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-shanghai",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "sheng-jian-bao-buddy"
+  },
+  {
+   "id": 52,
+   "name": "Ñ Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Masters Madrid",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Ñ",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "March 14-23, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-03-14",
+    "end": "2024-03-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-madrid",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "n-title"
+  },
+  {
+   "id": 53,
+   "name": "VCT Push Up Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2024 VALORANT Masters Madrid",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VCT_Push_Up_Card_Large.webp",
+   "imageLarge": "img/VCT_Push_Up_Card_Large_600.webp",
+   "imageWide": "img/VCT_Push_Up_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "March 24, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-03-24",
+    "end": "2024-03-24"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-madrid",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "vct-push-up-card"
+  },
+  {
+   "id": 54,
+   "name": "Louder Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Louder",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 28 - December 2, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-11-28",
+    "end": "2023-12-02"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "louder-title"
+  },
+  {
+   "id": 55,
+   "name": "Game Changers Trophy Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Game_Changers_Trophy_Buddy.webp",
+   "imageLarge": "img/Game_Changers_Trophy_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "December 3, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-12-03",
+    "end": "2023-12-03"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "game-changers-trophy-buddy"
+  },
+  {
+   "id": 56,
+   "name": "Clutch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Home Ground #4",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Clutch_Card_Large.webp",
+   "imageLarge": "img/Clutch_Card_Large_600.webp",
+   "imageWide": "img/Clutch_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 2-5, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-11-02",
+    "end": "2023-11-05"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://x.com/redbullgaming/status/1720259674103324789",
+     "label": "X @redbullgaming",
+     "official": false
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "clutch-card"
+  },
+  {
+   "id": 57,
+   "name": "Lowrider Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Champions Los Angeles",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Lowrider",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 6-13, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-08-06",
+    "end": "2023-08-13"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "lowrider-title"
+  },
+  {
+   "id": 58,
+   "name": "Gekko Diff Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Champions Los Angeles",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Gekko_Diff_Spray.webp",
+   "imageLarge": "img/Gekko_Diff_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 16-25, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-08-16",
+    "end": "2023-08-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "gekko-diff-spray"
+  },
+  {
+   "id": 59,
+   "name": "Champions 2023 Lowrider Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Champions Los Angeles",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Champions_2023_Lowrider_Card_Large.webp",
+   "imageLarge": "img/Champions_2023_Lowrider_Card_Large_600.webp",
+   "imageWide": "img/Champions_2023_Lowrider_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 26, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-08-26",
+    "end": "2023-08-26"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "champions-2023-lowrider-card"
+  },
+  {
+   "id": 60,
+   "name": "Unpredictable Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Masters Tokyo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Unpredictable",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 11-25, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-06-11",
+    "end": "2023-06-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-vct-masters-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "unpredictable-title"
+  },
+  {
+   "id": 61,
+   "name": "Rank Up! // Masters Tokyo 2023 Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2023 VALORANT Masters Tokyo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Rank_Up_Masters_Tokyo_2023_Card_Large.webp",
+   "imageLarge": "img/Rank_Up_Masters_Tokyo_2023_Card_Large_600.webp",
+   "imageWide": "img/Rank_Up_Masters_Tokyo_2023_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "June 25, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-06-25",
+    "end": "2023-06-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-vct-masters-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "rank-up-masters-tokyo-2023-card"
+  },
+  {
+   "id": 62,
+   "name": "Locked In Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2023 VCT LOCK//IN São Paulo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Locked In",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "February 13 - March 4, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-02-13",
+    "end": "2023-03-04"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-vct-lock-in-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "locked-in-title"
+  },
+  {
+   "id": 63,
+   "name": "VCT LOCK//IN Dad Hat Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2023 VCT LOCK//IN São Paulo",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VCT_LOCKIN_Dad_Hat_Buddy.webp",
+   "imageLarge": "img/VCT_LOCKIN_Dad_Hat_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "March 4, 2023"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2023-03-04",
+    "end": "2023-03-04"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-vct-lock-in-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "vct-lock-in-dad-hat-buddy"
+  },
+  {
+   "id": 64,
+   "name": "Clutch Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "Red Bull Campus Clutch 2022 - World Final Stage",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Clutch",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "December 10 & 15, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-12-10",
+    "end": "2022-12-15"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "clutch-title"
+  },
+  {
+   "id": 65,
+   "name": "Game Changer Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2022 VALORANT Game Changers Championship Berlin",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Game Changer",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 15-19, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-11-15",
+    "end": "2022-11-19"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-game-changers-championship-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "game-changer-title"
+  },
+  {
+   "id": 66,
+   "name": "2022 Game Changers Championship Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2022 VALORANT Game Changers Championship Berlin",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/2022_Game_Changers_Championship_Card_Large.webp",
+   "imageLarge": "img/2022_Game_Changers_Championship_Card_Large_600.webp",
+   "imageWide": "img/2022_Game_Changers_Championship_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 20, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-11-20",
+    "end": "2022-11-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-game-changers-championship-earn-drops",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "2022-game-changers-championship-card"
+  },
+  {
+   "id": 67,
+   "name": "Shreddy Teddy Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2022 Spike Nations",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Shreddy_Teddy_Spray.webp",
+   "imageLarge": "img/Shreddy_Teddy_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 16, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-10-16",
+    "end": "2022-10-16"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "shreddy-teddy-spray"
+  },
+  {
+   "id": 68,
+   "name": "Fire Title",
+   "type": "Title",
+   "category": "Broadcast Drops",
+   "group": "2022 VALORANT Champions Istanbul",
+   "subgroup": null,
+   "groupNote": null,
+   "title": "Fire",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "August 31 - September 13, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-08-31",
+    "end": "2022-09-13"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "fire-title"
+  },
+  {
+   "id": 69,
+   "name": "Champions 2022 Curse Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2022 VALORANT Champions Istanbul",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Champions_2022_Curse_Spray.webp",
+   "imageLarge": "img/Champions_2022_Curse_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 16-17, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-09-16",
+    "end": "2022-09-17"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "champions-2022-curse-spray"
+  },
+  {
+   "id": 70,
+   "name": "Champions 2022 Hero Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "2022 VALORANT Champions Istanbul",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Champions_2022_Hero_Card_Large.webp",
+   "imageLarge": "img/Champions_2022_Hero_Card_Large_600.webp",
+   "imageWide": "img/Champions_2022_Hero_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 18, 2022"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2022-09-18",
+    "end": "2022-09-18"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "champions-2022-hero-card"
+  },
+  {
+   "id": 71,
+   "name": "VCT 2021 Spark Spray",
+   "type": "Spray",
+   "category": "Broadcast Drops",
+   "group": "2021 VALORANT Champions Berlin",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VCT_2021_Spark_Spray.webp",
+   "imageLarge": "img/VCT_2021_Spark_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "December 1-11, 2021"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2021-12-01",
+    "end": "2021-12-11"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-items-and-drops-are-coming",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "vct-2021-spark-spray"
+  },
+  {
+   "id": 72,
+   "name": "VCT 2021 Spark Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2021 VALORANT Champions Berlin",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VCT_2021_Spark_Buddy.webp",
+   "imageLarge": "img/VCT_2021_Spark_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "December 12, 2021"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2021-12-12",
+    "end": "2021-12-12"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/champions-items-and-drops-are-coming",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "vct-2021-spark-buddy"
+  },
+  {
+   "id": 73,
+   "name": "Fishbones Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "Arcane Premiere Twitch Streams",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Fishbones_Buddy.webp",
+   "imageLarge": "img/Fishbones_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "November 6, 2021"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2021-11-06",
+    "end": "2021-11-06"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "fishbones-buddy"
+  },
+  {
+   "id": 74,
+   "name": "High Top Heat Buddy",
+   "type": "Gun Buddy",
+   "category": "Broadcast Drops",
+   "group": "2021 Spike Nations",
+   "subgroup": null,
+   "groupNote": "Item was also available as part of promotion organized by Verizon during VALORANT Champions Tour 2023.",
+   "title": null,
+   "image": "img/High_Top_Heat_Buddy.webp",
+   "imageLarge": "img/High_Top_Heat_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "October 9, 2021"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2021-10-09",
+    "end": "2021-10-09"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "high-top-heat-buddy"
+  },
+  {
+   "id": 75,
+   "name": "Showdown Watch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "AfreecaTV Asia VALORANT Showdown",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Showdown_Watch_Card_Large.webp",
+   "imageLarge": "img/Showdown_Watch_Card_Large_600.webp",
+   "imageWide": "img/Showdown_Watch_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "September 18-20, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-09-18",
+    "end": "2020-09-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "showdown-watch-card"
+  },
+  {
+   "id": 76,
+   "name": "Beta Watch Card",
+   "type": "Player Card",
+   "category": "Broadcast Drops",
+   "group": "Closed Beta Twitch Streams",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Beta_Watch_Card_Large.webp",
+   "imageLarge": "img/Beta_Watch_Card_Large_600.webp",
+   "imageWide": "img/Beta_Watch_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 22, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+     "label": "VALORANT Wiki: Broadcast Drops",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://playvalorant.com/en-us/news/announcements/valorant-closed-beta-ends-may-28/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [
+    {
+     "category": "Closed Beta",
+     "group": "Closed Beta rewards",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Source",
+        "value": "Given to players who watched VALORANT Twitch streams for long enough during the Closed Beta to be eligible for a beta access key Drop"
+       },
+       {
+        "label": "Eligible Dates",
+        "value": "April 7 - May 28, 2020"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2020-04-07",
+      "end": "2020-05-28"
+     },
+     "regions": []
+    }
+   ],
+   "slug": "beta-watch-card"
+  },
+  {
+   "id": 77,
    "name": "Netter Treter Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -46,7 +3740,7 @@ window.VAL_DROPS = {
    "slug": "netter-treter-buddy"
   },
   {
-   "id": 2,
+   "id": 78,
    "name": "Pay Respects Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -86,7 +3780,7 @@ window.VAL_DROPS = {
    "slug": "pay-respects-buddy"
   },
   {
-   "id": 3,
+   "id": 79,
    "name": "Clip It Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -126,7 +3820,7 @@ window.VAL_DROPS = {
    "slug": "clip-it-spray"
   },
   {
-   "id": 4,
+   "id": 80,
    "name": "Zoomer Pop Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -166,7 +3860,7 @@ window.VAL_DROPS = {
    "slug": "zoomer-pop-buddy"
   },
   {
-   "id": 5,
+   "id": 81,
    "name": "Lovebyte Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -206,7 +3900,7 @@ window.VAL_DROPS = {
    "slug": "lovebyte-buddy"
   },
   {
-   "id": 6,
+   "id": 82,
    "name": "Hot Take Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -246,7 +3940,7 @@ window.VAL_DROPS = {
    "slug": "hot-take-buddy"
   },
   {
-   "id": 7,
+   "id": 83,
    "name": "200 IQ Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -286,7 +3980,7 @@ window.VAL_DROPS = {
    "slug": "200-iq-spray"
   },
   {
-   "id": 8,
+   "id": 84,
    "name": "Pity Party Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -326,7 +4020,7 @@ window.VAL_DROPS = {
    "slug": "pity-party-spray"
   },
   {
-   "id": 9,
+   "id": 85,
    "name": "Nice Smile Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -366,7 +4060,7 @@ window.VAL_DROPS = {
    "slug": "nice-smile-buddy"
   },
   {
-   "id": 10,
+   "id": 86,
    "name": "EP 2 // FORMATION Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -406,7 +4100,7 @@ window.VAL_DROPS = {
    "slug": "ep-2-formation-card"
   },
   {
-   "id": 11,
+   "id": 87,
    "name": "Can't Teach That Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -446,7 +4140,7 @@ window.VAL_DROPS = {
    "slug": "can-t-teach-that-spray"
   },
   {
-   "id": 12,
+   "id": 88,
    "name": "Tower of Power Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -486,52 +4180,7 @@ window.VAL_DROPS = {
    "slug": "tower-of-power-buddy"
   },
   {
-   "id": 13,
-   "name": "Just Business Spray",
-   "type": "Spray",
-   "category": "Prime Gaming",
-   "group": "Prime Gaming Drops (2020–2024)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Just_Business_Spray.webp",
-   "imageLarge": "img/Just_Business_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Date",
-      "value": "September 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": null,
-    "end": "2021-09-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
-     "label": "Riot Support",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
-     "label": "VALORANT Wiki: Prime Gaming Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "just-business-spray"
-  },
-  {
-   "id": 14,
+   "id": 89,
    "name": "Flames in my Veins Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -571,7 +4220,7 @@ window.VAL_DROPS = {
    "slug": "flames-in-my-veins-spray"
   },
   {
-   "id": 15,
+   "id": 90,
    "name": "Outta This World Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -611,7 +4260,7 @@ window.VAL_DROPS = {
    "slug": "outta-this-world-buddy"
   },
   {
-   "id": 16,
+   "id": 91,
    "name": "Arcane Jinx Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -651,7 +4300,7 @@ window.VAL_DROPS = {
    "slug": "arcane-jinx-card"
   },
   {
-   "id": 17,
+   "id": 92,
    "name": "Bruno Coin Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -691,7 +4340,7 @@ window.VAL_DROPS = {
    "slug": "bruno-coin-spray"
   },
   {
-   "id": 18,
+   "id": 93,
    "name": "Wayfinder Shorty",
    "type": "Gun Skin",
    "category": "Prime Gaming",
@@ -731,7 +4380,7 @@ window.VAL_DROPS = {
    "slug": "wayfinder-shorty"
   },
   {
-   "id": 19,
+   "id": 94,
    "name": "Dance of Luck Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -771,7 +4420,7 @@ window.VAL_DROPS = {
    "slug": "dance-of-luck-buddy"
   },
   {
-   "id": 20,
+   "id": 95,
    "name": "Wayfinder Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -811,7 +4460,7 @@ window.VAL_DROPS = {
    "slug": "wayfinder-card"
   },
   {
-   "id": 21,
+   "id": 96,
    "name": "Googly Moogly Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -851,7 +4500,7 @@ window.VAL_DROPS = {
    "slug": "googly-moogly-spray"
   },
   {
-   "id": 22,
+   "id": 97,
    "name": "Prime Time Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -891,7 +4540,7 @@ window.VAL_DROPS = {
    "slug": "prime-time-buddy"
   },
   {
-   "id": 23,
+   "id": 98,
    "name": "On The Case Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -931,7 +4580,7 @@ window.VAL_DROPS = {
    "slug": "on-the-case-buddy"
   },
   {
-   "id": 24,
+   "id": 99,
    "name": "Eco or Ego Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -971,7 +4620,7 @@ window.VAL_DROPS = {
    "slug": "eco-or-ego-spray"
   },
   {
-   "id": 25,
+   "id": 100,
    "name": "Up in Arms Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -1011,7 +4660,7 @@ window.VAL_DROPS = {
    "slug": "up-in-arms-card"
   },
   {
-   "id": 26,
+   "id": 101,
    "name": "Runnin' on Empty Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1051,7 +4700,7 @@ window.VAL_DROPS = {
    "slug": "runnin-on-empty-spray"
   },
   {
-   "id": 27,
+   "id": 102,
    "name": "Ready to Roll Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -1091,7 +4740,7 @@ window.VAL_DROPS = {
    "slug": "ready-to-roll-buddy"
   },
   {
-   "id": 28,
+   "id": 103,
    "name": "Sic' Em Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1131,7 +4780,7 @@ window.VAL_DROPS = {
    "slug": "sic-em-spray"
   },
   {
-   "id": 29,
+   "id": 104,
    "name": "Slay Ride Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -1177,7 +4826,7 @@ window.VAL_DROPS = {
    "slug": "slay-ride-buddy"
   },
   {
-   "id": 30,
+   "id": 105,
    "name": "Doomscrolling Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1217,7 +4866,7 @@ window.VAL_DROPS = {
    "slug": "doomscrolling-spray"
   },
   {
-   "id": 31,
+   "id": 106,
    "name": "Dimensional Drip Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -1257,7 +4906,7 @@ window.VAL_DROPS = {
    "slug": "dimensional-drip-buddy"
   },
   {
-   "id": 32,
+   "id": 107,
    "name": "Caught One Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -1297,7 +4946,7 @@ window.VAL_DROPS = {
    "slug": "caught-one-card"
   },
   {
-   "id": 33,
+   "id": 108,
    "name": "Claw and Order",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1337,7 +4986,7 @@ window.VAL_DROPS = {
    "slug": "claw-and-order"
   },
   {
-   "id": 34,
+   "id": 109,
    "name": "Daruma Charm Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -1377,7 +5026,7 @@ window.VAL_DROPS = {
    "slug": "daruma-charm-buddy"
   },
   {
-   "id": 35,
+   "id": 110,
    "name": "Predicament Pals Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1417,7 +5066,7 @@ window.VAL_DROPS = {
    "slug": "predicament-pals-spray"
   },
   {
-   "id": 36,
+   "id": 111,
    "name": "Knight's Market Buddy",
    "type": "Gun Buddy",
    "category": "Prime Gaming",
@@ -1457,7 +5106,7 @@ window.VAL_DROPS = {
    "slug": "knight-s-market-buddy"
   },
   {
-   "id": 37,
+   "id": 112,
    "name": "Rope Burn Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -1497,7 +5146,7 @@ window.VAL_DROPS = {
    "slug": "rope-burn-card"
   },
   {
-   "id": 38,
+   "id": 113,
    "name": "Scare Tactics Card",
    "type": "Player Card",
    "category": "Prime Gaming",
@@ -1537,7 +5186,7 @@ window.VAL_DROPS = {
    "slug": "scare-tactics-card"
   },
   {
-   "id": 39,
+   "id": 114,
    "name": "Sip n' Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1577,7 +5226,7 @@ window.VAL_DROPS = {
    "slug": "sip-n-spray"
   },
   {
-   "id": 40,
+   "id": 115,
    "name": "All Yuck, No Yum Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1617,7 +5266,7 @@ window.VAL_DROPS = {
    "slug": "all-yuck-no-yum-spray"
   },
   {
-   "id": 41,
+   "id": 116,
    "name": "Party's Here Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1657,7 +5306,7 @@ window.VAL_DROPS = {
    "slug": "party-s-here-spray"
   },
   {
-   "id": 42,
+   "id": 117,
    "name": "Light 'Em Up Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -1697,7 +5346,7 @@ window.VAL_DROPS = {
    "slug": "light-em-up-spray"
   },
   {
-   "id": 43,
+   "id": 118,
    "name": "Origin Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -1730,7 +5379,7 @@ window.VAL_DROPS = {
    "slug": "origin-buddy"
   },
   {
-   "id": 44,
+   "id": 119,
    "name": "Glitchpop Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -1763,7 +5412,7 @@ window.VAL_DROPS = {
    "slug": "glitchpop-card"
   },
   {
-   "id": 45,
+   "id": 120,
    "name": "BlastX Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -1796,7 +5445,7 @@ window.VAL_DROPS = {
    "slug": "blastx-spray"
   },
   {
-   "id": 46,
+   "id": 121,
    "name": "Celestial Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -1829,7 +5478,7 @@ window.VAL_DROPS = {
    "slug": "celestial-spray"
   },
   {
-   "id": 47,
+   "id": 122,
    "name": "Reaver, EP 5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -1859,7 +5508,7 @@ window.VAL_DROPS = {
    "slug": "reaver-ep-5-buddy"
   },
   {
-   "id": 48,
+   "id": 123,
    "name": "Crimsonbeast Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -1889,7 +5538,7 @@ window.VAL_DROPS = {
    "slug": "crimsonbeast-card"
   },
   {
-   "id": 49,
+   "id": 124,
    "name": "Team Ace // Raze Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -1919,7 +5568,7 @@ window.VAL_DROPS = {
    "slug": "team-ace-raze-spray"
   },
   {
-   "id": 50,
+   "id": 125,
    "name": "Prime//2.0 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -1949,7 +5598,7 @@ window.VAL_DROPS = {
    "slug": "prime-2-0-spray"
   },
   {
-   "id": 51,
+   "id": 126,
    "name": "Ion, Ep5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -1979,7 +5628,7 @@ window.VAL_DROPS = {
    "slug": "ion-ep5-buddy"
   },
   {
-   "id": 52,
+   "id": 127,
    "name": "Frontier Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2009,7 +5658,7 @@ window.VAL_DROPS = {
    "slug": "frontier-card"
   },
   {
-   "id": 53,
+   "id": 128,
    "name": "Gaia's Vengeance Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2048,7 +5697,7 @@ window.VAL_DROPS = {
    "slug": "gaia-s-vengeance-spray"
   },
   {
-   "id": 54,
+   "id": 129,
    "name": "Forsaken Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2078,7 +5727,7 @@ window.VAL_DROPS = {
    "slug": "forsaken-spray"
   },
   {
-   "id": 55,
+   "id": 130,
    "name": "Altitude Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2108,7 +5757,7 @@ window.VAL_DROPS = {
    "slug": "altitude-buddy"
   },
   {
-   "id": 56,
+   "id": 131,
    "name": "Valiant Hero Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2138,7 +5787,7 @@ window.VAL_DROPS = {
    "slug": "valiant-hero-card"
   },
   {
-   "id": 57,
+   "id": 132,
    "name": "RGX 11z Pro, Ep 4 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2168,7 +5817,7 @@ window.VAL_DROPS = {
    "slug": "rgx-11z-pro-ep-4-spray"
   },
   {
-   "id": 58,
+   "id": 133,
    "name": "Soulstrife Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2198,7 +5847,7 @@ window.VAL_DROPS = {
    "slug": "soulstrife-spray"
   },
   {
-   "id": 59,
+   "id": 134,
    "name": "Araxys Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2228,7 +5877,7 @@ window.VAL_DROPS = {
    "slug": "araxys-buddy"
   },
   {
-   "id": 60,
+   "id": 135,
    "name": "Tigris Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2258,7 +5907,7 @@ window.VAL_DROPS = {
    "slug": "tigris-card"
   },
   {
-   "id": 61,
+   "id": 136,
    "name": "Magepunk Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2288,7 +5937,7 @@ window.VAL_DROPS = {
    "slug": "magepunk-spray"
   },
   {
-   "id": 62,
+   "id": 137,
    "name": "Oni Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2318,7 +5967,7 @@ window.VAL_DROPS = {
    "slug": "oni-spray"
   },
   {
-   "id": 63,
+   "id": 138,
    "name": "Prelude to Chaos Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2348,7 +5997,7 @@ window.VAL_DROPS = {
    "slug": "prelude-to-chaos-buddy"
   },
   {
-   "id": 64,
+   "id": 139,
    "name": "Kohaku & Matsuba Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2378,7 +6027,7 @@ window.VAL_DROPS = {
    "slug": "kohaku-matsuba-card"
   },
   {
-   "id": 65,
+   "id": 140,
    "name": "Imperium Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2408,7 +6057,7 @@ window.VAL_DROPS = {
    "slug": "imperium-spray"
   },
   {
-   "id": 66,
+   "id": 141,
    "name": "ChronoVoid Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2438,7 +6087,7 @@ window.VAL_DROPS = {
    "slug": "chronovoid-spray"
   },
   {
-   "id": 67,
+   "id": 142,
    "name": "Snowfall Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2468,7 +6117,7 @@ window.VAL_DROPS = {
    "slug": "snowfall-buddy"
   },
   {
-   "id": 68,
+   "id": 143,
    "name": "Celestial Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2498,7 +6147,7 @@ window.VAL_DROPS = {
    "slug": "celestial-card"
   },
   {
-   "id": 69,
+   "id": 144,
    "name": "Sentinels of Light Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2528,7 +6177,7 @@ window.VAL_DROPS = {
    "slug": "sentinels-of-light-spray"
   },
   {
-   "id": 70,
+   "id": 145,
    "name": "Sovereign Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2558,7 +6207,7 @@ window.VAL_DROPS = {
    "slug": "sovereign-spray"
   },
   {
-   "id": 71,
+   "id": 146,
    "name": "ChronoVoid Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2588,7 +6237,7 @@ window.VAL_DROPS = {
    "slug": "chronovoid-buddy"
   },
   {
-   "id": 72,
+   "id": 147,
    "name": "Magepunk Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2618,7 +6267,7 @@ window.VAL_DROPS = {
    "slug": "magepunk-card"
   },
   {
-   "id": 73,
+   "id": 148,
    "name": "Ion Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2648,7 +6297,7 @@ window.VAL_DROPS = {
    "slug": "ion-spray"
   },
   {
-   "id": 74,
+   "id": 149,
    "name": "Team Ace Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -2678,7 +6327,7 @@ window.VAL_DROPS = {
    "slug": "team-ace-buddy"
   },
   {
-   "id": 75,
+   "id": 150,
    "name": "NO LIMITS Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -2708,7 +6357,7 @@ window.VAL_DROPS = {
    "slug": "no-limits-card"
   },
   {
-   "id": 76,
+   "id": 151,
    "name": "Ego Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2738,7 +6387,7 @@ window.VAL_DROPS = {
    "slug": "ego-spray"
   },
   {
-   "id": 77,
+   "id": 152,
    "name": "Origin Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -2768,7 +6417,227 @@ window.VAL_DROPS = {
    "slug": "origin-spray"
   },
   {
-   "id": 78,
+   "id": 153,
+   "name": "First Title",
+   "type": "Title",
+   "category": "Closed Beta",
+   "group": "Closed Beta reward pass",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Tier",
+      "value": "1"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 28, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "first-title"
+  },
+  {
+   "id": 154,
+   "name": "VALORANT Beta Card",
+   "type": "Player Card",
+   "category": "Closed Beta",
+   "group": "Closed Beta reward pass",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/VALORANT_Beta_Card_Large.webp",
+   "imageLarge": "img/VALORANT_Beta_Card_Large_600.webp",
+   "imageWide": "img/VALORANT_Beta_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Tier",
+      "value": "2"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 28, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "valorant-beta-card"
+  },
+  {
+   "id": 155,
+   "name": "V1.0 Title",
+   "type": "Title",
+   "category": "Closed Beta",
+   "group": "Closed Beta reward pass",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Tier",
+      "value": "3"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 28, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "v1-0-title"
+  },
+  {
+   "id": 156,
+   "name": "Beta Pioneer Card",
+   "type": "Player Card",
+   "category": "Closed Beta",
+   "group": "Closed Beta reward pass",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Beta_Pioneer_Card_Large.webp",
+   "imageLarge": "img/Beta_Pioneer_Card_Large_600.webp",
+   "imageWide": "img/Beta_Pioneer_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Tier",
+      "value": "4"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 28, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "beta-pioneer-card"
+  },
+  {
+   "id": 157,
+   "name": "Closed Beta Coin Buddy",
+   "type": "Gun Buddy",
+   "category": "Closed Beta",
+   "group": "Closed Beta reward pass",
+   "subgroup": null,
+   "groupNote": null,
+   "title": null,
+   "image": "img/Closed_Beta_Coin_Buddy.webp",
+   "imageLarge": "img/Closed_Beta_Coin_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Tier",
+      "value": "5"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "April 7 - May 28, 2020"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2020-04-07",
+    "end": "2020-05-28"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+     "label": "VALORANT Wiki: Closed Beta",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "closed-beta-coin-buddy"
+  },
+  {
+   "id": 158,
    "name": "V26 Conflict Hermanita Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -2834,7 +6703,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-hermanita-card"
   },
   {
-   "id": 79,
+   "id": 159,
    "name": "V26 Conflict Face the Flames Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -2900,7 +6769,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-face-the-flames-card"
   },
   {
-   "id": 80,
+   "id": 160,
    "name": "V26 Conflict Blood & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -2966,7 +6835,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-blood-venom-card"
   },
   {
-   "id": 81,
+   "id": 161,
    "name": "V26 Conflict The Fall Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -3032,7 +6901,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-the-fall-card"
   },
   {
-   "id": 82,
+   "id": 162,
    "name": "Frag or Die: Alpha Sage Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -3079,7 +6948,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-alpha-sage-card"
   },
   {
-   "id": 83,
+   "id": 163,
    "name": "Frag or Die: Omega Viper Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -3126,7 +6995,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-omega-viper-card"
   },
   {
-   "id": 84,
+   "id": 164,
    "name": "Jade & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -3173,7 +7042,7 @@ window.VAL_DROPS = {
    "slug": "jade-venom-card"
   },
   {
-   "id": 85,
+   "id": 165,
    "name": "Broken Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -3224,7 +7093,7 @@ window.VAL_DROPS = {
    "slug": "broken-title"
   },
   {
-   "id": 86,
+   "id": 166,
    "name": "Official Seal Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3275,7 +7144,55 @@ window.VAL_DROPS = {
    "slug": "official-seal-spray"
   },
   {
-   "id": 87,
+   "id": 167,
+   "name": "AlarmBoi Out Spray",
+   "type": "Spray",
+   "category": "Events & Partnerships",
+   "group": "Night Queue",
+   "subgroup": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/AlarmBoi_Out_Spray.webp",
+   "imageLarge": "img/AlarmBoi_Out_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Night Queue"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Sprays",
+     "label": "VALORANT Wiki: Sprays",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
+     "label": "VALORANT Wiki: Night Queue",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "alarmboi-out-spray"
+  },
+  {
+   "id": 168,
    "name": "Drop It Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -3330,7 +7247,7 @@ window.VAL_DROPS = {
    "slug": "drop-it-spray"
   },
   {
-   "id": 88,
+   "id": 169,
    "name": "All Love Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -3380,7 +7297,7 @@ window.VAL_DROPS = {
    "slug": "all-love-spray"
   },
   {
-   "id": 89,
+   "id": 170,
    "name": "¡Eureka! Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -3410,7 +7327,7 @@ window.VAL_DROPS = {
    "slug": "eureka-spray"
   },
   {
-   "id": 90,
+   "id": 171,
    "name": "Crystal Ball Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -3440,7 +7357,7 @@ window.VAL_DROPS = {
    "slug": "crystal-ball-spray"
   },
   {
-   "id": 91,
+   "id": 172,
    "name": "Claw and Order Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -3470,7 +7387,7 @@ window.VAL_DROPS = {
    "slug": "claw-and-order-spray"
   },
   {
-   "id": 92,
+   "id": 173,
    "name": "A Piece of Rice Cake Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3520,7 +7437,7 @@ window.VAL_DROPS = {
    "slug": "a-piece-of-rice-cake-spray"
   },
   {
-   "id": 93,
+   "id": 174,
    "name": "Cake or Spike? Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3570,7 +7487,7 @@ window.VAL_DROPS = {
    "slug": "cake-or-spike-spray"
   },
   {
-   "id": 94,
+   "id": 175,
    "name": "Cypher Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3612,7 +7529,7 @@ window.VAL_DROPS = {
    "slug": "cypher-figure-spray"
   },
   {
-   "id": 95,
+   "id": 176,
    "name": "Jett Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3654,7 +7571,7 @@ window.VAL_DROPS = {
    "slug": "jett-figure-spray"
   },
   {
-   "id": 96,
+   "id": 177,
    "name": "Killjoy Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3696,7 +7613,7 @@ window.VAL_DROPS = {
    "slug": "killjoy-figure-spray"
   },
   {
-   "id": 97,
+   "id": 178,
    "name": "Loose Cannon Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3733,7 +7650,7 @@ window.VAL_DROPS = {
    "slug": "loose-cannon-spray"
   },
   {
-   "id": 98,
+   "id": 179,
    "name": "More Creds Pls Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3778,7 +7695,7 @@ window.VAL_DROPS = {
    "slug": "more-creds-pls-spray"
   },
   {
-   "id": 99,
+   "id": 180,
    "name": "Sage Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3820,7 +7737,7 @@ window.VAL_DROPS = {
    "slug": "sage-figure-spray"
   },
   {
-   "id": 100,
+   "id": 181,
    "name": "VCT Americas Aura Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -3867,33 +7784,19 @@ window.VAL_DROPS = {
    "slug": "vct-americas-aura-spray"
   },
   {
-   "id": 101,
-   "name": "VCT 2021 Spark Spray",
+   "id": 182,
+   "name": "Hello Horse! Spray",
    "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/VCT_2021_Spark_Spray.webp",
-   "imageLarge": "img/VCT_2021_Spark_Spray_600.webp",
+   "image": "img/Hello_Horse_Spray.webp",
+   "imageLarge": "img/Hello_Horse_Spray_600.webp",
    "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2021 VALORANT Champions Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "December 1 - 11, 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2021-12-01",
-    "end": "2021-12-11"
-   },
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -3904,40 +7807,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "vct-2021-spark-spray"
+   "slug": "hello-horse-spray"
   },
   {
-   "id": 102,
-   "name": "Champions 2022 Curse Spray",
+   "id": 183,
+   "name": "Volunteer to School Spray",
    "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Champions_2022_Curse_Spray.webp",
-   "imageLarge": "img/Champions_2022_Curse_Spray_600.webp",
+   "image": "img/Volunteer_to_School_Spray.webp",
+   "imageLarge": "img/Volunteer_to_School_Spray_600.webp",
    "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Champions Istanbul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 16 - 17, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-09-16",
-    "end": "2022-09-17"
-   },
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -3948,40 +7842,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "champions-2022-curse-spray"
+   "slug": "volunteer-to-school-spray"
   },
   {
-   "id": 103,
-   "name": "Shreddy Teddy Spray",
+   "id": 184,
+   "name": "Say Hi To Happiness Spray",
    "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Shreddy_Teddy_Spray.webp",
-   "imageLarge": "img/Shreddy_Teddy_Spray_600.webp",
+   "image": "img/Say_Hi_To_Happiness_Spray.webp",
+   "imageLarge": "img/Say_Hi_To_Happiness_Spray_600.webp",
    "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 Spike Nations"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 16, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-10-16",
-    "end": "2022-10-16"
-   },
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -3992,40 +7877,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "shreddy-teddy-spray"
+   "slug": "say-hi-to-happiness-spray"
   },
   {
-   "id": 104,
-   "name": "Clutch Spray",
+   "id": 185,
+   "name": "With Sage, Comes Fame Spray",
    "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Clutch_Spray.webp",
-   "imageLarge": "img/Clutch_Spray_600.webp",
+   "image": "img/With_Sage_Comes_Fame_Spray.webp",
+   "imageLarge": "img/With_Sage_Comes_Fame_Spray_600.webp",
    "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "• Red Bull Home Ground #3 • Red Bull Campus Clutch 2022 - World Final Stage • Red Bull Home Ground #4 • Red Bull Home Ground #5"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "• December 11, 2022 • December 16, 2022 • November 2 - 5, 2023 • November 20 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-20",
-    "end": "2024-11-23"
-   },
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -4036,454 +7912,19 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "clutch-spray"
-  },
-  {
-   "id": 105,
-   "name": "Gekko Diff Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Gekko_Diff_Spray.webp",
-   "imageLarge": "img/Gekko_Diff_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Champions Los Angeles"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 16 - 25, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-08-16",
-    "end": "2023-08-25"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
+   "regions": [
     {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
+     "code": "CN",
+     "label": "China only"
     }
    ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
    "alsoFrom": [],
-   "slug": "gekko-diff-spray"
+   "slug": "with-sage-comes-fame-spray"
   },
   {
-   "id": 106,
-   "name": "Dan the Champ Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Dan_the_Champ_Spray.webp",
-   "imageLarge": "img/Dan_the_Champ_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Champions Seoul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 1 - 24, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-08-01",
-    "end": "2024-08-24"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "dan-the-champ-spray"
-  },
-  {
-   "id": 107,
-   "name": "Icebreaker Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Icebreaker_Spray.webp",
-   "imageLarge": "img/Icebreaker_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #5"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-20",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "icebreaker-spray"
-  },
-  {
-   "id": 108,
-   "name": "TukTuk Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/TukTuk_Spray.webp",
-   "imageLarge": "img/TukTuk_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Masters Bangkok"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "March 2, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-03-02",
-    "end": "2025-03-02"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "tuktuk-spray"
-  },
-  {
-   "id": 109,
-   "name": "Sorry, Bro! Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Sorry_Bro_Spray.webp",
-   "imageLarge": "img/Sorry_Bro_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Masters Toronto"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 22, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-06-22",
-    "end": "2025-06-22"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "sorry-bro-spray"
-  },
-  {
-   "id": 110,
-   "name": "Breadshot Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Breadshot_Spray.webp",
-   "imageLarge": "img/Breadshot_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 3 - 4, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-10-03",
-    "end": "2025-10-04"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "breadshot-spray"
-  },
-  {
-   "id": 111,
-   "name": "CLUUUTCH Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/CLUUUTCH_Spray.webp",
-   "imageLarge": "img/CLUUUTCH_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground 2025"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 13 - 16, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-13",
-    "end": "2025-11-16"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "cluuutch-spray"
-  },
-  {
-   "id": 112,
-   "name": "KAY/O Punch Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/KAYO_Punch_Spray.webp",
-   "imageLarge": "img/KAYO_Punch_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Game Changers Championship Seoul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 30, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-30",
-    "end": "2025-11-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "kay-o-punch-spray"
-  },
-  {
-   "id": 113,
-   "name": "Stamp of Approval Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Stamp_of_Approval_Spray.webp",
-   "imageLarge": "img/Stamp_of_Approval_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Master London"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 18, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-10-18",
-    "end": "2026-10-18"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "stamp-of-approval-spray"
-  },
-  {
-   "id": 114,
-   "name": "Mais que amigas, friends Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Mais_que_amigas_friends_Spray.webp",
-   "imageLarge": "img/Mais_que_amigas_friends_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Game Changers Championship São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 1, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-11-01",
-    "end": "2026-11-01"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "mais-que-amigas-friends-spray"
-  },
-  {
-   "id": 115,
+   "id": 186,
    "name": "Round Start Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -4524,95 +7965,7 @@ window.VAL_DROPS = {
    "slug": "round-start-spray"
   },
   {
-   "id": 116,
-   "name": "¡Barrida! Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/_Barrida_Spray.webp",
-   "imageLarge": "img/_Barrida_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Master Santiago"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "February 28 - March 15, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-02-28",
-    "end": "2026-03-15"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "barrida-spray"
-  },
-  {
-   "id": 117,
-   "name": "Party of 1 Spray",
-   "type": "Spray",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Party_of_1_Spray.webp",
-   "imageLarge": "img/Party_of_1_Spray_600.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Master London"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 6 - 21, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-06-06",
-    "end": "2026-06-21"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "party-of-1-spray"
-  },
-  {
-   "id": 118,
+   "id": 187,
    "name": "Flyby Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -4662,7 +8015,7 @@ window.VAL_DROPS = {
    "slug": "flyby-hug-buddy"
   },
   {
-   "id": 119,
+   "id": 188,
    "name": "Bear Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -4712,7 +8065,7 @@ window.VAL_DROPS = {
    "slug": "bear-hug-buddy"
   },
   {
-   "id": 120,
+   "id": 189,
    "name": "Seal of Approval Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -4767,7 +8120,7 @@ window.VAL_DROPS = {
    "slug": "seal-of-approval-buddy"
   },
   {
-   "id": 121,
+   "id": 190,
    "name": "tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4804,7 +8157,7 @@ window.VAL_DROPS = {
    "slug": "to-na-sombra-buddy"
   },
   {
-   "id": 122,
+   "id": 191,
    "name": "Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4841,7 +8194,7 @@ window.VAL_DROPS = {
    "slug": "stone-of-heaven-buddy"
   },
   {
-   "id": 123,
+   "id": 192,
    "name": "REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4878,7 +8231,7 @@ window.VAL_DROPS = {
    "slug": "ref-buddy"
   },
   {
-   "id": 124,
+   "id": 193,
    "name": "¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4915,7 +8268,7 @@ window.VAL_DROPS = {
    "slug": "rico-po-buddy"
   },
   {
-   "id": 125,
+   "id": 194,
    "name": "Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4952,7 +8305,7 @@ window.VAL_DROPS = {
    "slug": "pocket-killjoy-buddy"
   },
   {
-   "id": 126,
+   "id": 195,
    "name": "G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -4989,7 +8342,7 @@ window.VAL_DROPS = {
    "slug": "g-o-a-t-buddy"
   },
   {
-   "id": 127,
+   "id": 196,
    "name": "Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5026,7 +8379,7 @@ window.VAL_DROPS = {
    "slug": "sweet-victory-buddy"
   },
   {
-   "id": 128,
+   "id": 197,
    "name": "Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5063,7 +8416,7 @@ window.VAL_DROPS = {
    "slug": "gonggi-buddy"
   },
   {
-   "id": 129,
+   "id": 198,
    "name": "Pick'Ems Master: tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5100,7 +8453,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-to-na-sombra-buddy"
   },
   {
-   "id": 130,
+   "id": 199,
    "name": "Pick'Ems Master: Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5137,7 +8490,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-stone-of-heaven-buddy"
   },
   {
-   "id": 131,
+   "id": 200,
    "name": "Pick'Ems Master: REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5174,7 +8527,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-ref-buddy"
   },
   {
-   "id": 132,
+   "id": 201,
    "name": "Pick'Ems Master: ¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5211,7 +8564,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-rico-po-buddy"
   },
   {
-   "id": 133,
+   "id": 202,
    "name": "Pick'Ems Master: Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5248,7 +8601,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-pocket-killjoy-buddy"
   },
   {
-   "id": 134,
+   "id": 203,
    "name": "Pick'Ems Master: G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5285,7 +8638,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-g-o-a-t-buddy"
   },
   {
-   "id": 135,
+   "id": 204,
    "name": "Pick 'Em Master Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5322,7 +8675,7 @@ window.VAL_DROPS = {
    "slug": "pick-em-master-sweet-victory-buddy"
   },
   {
-   "id": 136,
+   "id": 205,
    "name": "Pick 'Em Master Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -5359,7 +8712,7 @@ window.VAL_DROPS = {
    "slug": "pick-em-master-gonggi-buddy"
   },
   {
-   "id": 137,
+   "id": 206,
    "name": "Game Changers Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -5440,7 +8793,7 @@ window.VAL_DROPS = {
    "slug": "game-changers-winner-buddy"
   },
   {
-   "id": 138,
+   "id": 207,
    "name": "VCT Champions Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -5511,7 +8864,7 @@ window.VAL_DROPS = {
    "slug": "vct-champions-winner-buddy"
   },
   {
-   "id": 139,
+   "id": 208,
    "name": "VCT LOCK//IN Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -5548,7 +8901,7 @@ window.VAL_DROPS = {
    "slug": "vct-lock-in-winner-buddy"
   },
   {
-   "id": 140,
+   "id": 209,
    "name": "VCT Masters Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -5745,7 +9098,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-winner-buddy"
   },
   {
-   "id": 141,
+   "id": 210,
    "name": "Arcane Poro Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -5786,7 +9139,7 @@ window.VAL_DROPS = {
    "slug": "arcane-poro-buddy"
   },
   {
-   "id": 142,
+   "id": 211,
    "name": "Cloudburst Soles Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -5840,7 +9193,7 @@ window.VAL_DROPS = {
    "slug": "cloudburst-soles-buddy"
   },
   {
-   "id": 143,
+   "id": 212,
    "name": "Downtime Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -5886,7 +9239,7 @@ window.VAL_DROPS = {
    "slug": "downtime-buddy"
   },
   {
-   "id": 144,
+   "id": 213,
    "name": "Fist Bump Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -5946,7 +9299,7 @@ window.VAL_DROPS = {
    "slug": "fist-bump-buddy"
   },
   {
-   "id": 145,
+   "id": 214,
    "name": "FRGMT x WNGMN+ Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -5987,7 +9340,7 @@ window.VAL_DROPS = {
    "slug": "frgmt-x-wngmn-buddy"
   },
   {
-   "id": 146,
+   "id": 215,
    "name": "Golden Smite Knife Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6061,7 +9414,7 @@ window.VAL_DROPS = {
    "slug": "golden-smite-knife-buddy"
   },
   {
-   "id": 147,
+   "id": 216,
    "name": "Hang Time Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6107,7 +9460,7 @@ window.VAL_DROPS = {
    "slug": "hang-time-buddy"
   },
   {
-   "id": 148,
+   "id": 217,
    "name": "\"I Create\" Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6153,7 +9506,7 @@ window.VAL_DROPS = {
    "slug": "i-create-buddy"
   },
   {
-   "id": 149,
+   "id": 218,
    "name": "Keep it Safer Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6194,7 +9547,7 @@ window.VAL_DROPS = {
    "slug": "keep-it-safer-buddy"
   },
   {
-   "id": 150,
+   "id": 219,
    "name": "Pocket Sage Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6235,7 +9588,7 @@ window.VAL_DROPS = {
    "slug": "pocket-sage-buddy"
   },
   {
-   "id": 151,
+   "id": 220,
    "name": "Riptide Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -6276,375 +9629,7 @@ window.VAL_DROPS = {
    "slug": "riptide-buddy"
   },
   {
-   "id": 152,
-   "name": "Slime Mosh Buddy",
-   "type": "Gun Buddy",
-   "category": "Events & Partnerships",
-   "group": "Brand partnerships",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Slime_Mosh_Buddy.webp",
-   "imageLarge": "img/Slime_Mosh_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Given to first 3,000 entrants for Coinbase x VCT campaign for 2025 VALORANT Champions Paris • Watch 1 hour Broadcast Drops of Abe's VALORANT Invitational on Twitch Rivals on July 24th 2026"
-     },
-     {
-      "label": "Inventory",
-      "value": "x1"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-07-24",
-    "end": "2026-07-24"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://www.coinbase.com/en/campaigns/valorant25",
-     "label": "Coinbase",
-     "official": false
-    },
-    {
-     "url": "https://www.riotgames.com/en/news/lol-valorant-esports-coinbase-partnership",
-     "label": "Riot Games",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
-     "label": "VALORANT Wiki: Broadcast Drops",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "slime-mosh-buddy"
-  },
-  {
-   "id": 153,
-   "name": "High Top Heat Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/High_Top_Heat_Buddy.webp",
-   "imageLarge": "img/High_Top_Heat_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2021 Spike Nations"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 9, 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2021-10-09",
-    "end": "2021-10-09"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "high-top-heat-buddy"
-  },
-  {
-   "id": 154,
-   "name": "Fishbones Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Fishbones_Buddy.webp",
-   "imageLarge": "img/Fishbones_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Arcane Premiere Twitch Streams"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 6, 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2021-11-06",
-    "end": "2021-11-06"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "fishbones-buddy"
-  },
-  {
-   "id": 155,
-   "name": "VCT 2021 Spark Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/VCT_2021_Spark_Buddy.webp",
-   "imageLarge": "img/VCT_2021_Spark_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2021 VALORANT Champions Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "December 12, 2021"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2021-12-12",
-    "end": "2021-12-12"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "vct-2021-spark-buddy"
-  },
-  {
-   "id": 156,
-   "name": "VCT LOCK//IN Dad Hat Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/VCT_LOCKIN_Dad_Hat_Buddy.webp",
-   "imageLarge": "img/VCT_LOCKIN_Dad_Hat_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VCT LOCK//IN São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "March 4, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-03-04",
-    "end": "2023-03-04"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "vct-lock-in-dad-hat-buddy"
-  },
-  {
-   "id": 157,
-   "name": "Game Changers Trophy Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Game_Changers_Trophy_Buddy.webp",
-   "imageLarge": "img/Game_Changers_Trophy_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Game Changers Championship São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "December 3, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-12-03",
-    "end": "2023-12-03"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "game-changers-trophy-buddy"
-  },
-  {
-   "id": 158,
-   "name": "Sheng Jian Bao Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Sheng_Jian_Bao_Buddy.webp",
-   "imageLarge": "img/Sheng_Jian_Bao_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Masters Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 9, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-06-09",
-    "end": "2024-06-09"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "sheng-jian-bao-buddy"
-  },
-  {
-   "id": 159,
-   "name": "Ping Pong Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Ping_Pong_Buddy.webp",
-   "imageLarge": "img/Ping_Pong_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 12 - October 5, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-09-12",
-    "end": "2025-10-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "ping-pong-buddy"
-  },
-  {
-   "id": 160,
+   "id": 221,
    "name": "Sweet Calls Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -6688,51 +9673,151 @@ window.VAL_DROPS = {
    "slug": "sweet-calls-buddy"
   },
   {
-   "id": 161,
-   "name": "Crab Mentality Buddy",
-   "type": "Gun Buddy",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "id": 222,
+   "name": "Hari Raya Homecoming Card",
+   "type": "Player Card",
+   "category": "Events & Partnerships",
+   "group": "Night Queue",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
-   "image": "img/Crab_Mentality_Buddy.webp",
-   "imageLarge": "img/Crab_Mentality_Buddy.webp",
-   "imageWide": null,
+   "image": "img/Hari_Raya_Homecoming_Card_Large.webp",
+   "imageLarge": "img/Hari_Raya_Homecoming_Card_Large_600.webp",
+   "imageWide": "img/Hari_Raya_Homecoming_Card_Wide.webp",
    "details": [
     [
      {
       "label": "Event",
-      "value": "2026 VALORANT Champions Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026 (originally till October 18th, 2026; feature was disabled due to issues)"
+      "value": "Night Queue"
      }
     ]
    ],
-   "period": {
-    "start": "2026-09-24",
-    "end": "2026-10-07"
-   },
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
     {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
+     "label": "VALORANT Wiki: Night Queue",
      "official": false,
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
    "regions": [],
    "alsoFrom": [],
-   "slug": "crab-mentality-buddy"
+   "slug": "hari-raya-homecoming-card"
   },
   {
-   "id": 162,
+   "id": 223,
+   "name": "Last Round Before Dawn Card",
+   "type": "Player Card",
+   "category": "Events & Partnerships",
+   "group": "Night Queue",
+   "subgroup": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/Last_Round_Before_Dawn_Card_Large.webp",
+   "imageLarge": "img/Last_Round_Before_Dawn_Card_Large_600.webp",
+   "imageWide": "img/Last_Round_Before_Dawn_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "Night Queue"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
+     "label": "VALORANT Wiki: Night Queue",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "last-round-before-dawn-card"
+  },
+  {
+   "id": 224,
+   "name": "Songkran Splash Street Card",
+   "type": "Player Card",
+   "category": "Events & Partnerships",
+   "group": "MAHASONGKRAN",
+   "subgroup": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/Songkran_Splash_Street_Card_Large.webp",
+   "imageLarge": "img/Songkran_Splash_Street_Card_Large_600.webp",
+   "imageWide": "img/Songkran_Splash_Street_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Event",
+      "value": "MAHASONGKRAN"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+     "label": "VALORANT Wiki: Player Cards",
+     "official": false,
+     "wiki": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/MAHASONGKRAN",
+     "label": "VALORANT Wiki: MAHASONGKRAN",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "songkran-splash-street-card"
+  },
+  {
+   "id": 225,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -6782,7 +9867,7 @@ window.VAL_DROPS = {
    "slug": "for-retribution-card"
   },
   {
-   "id": 163,
+   "id": 226,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -6837,7 +9922,7 @@ window.VAL_DROPS = {
    "slug": "not-a-peep-card"
   },
   {
-   "id": 164,
+   "id": 227,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -6887,7 +9972,7 @@ window.VAL_DROPS = {
    "slug": "versus-deadlock-gekko-card"
   },
   {
-   "id": 165,
+   "id": 228,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -6956,7 +10041,7 @@ window.VAL_DROPS = {
    "slug": "pride-cotton-candy-card"
   },
   {
-   "id": 166,
+   "id": 229,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7025,7 +10110,7 @@ window.VAL_DROPS = {
    "slug": "pride-galactic-card"
   },
   {
-   "id": 167,
+   "id": 230,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7094,7 +10179,7 @@ window.VAL_DROPS = {
    "slug": "pride-primary-card"
   },
   {
-   "id": 168,
+   "id": 231,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7163,7 +10248,7 @@ window.VAL_DROPS = {
    "slug": "pride-rainbow-card"
   },
   {
-   "id": 169,
+   "id": 232,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7232,7 +10317,7 @@ window.VAL_DROPS = {
    "slug": "pride-sherbet-card"
   },
   {
-   "id": 170,
+   "id": 233,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7301,7 +10386,7 @@ window.VAL_DROPS = {
    "slug": "pride-sunset-card"
   },
   {
-   "id": 171,
+   "id": 234,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -7370,7 +10455,7 @@ window.VAL_DROPS = {
    "slug": "pride-twilight-card"
   },
   {
-   "id": 172,
+   "id": 235,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -7458,58 +10543,7 @@ window.VAL_DROPS = {
    "slug": "dance-break-card"
   },
   {
-   "id": 173,
-   "name": "Sakura // Tokyo Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Other promotions & rewards",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Sakura_Tokyo_Card_Large.webp",
-   "imageLarge": "img/Sakura_Tokyo_Card_Large_600.webp",
-   "imageWide": "img/Sakura_Tokyo_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Login bonus exclusively for players in Japan during patch Patch 12.07 • Broadcast Rewards for Twitch channels of participants in the Devil Clutch Cup 2026 #1 (Devil Clutch杯2026 #1) on April 28-29 2026 JST"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-04-28",
-    "end": "2026-04-29"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
-     "label": "VALORANT Wiki: Broadcast Rewards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [
-    {
-     "code": "JP",
-     "label": "Japan only"
-    }
-   ],
-   "alsoFrom": [],
-   "slug": "sakura-tokyo-card"
-  },
-  {
-   "id": 174,
+   "id": 236,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -7559,7 +10593,7 @@ window.VAL_DROPS = {
    "slug": "seoul-night-jett-card"
   },
   {
-   "id": 175,
+   "id": 237,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -7601,139 +10635,54 @@ window.VAL_DROPS = {
    "slug": "sloth-slugs-card"
   },
   {
-   "id": 176,
-   "name": "Versus // Yoru + Phoenix Card",
+   "id": 238,
+   "name": "2024 Championship Card",
    "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Watch parties, co-streams & live events",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Versus_Yoru_Phoenix_Card_Large.webp",
-   "imageLarge": "img/Versus_Yoru_Phoenix_Card_Large_600.webp",
-   "imageWide": "img/Versus_Yoru_Phoenix_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Acquisition",
-      "value": "• Attend the Riot Games ONE Pro Invitational in Japan • Broadcast Rewards of Abe's VALORANT Invitational on Twitch Rivals on July 17th 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-07-17",
-    "end": "2026-07-17"
-   },
+   "image": "img/2024_Championship_Card_Large.webp",
+   "imageLarge": "img/2024_Championship_Card_Large_600.webp",
+   "imageWide": "img/2024_Championship_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
-    {
-     "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
-     "label": "X @RiotGamesJapan",
-     "official": true
-    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
      "official": false,
      "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
-     "label": "VALORANT Wiki: Broadcast Rewards",
-     "official": false,
-     "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
    "regions": [
     {
-     "code": "JP-IRL",
-     "label": "In person: Japan"
+     "code": "CN",
+     "label": "China only"
     }
    ],
    "alsoFrom": [],
-   "slug": "versus-yoru-phoenix-card"
+   "slug": "2024-championship-card"
   },
   {
-   "id": 177,
-   "name": "Beta Watch Card",
+   "id": 239,
+   "name": "Best Memories Card",
    "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Beta_Watch_Card_Large.webp",
-   "imageLarge": "img/Beta_Watch_Card_Large_600.webp",
-   "imageWide": "img/Beta_Watch_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Closed Beta Twitch streams"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "April 7 - May 22, 2020"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2020-04-07",
-    "end": "2020-05-22"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
-     "label": "VALORANT Wiki: Closed Beta",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "beta-watch-card"
-  },
-  {
-   "id": 178,
-   "name": "Showdown Watch Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Showdown_Watch_Card_Large.webp",
-   "imageLarge": "img/Showdown_Watch_Card_Large_600.webp",
-   "imageWide": "img/Showdown_Watch_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "AfreecaTV Asia VALORANT Showdown"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 18 - 20, 2020"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2020-09-18",
-    "end": "2020-09-20"
-   },
+   "image": "img/Best_Memories_Card_Large.webp",
+   "imageLarge": "img/Best_Memories_Card_Large_600.webp",
+   "imageWide": "img/Best_Memories_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -7744,40 +10693,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "showdown-watch-card"
+   "slug": "best-memories-card"
   },
   {
-   "id": 179,
-   "name": "Champions 2022 Hero Card",
+   "id": 240,
+   "name": "Blissful Burn Card",
    "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Champions_2022_Hero_Card_Large.webp",
-   "imageLarge": "img/Champions_2022_Hero_Card_Large_600.webp",
-   "imageWide": "img/Champions_2022_Hero_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Champions Istanbul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 18, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-09-18",
-    "end": "2022-09-18"
-   },
+   "image": "img/Blissful_Burn_Card_Large.webp",
+   "imageLarge": "img/Blissful_Burn_Card_Large_600.webp",
+   "imageWide": "img/Blissful_Burn_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -7788,40 +10728,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "champions-2022-hero-card"
+   "slug": "blissful-burn-card"
   },
   {
-   "id": 180,
-   "name": "2022 Game Changers Championship Card",
+   "id": 241,
+   "name": "Count To Three Card",
    "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/2022_Game_Changers_Championship_Card_Large.webp",
-   "imageLarge": "img/2022_Game_Changers_Championship_Card_Large_600.webp",
-   "imageWide": "img/2022_Game_Changers_Championship_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-11-20",
-    "end": "2022-11-20"
-   },
+   "image": "img/Count_To_Three_Card_Large.webp",
+   "imageLarge": "img/Count_To_Three_Card_Large_600.webp",
+   "imageWide": "img/Count_To_Three_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -7832,40 +10763,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "2022-game-changers-championship-card"
+   "slug": "count-to-three-card"
   },
   {
-   "id": 181,
-   "name": "Rank Up! // Masters Tokyo 2023 Card",
+   "id": 242,
+   "name": "Land of Heaven Card",
    "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Rank_Up_Masters_Tokyo_2023_Card_Large.webp",
-   "imageLarge": "img/Rank_Up_Masters_Tokyo_2023_Card_Large_600.webp",
-   "imageWide": "img/Rank_Up_Masters_Tokyo_2023_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Masters Tokyo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 25, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-06-25",
-    "end": "2023-06-25"
-   },
+   "image": "img/Land_of_Heaven_Card_Large.webp",
+   "imageLarge": "img/Land_of_Heaven_Card_Large_600.webp",
+   "imageWide": "img/Land_of_Heaven_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -7876,40 +10798,31 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "CN",
+     "label": "China only"
+    }
+   ],
    "alsoFrom": [],
-   "slug": "rank-up-masters-tokyo-2023-card"
+   "slug": "land-of-heaven-card"
   },
   {
-   "id": 182,
-   "name": "Champions 2023 Lowrider Card",
+   "id": 243,
+   "name": "My Place Card",
    "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
+   "category": "China Exclusive",
+   "group": "China Exclusive",
    "subgroup": null,
    "groupNote": null,
    "title": null,
-   "image": "img/Champions_2023_Lowrider_Card_Large.webp",
-   "imageLarge": "img/Champions_2023_Lowrider_Card_Large_600.webp",
-   "imageWide": "img/Champions_2023_Lowrider_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Champions Los Angeles"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 26, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-08-26",
-    "end": "2023-08-26"
-   },
+   "image": "img/My_Place_Card_Large.webp",
+   "imageLarge": "img/My_Place_Card_Large_600.webp",
+   "imageWide": "img/My_Place_Card_Wide.webp",
+   "details": [],
+   "period": null,
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -7920,454 +10833,19 @@ window.VAL_DROPS = {
      "wiki": true
     }
    ],
-   "firstSeen": null,
+   "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "champions-2023-lowrider-card"
-  },
-  {
-   "id": 183,
-   "name": "Clutch Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Clutch_Card_Large.webp",
-   "imageLarge": "img/Clutch_Card_Large_600.webp",
-   "imageWide": "img/Clutch_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #4"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 2 - 5, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-11-02",
-    "end": "2023-11-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
+   "regions": [
     {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
+     "code": "CN",
+     "label": "China only"
     }
    ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
    "alsoFrom": [],
-   "slug": "clutch-card"
+   "slug": "my-place-card"
   },
   {
-   "id": 184,
-   "name": "VCT Push Up Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/VCT_Push_Up_Card_Large.webp",
-   "imageLarge": "img/VCT_Push_Up_Card_Large_600.webp",
-   "imageWide": "img/VCT_Push_Up_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Masters Madrid"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "March 24, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-03-24",
-    "end": "2024-03-24"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "vct-push-up-card"
-  },
-  {
-   "id": 185,
-   "name": "Agents on Leave Seoul Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Agents_on_Leave_Seoul_Card_Large.webp",
-   "imageLarge": "img/Agents_on_Leave_Seoul_Card_Large_600.webp",
-   "imageWide": "img/Agents_on_Leave_Seoul_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Champions Seoul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 25, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-08-25",
-    "end": "2024-08-25"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "agents-on-leave-seoul-card"
-  },
-  {
-   "id": 186,
-   "name": "2024 Game Changers Championship Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/2024_Game_Changers_Championship_Card_Large.webp",
-   "imageLarge": "img/2024_Game_Changers_Championship_Card_Large_600.webp",
-   "imageWide": "img/2024_Game_Changers_Championship_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-17",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "2024-game-changers-championship-card"
-  },
-  {
-   "id": 187,
-   "name": "Horrors I've Seen Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Horrors_I_ve_Seen_Card_Large.webp",
-   "imageLarge": "img/Horrors_I_ve_Seen_Card_Large_600.webp",
-   "imageWide": "img/Horrors_I_ve_Seen_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Arcane Season 2 Premiere"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "• November 8, 2024 • November 16 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-16",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "horrors-i-ve-seen-card"
-  },
-  {
-   "id": 188,
-   "name": "From My Perspective Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/From_My_Perspective_Card_Large.webp",
-   "imageLarge": "img/From_My_Perspective_Card_Large_600.webp",
-   "imageWide": "img/From_My_Perspective_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Arcane Season 2 Premiere"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 16 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-16",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "from-my-perspective-card"
-  },
-  {
-   "id": 189,
-   "name": "Frosty Freestyle Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Frosty_Freestyle_Card_Large.webp",
-   "imageLarge": "img/Frosty_Freestyle_Card_Large_600.webp",
-   "imageWide": "img/Frosty_Freestyle_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #5"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-20",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "frosty-freestyle-card"
-  },
-  {
-   "id": 190,
-   "name": "No Fly Zone Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/No_Fly_Zone_Card_Large.webp",
-   "imageLarge": "img/No_Fly_Zone_Card_Large_600.webp",
-   "imageWide": "img/No_Fly_Zone_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 5, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-10-05",
-    "end": "2025-10-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "no-fly-zone-card"
-  },
-  {
-   "id": 191,
-   "name": "My Table, My Rules Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/My_Table_My_Rules_Card_Large.webp",
-   "imageLarge": "img/My_Table_My_Rules_Card_Large_600.webp",
-   "imageWide": "img/My_Table_My_Rules_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 12 - October 5, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-09-12",
-    "end": "2025-10-05"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "my-table-my-rules-card"
-  },
-  {
-   "id": 192,
-   "name": "Frag or Die: Trophy Card",
-   "type": "Player Card",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Frag_or_Die_Trophy_Card_Large.webp",
-   "imageLarge": "img/Frag_or_Die_Trophy_Card_Large_600.webp",
-   "imageWide": "img/Frag_or_Die_Trophy_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Champions Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026 (originally till October 18th, 2026; feature was disabled due to issues)"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-09-24",
-    "end": "2026-10-07"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "frag-or-die-trophy-card"
-  },
-  {
-   "id": 193,
+   "id": 244,
    "name": "Holding Space Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8414,7 +10892,7 @@ window.VAL_DROPS = {
    "slug": "holding-space-title"
   },
   {
-   "id": 194,
+   "id": 245,
    "name": "Ate Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8464,7 +10942,7 @@ window.VAL_DROPS = {
    "slug": "ate-title"
   },
   {
-   "id": 195,
+   "id": 246,
    "name": "Better Together Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8514,7 +10992,7 @@ window.VAL_DROPS = {
    "slug": "better-together-title"
   },
   {
-   "id": 196,
+   "id": 247,
    "name": "Ally Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8564,7 +11042,7 @@ window.VAL_DROPS = {
    "slug": "ally-title"
   },
   {
-   "id": 197,
+   "id": 248,
    "name": "Proud Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8614,7 +11092,7 @@ window.VAL_DROPS = {
    "slug": "proud-title"
   },
   {
-   "id": 198,
+   "id": 249,
    "name": "Pioneer Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -8664,7 +11142,7 @@ window.VAL_DROPS = {
    "slug": "pioneer-title"
   },
   {
-   "id": 199,
+   "id": 250,
    "name": "Gênio Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8694,7 +11172,7 @@ window.VAL_DROPS = {
    "slug": "genio-title"
   },
   {
-   "id": 200,
+   "id": 251,
    "name": "Calculated Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8724,7 +11202,7 @@ window.VAL_DROPS = {
    "slug": "calculated-title"
   },
   {
-   "id": 201,
+   "id": 252,
    "name": "Bossman Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8754,7 +11232,7 @@ window.VAL_DROPS = {
    "slug": "bossman-title"
   },
   {
-   "id": 202,
+   "id": 253,
    "name": "Cachando Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8784,7 +11262,7 @@ window.VAL_DROPS = {
    "slug": "cachando-title"
   },
   {
-   "id": 203,
+   "id": 254,
    "name": "Aura Farming Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8814,7 +11292,7 @@ window.VAL_DROPS = {
    "slug": "aura-farming-title"
   },
   {
-   "id": 204,
+   "id": 255,
    "name": "Eh? Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8844,7 +11322,7 @@ window.VAL_DROPS = {
    "slug": "eh-title"
   },
   {
-   "id": 205,
+   "id": 256,
    "name": "100% Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8874,7 +11352,7 @@ window.VAL_DROPS = {
    "slug": "100-title"
   },
   {
-   "id": 206,
+   "id": 257,
    "name": "VCT Game Changer Title",
    "type": "Title",
    "category": "Pro Play",
@@ -8915,7 +11393,7 @@ window.VAL_DROPS = {
    "slug": "vct-game-changer-title"
   },
   {
-   "id": 207,
+   "id": 258,
    "name": "2021 VCT Regional Masters Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9038,7 +11516,7 @@ window.VAL_DROPS = {
    "slug": "2021-vct-regional-masters-winner-title"
   },
   {
-   "id": 208,
+   "id": 259,
    "name": "VCT Masters Reykjavik Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9085,7 +11563,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-reykjavik-winner-title"
   },
   {
-   "id": 209,
+   "id": 260,
    "name": "VCT Masters Berlin Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9126,7 +11604,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-berlin-winner-title"
   },
   {
-   "id": 210,
+   "id": 261,
    "name": "2021 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9167,7 +11645,7 @@ window.VAL_DROPS = {
    "slug": "2021-vct-champion-title"
   },
   {
-   "id": 211,
+   "id": 262,
    "name": "VCT Masters Copenhagen Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9204,7 +11682,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-copenhagen-winner-title"
   },
   {
-   "id": 212,
+   "id": 263,
    "name": "2022 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9241,7 +11719,7 @@ window.VAL_DROPS = {
    "slug": "2022-vct-champion-title"
   },
   {
-   "id": 213,
+   "id": 264,
    "name": "2022 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9282,7 +11760,7 @@ window.VAL_DROPS = {
    "slug": "2022-game-changers-winner-title"
   },
   {
-   "id": 214,
+   "id": 265,
    "name": "VCT LOCK//IN Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9319,7 +11797,7 @@ window.VAL_DROPS = {
    "slug": "vct-lock-in-winner-title"
   },
   {
-   "id": 215,
+   "id": 266,
    "name": "VCT Masters Tokyo Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9356,7 +11834,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-tokyo-winner-title"
   },
   {
-   "id": 216,
+   "id": 267,
    "name": "2023 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9393,7 +11871,7 @@ window.VAL_DROPS = {
    "slug": "2023-vct-champion-title"
   },
   {
-   "id": 217,
+   "id": 268,
    "name": "2023 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9434,7 +11912,7 @@ window.VAL_DROPS = {
    "slug": "2023-game-changers-winner-title"
   },
   {
-   "id": 218,
+   "id": 269,
    "name": "VCT Masters Madrid Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9471,7 +11949,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-madrid-winner-title"
   },
   {
-   "id": 219,
+   "id": 270,
    "name": "VCT Masters Shanghai Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9508,7 +11986,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-shanghai-winner-title"
   },
   {
-   "id": 220,
+   "id": 271,
    "name": "2024 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9545,7 +12023,7 @@ window.VAL_DROPS = {
    "slug": "2024-vct-champion-title"
   },
   {
-   "id": 221,
+   "id": 272,
    "name": "2024 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9586,7 +12064,7 @@ window.VAL_DROPS = {
    "slug": "2024-game-changers-winner-title"
   },
   {
-   "id": 222,
+   "id": 273,
    "name": "VCT Masters Bangkok Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9623,7 +12101,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-bangkok-winner-title"
   },
   {
-   "id": 223,
+   "id": 274,
    "name": "VCT Masters Toronto Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9660,7 +12138,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-toronto-winner-title"
   },
   {
-   "id": 224,
+   "id": 275,
    "name": "2025 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9697,7 +12175,7 @@ window.VAL_DROPS = {
    "slug": "2025-vct-champion-title"
   },
   {
-   "id": 225,
+   "id": 276,
    "name": "2025 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9738,7 +12216,7 @@ window.VAL_DROPS = {
    "slug": "2025-game-changers-winner-title"
   },
   {
-   "id": 226,
+   "id": 277,
    "name": "VCT Masters Santiago Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9775,7 +12253,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-santiago-winner-title"
   },
   {
-   "id": 227,
+   "id": 278,
    "name": "VCT Masters London Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9812,7 +12290,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-london-winner-title"
   },
   {
-   "id": 228,
+   "id": 279,
    "name": "2026 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9849,7 +12327,7 @@ window.VAL_DROPS = {
    "slug": "2026-vct-champion-title"
   },
   {
-   "id": 229,
+   "id": 280,
    "name": "2026 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -9890,7 +12368,7 @@ window.VAL_DROPS = {
    "slug": "2026-game-changers-winner-title"
   },
   {
-   "id": 230,
+   "id": 281,
    "name": "Gajeua Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9940,7 +12418,7 @@ window.VAL_DROPS = {
    "slug": "gajeua-title"
   },
   {
-   "id": 231,
+   "id": 282,
    "name": "ONE // 2022 Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9987,7 +12465,7 @@ window.VAL_DROPS = {
    "slug": "one-2022-title"
   },
   {
-   "id": 232,
+   "id": 283,
    "name": "VALORANT Partner Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -10029,1333 +12507,7 @@ window.VAL_DROPS = {
    "slug": "valorant-partner-title"
   },
   {
-   "id": 233,
-   "name": "Fire Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Fire",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Champions Istanbul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 31 - September 13, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-08-31",
-    "end": "2022-09-13"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "fire-title"
-  },
-  {
-   "id": 234,
-   "name": "Game Changer Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Game Changer",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2022 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 15 - 19, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-11-15",
-    "end": "2022-11-19"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "game-changer-title"
-  },
-  {
-   "id": 235,
-   "name": "Clutch Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Clutch",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "• Red Bull Home Ground #3 • Red Bull Campus Clutch 2022 - World Final Stage"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "• December 10, 2022 • December 15, 2022"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2022-12-15",
-    "end": "2022-12-15"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "clutch-title"
-  },
-  {
-   "id": 236,
-   "name": "Locked In Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Locked In",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VCT LOCK//IN São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "February 13 - March 4, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-02-13",
-    "end": "2023-03-04"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "locked-in-title"
-  },
-  {
-   "id": 237,
-   "name": "Louder Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Louder",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Game Changers Championship São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 28 - December 2, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-11-28",
-    "end": "2023-12-02"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "louder-title"
-  },
-  {
-   "id": 238,
-   "name": "Unpredictable Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Unpredictable",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Masters Tokyo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 11 - 25, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-06-11",
-    "end": "2023-06-25"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "unpredictable-title"
-  },
-  {
-   "id": 239,
-   "name": "Lowrider Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Lowrider",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2023 VALORANT Champions Los Angeles"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "August 6 - 13, 2023"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2023-08-06",
-    "end": "2023-08-13"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "lowrider-title"
-  },
-  {
-   "id": 240,
-   "name": "Ñ Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Ñ",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Masters Madrid"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "March 14 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-03-14",
-    "end": "2024-03-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "n-title"
-  },
-  {
-   "id": 241,
-   "name": "Jiāyóu Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Jiāyóu",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Masters Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "May 23 - June 8, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-05-23",
-    "end": "2024-06-08"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "jiayou-title"
-  },
-  {
-   "id": 242,
-   "name": "Main Character Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Main Character",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 8 - 16, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-08",
-    "end": "2024-11-16"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "main-character-title"
-  },
-  {
-   "id": 243,
-   "name": "Ribbit Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Ribbit",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin Watch Parties: Kyedae"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 15 - 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-15",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "ribbit-title"
-  },
-  {
-   "id": 244,
-   "name": "I am her Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "I am her",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin Watch Parties: Helydia"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 15 - 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-15",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "i-am-her-title"
-  },
-  {
-   "id": 245,
-   "name": "13-0 Club Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "13-0 Club",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin Watch Parties: Mixwell"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 15 - 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-15",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "13-0-club-title"
-  },
-  {
-   "id": 246,
-   "name": "Queen Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Queen",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2024 VALORANT Game Changers Championship Berlin Watch Parties: Sliggy"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 15 - 17, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-15",
-    "end": "2024-11-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "queen-title"
-  },
-  {
-   "id": 247,
-   "name": "Polar Clutch Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Polar Clutch",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground #5"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20 - 23, 2024"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2024-11-20",
-    "end": "2024-11-23"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "polar-clutch-title"
-  },
-  {
-   "id": 248,
-   "name": "Crispy Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Crispy",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Masters Bangkok"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "February 20 - March 1, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-02-20",
-    "end": "2025-03-01"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "crispy-title"
-  },
-  {
-   "id": 249,
-   "name": "Fam Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Fam",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Masters Toronto"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 7 - 21, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-06-07",
-    "end": "2025-06-21"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "fam-title"
-  },
-  {
-   "id": 250,
-   "name": "Oui Chef Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Oui Chef",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Champions Paris"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 12 - 29, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-09-12",
-    "end": "2025-09-29"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "oui-chef-title"
-  },
-  {
-   "id": 251,
-   "name": "CLUUUTCH Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "CLUUUTCH",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Red Bull Home Ground 2025"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 13 - 16, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-13",
-    "end": "2025-11-16"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "cluuutch-title"
-  },
-  {
-   "id": 252,
-   "name": "Go Off Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Go Off",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Game Changers Championship Seoul"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 20 - 29, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-20",
-    "end": "2025-11-29"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "go-off-title"
-  },
-  {
-   "id": 253,
-   "name": "^>.<^ Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "^>.<^",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Game Changers Championship Seoul Co-Stream: Tenz featuring Kyedae"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 28 - 30, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-28",
-    "end": "2025-11-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "title"
-  },
-  {
-   "id": 254,
-   "name": "Melting Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Melting",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Game Changers Championship Seoul Co-Stream: Aco & Curumi"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 28 - 30, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-28",
-    "end": "2025-11-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "melting-title"
-  },
-  {
-   "id": 255,
-   "name": "Unnie Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Unnie",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2025 VALORANT Game Changers Championship Seoul Co-Stream: Fennel Mint & Kimgyutae"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "November 28 - 30, 2025"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2025-11-28",
-    "end": "2025-11-30"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "unnie-title"
-  },
-  {
-   "id": 256,
-   "name": "Bakán Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Bakán",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Masters Santiago"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "February 28 - March 15, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-02-28",
-    "end": "2026-03-15"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "bakan-title"
-  },
-  {
-   "id": 257,
-   "name": "Gutted Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Gutted",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Masters London"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 6 - 21, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-06-06",
-    "end": "2026-06-21"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "gutted-title"
-  },
-  {
-   "id": 258,
-   "name": "Zestify Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Zestify",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Gauntlet: Glitched - OhnePixel Tournament"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 18, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-09-18",
-    "end": "2026-09-18"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Gauntlet%3A_Glitched",
-     "label": "VALORANT Wiki: Gauntlet: Glitched",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "zestify-title"
-  },
-  {
-   "id": 259,
-   "name": "Prepared Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Prepared",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Champions Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 24 - October 17, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-09-24",
-    "end": "2026-10-17"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "prepared-title"
-  },
-  {
-   "id": 260,
-   "name": "MIGA Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "MIGA",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Game Changers Championship São Paulo"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 22 - 31, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-10-22",
-    "end": "2026-10-31"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "miga-title"
-  },
-  {
-   "id": 261,
-   "name": "Braba Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Braba",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Game Changers Championship São Paulo: Co-Streamers"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "October 30 - November 1, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-10-30",
-    "end": "2026-11-01"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "braba-title"
-  },
-  {
-   "id": 262,
-   "name": "Visionario Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Visionario",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Masters Santiago"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "February 28 - March 15, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-02-28",
-    "end": "2026-03-15"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "visionario-title"
-  },
-  {
-   "id": 263,
+   "id": 284,
    "name": "Armchair IGL Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -11399,95 +12551,7 @@ window.VAL_DROPS = {
    "slug": "armchair-igl-title"
   },
   {
-   "id": 264,
-   "name": "Rubbish Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "Rubbish",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Masters London"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "June 6 - 21, 2026"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-06-06",
-    "end": "2026-06-21"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "rubbish-title"
-  },
-  {
-   "id": 265,
-   "name": "The Catch Title",
-   "type": "Title",
-   "category": "Broadcast Drops",
-   "group": "Other broadcast drops",
-   "subgroup": null,
-   "groupNote": null,
-   "title": "The Catch",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "2026 VALORANT Champions Shanghai"
-     },
-     {
-      "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026 (Originally till October 18, but was shortened due to an issue with Shotcall Extension)"
-     }
-    ]
-   ],
-   "period": {
-    "start": "2026-09-24",
-    "end": "2026-10-07"
-   },
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "the-catch-title"
-  },
-  {
-   "id": 266,
+   "id": 285,
    "name": "Not Today Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -11536,7 +12600,7 @@ window.VAL_DROPS = {
    "slug": "not-today-spray"
   },
   {
-   "id": 267,
+   "id": 286,
    "name": "Lightning Kicks Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",

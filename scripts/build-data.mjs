@@ -34,9 +34,16 @@ const TYPE_SECTIONS = {
   "Channel Drops": "Broadcast Drops",
   "Shotcall Extension": "Broadcast Drops",
   "Prime Gaming Drops": "Prime Gaming",
+  // Drops from Riot's FTW website challenges. Earned by playing, but run and
+  // announced outside the client, so they count.
+  "Challenge Events": "Events & Partnerships",
+  "China-Exclusive": "China Exclusive",
 };
 // Out-of-game event pages (web challenges with faction rewards).
 const EVENT_PAGES = ["Alpha Vs. Omega Conflict", "Champions Conflict: Frag Or Die"];
+const FTW = "https://ftw.riotgames.com/en-us/valorant";
+const CHALLENGE_NOTE = "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.";
+const CHINA = { code: "CN", label: "China only" };
 // Miscellaneous rows that are earned in the client (tutorials, in-game modes, defaults).
 const IN_GAME = /Basic Training|default (card|spray|buddy)|Skirmish|Night Queue|Snowball Fight|MAHASONGKRAN|Console|Given to all existing accounts/i;
 
@@ -69,7 +76,8 @@ async function api(params) {
 }
 
 async function wikitext(page) {
-  const d = await api({ action: "parse", page, prop: "wikitext|revid" });
+  // Follow redirects: the wiki renames pages (Broadcast Drops → Broadcast Rewards).
+  const d = await api({ action: "parse", page, prop: "wikitext|revid", redirects: "1" });
   if (d.error) throw new Error(`${page}: ${d.error.info}`);
   return d.parse.wikitext;
 }
@@ -350,7 +358,7 @@ async function parseTypePage({ page, type }) {
   for (const sec of [...sections(text, 3), ...sections(text, 4)]) {
     const category = TYPE_SECTIONS[sec.title];
     if (!category) continue;
-    const defaults = { type, category, group: category, wikiPage: page };
+    const defaults = { type, category, group: category, wikiPage: page, challenge: sec.title === "Challenge Events" };
     const body = sec.body.replace(/<gallery[^>]*>[\s\S]*?<\/gallery>/g, "");
     const galleryItems = parseGalleries(sec.body);
     // Pick'Ems buddy galleries live inside a "Criteria" table; keep the criteria label.
@@ -372,12 +380,37 @@ async function parseTypePage({ page, type }) {
       }
     }
   }
+  for (const it of items) {
+    if (it.category === "China Exclusive") it.regions = [CHINA];
+    if (!it.challenge) continue;
+    it.group = it.details.find((d) => d.label === "Event")?.value || "FTW challenge events";
+    it.groupNote = CHALLENGE_NOTE;
+    it.refs.push(FTW);
+  }
   return items.filter((it) => {
-    if (it.category !== "Events & Partnerships") return true;
+    if (it.category !== "Events & Partnerships" || it.challenge) return true;
     const how = it.details.map((d) => d.value).join(" ");
     it.group = (MISC_GROUPS.find(([re]) => re.test(how)) || [, "Other promotions & rewards"])[1];
     return !IN_GAME.test(how) || /Broadcast Drops|Coinbase|Watch Party|attend/i.test(how);
   });
+}
+
+// The 2020 Closed Beta's reward pass. Players got into the beta through Twitch
+// drops, and these items stayed on their accounts after launch (the beta items
+// removed at launch are left out).
+async function parseClosedBeta() {
+  const text = await wikitext("Closed Beta");
+  const items = [];
+  for (const sec of sections(text, 3)) {
+    for (const t of findTables(sec.body)) {
+      for (const it of itemsFromTable(t, { category: "Closed Beta", group: `Closed Beta ${sec.title === "Pass" ? "reward pass" : "rewards"}`, wikiPage: "Closed Beta" })) {
+        it.details = [...it.details.filter((d) => /tier|source/i.test(d.label)), { label: "Eligible Dates", value: "April 7 - May 28, 2020" }];
+        if (it.type === "Title") it.file = null; // the table uses a generic title image
+        items.push(it);
+      }
+    }
+  }
+  return items;
 }
 
 async function parseEventPage(page) {
@@ -686,11 +719,19 @@ async function loadFirstSeen() {
 
 async function main() {
   console.log("Fetching wiki pages…");
+  // A dedicated page that suddenly yields nothing means the wiki renamed or
+  // restructured it; fail rather than quietly publish without it.
+  const need = async (name, p) => {
+    const items = await p;
+    if (!items.length) throw new Error(`No items parsed from ${name}. The wiki page may have moved or changed layout.`);
+    return items;
+  };
   const raw = [
-    ...(await parseBroadcastDrops()),
-    ...(await parsePrimeGaming()),
-    ...(await parsePSPlus()),
-    ...(await Promise.all(EVENT_PAGES.map(parseEventPage))).flat(),
+    ...(await need("Broadcast Rewards", parseBroadcastDrops())),
+    ...(await need("Prime Gaming Drops", parsePrimeGaming())),
+    ...(await need("VALORANT X PS+ Bundles", parsePSPlus())),
+    ...(await need("Closed Beta", parseClosedBeta())),
+    ...(await Promise.all(EVENT_PAGES.map((p) => need(p, parseEventPage(p))))).flat(),
   ].filter((it) => it.name && Object.values(CATEGORY_TYPES).includes(it.type));
 
   // Type pages fill gaps; an item already listed by a dedicated page in the same
