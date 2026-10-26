@@ -242,7 +242,8 @@
     };
     if (push) history.pushState({ item: slug }, "", itemUrl(slug));
     document.title = `${i.name} · VALORANT Out-of-Game Rewards`;
-    if (!dlg.open) dlg.showModal();
+    // Focus the dialog, not ×: a deep link would otherwise open with a focus ring on it.
+    if (!dlg.open) { dlg.showModal(); dlg.focus(); }
     $("#item-body").scrollTop = 0;
   }
 

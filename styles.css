@@ -284,6 +284,8 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
   box-shadow: 0 30px 80px -20px rgba(0, 0, 0, .45);
 }
 #item[open] { display: flex; animation: pop .18s ease; }
+/* app.js focuses the dialog itself on open; it isn't a control, so no ring. */
+#item:focus-visible { outline: none; }
 #item::backdrop { background: var(--backdrop); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
 @keyframes pop { from { opacity: 0; transform: translateY(8px) scale(.99); } to { opacity: 1; transform: none; } }
 #item-close {
