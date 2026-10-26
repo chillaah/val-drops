@@ -4,7 +4,7 @@
 
 **Every VALORANT cosmetic you can't buy in the store or unlock from a battle pass, tracked on one page.**
 
-Broadcast drops · Pick'Ems · Conflict events · Brand partnerships · Code redemptions · Prime Gaming · PS+ · Pro play
+Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code redemptions · Prime Gaming · PS+ · Pro play · Closed Beta · China exclusives
 
 [![Deploy](https://github.com/chillaah/val-drops/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/chillaah/val-drops/actions/workflows/deploy.yml)
 [![Update data](https://github.com/chillaah/val-drops/actions/workflows/update-data.yml/badge.svg)](https://github.com/chillaah/val-drops/actions/workflows/update-data.yml)
@@ -39,7 +39,7 @@ Broadcast drops · Pick'Ems · Conflict events · Brand partnerships · Code red
 - **Search and filters.** Search names, events, partners and codes. Filter by source, item type and region.
 - **Item pages.** Click any card for a larger image (plus the wide banner for player cards) and a shareable link such as [`?item=slime-mosh-buddy`](https://chillaah.github.io/val-drops/?item=slime-mosh-buddy).
 - **Redemption codes.** Every public code has a Copy button. Expired codes, and codes for Riot's old redemption site, are struck through.
-- **Region tags.** Items with a stated restriction (South Korea only, Japan only, in person only, not available in some countries) are tagged. Tags only come from what the source says.
+- **Region tags.** Items with a stated restriction (South Korea only, Japan only, China only, in person only, not available in some countries) are tagged. Tags only come from what the source says.
 - **One card per item.** An item you can get in several ways, like Slime Mosh (a Twitch drop and a Coinbase reward), appears once with an "Also from" list.
 - **Recently added and timeline.** Items first seen in the last 30 days get their own section, and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
 - **Light and dark themes.** Follows your system setting until you pick one with the toggle in the header.
@@ -51,20 +51,26 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 
 | Source | Examples |
 |---|---|
-| **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
+| **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch and Kick drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
 | **Pick'Ems** | Top 50% and top 20% buddies, Pick'Ems sprays, participation and perfect-picks titles |
-| **Events & Partnerships** | Alpha vs. Omega Conflict, Champions Conflict: Frag or Die, Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
+| **Events & Partnerships** | Challenge events on Riot's FTW site (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |
 | **Prime Gaming** | Monthly Prime Gaming drops from 2020 to 2024, including the Wayfinder Shorty skin |
 | **PlayStation Plus** | Rotating PS+ member bundles |
 | **Pro Play** | Tournament winner buddies and titles given to pros |
+| **Closed Beta** | The 2020 Closed Beta reward pass, entered through Twitch drops (items removed at launch are left out) |
+| **China Exclusive** | Items only obtainable on the China version of VALORANT, tagged "China only" and not posted to Discord |
 
 ## Sources and accuracy
 
 - Item data and images come from the **[VALORANT Wiki](https://wiki.playvalorant.com/en-us/)** through its MediaWiki API. The wiki is community-edited and run by Weird Gloop. **Riot doesn't run it.**
-- Each item also links to the **primary source** the wiki cites for it, where there is one: VALORANT Esports articles, PlayVALORANT news, Riot Support, official Riot/VCT social posts, or the partner's campaign page. Riot-owned links are marked ✓.
+- Each item also links to the **primary source** the wiki cites for it, where there is one: VALORANT Esports articles, PlayVALORANT news, Riot Support, official Riot/VCT social posts, or the partner's campaign page. Riot-owned links are marked ✓, matched on the whole hostname so a look-alike domain can't get the mark.
 - [`data/curated.json`](data/curated.json) holds items the wiki doesn't list yet, such as the ExpressVPN × VCT rewards. Every entry there must cite an official page.
-- Claim dates follow the wiki and are in Pacific time. The site says so next to them and links the source to check.
+- Claim dates follow the wiki and are in Pacific time. The site says so next to them and links the source to check. Notes the wiki keeps in tooltips, such as a claim window that was cut short, are shown next to the dates.
+
+**Wiki pages read:** [Broadcast Rewards](https://wiki.playvalorant.com/en-us/Broadcast_Rewards), [Prime Gaming Drops](https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops), [VALORANT X PS+ Bundles](https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles), [Closed Beta](https://wiki.playvalorant.com/en-us/Closed_Beta), the two Conflict event pages, and the out-of-game sections of [Sprays](https://wiki.playvalorant.com/en-us/Sprays), [Buddies](https://wiki.playvalorant.com/en-us/Buddies), [Player Cards](https://wiki.playvalorant.com/en-us/Player_Cards) and [Player Titles](https://wiki.playvalorant.com/en-us/Player_Titles) (Channel Drops, Shotcall Extension, Challenge Events, Code Redemption, Pick'Ems, Prime Gaming Drops, Pro play, Miscellaneous, China-Exclusive).
+
+**Left out on purpose:** store, battle pass, agent and Premier rewards; items the wiki lists as unobtainable (in the game files but never handed out); Closed Beta items that were removed from every account at launch; and Radianite Points.
 
 ## How it stays up to date
 
@@ -81,7 +87,8 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 Each run:
 
 1. Scrapes the wiki into `data/items.js` and saves any new images.
-2. Checks the result with `scripts/check-data.mjs`: at least 200 items, no more than a 10% drop from the previous run, required fields present, slugs unique. **If a wiki layout change breaks the scraper, the run fails and the live site keeps its last good data.**
+2. Checks the result. The scraper fails if a wiki page it reads suddenly yields no items (a renamed or restructured page), and `scripts/check-data.mjs` requires at least 200 items, no more than a 10% drop from the previous run, required fields and unique slugs. **If a wiki change breaks the scraper, the run fails and the live site keeps its last good data.**
+   It also holds back the kinds of edit a wiki vandal would make: a changed code on an existing item, or a link to a site the data has never linked before. Check those on the wiki, then rerun **Update data** with **approve** ticked to publish them.
 3. Commits to `production` only if something changed, which redeploys the site.
 4. Posts new items to Discord, then merges `production` back into `development`.
 
@@ -94,7 +101,7 @@ New rewards usually reach the wiki within hours of Riot announcing them. They ap
 | **Performance** | Static HTML, CSS and JavaScript, with no framework and no runtime dependencies. Images are lossless WebP at display size, and fonts are self-hosted subsets. Layout shift on a cold load is close to zero. |
 | **Accessibility** | Text meets WCAG AA contrast (4.5:1) in both themes. Cards and the item dialog work with the keyboard, and animations are off for people who prefer reduced motion. |
 | **Without JavaScript** | `index.html` contains a pre-rendered list of every item, so search engines and visitors without JavaScript still get the full list. |
-| **Privacy and security** | No analytics, cookies or third-party requests. A Content Security Policy allows only this site, plus wiki images as a fallback if a download failed. |
+| **Privacy and security** | No analytics, cookies or third-party requests. A Content Security Policy allows only this site, plus wiki images as a fallback if a download failed. Workflows use least-privilege permissions and GitHub Actions pinned to commit SHAs, kept current by Dependabot. |
 | **Sharing** | Open Graph and Twitter card tags, a 1200×630 preview image, `robots.txt`, `sitemap.xml` and structured data. |
 
 ## Development
@@ -131,7 +138,7 @@ data/curated.json                hand-added items the wiki doesn't have yet
 img/                             item images saved from the wiki
 docs/                            README screenshots (not deployed)
 scripts/build-data.mjs           wiki scraper
-scripts/check-data.mjs           blocks publishing if a scrape looks broken
+scripts/check-data.mjs           blocks publishing if a scrape looks broken or an edit needs review
 scripts/prerender.mjs            writes the plain item list into index.html
 scripts/notify-discord.mjs       posts new items to a Discord webhook
 scripts/og-image.html            source for assets/og.png (screenshot #og at 1200×630)
@@ -156,13 +163,13 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 | Workflow | Runs | What it does |
 |---|---|---|
 | [CI](.github/workflows/ci.yml) | Pushes to `development`, pull requests | Syntax-checks the scripts, runs the scraper and the data check, and confirms the site files exist. Commits nothing. |
-| [Update data](.github/workflows/update-data.yml) | Every 6 hours, or manually | Scrapes, checks and commits new data to `production`, posts to Discord, merges back into `development`. |
+| [Update data](.github/workflows/update-data.yml) | Every 6 hours, or manually | Scrapes, checks and commits new data to `production`, posts to Discord, merges back into `development`. Run it manually with **approve** to publish changes the check held for review. |
 | [Deploy](.github/workflows/deploy.yml) | Pushes to `production`, or manually | Publishes the site to GitHub Pages. |
 | [Discord test](.github/workflows/discord-test.yml) | Manually | Shows which channel the webhook posts to and can send one test message. |
 
 ### Discord notifications
 
-When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site.
+When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Items whose claim window has already ended and China-only items are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
 
 1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.

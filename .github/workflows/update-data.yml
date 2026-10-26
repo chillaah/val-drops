@@ -5,7 +5,12 @@ name: Update data
 on:
   schedule:
     - cron: "0 */6 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      approve:
+        description: "Publish changes the data check held for review (changed codes, links to new sites). Check them on the wiki first."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -20,11 +25,11 @@ jobs:
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: production
           fetch-depth: 0
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
       - name: Install WebP tools
@@ -35,8 +40,8 @@ jobs:
           node scripts/build-data.mjs
           node scripts/prerender.mjs
       - name: Check data before publishing
-        # Stops a broken scrape (wiki layout change) from going live.
-        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js"
+        # Stops a broken scrape (wiki layout change) or a suspicious wiki edit from going live.
+        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js" ${{ inputs.approve && '--approve' || '' }}
       - name: Commit to production
         id: commit
         run: |
