@@ -407,14 +407,12 @@
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 
-  // On phones the filter bar would cover a quarter of the screen, so pin only the
-  // search box (last in the bar there): offset the sticky bar by everything above it.
+  // The whole filter bar would cover a quarter of the screen, so pin only the search
+  // box (last in the bar): offset the sticky bar by everything above it.
   const controls = $(".controls");
-  const phone = matchMedia("(max-width: 680px)");
   const pin = () => {
     const above = $(".search").getBoundingClientRect().top - controls.getBoundingClientRect().top - 10;
-    controls.style.setProperty("--controls-top", phone.matches ? `${-Math.round(above)}px` : "0");
+    controls.style.setProperty("--controls-top", `${-Math.round(above)}px`);
   };
   new ResizeObserver(pin).observe(controls);
-  phone.addEventListener("change", pin);
 })();
