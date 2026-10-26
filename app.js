@@ -2,7 +2,7 @@
   const { items, generated } = window.VAL_DROPS;
 
   const CATEGORIES = [
-    ["Broadcast Drops", "Rewards for watching official VCT broadcasts, co-streams and partner streams with a linked Riot account (Twitch Drops, Shotcall extension)."],
+    ["Broadcast Drops", "Rewards for watching official VCT broadcasts, co-streams and partner streams with a linked Riot account (Twitch and Kick Drops, Shotcall extension)."],
     ["Pick'Ems", "Rewards for taking part in the official VCT Pick'Ems bracket predictions."],
     ["Events & Partnerships", "Web events like Alpha vs. Omega and Frag or Die, brand promos (Coinbase, ExpressVPN, Verizon, Xbox), merch codes, watch parties and Shotcall."],
     ["Code Redemption", "Items unlocked with public codes Riot announced, redeemable at the Riot redemption site."],
@@ -127,8 +127,8 @@
     }
     if (i.category === "Broadcast Drops") {
       if (/shotcall/i.test(i.subgroup || "")) return "Make predictions with the Shotcall extension on the official VALORANT Twitch stream.";
-      if (/co-?stream/i.test(i.subgroup || "")) return "Watch eligible co-streamers on Twitch with your Riot account linked.";
-      return "Link your Riot account to Twitch, then watch the official broadcast during the eligible dates.";
+      if (/co-?stream/i.test(i.subgroup || "")) return "Watch eligible co-streamers on Twitch or Kick with your Riot account linked.";
+      return "Link your Riot account to Twitch or Kick, then watch the official broadcast during the eligible dates.";
     }
     if (i.category === "PlayStation Plus") return "With PlayStation Plus, claim the VALORANT bundle in the PlayStation Store, then log in to VALORANT on PS5.";
     return i.ongoing?.note ? esc(i.ongoing.note) : "";

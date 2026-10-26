@@ -51,7 +51,7 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 
 | Source | Examples |
 |---|---|
-| **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
+| **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch and Kick drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
 | **Pick'Ems** | Top 50% and top 20% buddies, Pick'Ems sprays, participation and perfect-picks titles |
 | **Events & Partnerships** | Alpha vs. Omega Conflict, Champions Conflict: Frag or Die, Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |

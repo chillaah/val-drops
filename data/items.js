@@ -6707,7 +6707,7 @@ window.VAL_DROPS = {
      },
      {
       "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026"
+      "value": "September 24 - October 7, 2026 (originally till October 18th, 2026; feature was disabled due to issues)"
      }
     ]
    ],
@@ -8342,7 +8342,7 @@ window.VAL_DROPS = {
      },
      {
       "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026"
+      "value": "September 24 - October 7, 2026 (originally till October 18th, 2026; feature was disabled due to issues)"
      }
     ]
    ],
@@ -11462,7 +11462,7 @@ window.VAL_DROPS = {
      },
      {
       "label": "Eligible Dates",
-      "value": "September 24 - October 7, 2026"
+      "value": "September 24 - October 7, 2026 (Originally till October 18, but was shortened due to an issue with Shotcall Extension)"
      }
     ]
    ],

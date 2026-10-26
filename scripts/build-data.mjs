@@ -105,6 +105,8 @@ function clean(s) {
   [s] = takeRefs(s);
   return s
     .replace(/<s>[\s\S]*?<\/s>/g, "")
+    // Tooltips ({{tt|*|note}}) carry notes like a shortened claim window; keep the note.
+    .replace(/\{\{tt\|[^|{}]*\|([^{}]*)\}\}/g, " ($1)")
     .replace(/\{\{tt\|[^{}]*\}\}/g, "")
     .replace(/\{\{collection\|[^|}]*\|([^}]*)\}\}/g, "$1")
     .replace(/\{\{collection\|([^}]*)\}\}/g, "$1")
@@ -451,7 +453,9 @@ function itemPeriod(detailRows) {
       if (/expir/i.test(label) && /unknown/i.test(d.value)) openCode = true;
       // Some tables put the year only in the column header, e.g. "Challenge Dates (2026, PT)".
       const headerYear = (label.match(/\b(20\d\d)\b/) || [])[1];
-      const value = headerYear && !/\b(19|20)\d\d\b/.test(d.value) ? `${d.value}, ${headerYear}` : d.value;
+      // Drop bracketed notes first: "(originally till October 18th, 2026; ...)" isn't the window.
+      const text = d.value.replace(/\s*\([^()]*\)/g, "");
+      const value = headerYear && !/\b(19|20)\d\d\b/.test(text) ? `${text}, ${headerYear}` : text;
       for (const p of findPeriods(value)) {
         if (/expir/i.test(label)) p.start = null; // an expiry date only bounds the end
         if (!best || p.end > best.end) best = p;
