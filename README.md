@@ -56,8 +56,8 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 | **Events & Partnerships** | Challenge events on Riot's FTW site (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |
 | **Prime Gaming** | Monthly Prime Gaming drops from 2020 to 2024, including the Wayfinder Shorty skin |
-| **PlayStation Plus** | Rotating PS+ member bundles |
-| **Pro Play** | Tournament winner buddies and titles given to pros |
+| **PlayStation Plus** | Rotating PS+ member bundles, dated by month from each bundle's start until the next one |
+| **Pro Play** | Tournament winner buddies and titles given to pros, tagged "Pro players only" |
 | **Closed Beta** | The 2020 Closed Beta reward pass, entered through Twitch drops (items removed at launch are left out) |
 | **China Exclusive** | Items only obtainable on the China version of VALORANT, tagged "China only" and not posted to Discord |
 
@@ -65,7 +65,7 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 
 - Item data and images come from the **[VALORANT Wiki](https://wiki.playvalorant.com/en-us/)** through its MediaWiki API. The wiki is community-edited and run by Weird Gloop. **Riot doesn't run it.**
 - Each item also links to the **primary source** the wiki cites for it, where there is one: VALORANT Esports articles, PlayVALORANT news, Riot Support, official Riot/VCT social posts, or the partner's campaign page. Riot-owned links are marked ✓, matched on the whole hostname so a look-alike domain can't get the mark.
-- [`data/curated.json`](data/curated.json) holds items the wiki doesn't list yet, such as the ExpressVPN × VCT rewards. Every entry there must cite an official page.
+- [`data/curated.json`](data/curated.json) holds items the wiki doesn't list yet, such as the ExpressVPN × VCT rewards. Every entry there must cite an official page. Its `dates` list fills in claim windows the wiki leaves out. A date that comes from leaks, game files or an estimate gets an `unconfirmed` reason: the item shows an "Unconfirmed date" badge with that reason, and stays out of Recently added and the Discord alerts. Comments and replies are never used as a source.
 - Claim dates follow the wiki and are in Pacific time. The site says so next to them and links the source to check. Notes the wiki keeps in tooltips, such as a claim window that was cut short, are shown next to the dates.
 
 **Wiki pages read:** [Broadcast Rewards](https://wiki.playvalorant.com/en-us/Broadcast_Rewards), [Prime Gaming Drops](https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops), [VALORANT X PS+ Bundles](https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles), [Closed Beta](https://wiki.playvalorant.com/en-us/Closed_Beta), [Pick'Ems](https://wiki.playvalorant.com/en-us/Pick'Ems), the two Conflict event pages, and the out-of-game sections of [Sprays](https://wiki.playvalorant.com/en-us/Sprays), [Buddies](https://wiki.playvalorant.com/en-us/Buddies), [Player Cards](https://wiki.playvalorant.com/en-us/Player_Cards) and [Player Titles](https://wiki.playvalorant.com/en-us/Player_Titles) (Channel Drops, Shotcall Extension, Challenge Events, Code Redemption, Pick'Ems, Prime Gaming Drops, Pro play, Miscellaneous, China-Exclusive).
@@ -169,7 +169,7 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 
 ### Discord notifications
 
-When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Items whose claim window has already ended and China-only items are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
+When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Only items claimable now or soon are posted (the same rule as "Recently added"), so old or undated items the wiki only just listed China-only items and items with an unconfirmed date are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
 
 1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.

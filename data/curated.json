@@ -1,5 +1,5 @@
 {
-  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image. Set 'ongoing' for offers without an end date so they show under Claimable now. 'regions' lists stated restrictions, e.g. {\"code\":\"EXCL\",\"label\":\"Not in some countries\"}.",
+  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image. Set 'ongoing' for offers without an end date so they show under Claimable now. 'regions' lists stated restrictions, e.g. {\"code\":\"EXCL\",\"label\":\"Not in some countries\"}. 'dates' adds a claim window the wiki doesn't give to an existing item (matched by type and name): 'period' {start, end} (end null if not known), or 'ongoing' {since, note}, plus the detail row shown on the card and the source(s) for it. Set 'unconfirmed' to a one-line reason when the date comes from leaks, game files or an estimate rather than an announcement: the site marks it and leaves it out of Recently added and Discord.",
   "items": [
     {
       "name": "Not Today Spray",
@@ -18,8 +18,8 @@
         "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
       ],
       "ongoing": {
-        "since": null,
-        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+        "since": "2026-03-12",
+        "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
       },
       "regions": [
         {
@@ -45,8 +45,8 @@
         "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
       ],
       "ongoing": {
-        "since": null,
-        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+        "since": "2026-03-12",
+        "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
       },
       "regions": [
         {
@@ -72,8 +72,8 @@
         "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships"
       ],
       "ongoing": {
-        "since": null,
-        "note": "Ongoing ExpressVPN partner offer. No end date announced."
+        "since": "2026-03-12",
+        "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
       },
       "regions": [
         {
@@ -81,6 +81,410 @@
           "label": "Not in some countries"
         }
       ]
+    }
+  ],
+  "dates": [
+    {
+      "name": "Arcane Poro Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2021-11-07",
+        "end": "2021-11-22"
+      },
+      "detail": {
+        "label": "Eligible Dates",
+        "value": "November 7 - 22, 2021"
+      },
+      "refs": [
+        "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/"
+      ]
+    },
+    {
+      "name": "Loose Cannon Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2021-11-14",
+        "end": "2021-11-22"
+      },
+      "detail": {
+        "label": "Eligible Dates",
+        "value": "November 14 - 22, 2021"
+      },
+      "refs": [
+        "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/"
+      ]
+    },
+    {
+      "name": "Keep it Safer Buddy",
+      "type": "Gun Buddy",
+      "ongoing": {
+        "since": "2022-10-17",
+        "note": "One-time reward for turning on multi-factor authentication on your Riot account. No end date announced."
+      },
+      "detail": {
+        "label": "Available since",
+        "value": "October 17, 2022"
+      },
+      "refs": [
+        "https://www.riotgames.com/en/news/get-rewarded-for-enabling-2fa",
+        "https://www.sportskeeda.com/valorant/how-claim-keep-safer-gun-buddy-valorant-two-factor-authentication-2fa"
+      ]
+    },
+    {
+      "name": "Pocket Sage Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2022-12-08",
+        "end": "2022-12-31"
+      },
+      "detail": {
+        "label": "Eligible Dates",
+        "value": "December 8 - 31, 2022 (link before January 1, 2023)"
+      },
+      "refs": [
+        "https://news.xbox.com/en-us/2022/12/08/riot-games-and-xbox-game-pass-benefits-coming-soon/"
+      ]
+    },
+    {
+      "name": "ONE // 2022 Title",
+      "type": "Title",
+      "period": {
+        "start": "2022-12-23",
+        "end": "2022-12-24"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "December 23 - 24, 2022 (Yokohama Arena)"
+      },
+      "refs": [
+        "https://www.thespike.gg/valorant/news/five-major-teams-are-heading-to-japan-for-the-pro-invitational-at-riot-games-one/2077"
+      ]
+    },
+    {
+      "name": "Riptide Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2023-08-06",
+        "end": "2023-08-26"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "August 6 - 26, 2023 (VALORANT Champions Los Angeles)"
+      },
+      "refs": [
+        "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023"
+      ]
+    },
+    {
+      "name": "Hang Time Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2025-06-07",
+        "end": "2025-06-22"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "June 7 - 22, 2025 (Masters Toronto)"
+      },
+      "refs": [
+        "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto"
+      ]
+    },
+    {
+      "name": "Sloth Slugs Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2025-06-07",
+        "end": "2025-06-22"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "June 7 - 22, 2025 (Masters Toronto)"
+      },
+      "refs": [
+        "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto"
+      ]
+    },
+    {
+      "name": "\"I Create\" Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": null,
+        "end": "2025-06-06"
+      },
+      "detail": {
+        "label": "Requests closed",
+        "value": "June 6, 2025"
+      },
+      "refs": []
+    },
+    {
+      "name": "VALORANT Partner Title",
+      "type": "Title",
+      "period": {
+        "start": "2025-09-22",
+        "end": null
+      },
+      "detail": {
+        "label": "Available since",
+        "value": "September 22, 2025 (invite-only creator program)"
+      },
+      "refs": [
+        "https://www.riotgames.com/en/news/partner-program-closed-beta"
+      ]
+    },
+    {
+      "name": "FRGMT x WNGMN+ Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2025-09-29",
+        "end": null
+      },
+      "detail": {
+        "label": "On sale since",
+        "value": "September 29, 2025"
+      },
+      "refs": [
+        "https://playvalorant.com/en-us/news/riotstore/the-vlrnt-frgmt-collection/"
+      ]
+    },
+    {
+      "name": "VCT Americas Aura Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2026-09-04",
+        "end": "2026-09-06"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "September 4 - 6, 2026"
+      },
+      "refs": [
+        "https://valorantesports.com/en-US/news/vct-americas-stage-2-finals-so-paulo-event-guide"
+      ]
+    },
+    {
+      "name": "Downtime Buddy",
+      "type": "Gun Buddy",
+      "period": {
+        "start": "2026-09-24",
+        "end": null
+      },
+      "detail": {
+        "label": "On sale since",
+        "value": "September 24, 2026"
+      },
+      "refs": [
+        "https://www.popmart.com/us/products/8962/valorant-classic-agents-series-figures"
+      ]
+    },
+    {
+      "name": "2024 Championship Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2024-10-01",
+        "end": null
+      },
+      "detail": {
+        "label": "In game files since",
+        "value": "October 2024 (patch 9.08)"
+      },
+      "refs": [
+        "https://valorant.fandom.com/wiki/Player_Cards"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed."
+    },
+    {
+      "name": "Cypher Figure Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2025-06-01",
+        "end": null
+      },
+      "detail": {
+        "label": "Released",
+        "value": "Mid 2025 (approximate)"
+      },
+      "refs": [],
+      "unconfirmed": "Riot hasn't announced this. The release date is an estimate."
+    },
+    {
+      "name": "Jett Figure Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2025-06-01",
+        "end": null
+      },
+      "detail": {
+        "label": "Released",
+        "value": "Mid 2025 (approximate)"
+      },
+      "refs": [],
+      "unconfirmed": "Riot hasn't announced this. The release date is an estimate."
+    },
+    {
+      "name": "Killjoy Figure Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2025-06-01",
+        "end": null
+      },
+      "detail": {
+        "label": "Released",
+        "value": "Mid 2025 (approximate)"
+      },
+      "refs": [],
+      "unconfirmed": "Riot hasn't announced this. The release date is an estimate."
+    },
+    {
+      "name": "Sage Figure Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2025-06-01",
+        "end": null
+      },
+      "detail": {
+        "label": "Released",
+        "value": "Mid 2025 (approximate)"
+      },
+      "refs": [],
+      "unconfirmed": "Riot hasn't announced this. The release date is an estimate."
+    },
+    {
+      "name": "Blissful Burn Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2026-07-09",
+        "end": "2026-07-26"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "July 9 - 26, 2026 (VCT CN Changsha stop)"
+      },
+      "refs": [
+        "https://x.com/VALORANTLeaksEN/status/2075960654708527413",
+        "https://wiki.biligame.com/valorant/VCT/CN/2026/Stage2"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages."
+    },
+    {
+      "name": "Land of Heaven Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2026-08-05",
+        "end": "2026-08-23"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "August 5 - 23, 2026 (VCT CN Chengdu stop)"
+      },
+      "refs": [
+        "https://x.com/VALORANTLeaksEN/status/2082584466812293172",
+        "https://wiki.biligame.com/valorant/VCT/CN/2026/Stage2"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages."
+    },
+    {
+      "name": "My Place Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-10"
+      },
+      "detail": {
+        "label": "Event Dates",
+        "value": "May 1 - 10, 2026 (VCT CN Beijing stop)"
+      },
+      "refs": [
+        "https://x.com/VALORANTLeaksEN/status/2044096873674223736",
+        "https://www.sina.cn/news/detail/5289569492404005.html"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages."
+    },
+    {
+      "name": "Count To Three Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2026-07-02",
+        "end": null
+      },
+      "detail": {
+        "label": "Available from",
+        "value": "July 2, 2026 (China server 3rd anniversary events)"
+      },
+      "refs": [
+        "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
+        "https://val.qq.com/act/a202607128546valevent/index.html"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages."
+    },
+    {
+      "name": "Say Hi To Happiness Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2026-07-02",
+        "end": null
+      },
+      "detail": {
+        "label": "Available from",
+        "value": "July 2, 2026 (China server 3rd anniversary events)"
+      },
+      "refs": [
+        "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
+        "https://val.qq.com/act/a202607128546valevent/index.html"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages."
+    },
+    {
+      "name": "Hello Horse! Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2026-01-01",
+        "end": null
+      },
+      "detail": {
+        "label": "In game files since",
+        "value": "January 2026 (patch 12.01), a Lunar New Year 2026 item"
+      },
+      "refs": [
+        "https://valorant.fandom.com/wiki/Sprays",
+        "https://x.com/VALORANTLeaksEN/status/2016349763331834333"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed."
+    },
+    {
+      "name": "Volunteer to School Spray",
+      "type": "Spray",
+      "period": {
+        "start": "2026-01-01",
+        "end": null
+      },
+      "detail": {
+        "label": "In game files since",
+        "value": "January 2026 (patch 12.01)"
+      },
+      "refs": [
+        "https://valorant.fandom.com/wiki/Sprays",
+        "https://x.com/VALORANTLeaksEN/status/2016350496328384999"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed."
+    },
+    {
+      "name": "Best Memories Card",
+      "type": "Player Card",
+      "period": {
+        "start": "2026-03-01",
+        "end": null
+      },
+      "detail": {
+        "label": "In game files since",
+        "value": "March 2026 (patch 12.06)"
+      },
+      "refs": [
+        "https://valorant.fandom.com/wiki/Player_Cards",
+        "https://x.com/VALORANTLeaksEN/status/2039014275084140799"
+      ],
+      "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed."
     }
   ]
 }

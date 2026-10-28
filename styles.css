@@ -250,6 +250,7 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
 .status.active::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 .status.upcoming { background: color-mix(in srgb, var(--warn) 14%, transparent); color: var(--warn); }
 .status.maybe { background: var(--surface-2); color: var(--muted); }
+.status.unconfirmed { background: var(--surface-2); color: var(--muted); border: 1px dashed var(--muted); cursor: help; }
 .status.expired { background: color-mix(in srgb, var(--accent) 10%, transparent); color: var(--accent); text-decoration: line-through; }
 .added { background: #c81e32; color: #fff; } /* fixed: white on --brand is too faint for small text */
 

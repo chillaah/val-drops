@@ -8,7 +8,7 @@
     ["Code Redemption", "Items unlocked with public codes Riot announced, redeemable at the Riot redemption site."],
     ["Prime Gaming", "Monthly Prime Gaming (Amazon) drops, discontinued in March 2024."],
     ["PlayStation Plus", "Free rotating bundles for PlayStation Plus members on PS5."],
-    ["Pro Play", "Items given to pro players and staff for competing in or winning Riot-run tournaments."],
+    ["Pro Play", "Pro players only: these go to players and staff on teams that compete in or win Riot-run tournaments. Viewers can't earn them."],
     ["Closed Beta", "Rewards from the 2020 Closed Beta, which players got into through Twitch drops. They stayed on accounts after launch."],
     ["China Exclusive", "Items only obtainable on the separate China version of VALORANT. Players on other servers can't get them."],
   ];
@@ -23,8 +23,10 @@
     ["KR", "South Korea only", (i) => i.regions.some((r) => r.code === "KR")],
     ["JP", "Japan only", (i) => i.regions.some((r) => r.code === "JP")],
     ["CN", "China only", (i) => i.regions.some((r) => r.code === "CN")],
+    ["TH", "Thailand only", (i) => i.regions.some((r) => r.code === "TH")],
     ["IRL", "In person only", (i) => i.regions.some((r) => r.code.endsWith("-IRL"))],
     ["EXCL", "Not in some countries", (i) => i.regions.some((r) => r.code === "EXCL")],
+    ["PRO", "Pro players only", (i) => i.regions.some((r) => r.code === "PRO")],
     ["NONE", "No listed limits", (i) => !i.regions.length],
   ];
   const regionTest = (v) => REGIONS.find((r) => r[0] === v)?.[2] || (() => true);
@@ -144,7 +146,8 @@
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
   // New to the site and claimable now or soon. Old items the wiki only just listed (e.g. Closed
   // Beta rewards) aren't news, so they skip the "Recently added" list and the New badge.
-  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
+  // Items dated only by leaks or estimates aren't announced, so they skip it too.
+  const isRecent = (i) => i.firstSeen && !i.unconfirmed && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
 
   const detailsHtml = (i) => i.details
     .map((row) => (i.codes ? row.filter((d) => !/^code$|expir/i.test(d.label)) : row))
@@ -176,6 +179,7 @@
     const allExpired = i.codes && i.codes.every(codeExpired);
     return (label ? `<span class="status ${st}">${badgeText(label)}</span>` : "") +
       (allExpired ? `<span class="status expired">Expired</span>` : "") +
+      (i.unconfirmed ? `<span class="status unconfirmed" title="${esc(i.unconfirmed)}">Unconfirmed date</span>` : "") +
       (isRecent(i) ? `<span class="added">${badgeText(`New · added ${fmtDay(i.firstSeen)}`)}</span>` : "");
   };
 
@@ -231,6 +235,7 @@
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${codesHtml(i)}
       ${detailsHtml(i) ? `<div class="details">${detailsHtml(i)}</div>` : ""}
+      ${i.unconfirmed ? `<p class="note"><b>Unconfirmed date:</b> ${esc(i.unconfirmed)}</p>` : ""}
       ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
       <div class="src"><span class="lbl">Sources:</span> ${sourcesHtml(i)}</div>
       <div class="d-actions"><button type="button" class="chip" id="copy-link">Copy link</button></div>

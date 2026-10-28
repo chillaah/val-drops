@@ -40,10 +40,12 @@ const TYPE_SECTIONS = {
   "China-Exclusive": "China Exclusive",
 };
 // Out-of-game event pages (web challenges with faction rewards).
-const EVENT_PAGES = ["Alpha Vs. Omega Conflict", "Champions Conflict: Frag Or Die"];
+const EVENT_PAGES = ["Alpha Vs. Omega Conflict", "Champions Conflict: Frag Or Die", "Night Queue", "MAHASONGKRAN"];
 const FTW = "https://ftw.riotgames.com/en-us/valorant";
 const CHALLENGE_NOTE = "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.";
 const CHINA = { code: "CN", label: "China only" };
+// Pro Play items go to players and staff on competing or winning teams, not viewers.
+const PRO_ONLY = { code: "PRO", label: "Pro players only" };
 const PICKEMS = "https://valorantesports.com/en-US/pickems";
 const PICKEMS_NOTE = "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.";
 // Miscellaneous rows that are earned in the client (tutorials, in-game modes, defaults).
@@ -339,15 +341,37 @@ async function parsePrimeGaming() {
   return items;
 }
 
+// Each bundle runs from its month until the month before the next one starts.
+// Neither the wiki nor Riot gives exact days, so the dates are by month.
+const PSPLUS_NOTE = "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.";
+
 async function parsePSPlus() {
   const text = await wikitext("VALORANT X PS+ Bundles");
   const items = [];
   // Sections are newest first; the newest bundle is the one currently claimable.
-  sections(text, 3).forEach((sec, idx) => {
-    const start = monthStart(sec.title);
+  // Older ones are titled "Year End" / "Launch" and give their month in the prose.
+  const bundles = sections(text, 3).map((sec) => ({ ...sec, start: monthStart(sec.title) || monthStart(sec.body.match(/released in ([A-Za-z]+ \d{4})/)?.[1] || "") }));
+  const monthName = (d) => MONTHS[+d.slice(5, 7) - 1].replace(/^./, (c) => c.toUpperCase());
+  bundles.forEach((sec, idx) => {
+    const { start } = sec;
+    if (!start) throw new Error(`No month for PS+ bundle "${sec.title}". The wiki page may have changed layout.`);
+    // The day before the next (newer) bundle's month.
+    const next = bundles[idx - 1]?.start;
+    const end = next && new Date(Date.parse(next) - 864e5).toISOString().slice(0, 10);
+    const span = !end ? null
+      : start.slice(0, 7) === end.slice(0, 7) ? `${monthName(start)} ${start.slice(0, 4)}`
+      : start.slice(0, 4) === end.slice(0, 4) ? `${monthName(start)} - ${monthName(end)} ${end.slice(0, 4)}`
+      : `${monthName(start)} ${start.slice(0, 4)} - ${monthName(end)} ${end.slice(0, 4)}`;
     for (const t of findTables(sec.body)) {
       for (const it of itemsFromTable(t, { category: "PlayStation Plus", group: `PS+ Bundle — ${sec.title}`, wikiPage: "VALORANT X PS+ Bundles" })) {
-        if (idx === 0) it.ongoing = { since: start, note: "Current PS+ bundle. Bundles rotate about every three months." };
+        it.groupNote = PSPLUS_NOTE;
+        if (end) {
+          it.period = { start, end };
+          it.details.push({ label: "Available", value: span });
+        } else {
+          it.ongoing = { since: start, note: `Current PS+ bundle since ${monthName(start)} ${start.slice(0, 4)}. No end date announced; bundles rotate about every three months.` };
+          it.details.push({ label: "Available", value: `${monthName(start)} ${start.slice(0, 4)} until the next bundle` });
+        }
         items.push(it);
       }
     }
@@ -468,9 +492,13 @@ async function parseClosedBeta() {
 async function parseEventPage(page) {
   const text = await wikitext(page);
   const items = [];
+  // Some pages give one window for the whole event instead of a date per reward.
+  const runtime = (text.match(/Runtime for this event was ([^.\n]+)/) || [])[1]?.trim();
   for (const t of findTables(text)) {
     for (const it of itemsFromTable(t, { category: "Events & Partnerships", group: page, wikiPage: page })) {
-      it.refs.push("https://ftw.riotgames.com/en-us/valorant");
+      it.refs.push(FTW);
+      it.groupNote = CHALLENGE_NOTE;
+      if (runtime && !it.details.some((d) => /date/i.test(d.label || ""))) it.details.push({ label: "Event Dates", value: runtime });
       items.push(it);
     }
   }
@@ -516,12 +544,12 @@ function findPeriods(text) {
     const d = iso(+m[4], monthIdx(m[2]), +m[3]);
     out.push({ start: m[1] ? null : d, end: d });
   }
-  // "Expiry: May 2026" style: whole month.
+  // "Date: May 2023" or "Expiry: May 2026" style: the whole month (itemPeriod drops the start for expiries).
   if (!out.length) {
     const m = s.match(new RegExp(`^${MON} (\\d{4})\\*?$`, "i"));
     if (m) {
       const y = +m[2], mo = monthIdx(m[1]);
-      out.push({ start: null, end: iso(y, mo, new Date(Date.UTC(y, mo + 1, 0)).getUTCDate()) });
+      out.push({ start: iso(y, mo, 1), end: iso(y, mo, new Date(Date.UTC(y, mo + 1, 0)).getUTCDate()) });
     }
   }
   return out;
@@ -580,13 +608,15 @@ const REGION_RULES = [
   [/ONE Pro Invitational in Japan/i, { code: "JP-IRL", label: "In person: Japan" }],
   [/in-person Watch Parties across the Americas/i, { code: "AMER-IRL", label: "In person: Americas" }],
   // Riot's FTW challenge rules list banned regions/countries.
-  [/Frag Or Die|Alpha Vs\. Omega Conflict/i, { code: "EXCL", label: "Not in some countries" }],
+  [/Frag Or Die|Alpha Vs\. Omega Conflict|Night Queue/i, { code: "EXCL", label: "Not in some countries" }],
+  [/MAHASONGKRAN/, { code: "TH", label: "Thailand only" }],
 ];
 
 function regionTags(it) {
   const text = [it.group, it.subgroup, ...it.detailRows.flat().map((d) => d.value)].filter(Boolean).join(" | ");
   const tags = REGION_RULES.filter(([re]) => re.test(text)).map(([, t]) => t);
   for (const t of it.regions || []) tags.push(t); // curated entries can declare their own
+  if (it.category === "Pro Play") tags.push(PRO_ONLY);
   return [...new Map(tags.map((t) => [t.code, t])).values()];
 }
 
@@ -607,7 +637,8 @@ const SOURCE_LABELS = [
   [/(^|\.)instagram\.com$/, "Instagram", false],
   [/(^|\.)(twitter|x)\.com$/, "X", false],
 ];
-const RIOT_HANDLES = /^(valorant\w*|playvalorant|riot\w*|valesports\w*|vct\w*|lolesports)$/i;
+// Exact names, not prefixes: fan and leak accounts often start with "valorant" (@VALORANTLeaksEN).
+const RIOT_HANDLES = /^(valorant|playvalorant|valorantjp|valorantbrasil|valorant_latam|valorant_tr|valorantesports|valesports_(emea|americas|pacific|cn)|vctamericas|vctpacific|vctemea|riotgames|riotgamesjapan|riotsupport|lolesports)$/i;
 
 function describeSource(url) {
   let host;
@@ -719,9 +750,11 @@ function mergeDuplicates(items) {
       image: primary.image || rest.find((w) => w.image)?.image || null,
       imageLarge: primary.imageLarge || rest.find((w) => w.imageLarge)?.imageLarge || null,
       imageWide: primary.imageWide || rest.find((w) => w.imageWide)?.imageWide || null,
-      period: periods.sort((a, b) => b.end.localeCompare(a.end))[0] || null,
+      // A null end means no end date is known yet, so it counts as the latest.
+      period: periods.sort((a, b) => (b.end || "9999").localeCompare(a.end || "9999"))[0] || null,
       ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
       maybeActive: ways.some((w) => w.maybeActive),
+      unconfirmed: ways.find((w) => w.unconfirmed)?.unconfirmed || null,
       sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
       // Known before (null) if any way was; otherwise the earliest date.
       firstSeen: ways.some((w) => w.firstSeen == null) ? null : ways.map((w) => w.firstSeen).sort()[0],
@@ -789,11 +822,13 @@ async function main() {
 
   // Type pages fill gaps; an item already listed by a dedicated page in the same
   // category just contributes its extra citations.
-  const byName = new Map(raw.map((it) => [it.category + "§" + normName(it.name), it]));
+  // Pages don't agree on the type suffix ("Claw and Order" vs "Claw and Order Spray"), so match without it.
+  const gapKey = (it) => [it.category, it.type, normName(it.name.replace(/\s+(Spray|Buddy|Card|Title)$/i, ""))].join("§");
+  const byName = new Map(raw.map((it) => [gapKey(it), it]));
   const typeItems = (await Promise.all(TYPE_PAGES.map(parseTypePage))).flat();
   for (const it of typeItems) {
     if (!it.name) continue;
-    const dup = byName.get(it.category + "§" + normName(it.name));
+    const dup = byName.get(gapKey(it));
     if (dup) { dup.refs.push(...it.refs); continue; }
     if (it.category === "Broadcast Drops") it.group = "Other broadcast drops";
     if (it.category === "Prime Gaming") it.group = "Prime Gaming Drops (2020–2024)";
@@ -802,6 +837,19 @@ async function main() {
 
   const curated = JSON.parse(await readFile(path.join(ROOT, "data/curated.json"), "utf8"));
   for (const it of curated.items) raw.push({ details: [], wikiLinks: [], subgroup: null, title: null, ...it, curated: true });
+  // Dates the wiki doesn't give, each with its source. They apply to every listing of the item.
+  for (const d of curated.dates) {
+    const hits = raw.filter((it) => it.type === d.type && normName(it.name) === normName(d.name));
+    if (!hits.length) console.warn(`  ! curated date for ${d.name} matches no item`);
+    for (const it of hits) {
+      if (d.period) it.period = d.period;
+      if (d.ongoing) it.ongoing = d.ongoing;
+      // Dates from leaks, game files or estimates: shown with a caveat and kept out of alerts.
+      if (d.unconfirmed) it.unconfirmed = d.unconfirmed;
+      it.details = [...it.details, d.detail];
+      it.refs.push(...d.refs);
+    }
+  }
 
   // Merge duplicate rows (e.g. rowspan'd pro-play buddies) within the same group.
   const merged = new Map();
@@ -865,12 +913,14 @@ async function main() {
       ...(() => {
         const { period, openCode } = itemPeriod(it.detailRows);
         return {
-          period,
+          // Parsers that know the window better than the detail text (PS+ bundles) set it directly.
+          period: it.period || period,
           ongoing: it.ongoing || null,
           // A public code whose expiry the wiki lists as unknown may still work.
           maybeActive: it.category === "Code Redemption" && openCode,
         };
       })(),
+      unconfirmed: it.unconfirmed || null,
       sources,
       firstSeen: firstSeen(it),
       codes: it.category === "Code Redemption" ? parseCodes(it.detailRows) : null,
