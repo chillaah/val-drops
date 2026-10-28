@@ -56,8 +56,8 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 | **Events & Partnerships** | Challenge events on Riot's FTW site (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |
 | **Prime Gaming** | Monthly Prime Gaming drops from 2020 to 2024, including the Wayfinder Shorty skin |
-| **PlayStation Plus** | Rotating PS+ member bundles |
-| **Pro Play** | Tournament winner buddies and titles given to pros |
+| **PlayStation Plus** | Rotating PS+ member bundles, dated by month from each bundle's start until the next one |
+| **Pro Play** | Tournament winner buddies and titles given to pros, tagged "Pro players only" |
 | **Closed Beta** | The 2020 Closed Beta reward pass, entered through Twitch drops (items removed at launch are left out) |
 | **China Exclusive** | Items only obtainable on the China version of VALORANT, tagged "China only" and not posted to Discord |
 
@@ -169,7 +169,7 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 
 ### Discord notifications
 
-When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Items whose claim window has already ended and China-only items are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
+When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Only items claimable now or soon are posted (the same rule as "Recently added"), so old or undated items the wiki only just listed and China-only items are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
 
 1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.

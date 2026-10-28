@@ -8,7 +8,7 @@
     ["Code Redemption", "Items unlocked with public codes Riot announced, redeemable at the Riot redemption site."],
     ["Prime Gaming", "Monthly Prime Gaming (Amazon) drops, discontinued in March 2024."],
     ["PlayStation Plus", "Free rotating bundles for PlayStation Plus members on PS5."],
-    ["Pro Play", "Items given to pro players and staff for competing in or winning Riot-run tournaments."],
+    ["Pro Play", "Pro players only: these go to players and staff on teams that compete in or win Riot-run tournaments. Viewers can't earn them."],
     ["Closed Beta", "Rewards from the 2020 Closed Beta, which players got into through Twitch drops. They stayed on accounts after launch."],
     ["China Exclusive", "Items only obtainable on the separate China version of VALORANT. Players on other servers can't get them."],
   ];
@@ -23,8 +23,10 @@
     ["KR", "South Korea only", (i) => i.regions.some((r) => r.code === "KR")],
     ["JP", "Japan only", (i) => i.regions.some((r) => r.code === "JP")],
     ["CN", "China only", (i) => i.regions.some((r) => r.code === "CN")],
+    ["TH", "Thailand only", (i) => i.regions.some((r) => r.code === "TH")],
     ["IRL", "In person only", (i) => i.regions.some((r) => r.code.endsWith("-IRL"))],
     ["EXCL", "Not in some countries", (i) => i.regions.some((r) => r.code === "EXCL")],
+    ["PRO", "Pro players only", (i) => i.regions.some((r) => r.code === "PRO")],
     ["NONE", "No listed limits", (i) => !i.regions.length],
   ];
   const regionTest = (v) => REGIONS.find((r) => r[0] === v)?.[2] || (() => true);

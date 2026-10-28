@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-28T06:51:13.958Z",
+ "generated": "2026-10-28T10:21:12.568Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -1515,7 +1515,7 @@ window.VAL_DROPS = {
       ]
      ],
      "period": {
-      "start": null,
+      "start": "2021-09-01",
       "end": "2021-09-30"
      },
      "regions": []
@@ -3720,7 +3720,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2020-09-01",
     "end": "2020-09-30"
    },
    "ongoing": null,
@@ -3760,7 +3760,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2020-10-01",
     "end": "2020-10-31"
    },
    "ongoing": null,
@@ -3800,7 +3800,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2020-11-01",
     "end": "2020-11-30"
    },
    "ongoing": null,
@@ -3840,7 +3840,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-01-01",
     "end": "2021-01-31"
    },
    "ongoing": null,
@@ -3880,7 +3880,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-02-01",
     "end": "2021-02-28"
    },
    "ongoing": null,
@@ -3920,7 +3920,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-03-01",
     "end": "2021-03-31"
    },
    "ongoing": null,
@@ -3960,7 +3960,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-04-01",
     "end": "2021-04-30"
    },
    "ongoing": null,
@@ -4000,7 +4000,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-05-01",
     "end": "2021-05-31"
    },
    "ongoing": null,
@@ -4040,7 +4040,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-06-01",
     "end": "2021-06-30"
    },
    "ongoing": null,
@@ -4080,7 +4080,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-06-01",
     "end": "2021-06-30"
    },
    "ongoing": null,
@@ -4120,7 +4120,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-07-01",
     "end": "2021-07-31"
    },
    "ongoing": null,
@@ -4160,7 +4160,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-08-01",
     "end": "2021-08-31"
    },
    "ongoing": null,
@@ -4200,7 +4200,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-10-01",
     "end": "2021-10-31"
    },
    "ongoing": null,
@@ -4240,7 +4240,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-11-01",
     "end": "2021-11-30"
    },
    "ongoing": null,
@@ -4280,7 +4280,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-11-01",
     "end": "2021-11-30"
    },
    "ongoing": null,
@@ -4320,7 +4320,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2021-12-01",
     "end": "2021-12-31"
    },
    "ongoing": null,
@@ -4360,7 +4360,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-01-01",
     "end": "2022-01-31"
    },
    "ongoing": null,
@@ -4400,7 +4400,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-02-01",
     "end": "2022-02-28"
    },
    "ongoing": null,
@@ -4440,7 +4440,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-03-01",
     "end": "2022-03-31"
    },
    "ongoing": null,
@@ -4480,7 +4480,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-04-01",
     "end": "2022-04-30"
    },
    "ongoing": null,
@@ -4520,7 +4520,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-05-01",
     "end": "2022-05-31"
    },
    "ongoing": null,
@@ -4560,7 +4560,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-06-01",
     "end": "2022-06-30"
    },
    "ongoing": null,
@@ -4600,7 +4600,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-07-01",
     "end": "2022-07-31"
    },
    "ongoing": null,
@@ -4640,7 +4640,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-08-01",
     "end": "2022-08-31"
    },
    "ongoing": null,
@@ -4680,7 +4680,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-09-01",
     "end": "2022-09-30"
    },
    "ongoing": null,
@@ -4720,7 +4720,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-10-01",
     "end": "2022-10-31"
    },
    "ongoing": null,
@@ -4760,7 +4760,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2022-11-01",
     "end": "2022-11-30"
    },
    "ongoing": null,
@@ -4806,7 +4806,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-01-01",
     "end": "2023-01-31"
    },
    "ongoing": null,
@@ -4846,7 +4846,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-02-01",
     "end": "2023-02-28"
    },
    "ongoing": null,
@@ -4886,7 +4886,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-03-01",
     "end": "2023-03-31"
    },
    "ongoing": null,
@@ -4926,7 +4926,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-04-01",
     "end": "2023-04-30"
    },
    "ongoing": null,
@@ -4966,7 +4966,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-05-01",
     "end": "2023-05-31"
    },
    "ongoing": null,
@@ -5006,7 +5006,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-06-01",
     "end": "2023-06-30"
    },
    "ongoing": null,
@@ -5046,7 +5046,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-07-01",
     "end": "2023-07-31"
    },
    "ongoing": null,
@@ -5086,7 +5086,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-08-01",
     "end": "2023-08-31"
    },
    "ongoing": null,
@@ -5126,7 +5126,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-09-01",
     "end": "2023-09-30"
    },
    "ongoing": null,
@@ -5166,7 +5166,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-10-01",
     "end": "2023-10-31"
    },
    "ongoing": null,
@@ -5206,7 +5206,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-11-01",
     "end": "2023-11-30"
    },
    "ongoing": null,
@@ -5246,7 +5246,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2023-12-01",
     "end": "2023-12-31"
    },
    "ongoing": null,
@@ -5286,7 +5286,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2024-01-01",
     "end": "2024-01-31"
    },
    "ongoing": null,
@@ -5326,7 +5326,7 @@ window.VAL_DROPS = {
     ]
    ],
    "period": {
-    "start": null,
+    "start": "2024-02-01",
     "end": "2024-02-29"
    },
    "ongoing": null,
@@ -5352,16 +5352,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — August 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Origin_Buddy.webp",
    "imageLarge": "img/Origin_Buddy.webp",
    "imageWide": null,
-   "details": [],
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August 2026 until the next bundle"
+     }
+    ]
+   ],
    "period": null,
    "ongoing": {
     "since": "2026-08-01",
-    "note": "Current PS+ bundle. Bundles rotate about every three months."
+    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
    },
    "maybeActive": false,
    "sources": [
@@ -5385,16 +5392,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — August 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Glitchpop_Card_Large.webp",
    "imageLarge": "img/Glitchpop_Card_Large_600.webp",
    "imageWide": "img/Glitchpop_Card_Wide.webp",
-   "details": [],
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August 2026 until the next bundle"
+     }
+    ]
+   ],
    "period": null,
    "ongoing": {
     "since": "2026-08-01",
-    "note": "Current PS+ bundle. Bundles rotate about every three months."
+    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
    },
    "maybeActive": false,
    "sources": [
@@ -5418,16 +5432,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — August 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/BlastX_Spray.webp",
    "imageLarge": "img/BlastX_Spray_600.webp",
    "imageWide": null,
-   "details": [],
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August 2026 until the next bundle"
+     }
+    ]
+   ],
    "period": null,
    "ongoing": {
     "since": "2026-08-01",
-    "note": "Current PS+ bundle. Bundles rotate about every three months."
+    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
    },
    "maybeActive": false,
    "sources": [
@@ -5451,16 +5472,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — August 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Celestial_Spray.webp",
    "imageLarge": "img/Celestial_Spray.webp",
    "imageWide": null,
-   "details": [],
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August 2026 until the next bundle"
+     }
+    ]
+   ],
    "period": null,
    "ongoing": {
     "since": "2026-08-01",
-    "note": "Current PS+ bundle. Bundles rotate about every three months."
+    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
    },
    "maybeActive": false,
    "sources": [
@@ -5484,13 +5512,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — May 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Reaver_EP_5_Buddy.webp",
    "imageLarge": "img/Reaver_EP_5_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "May - July 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-01",
+    "end": "2026-07-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5514,13 +5552,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — May 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Crimsonbeast_Card_Large.webp",
    "imageLarge": "img/Crimsonbeast_Card_Large_600.webp",
    "imageWide": "img/Crimsonbeast_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "May - July 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-01",
+    "end": "2026-07-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5544,13 +5592,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — May 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Team_Ace_Raze_Spray.webp",
    "imageLarge": "img/Team_Ace_Raze_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "May - July 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-01",
+    "end": "2026-07-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5574,13 +5632,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — May 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Prime_2.0_Spray.webp",
    "imageLarge": "img/Prime_2.0_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "May - July 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-01",
+    "end": "2026-07-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5604,13 +5672,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — February 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Ion_Ep5_Buddy.webp",
    "imageLarge": "img/Ion_Ep5_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "February - April 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-01",
+    "end": "2026-04-30"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5634,13 +5712,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — February 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Frontier_Card_Large.webp",
    "imageLarge": "img/Frontier_Card_Large_600.webp",
    "imageWide": "img/Frontier_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "February - April 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-01",
+    "end": "2026-04-30"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5664,13 +5752,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — February 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Gaia_s_Vengeance_Spray.webp",
    "imageLarge": "img/Gaia_s_Vengeance_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "February - April 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-01",
+    "end": "2026-04-30"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5689,8 +5787,18 @@ window.VAL_DROPS = {
      "category": "PlayStation Plus",
      "group": "PS+ Bundle — Year End",
      "subgroup": null,
-     "details": [],
-     "period": null,
+     "details": [
+      [
+       {
+        "label": "Available",
+        "value": "November 2024 - February 2025"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2024-11-01",
+      "end": "2025-02-28"
+     },
      "regions": []
     }
    ],
@@ -5703,13 +5811,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — February 2026",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Forsaken_Spray.webp",
    "imageLarge": "img/Forsaken_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "February - April 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-01",
+    "end": "2026-04-30"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5733,13 +5851,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — November 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Altitude_Buddy.webp",
    "imageLarge": "img/Altitude_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2025 - January 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-01",
+    "end": "2026-01-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5763,13 +5891,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — November 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Valiant_Hero_Card_Large.webp",
    "imageLarge": "img/Valiant_Hero_Card_Large_600.webp",
    "imageWide": "img/Valiant_Hero_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2025 - January 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-01",
+    "end": "2026-01-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5793,13 +5931,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — November 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/RGX_11z_Pro_Ep_4_Spray.webp",
    "imageLarge": "img/RGX_11z_Pro_Ep_4_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2025 - January 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-01",
+    "end": "2026-01-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5823,13 +5971,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — November 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Soulstrife_Spray.webp",
    "imageLarge": "img/Soulstrife_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2025 - January 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-01",
+    "end": "2026-01-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5853,13 +6011,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — September 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Araxys_Buddy.webp",
    "imageLarge": "img/Araxys_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "September - October 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-01",
+    "end": "2025-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5883,13 +6051,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — September 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Tigris_Card_Large.webp",
    "imageLarge": "img/Tigris_Card_Large_600.webp",
    "imageWide": "img/Tigris_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "September - October 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-01",
+    "end": "2025-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5913,13 +6091,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — September 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Magepunk_Spray.webp",
    "imageLarge": "img/Magepunk_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "September - October 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-01",
+    "end": "2025-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5943,13 +6131,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — September 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Oni_Spray.webp",
    "imageLarge": "img/Oni_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "September - October 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-01",
+    "end": "2025-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -5973,13 +6171,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — June 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Prelude_to_Chaos_Buddy.webp",
    "imageLarge": "img/Prelude_to_Chaos_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "June - August 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-01",
+    "end": "2025-08-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6003,13 +6211,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — June 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Kohaku_Matsuba_Card_Large.webp",
    "imageLarge": "img/Kohaku_Matsuba_Card_Large_600.webp",
    "imageWide": "img/Kohaku_Matsuba_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "June - August 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-01",
+    "end": "2025-08-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6033,13 +6251,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — June 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Imperium_Spray.webp",
    "imageLarge": "img/Imperium_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "June - August 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-01",
+    "end": "2025-08-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6063,13 +6291,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — June 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/ChronoVoid_Spray.webp",
    "imageLarge": "img/ChronoVoid_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "June - August 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-06-01",
+    "end": "2025-08-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6093,13 +6331,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — March 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Snowfall_Buddy.webp",
    "imageLarge": "img/Snowfall_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "March - May 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-03-01",
+    "end": "2025-05-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6123,13 +6371,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — March 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Celestial_Card_Large.webp",
    "imageLarge": "img/Celestial_Card_Large_600.webp",
    "imageWide": "img/Celestial_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "March - May 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-03-01",
+    "end": "2025-05-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6153,13 +6411,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — March 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Sentinels_of_Light_Spray.webp",
    "imageLarge": "img/Sentinels_of_Light_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "March - May 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-03-01",
+    "end": "2025-05-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6183,13 +6451,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — March 2025",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Sovereign_Spray.webp",
    "imageLarge": "img/Sovereign_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "March - May 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-03-01",
+    "end": "2025-05-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6213,13 +6491,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Year End",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/ChronoVoid_Buddy.webp",
    "imageLarge": "img/ChronoVoid_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2024 - February 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-01",
+    "end": "2025-02-28"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6243,13 +6531,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Year End",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Magepunk_Card_Large.webp",
    "imageLarge": "img/Magepunk_Card_Large_600.webp",
    "imageWide": "img/Magepunk_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2024 - February 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-01",
+    "end": "2025-02-28"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6273,13 +6571,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Year End",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Ion_Spray.webp",
    "imageLarge": "img/Ion_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2024 - February 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-11-01",
+    "end": "2025-02-28"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6303,13 +6611,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Launch",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Team_Ace_Buddy.webp",
    "imageLarge": "img/Team_Ace_Buddy.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August - October 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-01",
+    "end": "2024-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6333,13 +6651,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Launch",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/NO_LIMITS_Card_Large.webp",
    "imageLarge": "img/NO_LIMITS_Card_Large_600.webp",
    "imageWide": "img/NO_LIMITS_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August - October 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-01",
+    "end": "2024-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6363,13 +6691,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Launch",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Ego_Spray.webp",
    "imageLarge": "img/Ego_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August - October 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-01",
+    "end": "2024-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -6393,13 +6731,23 @@ window.VAL_DROPS = {
    "category": "PlayStation Plus",
    "group": "PS+ Bundle — Launch",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
    "title": null,
    "image": "img/Origin_Spray.webp",
    "imageLarge": "img/Origin_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "August - October 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-08-01",
+    "end": "2024-10-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8287,7 +8635,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Alpha Vs. Omega Conflict",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/V26_Conflict_Hermanita_Card_Large.webp",
    "imageLarge": "img/V26_Conflict_Hermanita_Card_Large_600.webp",
@@ -8353,7 +8701,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Alpha Vs. Omega Conflict",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/V26_Conflict_Face_the_Flames_Card_Large.webp",
    "imageLarge": "img/V26_Conflict_Face_the_Flames_Card_Large_600.webp",
@@ -8419,7 +8767,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Alpha Vs. Omega Conflict",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/V26_Conflict_Blood_Venom_Card_Large.webp",
    "imageLarge": "img/V26_Conflict_Blood_Venom_Card_Large_600.webp",
@@ -8485,7 +8833,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Alpha Vs. Omega Conflict",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/V26_Conflict_The_Fall_Card_Large.webp",
    "imageLarge": "img/V26_Conflict_The_Fall_Card_Large_600.webp",
@@ -8551,7 +8899,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Champions Conflict: Frag Or Die",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/Frag_or_Die_Alpha_Sage_Card_Large.webp",
    "imageLarge": "img/Frag_or_Die_Alpha_Sage_Card_Large_600.webp",
@@ -8561,10 +8909,17 @@ window.VAL_DROPS = {
      {
       "label": "Objective",
       "value": "Join and choose the Alpha Faction"
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 16, 2026 08:00 am - October 20, 2026 11:59 pm PT"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-16",
+    "end": "2026-10-20"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8598,7 +8953,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Champions Conflict: Frag Or Die",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/Frag_or_Die_Omega_Viper_Card_Large.webp",
    "imageLarge": "img/Frag_or_Die_Omega_Viper_Card_Large_600.webp",
@@ -8608,10 +8963,17 @@ window.VAL_DROPS = {
      {
       "label": "Objective",
       "value": "Join and choose the Omega Faction"
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 16, 2026 08:00 am - October 20, 2026 11:59 pm PT"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-16",
+    "end": "2026-10-20"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8645,7 +9007,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Champions Conflict: Frag Or Die",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/Jade_Venom_Card_Large.webp",
    "imageLarge": "img/Jade_Venom_Card_Large_600.webp",
@@ -8655,10 +9017,17 @@ window.VAL_DROPS = {
      {
       "label": "Objective",
       "value": "Play 3 games, and be in the faction with the most points by the end of the event"
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 16, 2026 08:00 am - October 20, 2026 11:59 pm PT"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-16",
+    "end": "2026-10-20"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8692,7 +9061,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Champions Conflict: Frag Or Die",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": "Broken",
    "image": null,
    "imageLarge": null,
@@ -8706,10 +9075,17 @@ window.VAL_DROPS = {
      {
       "label": "Objective",
       "value": "Complete 9 limited missions during the event."
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 16, 2026 08:00 am - October 20, 2026 11:59 pm PT"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-16",
+    "end": "2026-10-20"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8743,7 +9119,7 @@ window.VAL_DROPS = {
    "category": "Events & Partnerships",
    "group": "Champions Conflict: Frag Or Die",
    "subgroup": null,
-   "groupNote": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
    "image": "img/Official_Seal_Spray.webp",
    "imageLarge": "img/Official_Seal_Spray_600.webp",
@@ -8757,10 +9133,17 @@ window.VAL_DROPS = {
      {
       "label": "Objective",
       "value": "Complete 18 limited missions during the event."
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 16, 2026 08:00 am - October 20, 2026 11:59 pm PT"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-16",
+    "end": "2026-10-20"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8789,25 +9172,36 @@ window.VAL_DROPS = {
   },
   {
    "id": 192,
-   "name": "AlarmBoi Out Spray",
-   "type": "Spray",
+   "name": "Hari Raya Homecoming Card",
+   "type": "Player Card",
    "category": "Events & Partnerships",
    "group": "Night Queue",
-   "subgroup": null,
+   "subgroup": "In-Game",
    "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
    "title": null,
-   "image": "img/AlarmBoi_Out_Spray.webp",
-   "imageLarge": "img/AlarmBoi_Out_Spray_600.webp",
-   "imageWide": null,
+   "image": "img/Hari_Raya_Homecoming_Card_Large.webp",
+   "imageLarge": "img/Hari_Raya_Homecoming_Card_Large_600.webp",
+   "imageWide": "img/Hari_Raya_Homecoming_Card_Wide.webp",
    "details": [
     [
      {
-      "label": "Event",
-      "value": "Night Queue"
+      "label": "Challenge Name",
+      "value": "Warming Up"
+     },
+     {
+      "label": "Objective",
+      "value": "Earn 500 points by completing the following objectives in any matchmade game mode: • Win: Win a match (5 points) • Loss: Finish a match (1 point) • Kills: Each kill grants points (1 point) • Credits: Earn points for every 10,000 spent ( (Challenge Rules state 10 points instead) points) • Better With Friends: Get extra points for playing with friends (1 point per teammate) • Express Yourself: Join WINGMAN's Corner creative challenge (20 points)"
+     },
+     {
+      "label": "Challenge Dates (2026, GMT)",
+      "value": "March 4, 12:00 - March 14, 11:59"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-03-04",
+    "end": "2026-03-14"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -8815,12 +9209,6 @@ window.VAL_DROPS = {
      "url": "https://ftw.riotgames.com/en-us/valorant",
      "label": "Riot Games",
      "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
     },
     {
      "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
@@ -8831,12 +9219,196 @@ window.VAL_DROPS = {
    ],
    "firstSeen": "2026-10-26",
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
+   "alsoFrom": [],
+   "slug": "hari-raya-homecoming-card"
+  },
+  {
+   "id": 193,
+   "name": "Last Round Before Dawn Card",
+   "type": "Player Card",
+   "category": "Events & Partnerships",
+   "group": "Night Queue",
+   "subgroup": "In-Game",
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/Last_Round_Before_Dawn_Card_Large.webp",
+   "imageLarge": "img/Last_Round_Before_Dawn_Card_Large_600.webp",
+   "imageWide": "img/Last_Round_Before_Dawn_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Challenge Name",
+      "value": "The Night Owl"
+     },
+     {
+      "label": "Objective",
+      "value": "Earn 500 points by completing the following objectives in Competitive, Unrated, Swiftplay and Spike Rush: • Headshots: Get 15 or more headshots in a single match (15 points) • Spikes: Earn points for each spike planted or defused by your team (5 points) • Rounds Won: Earn points for every 10 rounds won (15 point) • Better With Friends: Get extra points for playing with friends (1 point per teammate) • Express Yourself: Join WINGMAN's Corner creative challenge (20 points)"
+     },
+     {
+      "label": "Challenge Dates (2026, GMT)",
+      "value": "March 14, 12:00 - March 23, 23:59"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-03-14",
+    "end": "2026-03-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
+     "label": "VALORANT Wiki: Night Queue",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
+   "alsoFrom": [],
+   "slug": "last-round-before-dawn-card"
+  },
+  {
+   "id": 194,
+   "name": "AlarmBoi Out Spray",
+   "type": "Spray",
+   "category": "Events & Partnerships",
+   "group": "Night Queue",
+   "subgroup": "Creative",
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/AlarmBoi_Out_Spray.webp",
+   "imageLarge": "img/AlarmBoi_Out_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Challenge Name",
+      "value": "WINGMAN's Corner"
+     },
+     {
+      "label": "Objective",
+      "value": "Share your Night Queue moment using the WINGMAN filter on TikTok"
+     },
+     {
+      "label": "Challenge Dates (2026, GMT)",
+      "value": "March 4, 12:00 - March 23, 23:59"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-03-04",
+    "end": "2026-03-23"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://www.tiktok.com/effect/Wingman-3941490109",
+     "label": "tiktok.com",
+     "official": false
+    },
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
+     "label": "VALORANT Wiki: Night Queue",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [
+    {
+     "code": "EXCL",
+     "label": "Not in some countries"
+    }
+   ],
    "alsoFrom": [],
    "slug": "alarmboi-out-spray"
   },
   {
-   "id": 193,
+   "id": 195,
+   "name": "Songkran Splash Street Card",
+   "type": "Player Card",
+   "category": "Events & Partnerships",
+   "group": "MAHASONGKRAN",
+   "subgroup": null,
+   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
+   "title": null,
+   "image": "img/Songkran_Splash_Street_Card_Large.webp",
+   "imageLarge": "img/Songkran_Splash_Street_Card_Large_600.webp",
+   "imageWide": "img/Songkran_Splash_Street_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Challenge Name",
+      "value": "Splash into the Action"
+     },
+     {
+      "label": "Objective",
+      "value": "Earn 500 points by completing the following objectives in any matchmade game mode: • Win: Win a match (5 points) • Loss: Finish a match (1 point) • Kills: Each kill grants points (1 point) • Credits: Earn points for every 10,000 spent (10 points) • Better With Friends: Get extra points for playing with friends (1 point per teammate)"
+     },
+     {
+      "label": "Challenge Dates (2026, THA)",
+      "value": "April 15, 15:00 - April 29, 16:59"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-04-15",
+    "end": "2026-04-29"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://ftw.riotgames.com/en-us/valorant",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/MAHASONGKRAN",
+     "label": "VALORANT Wiki: MAHASONGKRAN",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-10-26",
+   "codes": null,
+   "regions": [
+    {
+     "code": "TH",
+     "label": "Thailand only"
+    }
+   ],
+   "alsoFrom": [],
+   "slug": "songkran-splash-street-card"
+  },
+  {
+   "id": 196,
    "name": "Drop It Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -8891,7 +9463,7 @@ window.VAL_DROPS = {
    "slug": "drop-it-spray"
   },
   {
-   "id": 194,
+   "id": 197,
    "name": "All Love Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -8941,37 +9513,7 @@ window.VAL_DROPS = {
    "slug": "all-love-spray"
   },
   {
-   "id": 195,
-   "name": "Claw and Order Spray",
-   "type": "Spray",
-   "category": "Prime Gaming",
-   "group": "Prime Gaming Drops (2020–2024)",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Claw_and_Order_Spray.webp",
-   "imageLarge": "img/Claw_and_Order_Spray.webp",
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "claw-and-order-spray"
-  },
-  {
-   "id": 196,
+   "id": 198,
    "name": "A Piece of Rice Cake Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9021,7 +9563,7 @@ window.VAL_DROPS = {
    "slug": "a-piece-of-rice-cake-spray"
   },
   {
-   "id": 197,
+   "id": 199,
    "name": "Cake or Spike? Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9071,7 +9613,7 @@ window.VAL_DROPS = {
    "slug": "cake-or-spike-spray"
   },
   {
-   "id": 198,
+   "id": 200,
    "name": "Cypher Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9087,10 +9629,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Purchase VALORANT Alpha Collection Cypher Figure via Riot Games Merch"
+     },
+     {
+      "label": "Released",
+      "value": "Mid 2025 (approximate)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -9113,7 +9662,7 @@ window.VAL_DROPS = {
    "slug": "cypher-figure-spray"
   },
   {
-   "id": 199,
+   "id": 201,
    "name": "Jett Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9129,10 +9678,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Purchase VALORANT Alpha Collection Jett Figure via Riot Games Merch"
+     },
+     {
+      "label": "Released",
+      "value": "Mid 2025 (approximate)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -9155,7 +9711,7 @@ window.VAL_DROPS = {
    "slug": "jett-figure-spray"
   },
   {
-   "id": 200,
+   "id": 202,
    "name": "Killjoy Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9171,10 +9727,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Purchase VALORANT Alpha Collection Killjoy Figure via Riot Games Merch"
+     },
+     {
+      "label": "Released",
+      "value": "Mid 2025 (approximate)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -9197,7 +9760,7 @@ window.VAL_DROPS = {
    "slug": "killjoy-figure-spray"
   },
   {
-   "id": 201,
+   "id": 203,
    "name": "Loose Cannon Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9213,13 +9776,25 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Complete a set of VALORANT-related missions at that time on the RiotXArcane website"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 14 - 22, 2021"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2021-11-14",
+    "end": "2021-11-22"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
      "label": "VALORANT Wiki: Sprays",
@@ -9234,7 +9809,7 @@ window.VAL_DROPS = {
    "slug": "loose-cannon-spray"
   },
   {
-   "id": 202,
+   "id": 204,
    "name": "More Creds Pls Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9279,7 +9854,7 @@ window.VAL_DROPS = {
    "slug": "more-creds-pls-spray"
   },
   {
-   "id": 203,
+   "id": 205,
    "name": "Sage Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9295,10 +9870,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Purchase VALORANT Alpha Collection Sage Figure via Riot Games Merch"
+     },
+     {
+      "label": "Released",
+      "value": "Mid 2025 (approximate)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -9321,7 +9903,7 @@ window.VAL_DROPS = {
    "slug": "sage-figure-spray"
   },
   {
-   "id": 204,
+   "id": 206,
    "name": "VCT Americas Aura Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9337,15 +9919,27 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Attend VCT Americas Stage 2 Finals: São Paulo in-person or participating in official in-person Watch Parties across the Americas."
+     },
+     {
+      "label": "Event Dates",
+      "value": "September 4 - 6, 2026"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-04",
+    "end": "2026-09-06"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/valorantesports/news/vct-americas-stage-2-finals-so-paulo-event-guide",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/vct-americas-stage-2-finals-so-paulo-event-guide",
      "label": "VALORANT Esports",
      "official": true
     },
@@ -9368,7 +9962,7 @@ window.VAL_DROPS = {
    "slug": "vct-americas-aura-spray"
   },
   {
-   "id": 205,
+   "id": 207,
    "name": "Hello Horse! Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -9379,11 +9973,31 @@ window.VAL_DROPS = {
    "image": "img/Hello_Horse_Spray.webp",
    "imageLarge": "img/Hello_Horse_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "In game files since",
+      "value": "January 2026 (patch 12.01), a Lunar New Year 2026 item"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-01-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://valorant.fandom.com/wiki/Sprays",
+     "label": "valorant.fandom.com",
+     "official": false
+    },
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2016349763331834333",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
      "label": "VALORANT Wiki: Sprays",
@@ -9403,7 +10017,7 @@ window.VAL_DROPS = {
    "slug": "hello-horse-spray"
   },
   {
-   "id": 206,
+   "id": 208,
    "name": "Volunteer to School Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -9414,11 +10028,31 @@ window.VAL_DROPS = {
    "image": "img/Volunteer_to_School_Spray.webp",
    "imageLarge": "img/Volunteer_to_School_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "In game files since",
+      "value": "January 2026 (patch 12.01)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-01-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://valorant.fandom.com/wiki/Sprays",
+     "label": "valorant.fandom.com",
+     "official": false
+    },
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2016350496328384999",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
      "label": "VALORANT Wiki: Sprays",
@@ -9438,7 +10072,7 @@ window.VAL_DROPS = {
    "slug": "volunteer-to-school-spray"
   },
   {
-   "id": 207,
+   "id": 209,
    "name": "Say Hi To Happiness Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -9449,11 +10083,31 @@ window.VAL_DROPS = {
    "image": "img/Say_Hi_To_Happiness_Spray.webp",
    "imageLarge": "img/Say_Hi_To_Happiness_Spray_600.webp",
    "imageWide": null,
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available from",
+      "value": "July 2, 2026 (China server 3rd anniversary events)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-07-02",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
+    {
+     "url": "https://val.qq.com/act/a202607128546valevent/index.html",
+     "label": "val.qq.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
      "label": "VALORANT Wiki: Sprays",
@@ -9473,7 +10127,7 @@ window.VAL_DROPS = {
    "slug": "say-hi-to-happiness-spray"
   },
   {
-   "id": 208,
+   "id": 210,
    "name": "With Sage, Comes Fame Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -9508,7 +10162,7 @@ window.VAL_DROPS = {
    "slug": "with-sage-comes-fame-spray"
   },
   {
-   "id": 209,
+   "id": 211,
    "name": "Round Start Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -9549,7 +10203,7 @@ window.VAL_DROPS = {
    "slug": "round-start-spray"
   },
   {
-   "id": 210,
+   "id": 212,
    "name": "Flyby Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -9599,7 +10253,7 @@ window.VAL_DROPS = {
    "slug": "flyby-hug-buddy"
   },
   {
-   "id": 211,
+   "id": 213,
    "name": "Bear Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -9649,7 +10303,7 @@ window.VAL_DROPS = {
    "slug": "bear-hug-buddy"
   },
   {
-   "id": 212,
+   "id": 214,
    "name": "Seal of Approval Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -9704,7 +10358,7 @@ window.VAL_DROPS = {
    "slug": "seal-of-approval-buddy"
   },
   {
-   "id": 213,
+   "id": 215,
    "name": "Game Changers Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -9780,12 +10434,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "game-changers-winner-buddy"
   },
   {
-   "id": 214,
+   "id": 216,
    "name": "VCT Champions Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -9851,12 +10510,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-champions-winner-buddy"
   },
   {
-   "id": 215,
+   "id": 217,
    "name": "VCT LOCK//IN Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -9888,12 +10552,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-lock-in-winner-buddy"
   },
   {
-   "id": 216,
+   "id": 218,
    "name": "VCT Masters Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -10085,12 +10754,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-winner-buddy"
   },
   {
-   "id": 217,
+   "id": 219,
    "name": "Arcane Poro Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10110,13 +10784,25 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "November 7 - 22, 2021"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2021-11-07",
+    "end": "2021-11-22"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
      "label": "VALORANT Wiki: Buddies",
@@ -10131,7 +10817,7 @@ window.VAL_DROPS = {
    "slug": "arcane-poro-buddy"
   },
   {
-   "id": 218,
+   "id": 220,
    "name": "Cloudburst Soles Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10185,7 +10871,7 @@ window.VAL_DROPS = {
    "slug": "cloudburst-soles-buddy"
   },
   {
-   "id": 219,
+   "id": 221,
    "name": "Downtime Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10205,10 +10891,17 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "On sale since",
+      "value": "September 24, 2026"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2026-09-24",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -10231,7 +10924,7 @@ window.VAL_DROPS = {
    "slug": "downtime-buddy"
   },
   {
-   "id": 220,
+   "id": 222,
    "name": "Fist Bump Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10291,7 +10984,7 @@ window.VAL_DROPS = {
    "slug": "fist-bump-buddy"
   },
   {
-   "id": 221,
+   "id": 223,
    "name": "FRGMT x WNGMN+ Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10311,13 +11004,25 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "On sale since",
+      "value": "September 29, 2025"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-09-29",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://playvalorant.com/en-us/news/riotstore/the-vlrnt-frgmt-collection/",
+     "label": "PlayVALORANT.com",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
      "label": "VALORANT Wiki: Buddies",
@@ -10332,7 +11037,7 @@ window.VAL_DROPS = {
    "slug": "frgmt-x-wngmn-buddy"
   },
   {
-   "id": 222,
+   "id": 224,
    "name": "Golden Smite Knife Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10406,7 +11111,7 @@ window.VAL_DROPS = {
    "slug": "golden-smite-knife-buddy"
   },
   {
-   "id": 223,
+   "id": 225,
    "name": "Hang Time Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10426,10 +11131,17 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Event Dates",
+      "value": "June 7 - 22, 2025 (Masters Toronto)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-07",
+    "end": "2025-06-22"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -10437,6 +11149,11 @@ window.VAL_DROPS = {
      "url": "https://www.instagram.com/p/DK1jzwqxggO/",
      "label": "Instagram post",
      "official": false
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
+     "label": "VALORANT Esports",
+     "official": true
     },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10452,7 +11169,7 @@ window.VAL_DROPS = {
    "slug": "hang-time-buddy"
   },
   {
-   "id": 224,
+   "id": 226,
    "name": "\"I Create\" Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10472,10 +11189,17 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Requests closed",
+      "value": "June 6, 2025"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": null,
+    "end": "2025-06-06"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -10498,7 +11222,7 @@ window.VAL_DROPS = {
    "slug": "i-create-buddy"
   },
   {
-   "id": 225,
+   "id": 227,
    "name": "Keep it Safer Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10518,13 +11242,30 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Available since",
+      "value": "October 17, 2022"
      }
     ]
    ],
    "period": null,
-   "ongoing": null,
+   "ongoing": {
+    "since": "2022-10-17",
+    "note": "One-time reward for turning on multi-factor authentication on your Riot account. No end date announced."
+   },
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://www.riotgames.com/en/news/get-rewarded-for-enabling-2fa",
+     "label": "Riot Games",
+     "official": true
+    },
+    {
+     "url": "https://www.sportskeeda.com/valorant/how-claim-keep-safer-gun-buddy-valorant-two-factor-authentication-2fa",
+     "label": "sportskeeda.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
      "label": "VALORANT Wiki: Buddies",
@@ -10539,7 +11280,7 @@ window.VAL_DROPS = {
    "slug": "keep-it-safer-buddy"
   },
   {
-   "id": 226,
+   "id": 228,
    "name": "Pocket Sage Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10559,13 +11300,25 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Eligible Dates",
+      "value": "December 8 - 31, 2022 (link before January 1, 2023)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2022-12-08",
+    "end": "2022-12-31"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://news.xbox.com/en-us/2022/12/08/riot-games-and-xbox-game-pass-benefits-coming-soon/",
+     "label": "news.xbox.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
      "label": "VALORANT Wiki: Buddies",
@@ -10580,7 +11333,7 @@ window.VAL_DROPS = {
    "slug": "pocket-sage-buddy"
   },
   {
-   "id": 227,
+   "id": 229,
    "name": "Riptide Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -10600,13 +11353,25 @@ window.VAL_DROPS = {
      {
       "label": "Inventory",
       "value": "x1"
+     },
+     {
+      "label": "Event Dates",
+      "value": "August 6 - 26, 2023 (VALORANT Champions Los Angeles)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2023-08-06",
+    "end": "2023-08-26"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
+     "label": "VALORANT Esports",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
      "label": "VALORANT Wiki: Buddies",
@@ -10621,7 +11386,7 @@ window.VAL_DROPS = {
    "slug": "riptide-buddy"
   },
   {
-   "id": 228,
+   "id": 230,
    "name": "Sweet Calls Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -10665,151 +11430,7 @@ window.VAL_DROPS = {
    "slug": "sweet-calls-buddy"
   },
   {
-   "id": 229,
-   "name": "Hari Raya Homecoming Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Night Queue",
-   "subgroup": null,
-   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
-   "title": null,
-   "image": "img/Hari_Raya_Homecoming_Card_Large.webp",
-   "imageLarge": "img/Hari_Raya_Homecoming_Card_Large_600.webp",
-   "imageWide": "img/Hari_Raya_Homecoming_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Night Queue"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://ftw.riotgames.com/en-us/valorant",
-     "label": "Riot Games",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
-     "label": "VALORANT Wiki: Night Queue",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "hari-raya-homecoming-card"
-  },
-  {
-   "id": 230,
-   "name": "Last Round Before Dawn Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "Night Queue",
-   "subgroup": null,
-   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
-   "title": null,
-   "image": "img/Last_Round_Before_Dawn_Card_Large.webp",
-   "imageLarge": "img/Last_Round_Before_Dawn_Card_Large_600.webp",
-   "imageWide": "img/Last_Round_Before_Dawn_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "Night Queue"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://ftw.riotgames.com/en-us/valorant",
-     "label": "Riot Games",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Night_Queue",
-     "label": "VALORANT Wiki: Night Queue",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "last-round-before-dawn-card"
-  },
-  {
    "id": 231,
-   "name": "Songkran Splash Street Card",
-   "type": "Player Card",
-   "category": "Events & Partnerships",
-   "group": "MAHASONGKRAN",
-   "subgroup": null,
-   "groupNote": "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.",
-   "title": null,
-   "image": "img/Songkran_Splash_Street_Card_Large.webp",
-   "imageLarge": "img/Songkran_Splash_Street_Card_Large_600.webp",
-   "imageWide": "img/Songkran_Splash_Street_Card_Wide.webp",
-   "details": [
-    [
-     {
-      "label": "Event",
-      "value": "MAHASONGKRAN"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://ftw.riotgames.com/en-us/valorant",
-     "label": "Riot Games",
-     "official": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
-     "label": "VALORANT Wiki: Player Cards",
-     "official": false,
-     "wiki": true
-    },
-    {
-     "url": "https://wiki.playvalorant.com/en-us/MAHASONGKRAN",
-     "label": "VALORANT Wiki: MAHASONGKRAN",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "songkran-splash-street-card"
-  },
-  {
-   "id": 232,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10859,7 +11480,7 @@ window.VAL_DROPS = {
    "slug": "for-retribution-card"
   },
   {
-   "id": 233,
+   "id": 232,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10914,7 +11535,7 @@ window.VAL_DROPS = {
    "slug": "not-a-peep-card"
   },
   {
-   "id": 234,
+   "id": 233,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10964,7 +11585,7 @@ window.VAL_DROPS = {
    "slug": "versus-deadlock-gekko-card"
   },
   {
-   "id": 235,
+   "id": 234,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11033,7 +11654,7 @@ window.VAL_DROPS = {
    "slug": "pride-cotton-candy-card"
   },
   {
-   "id": 236,
+   "id": 235,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11102,7 +11723,7 @@ window.VAL_DROPS = {
    "slug": "pride-galactic-card"
   },
   {
-   "id": 237,
+   "id": 236,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11171,7 +11792,7 @@ window.VAL_DROPS = {
    "slug": "pride-primary-card"
   },
   {
-   "id": 238,
+   "id": 237,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11240,7 +11861,7 @@ window.VAL_DROPS = {
    "slug": "pride-rainbow-card"
   },
   {
-   "id": 239,
+   "id": 238,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11309,7 +11930,7 @@ window.VAL_DROPS = {
    "slug": "pride-sherbet-card"
   },
   {
-   "id": 240,
+   "id": 239,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11378,7 +11999,7 @@ window.VAL_DROPS = {
    "slug": "pride-sunset-card"
   },
   {
-   "id": 241,
+   "id": 240,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -11447,7 +12068,7 @@ window.VAL_DROPS = {
    "slug": "pride-twilight-card"
   },
   {
-   "id": 242,
+   "id": 241,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -11471,8 +12092,8 @@ window.VAL_DROPS = {
     "end": "2024-09-01"
    },
    "ongoing": {
-    "since": null,
-    "note": "Ongoing ExpressVPN partner offer. No end date announced."
+    "since": "2026-03-12",
+    "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
    },
    "maybeActive": false,
    "sources": [
@@ -11535,7 +12156,7 @@ window.VAL_DROPS = {
    "slug": "dance-break-card"
   },
   {
-   "id": 243,
+   "id": 242,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -11585,7 +12206,7 @@ window.VAL_DROPS = {
    "slug": "seoul-night-jett-card"
   },
   {
-   "id": 244,
+   "id": 243,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -11601,10 +12222,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Redeem a private code by watching selected official co-streamers during 2025 VCT Masters Toronto"
+     },
+     {
+      "label": "Event Dates",
+      "value": "June 7 - 22, 2025 (Masters Toronto)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-06-07",
+    "end": "2025-06-22"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -11612,6 +12240,11 @@ window.VAL_DROPS = {
      "url": "https://www.instagram.com/p/DK1jzwqxggO/",
      "label": "Instagram post",
      "official": false
+    },
+    {
+     "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
+     "label": "VALORANT Esports",
+     "official": true
     },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -11627,7 +12260,7 @@ window.VAL_DROPS = {
    "slug": "sloth-slugs-card"
   },
   {
-   "id": 245,
+   "id": 244,
    "name": "2024 Championship Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11638,11 +12271,26 @@ window.VAL_DROPS = {
    "image": "img/2024_Championship_Card_Large.webp",
    "imageLarge": "img/2024_Championship_Card_Large_600.webp",
    "imageWide": "img/2024_Championship_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "In game files since",
+      "value": "October 2024 (patch 9.08)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-10-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://valorant.fandom.com/wiki/Player_Cards",
+     "label": "valorant.fandom.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11662,7 +12310,7 @@ window.VAL_DROPS = {
    "slug": "2024-championship-card"
   },
   {
-   "id": 246,
+   "id": 245,
    "name": "Best Memories Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11673,11 +12321,31 @@ window.VAL_DROPS = {
    "image": "img/Best_Memories_Card_Large.webp",
    "imageLarge": "img/Best_Memories_Card_Large_600.webp",
    "imageWide": "img/Best_Memories_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "In game files since",
+      "value": "March 2026 (patch 12.06)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-03-01",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://valorant.fandom.com/wiki/Player_Cards",
+     "label": "valorant.fandom.com",
+     "official": false
+    },
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2039014275084140799",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11697,7 +12365,7 @@ window.VAL_DROPS = {
    "slug": "best-memories-card"
   },
   {
-   "id": 247,
+   "id": 246,
    "name": "Blissful Burn Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11708,11 +12376,31 @@ window.VAL_DROPS = {
    "image": "img/Blissful_Burn_Card_Large.webp",
    "imageLarge": "img/Blissful_Burn_Card_Large_600.webp",
    "imageWide": "img/Blissful_Burn_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Event Dates",
+      "value": "July 9 - 26, 2026 (VCT CN Changsha stop)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-07-09",
+    "end": "2026-07-26"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2075960654708527413",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
+    {
+     "url": "https://wiki.biligame.com/valorant/VCT/CN/2026/Stage2",
+     "label": "wiki.biligame.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11732,7 +12420,7 @@ window.VAL_DROPS = {
    "slug": "blissful-burn-card"
   },
   {
-   "id": 248,
+   "id": 247,
    "name": "Count To Three Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11743,11 +12431,31 @@ window.VAL_DROPS = {
    "image": "img/Count_To_Three_Card_Large.webp",
    "imageLarge": "img/Count_To_Three_Card_Large_600.webp",
    "imageWide": "img/Count_To_Three_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Available from",
+      "value": "July 2, 2026 (China server 3rd anniversary events)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-07-02",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
+    {
+     "url": "https://val.qq.com/act/a202607128546valevent/index.html",
+     "label": "val.qq.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11767,7 +12475,7 @@ window.VAL_DROPS = {
    "slug": "count-to-three-card"
   },
   {
-   "id": 249,
+   "id": 248,
    "name": "Land of Heaven Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11778,11 +12486,31 @@ window.VAL_DROPS = {
    "image": "img/Land_of_Heaven_Card_Large.webp",
    "imageLarge": "img/Land_of_Heaven_Card_Large_600.webp",
    "imageWide": "img/Land_of_Heaven_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Event Dates",
+      "value": "August 5 - 23, 2026 (VCT CN Chengdu stop)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-08-05",
+    "end": "2026-08-23"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2082584466812293172",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
+    {
+     "url": "https://wiki.biligame.com/valorant/VCT/CN/2026/Stage2",
+     "label": "wiki.biligame.com",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11802,7 +12530,7 @@ window.VAL_DROPS = {
    "slug": "land-of-heaven-card"
   },
   {
-   "id": 250,
+   "id": 249,
    "name": "My Place Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -11813,11 +12541,31 @@ window.VAL_DROPS = {
    "image": "img/My_Place_Card_Large.webp",
    "imageLarge": "img/My_Place_Card_Large_600.webp",
    "imageWide": "img/My_Place_Card_Wide.webp",
-   "details": [],
-   "period": null,
+   "details": [
+    [
+     {
+      "label": "Event Dates",
+      "value": "May 1 - 10, 2026 (VCT CN Beijing stop)"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-01",
+    "end": "2026-05-10"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
+    {
+     "url": "https://x.com/VALORANTLeaksEN/status/2044096873674223736",
+     "label": "X @VALORANTLeaksEN",
+     "official": true
+    },
+    {
+     "url": "https://www.sina.cn/news/detail/5289569492404005.html",
+     "label": "sina.cn",
+     "official": false
+    },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
      "label": "VALORANT Wiki: Player Cards",
@@ -11837,7 +12585,7 @@ window.VAL_DROPS = {
    "slug": "my-place-card"
   },
   {
-   "id": 251,
+   "id": 250,
    "name": "Holding Space Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11884,7 +12632,7 @@ window.VAL_DROPS = {
    "slug": "holding-space-title"
   },
   {
-   "id": 252,
+   "id": 251,
    "name": "Ate Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11934,7 +12682,7 @@ window.VAL_DROPS = {
    "slug": "ate-title"
   },
   {
-   "id": 253,
+   "id": 252,
    "name": "Better Together Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11984,7 +12732,7 @@ window.VAL_DROPS = {
    "slug": "better-together-title"
   },
   {
-   "id": 254,
+   "id": 253,
    "name": "Ally Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -12034,7 +12782,7 @@ window.VAL_DROPS = {
    "slug": "ally-title"
   },
   {
-   "id": 255,
+   "id": 254,
    "name": "Proud Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -12084,7 +12832,7 @@ window.VAL_DROPS = {
    "slug": "proud-title"
   },
   {
-   "id": 256,
+   "id": 255,
    "name": "Pioneer Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -12134,7 +12882,7 @@ window.VAL_DROPS = {
    "slug": "pioneer-title"
   },
   {
-   "id": 257,
+   "id": 256,
    "name": "VCT Game Changer Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12170,12 +12918,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-game-changer-title"
   },
   {
-   "id": 258,
+   "id": 257,
    "name": "2021 VCT Regional Masters Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12293,12 +13046,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2021-vct-regional-masters-winner-title"
   },
   {
-   "id": 259,
+   "id": 258,
    "name": "VCT Masters Reykjavik Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12340,12 +13098,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-reykjavik-winner-title"
   },
   {
-   "id": 260,
+   "id": 259,
    "name": "VCT Masters Berlin Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12381,12 +13144,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-berlin-winner-title"
   },
   {
-   "id": 261,
+   "id": 260,
    "name": "2021 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12422,12 +13190,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2021-vct-champion-title"
   },
   {
-   "id": 262,
+   "id": 261,
    "name": "VCT Masters Copenhagen Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12459,12 +13232,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-copenhagen-winner-title"
   },
   {
-   "id": 263,
+   "id": 262,
    "name": "2022 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12496,12 +13274,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2022-vct-champion-title"
   },
   {
-   "id": 264,
+   "id": 263,
    "name": "2022 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12537,12 +13320,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2022-game-changers-winner-title"
   },
   {
-   "id": 265,
+   "id": 264,
    "name": "VCT LOCK//IN Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12574,12 +13362,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-lock-in-winner-title"
   },
   {
-   "id": 266,
+   "id": 265,
    "name": "VCT Masters Tokyo Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12611,12 +13404,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-tokyo-winner-title"
   },
   {
-   "id": 267,
+   "id": 266,
    "name": "2023 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12648,12 +13446,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2023-vct-champion-title"
   },
   {
-   "id": 268,
+   "id": 267,
    "name": "2023 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12689,12 +13492,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2023-game-changers-winner-title"
   },
   {
-   "id": 269,
+   "id": 268,
    "name": "VCT Masters Madrid Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12726,12 +13534,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-madrid-winner-title"
   },
   {
-   "id": 270,
+   "id": 269,
    "name": "VCT Masters Shanghai Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12763,12 +13576,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-shanghai-winner-title"
   },
   {
-   "id": 271,
+   "id": 270,
    "name": "2024 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12800,12 +13618,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2024-vct-champion-title"
   },
   {
-   "id": 272,
+   "id": 271,
    "name": "2024 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12841,12 +13664,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2024-game-changers-winner-title"
   },
   {
-   "id": 273,
+   "id": 272,
    "name": "VCT Masters Bangkok Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12878,12 +13706,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-bangkok-winner-title"
   },
   {
-   "id": 274,
+   "id": 273,
    "name": "VCT Masters Toronto Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12915,12 +13748,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-toronto-winner-title"
   },
   {
-   "id": 275,
+   "id": 274,
    "name": "2025 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12952,12 +13790,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2025-vct-champion-title"
   },
   {
-   "id": 276,
+   "id": 275,
    "name": "2025 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -12993,12 +13836,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2025-game-changers-winner-title"
   },
   {
-   "id": 277,
+   "id": 276,
    "name": "VCT Masters Santiago Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13030,12 +13878,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-santiago-winner-title"
   },
   {
-   "id": 278,
+   "id": 277,
    "name": "VCT Masters London Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13067,12 +13920,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "vct-masters-london-winner-title"
   },
   {
-   "id": 279,
+   "id": 278,
    "name": "2026 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13104,12 +13962,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2026-vct-champion-title"
   },
   {
-   "id": 280,
+   "id": 279,
    "name": "2026 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13145,12 +14008,17 @@ window.VAL_DROPS = {
    ],
    "firstSeen": null,
    "codes": null,
-   "regions": [],
+   "regions": [
+    {
+     "code": "PRO",
+     "label": "Pro players only"
+    }
+   ],
    "alsoFrom": [],
    "slug": "2026-game-changers-winner-title"
   },
   {
-   "id": 281,
+   "id": 280,
    "name": "Gajeua Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -13200,7 +14068,7 @@ window.VAL_DROPS = {
    "slug": "gajeua-title"
   },
   {
-   "id": 282,
+   "id": 281,
    "name": "ONE // 2022 Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -13216,10 +14084,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Attend the Riot Games ONE Pro Invitational in Japan"
+     },
+     {
+      "label": "Event Dates",
+      "value": "December 23 - 24, 2022 (Yokohama Arena)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2022-12-23",
+    "end": "2022-12-24"
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -13227,6 +14102,11 @@ window.VAL_DROPS = {
      "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
      "label": "X @RiotGamesJapan",
      "official": true
+    },
+    {
+     "url": "https://www.thespike.gg/valorant/news/five-major-teams-are-heading-to-japan-for-the-pro-invitational-at-riot-games-one/2077",
+     "label": "thespike.gg",
+     "official": false
     },
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13247,7 +14127,7 @@ window.VAL_DROPS = {
    "slug": "one-2022-title"
   },
   {
-   "id": 283,
+   "id": 282,
    "name": "VALORANT Partner Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -13263,10 +14143,17 @@ window.VAL_DROPS = {
      {
       "label": "Acquisition",
       "value": "Be invited to participate in a closed beta version of the new programs of VALORANT"
+     },
+     {
+      "label": "Available since",
+      "value": "September 22, 2025 (invite-only creator program)"
      }
     ]
    ],
-   "period": null,
+   "period": {
+    "start": "2025-09-22",
+    "end": null
+   },
    "ongoing": null,
    "maybeActive": false,
    "sources": [
@@ -13289,7 +14176,7 @@ window.VAL_DROPS = {
    "slug": "valorant-partner-title"
   },
   {
-   "id": 284,
+   "id": 283,
    "name": "Armchair IGL Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -13333,7 +14220,7 @@ window.VAL_DROPS = {
    "slug": "armchair-igl-title"
   },
   {
-   "id": 285,
+   "id": 284,
    "name": "Not Today Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -13354,8 +14241,8 @@ window.VAL_DROPS = {
    ],
    "period": null,
    "ongoing": {
-    "since": null,
-    "note": "Ongoing ExpressVPN partner offer. No end date announced."
+    "since": "2026-03-12",
+    "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
    },
    "maybeActive": false,
    "sources": [
@@ -13382,7 +14269,7 @@ window.VAL_DROPS = {
    "slug": "not-today-spray"
   },
   {
-   "id": 286,
+   "id": 285,
    "name": "Lightning Kicks Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -13403,8 +14290,8 @@ window.VAL_DROPS = {
    ],
    "period": null,
    "ongoing": {
-    "since": null,
-    "note": "Ongoing ExpressVPN partner offer. No end date announced."
+    "since": "2026-03-12",
+    "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
    },
    "maybeActive": false,
    "sources": [

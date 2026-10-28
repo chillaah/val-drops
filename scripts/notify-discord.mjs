@@ -37,9 +37,15 @@ async function loadItems(file) {
 // on type + name (the same fallback build-data uses for firstSeen).
 const key = (i) => i.type + "§" + i.name.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 
-// Wiki dates are Pacific time. Items whose claim window has closed aren't worth a ping.
+// Wiki dates are Pacific time. Only items claimable now or soon are worth a ping: an old
+// item the wiki only just listed (often with no date at all) isn't news. Same rule as the
+// site's "Recently added" list (status() in app.js).
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
-const ended = (i) => !i.ongoing && i.period?.end && i.period.end < TODAY;
+const claimable = (i) => {
+  const p = i.period;
+  if (p?.end && p.end >= TODAY && (!p.start || p.start <= TODAY)) return true;
+  return Boolean(p?.start && p.start > TODAY) || Boolean(i.ongoing);
+};
 // China-exclusive items can't be claimed on other servers.
 const chinaOnly = (i) => i.regions?.some((r) => r.code === "CN");
 
@@ -99,9 +105,9 @@ async function main() {
   }
   const before = new Set((await loadItems(oldPath)).map(key));
   const fresh = (await loadItems(newPath)).filter((i) => !before.has(key(i)));
-  const added = fresh.filter((i) => !ended(i) && !chinaOnly(i));
+  const added = fresh.filter((i) => claimable(i) && !chinaOnly(i));
   console.log(`${fresh.length} new item(s), ${added.length} worth posting.`);
-  for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : `ended ${i.period.end}`}): ${i.name}`);
+  for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : i.period?.end ? `ended ${i.period.end}` : "not claimable now or soon"}): ${i.name}`);
   if (!added.length) return;
 
   if (!before.size || added.length > MAX_ITEMS) {
