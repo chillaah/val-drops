@@ -41,7 +41,7 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 - **Redemption codes.** Every public code has a Copy button. Expired codes, and codes for Riot's old redemption site, are struck through.
 - **Region tags.** Items with a stated restriction (South Korea only, Japan only, China only, in person only, not available in some countries) are tagged. Tags only come from what the source says.
 - **One card per item.** An item you can get in several ways, like Slime Mosh (a Twitch drop and a Coinbase reward), appears once with an "Also from" list.
-- **Recently added and timeline.** Items first seen in the last 30 days get their own section, and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
+- **Recently added and timeline.** Items first seen in the last 30 days that can be claimed now or soon get their own section (old items the wiki only just listed don't count), and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
 - **Light and dark themes.** Follows your system setting until you pick one with the toggle in the header.
 - **Discord alerts.** New items can be posted to a Discord channel automatically ([setup](#discord-notifications)).
 
