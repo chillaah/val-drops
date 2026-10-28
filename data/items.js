@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-26T10:08:24.841Z",
+ "generated": "2026-10-28T06:51:13.958Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -6638,6 +6638,1650 @@ window.VAL_DROPS = {
   },
   {
    "id": 158,
+   "name": "Gênio Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Gênio",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "October 16 - 22, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-10-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "genio-title"
+  },
+  {
+   "id": 159,
+   "name": "tô na sombra Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/To_na_sombra_Buddy.webp",
+   "imageLarge": "img/To_na_sombra_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "October 16 - 22, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-10-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "to-na-sombra-buddy"
+  },
+  {
+   "id": 160,
+   "name": "Pick'Ems Master tô na sombra Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_to_na_sombra_Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_to_na_sombra_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "October 16 - 22, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-10-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-to-na-sombra-buddy"
+  },
+  {
+   "id": 161,
+   "name": "100% Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Game Changers Championship São Paulo",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "100%",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Perfect Picks"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "October 16 - 22, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-10-22"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [
+    {
+     "category": "Pick'Ems",
+     "group": "2026 VALORANT Champions Shanghai",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "440"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "September 10 - October 7, 2026"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Groups: September 10 - 24, 2026 • Playoffs: October 5 - 7, 2026"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-09-10",
+      "end": "2026-10-07"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2026 VALORANT Masters London",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "400"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "May 27 - June 12, 2026"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Swiss Stage: May 27th - June 6th, 2026 • Playoffs: June 10th - 12th, 2026"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-05-27",
+      "end": "2026-06-12"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2026 VALORANT Masters Santiago",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "400"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "February 19 - March 6, 2026"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Swiss Stage: February 19th - 28th, 2026 • Playoffs: March 4th - 6th, 2026"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2026-02-19",
+      "end": "2026-03-06"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2025 VALORANT Game Changers Championship Seoul",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "300"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "67"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "November 13 - 20, 2025"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2025-11-13",
+      "end": "2025-11-20"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2025 VALORANT Champions Paris",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "440"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "September 4 - 25, 2025"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Groups: September 4-12, 2025 • Playoffs: September 23-25, 2025"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2025-09-04",
+      "end": "2025-09-25"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2025 VALORANT Masters Toronto",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "400"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "May 28 - June 13, 2025"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Swiss Stage: May 28 - June 7, 2025 • Playoffs: June 11-13, 2025"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2025-05-28",
+      "end": "2025-06-13"
+     },
+     "regions": []
+    },
+    {
+     "category": "Pick'Ems",
+     "group": "2024 VALORANT Champions Seoul",
+     "subgroup": null,
+     "details": [
+      [
+       {
+        "label": "Target",
+        "value": "Perfect Picks"
+       },
+       {
+        "label": "Points Required",
+        "value": "400"
+       },
+       {
+        "label": "Players who qualified",
+        "value": "0"
+       },
+       {
+        "label": "Pick'Em Dates",
+        "value": "July 27 - August 14, 2024"
+       },
+       {
+        "label": "Pick windows",
+        "value": "Groups: July 27 - August 1, 2024 • Playoffs: August 11-14, 2024"
+       }
+      ]
+     ],
+     "period": {
+      "start": "2024-07-27",
+      "end": "2024-08-14"
+     },
+     "regions": []
+    }
+   ],
+   "slug": "100-title"
+  },
+  {
+   "id": 162,
+   "name": "Calculated Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Calculated",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 10 - October 7, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 10 - 24, 2026 • Playoffs: October 5 - 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-10",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "calculated-title"
+  },
+  {
+   "id": 163,
+   "name": "Stone of Heaven Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Stone_of_Heaven_Buddy.webp",
+   "imageLarge": "img/Stone_of_Heaven_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "94 - 125"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "1.4M"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 10 - October 7, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 10 - 24, 2026 • Playoffs: October 5 - 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-10",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "stone-of-heaven-buddy"
+  },
+  {
+   "id": 164,
+   "name": "Pick'Ems Master: Stone of Heaven Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Champions Shanghai",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_Stone_of_Heaven_Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_Stone_of_Heaven_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "126+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "579.4k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 10 - October 7, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 10 - 24, 2026 • Playoffs: October 5 - 7, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-09-10",
+    "end": "2026-10-07"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-stone-of-heaven-buddy"
+  },
+  {
+   "id": 165,
+   "name": "Bossman Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Bossman",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 27 - June 12, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 27th - June 6th, 2026 • Playoffs: June 10th - 12th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-27",
+    "end": "2026-06-12"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "bossman-title"
+  },
+  {
+   "id": 166,
+   "name": "REF?!? Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/REF_Buddy.webp",
+   "imageLarge": "img/REF_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "55 - 94"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "1.2M"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 27 - June 12, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 27th - June 6th, 2026 • Playoffs: June 10th - 12th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-27",
+    "end": "2026-06-12"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "ref-buddy"
+  },
+  {
+   "id": 167,
+   "name": "Pick'Ems Master: REF?!? Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters London",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_REF_Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_REF_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "95+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "800.2k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 27 - June 12, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 27th - June 6th, 2026 • Playoffs: June 10th - 12th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-05-27",
+    "end": "2026-06-12"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-ref-buddy"
+  },
+  {
+   "id": 168,
+   "name": "Cachando Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Cachando",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "February 19 - March 6, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: February 19th - 28th, 2026 • Playoffs: March 4th - 6th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-19",
+    "end": "2026-03-06"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "cachando-title"
+  },
+  {
+   "id": 169,
+   "name": "¡Rico, po! Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/_Rico_po_Buddy.webp",
+   "imageLarge": "img/_Rico_po_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "75 - 99"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "1.4M"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "February 19 - March 6, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: February 19th - 28th, 2026 • Playoffs: March 4th - 6th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-19",
+    "end": "2026-03-06"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "rico-po-buddy"
+  },
+  {
+   "id": 170,
+   "name": "Pick'Ems Master: ¡Rico, po! Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2026 VALORANT Masters Santiago",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_Rico_po_Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_Rico_po_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "100+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "603.7k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "February 19 - March 6, 2026"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: February 19th - 28th, 2026 • Playoffs: March 4th - 6th, 2026"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2026-02-19",
+    "end": "2026-03-06"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-rico-po-buddy"
+  },
+  {
+   "id": 171,
+   "name": "Aura Farming Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Aura Farming",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "November 13 - 20, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-13",
+    "end": "2025-11-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "aura-farming-title"
+  },
+  {
+   "id": 172,
+   "name": "Pocket Killjoy Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pocket_Killjoy_Buddy.webp",
+   "imageLarge": "img/Pocket_Killjoy_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "50 - 89"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "541.2k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "November 13 - 20, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-13",
+    "end": "2025-11-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pocket-killjoy-buddy"
+  },
+  {
+   "id": 173,
+   "name": "Pick'Ems Master: Pocket Killjoy Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Game Changers Championship Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_Pocket_Killjoy_Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_Pocket_Killjoy_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "90+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "401.9k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "November 13 - 20, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-11-13",
+    "end": "2025-11-20"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-pocket-killjoy-buddy"
+  },
+  {
+   "id": 174,
+   "name": "¡Eureka! Spray",
+   "type": "Spray",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/_Eureka_Spray.webp",
+   "imageLarge": "img/_Eureka_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 4 - 25, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 4-12, 2025 • Playoffs: September 23-25, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-04",
+    "end": "2025-09-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "eureka-spray"
+  },
+  {
+   "id": 175,
+   "name": "G.O.A.T. Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/G.O.A.T._Buddy.webp",
+   "imageLarge": "img/G.O.A.T._Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "88 - 115"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "732.6k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 4 - 25, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 4-12, 2025 • Playoffs: September 23-25, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-04",
+    "end": "2025-09-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "g-o-a-t-buddy"
+  },
+  {
+   "id": 176,
+   "name": "Pick'Ems Master: G.O.A.T. Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Champions Paris",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Ems_Master_G.O.A.T._Buddy.webp",
+   "imageLarge": "img/Pick_Ems_Master_G.O.A.T._Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "116+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "474.1k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "September 4 - 25, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: September 4-12, 2025 • Playoffs: September 23-25, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-09-04",
+    "end": "2025-09-25"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-ems-master-g-o-a-t-buddy"
+  },
+  {
+   "id": 177,
+   "name": "Eh? Title",
+   "type": "Title",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Masters Toronto",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": "Eh?",
+   "image": null,
+   "imageLarge": null,
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 28 - June 13, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 28 - June 7, 2025 • Playoffs: June 11-13, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-05-28",
+    "end": "2025-06-13"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "eh-title"
+  },
+  {
+   "id": 178,
+   "name": "Sweet Victory Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Masters Toronto",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Sweet_Victory_Buddy.webp",
+   "imageLarge": "img/Sweet_Victory_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "70 - 94"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "293.3k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 28 - June 13, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 28 - June 7, 2025 • Playoffs: June 11-13, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-05-28",
+    "end": "2025-06-13"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "sweet-victory-buddy"
+  },
+  {
+   "id": 179,
+   "name": "Pick 'Em Master Sweet Victory Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2025 VALORANT Masters Toronto",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Em_Master_Sweet_Victory_Buddy.webp",
+   "imageLarge": "img/Pick_Em_Master_Sweet_Victory_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "95+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "317.8k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "May 28 - June 13, 2025"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Swiss Stage: May 28 - June 7, 2025 • Playoffs: June 11-13, 2025"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2025-05-28",
+    "end": "2025-06-13"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-em-master-sweet-victory-buddy"
+  },
+  {
+   "id": 180,
+   "name": "Crystal Ball Spray",
+   "type": "Spray",
+   "category": "Pick'Ems",
+   "group": "2024 VALORANT Champions Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Crystal_Ball_Spray.webp",
+   "imageLarge": "img/Crystal_Ball_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Participation"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "July 27 - August 14, 2024"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: July 27 - August 1, 2024 • Playoffs: August 11-14, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-07-27",
+    "end": "2024-08-14"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "crystal-ball-spray"
+  },
+  {
+   "id": 181,
+   "name": "Gonggi Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2024 VALORANT Champions Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Gonggi_Buddy.webp",
+   "imageLarge": "img/Gonggi_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 50%"
+     },
+     {
+      "label": "Points Required",
+      "value": "30 - 89"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "856.2k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "July 27 - August 14, 2024"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: July 27 - August 1, 2024 • Playoffs: August 11-14, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-07-27",
+    "end": "2024-08-14"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "gonggi-buddy"
+  },
+  {
+   "id": 182,
+   "name": "Pick 'Em Master Gonggi Buddy",
+   "type": "Gun Buddy",
+   "category": "Pick'Ems",
+   "group": "2024 VALORANT Champions Seoul",
+   "subgroup": null,
+   "groupNote": "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.",
+   "title": null,
+   "image": "img/Pick_Em_Master_Gonggi_Buddy.webp",
+   "imageLarge": "img/Pick_Em_Master_Gonggi_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Target",
+      "value": "Top 20%"
+     },
+     {
+      "label": "Points Required",
+      "value": "90+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "715.8k"
+     },
+     {
+      "label": "Pick'Em Dates",
+      "value": "July 27 - August 14, 2024"
+     },
+     {
+      "label": "Pick windows",
+      "value": "Groups: July 27 - August 1, 2024 • Playoffs: August 11-14, 2024"
+     }
+    ]
+   ],
+   "period": {
+    "start": "2024-07-27",
+    "end": "2024-08-14"
+   },
+   "ongoing": null,
+   "maybeActive": false,
+   "sources": [
+    {
+     "url": "https://valorantesports.com/en-US/pickems",
+     "label": "VALORANT Esports",
+     "official": true
+    },
+    {
+     "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+     "label": "VALORANT Wiki: Pick'Ems",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": null,
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "pick-em-master-gonggi-buddy"
+  },
+  {
+   "id": 183,
    "name": "V26 Conflict Hermanita Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6703,7 +8347,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-hermanita-card"
   },
   {
-   "id": 159,
+   "id": 184,
    "name": "V26 Conflict Face the Flames Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6769,7 +8413,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-face-the-flames-card"
   },
   {
-   "id": 160,
+   "id": 185,
    "name": "V26 Conflict Blood & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6835,7 +8479,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-blood-venom-card"
   },
   {
-   "id": 161,
+   "id": 186,
    "name": "V26 Conflict The Fall Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6901,7 +8545,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-the-fall-card"
   },
   {
-   "id": 162,
+   "id": 187,
    "name": "Frag or Die: Alpha Sage Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6948,7 +8592,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-alpha-sage-card"
   },
   {
-   "id": 163,
+   "id": 188,
    "name": "Frag or Die: Omega Viper Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -6995,7 +8639,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-omega-viper-card"
   },
   {
-   "id": 164,
+   "id": 189,
    "name": "Jade & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -7042,7 +8686,7 @@ window.VAL_DROPS = {
    "slug": "jade-venom-card"
   },
   {
-   "id": 165,
+   "id": 190,
    "name": "Broken Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -7093,7 +8737,7 @@ window.VAL_DROPS = {
    "slug": "broken-title"
   },
   {
-   "id": 166,
+   "id": 191,
    "name": "Official Seal Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7144,7 +8788,7 @@ window.VAL_DROPS = {
    "slug": "official-seal-spray"
   },
   {
-   "id": 167,
+   "id": 192,
    "name": "AlarmBoi Out Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7192,7 +8836,7 @@ window.VAL_DROPS = {
    "slug": "alarmboi-out-spray"
   },
   {
-   "id": 168,
+   "id": 193,
    "name": "Drop It Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -7247,7 +8891,7 @@ window.VAL_DROPS = {
    "slug": "drop-it-spray"
   },
   {
-   "id": 169,
+   "id": 194,
    "name": "All Love Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -7297,67 +8941,7 @@ window.VAL_DROPS = {
    "slug": "all-love-spray"
   },
   {
-   "id": 170,
-   "name": "¡Eureka! Spray",
-   "type": "Spray",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/_Eureka_Spray.webp",
-   "imageLarge": "img/_Eureka_Spray_600.webp",
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "eureka-spray"
-  },
-  {
-   "id": 171,
-   "name": "Crystal Ball Spray",
-   "type": "Spray",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Crystal_Ball_Spray.webp",
-   "imageLarge": "img/Crystal_Ball_Spray_600.webp",
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Sprays",
-     "label": "VALORANT Wiki: Sprays",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "crystal-ball-spray"
-  },
-  {
-   "id": 172,
+   "id": 195,
    "name": "Claw and Order Spray",
    "type": "Spray",
    "category": "Prime Gaming",
@@ -7387,7 +8971,7 @@ window.VAL_DROPS = {
    "slug": "claw-and-order-spray"
   },
   {
-   "id": 173,
+   "id": 196,
    "name": "A Piece of Rice Cake Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7437,7 +9021,7 @@ window.VAL_DROPS = {
    "slug": "a-piece-of-rice-cake-spray"
   },
   {
-   "id": 174,
+   "id": 197,
    "name": "Cake or Spike? Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7487,7 +9071,7 @@ window.VAL_DROPS = {
    "slug": "cake-or-spike-spray"
   },
   {
-   "id": 175,
+   "id": 198,
    "name": "Cypher Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7529,7 +9113,7 @@ window.VAL_DROPS = {
    "slug": "cypher-figure-spray"
   },
   {
-   "id": 176,
+   "id": 199,
    "name": "Jett Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7571,7 +9155,7 @@ window.VAL_DROPS = {
    "slug": "jett-figure-spray"
   },
   {
-   "id": 177,
+   "id": 200,
    "name": "Killjoy Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7613,7 +9197,7 @@ window.VAL_DROPS = {
    "slug": "killjoy-figure-spray"
   },
   {
-   "id": 178,
+   "id": 201,
    "name": "Loose Cannon Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7650,7 +9234,7 @@ window.VAL_DROPS = {
    "slug": "loose-cannon-spray"
   },
   {
-   "id": 179,
+   "id": 202,
    "name": "More Creds Pls Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7695,7 +9279,7 @@ window.VAL_DROPS = {
    "slug": "more-creds-pls-spray"
   },
   {
-   "id": 180,
+   "id": 203,
    "name": "Sage Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7737,7 +9321,7 @@ window.VAL_DROPS = {
    "slug": "sage-figure-spray"
   },
   {
-   "id": 181,
+   "id": 204,
    "name": "VCT Americas Aura Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -7784,7 +9368,7 @@ window.VAL_DROPS = {
    "slug": "vct-americas-aura-spray"
   },
   {
-   "id": 182,
+   "id": 205,
    "name": "Hello Horse! Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -7819,7 +9403,7 @@ window.VAL_DROPS = {
    "slug": "hello-horse-spray"
   },
   {
-   "id": 183,
+   "id": 206,
    "name": "Volunteer to School Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -7854,7 +9438,7 @@ window.VAL_DROPS = {
    "slug": "volunteer-to-school-spray"
   },
   {
-   "id": 184,
+   "id": 207,
    "name": "Say Hi To Happiness Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -7889,7 +9473,7 @@ window.VAL_DROPS = {
    "slug": "say-hi-to-happiness-spray"
   },
   {
-   "id": 185,
+   "id": 208,
    "name": "With Sage, Comes Fame Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -7924,7 +9508,7 @@ window.VAL_DROPS = {
    "slug": "with-sage-comes-fame-spray"
   },
   {
-   "id": 186,
+   "id": 209,
    "name": "Round Start Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -7965,7 +9549,7 @@ window.VAL_DROPS = {
    "slug": "round-start-spray"
   },
   {
-   "id": 187,
+   "id": 210,
    "name": "Flyby Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -8015,7 +9599,7 @@ window.VAL_DROPS = {
    "slug": "flyby-hug-buddy"
   },
   {
-   "id": 188,
+   "id": 211,
    "name": "Bear Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -8065,7 +9649,7 @@ window.VAL_DROPS = {
    "slug": "bear-hug-buddy"
   },
   {
-   "id": 189,
+   "id": 212,
    "name": "Seal of Approval Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -8120,599 +9704,7 @@ window.VAL_DROPS = {
    "slug": "seal-of-approval-buddy"
   },
   {
-   "id": 190,
-   "name": "tô na sombra Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/to_na_sombra_Buddy.webp",
-   "imageLarge": "img/to_na_sombra_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "to-na-sombra-buddy"
-  },
-  {
-   "id": 191,
-   "name": "Stone of Heaven Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Stone_of_Heaven_Buddy.webp",
-   "imageLarge": "img/Stone_of_Heaven_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "stone-of-heaven-buddy"
-  },
-  {
-   "id": 192,
-   "name": "REF?!? Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/REF_Buddy.webp",
-   "imageLarge": "img/REF_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "ref-buddy"
-  },
-  {
-   "id": 193,
-   "name": "¡Rico, po! Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/_Rico_po_Buddy.webp",
-   "imageLarge": "img/_Rico_po_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "rico-po-buddy"
-  },
-  {
-   "id": 194,
-   "name": "Pocket Killjoy Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pocket_Killjoy_Buddy.webp",
-   "imageLarge": "img/Pocket_Killjoy_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pocket-killjoy-buddy"
-  },
-  {
-   "id": 195,
-   "name": "G.O.A.T. Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/G.O.A.T._Buddy.webp",
-   "imageLarge": "img/G.O.A.T._Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "g-o-a-t-buddy"
-  },
-  {
-   "id": 196,
-   "name": "Sweet Victory Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Sweet_Victory_Buddy.webp",
-   "imageLarge": "img/Sweet_Victory_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "sweet-victory-buddy"
-  },
-  {
-   "id": 197,
-   "name": "Gonggi Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Gonggi_Buddy.webp",
-   "imageLarge": "img/Gonggi_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "Top 50%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "gonggi-buddy"
-  },
-  {
-   "id": 198,
-   "name": "Pick'Ems Master: tô na sombra Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_to_na_sombra_Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_to_na_sombra_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-to-na-sombra-buddy"
-  },
-  {
-   "id": 199,
-   "name": "Pick'Ems Master: Stone of Heaven Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_Stone_of_Heaven_Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_Stone_of_Heaven_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-stone-of-heaven-buddy"
-  },
-  {
-   "id": 200,
-   "name": "Pick'Ems Master: REF?!? Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_REF_Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_REF_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-ref-buddy"
-  },
-  {
-   "id": 201,
-   "name": "Pick'Ems Master: ¡Rico, po! Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_Rico_po_Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_Rico_po_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-rico-po-buddy"
-  },
-  {
-   "id": 202,
-   "name": "Pick'Ems Master: Pocket Killjoy Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_Pocket_Killjoy_Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_Pocket_Killjoy_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-pocket-killjoy-buddy"
-  },
-  {
-   "id": 203,
-   "name": "Pick'Ems Master: G.O.A.T. Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Ems_Master_G.O.A.T._Buddy.webp",
-   "imageLarge": "img/Pick_Ems_Master_G.O.A.T._Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-ems-master-g-o-a-t-buddy"
-  },
-  {
-   "id": 204,
-   "name": "Pick 'Em Master Sweet Victory Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Em_Master_Sweet_Victory_Buddy.webp",
-   "imageLarge": "img/Pick_Em_Master_Sweet_Victory_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-em-master-sweet-victory-buddy"
-  },
-  {
-   "id": 205,
-   "name": "Pick 'Em Master Gonggi Buddy",
-   "type": "Gun Buddy",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": null,
-   "groupNote": null,
-   "title": null,
-   "image": "img/Pick_Em_Master_Gonggi_Buddy.webp",
-   "imageLarge": "img/Pick_Em_Master_Gonggi_Buddy.webp",
-   "imageWide": null,
-   "details": [
-    [
-     {
-      "label": "Criteria",
-      "value": "+Top 20%"
-     }
-    ]
-   ],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Buddies",
-     "label": "VALORANT Wiki: Buddies",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "pick-em-master-gonggi-buddy"
-  },
-  {
-   "id": 206,
+   "id": 213,
    "name": "Game Changers Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -8793,7 +9785,7 @@ window.VAL_DROPS = {
    "slug": "game-changers-winner-buddy"
   },
   {
-   "id": 207,
+   "id": 214,
    "name": "VCT Champions Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -8864,7 +9856,7 @@ window.VAL_DROPS = {
    "slug": "vct-champions-winner-buddy"
   },
   {
-   "id": 208,
+   "id": 215,
    "name": "VCT LOCK//IN Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -8901,7 +9893,7 @@ window.VAL_DROPS = {
    "slug": "vct-lock-in-winner-buddy"
   },
   {
-   "id": 209,
+   "id": 216,
    "name": "VCT Masters Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -9098,7 +10090,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-winner-buddy"
   },
   {
-   "id": 210,
+   "id": 217,
    "name": "Arcane Poro Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9139,7 +10131,7 @@ window.VAL_DROPS = {
    "slug": "arcane-poro-buddy"
   },
   {
-   "id": 211,
+   "id": 218,
    "name": "Cloudburst Soles Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9193,7 +10185,7 @@ window.VAL_DROPS = {
    "slug": "cloudburst-soles-buddy"
   },
   {
-   "id": 212,
+   "id": 219,
    "name": "Downtime Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9239,7 +10231,7 @@ window.VAL_DROPS = {
    "slug": "downtime-buddy"
   },
   {
-   "id": 213,
+   "id": 220,
    "name": "Fist Bump Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9299,7 +10291,7 @@ window.VAL_DROPS = {
    "slug": "fist-bump-buddy"
   },
   {
-   "id": 214,
+   "id": 221,
    "name": "FRGMT x WNGMN+ Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9340,7 +10332,7 @@ window.VAL_DROPS = {
    "slug": "frgmt-x-wngmn-buddy"
   },
   {
-   "id": 215,
+   "id": 222,
    "name": "Golden Smite Knife Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9414,7 +10406,7 @@ window.VAL_DROPS = {
    "slug": "golden-smite-knife-buddy"
   },
   {
-   "id": 216,
+   "id": 223,
    "name": "Hang Time Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9460,7 +10452,7 @@ window.VAL_DROPS = {
    "slug": "hang-time-buddy"
   },
   {
-   "id": 217,
+   "id": 224,
    "name": "\"I Create\" Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9506,7 +10498,7 @@ window.VAL_DROPS = {
    "slug": "i-create-buddy"
   },
   {
-   "id": 218,
+   "id": 225,
    "name": "Keep it Safer Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9547,7 +10539,7 @@ window.VAL_DROPS = {
    "slug": "keep-it-safer-buddy"
   },
   {
-   "id": 219,
+   "id": 226,
    "name": "Pocket Sage Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9588,7 +10580,7 @@ window.VAL_DROPS = {
    "slug": "pocket-sage-buddy"
   },
   {
-   "id": 220,
+   "id": 227,
    "name": "Riptide Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -9629,7 +10621,7 @@ window.VAL_DROPS = {
    "slug": "riptide-buddy"
   },
   {
-   "id": 221,
+   "id": 228,
    "name": "Sweet Calls Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -9673,7 +10665,7 @@ window.VAL_DROPS = {
    "slug": "sweet-calls-buddy"
   },
   {
-   "id": 222,
+   "id": 229,
    "name": "Hari Raya Homecoming Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9721,7 +10713,7 @@ window.VAL_DROPS = {
    "slug": "hari-raya-homecoming-card"
   },
   {
-   "id": 223,
+   "id": 230,
    "name": "Last Round Before Dawn Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9769,7 +10761,7 @@ window.VAL_DROPS = {
    "slug": "last-round-before-dawn-card"
   },
   {
-   "id": 224,
+   "id": 231,
    "name": "Songkran Splash Street Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9817,7 +10809,7 @@ window.VAL_DROPS = {
    "slug": "songkran-splash-street-card"
   },
   {
-   "id": 225,
+   "id": 232,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -9867,7 +10859,7 @@ window.VAL_DROPS = {
    "slug": "for-retribution-card"
   },
   {
-   "id": 226,
+   "id": 233,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -9922,7 +10914,7 @@ window.VAL_DROPS = {
    "slug": "not-a-peep-card"
   },
   {
-   "id": 227,
+   "id": 234,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -9972,7 +10964,7 @@ window.VAL_DROPS = {
    "slug": "versus-deadlock-gekko-card"
   },
   {
-   "id": 228,
+   "id": 235,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10041,7 +11033,7 @@ window.VAL_DROPS = {
    "slug": "pride-cotton-candy-card"
   },
   {
-   "id": 229,
+   "id": 236,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10110,7 +11102,7 @@ window.VAL_DROPS = {
    "slug": "pride-galactic-card"
   },
   {
-   "id": 230,
+   "id": 237,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10179,7 +11171,7 @@ window.VAL_DROPS = {
    "slug": "pride-primary-card"
   },
   {
-   "id": 231,
+   "id": 238,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10248,7 +11240,7 @@ window.VAL_DROPS = {
    "slug": "pride-rainbow-card"
   },
   {
-   "id": 232,
+   "id": 239,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10317,7 +11309,7 @@ window.VAL_DROPS = {
    "slug": "pride-sherbet-card"
   },
   {
-   "id": 233,
+   "id": 240,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10386,7 +11378,7 @@ window.VAL_DROPS = {
    "slug": "pride-sunset-card"
   },
   {
-   "id": 234,
+   "id": 241,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -10455,7 +11447,7 @@ window.VAL_DROPS = {
    "slug": "pride-twilight-card"
   },
   {
-   "id": 235,
+   "id": 242,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -10543,7 +11535,7 @@ window.VAL_DROPS = {
    "slug": "dance-break-card"
   },
   {
-   "id": 236,
+   "id": 243,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -10593,7 +11585,7 @@ window.VAL_DROPS = {
    "slug": "seoul-night-jett-card"
   },
   {
-   "id": 237,
+   "id": 244,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -10635,7 +11627,7 @@ window.VAL_DROPS = {
    "slug": "sloth-slugs-card"
   },
   {
-   "id": 238,
+   "id": 245,
    "name": "2024 Championship Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10670,7 +11662,7 @@ window.VAL_DROPS = {
    "slug": "2024-championship-card"
   },
   {
-   "id": 239,
+   "id": 246,
    "name": "Best Memories Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10705,7 +11697,7 @@ window.VAL_DROPS = {
    "slug": "best-memories-card"
   },
   {
-   "id": 240,
+   "id": 247,
    "name": "Blissful Burn Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10740,7 +11732,7 @@ window.VAL_DROPS = {
    "slug": "blissful-burn-card"
   },
   {
-   "id": 241,
+   "id": 248,
    "name": "Count To Three Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10775,7 +11767,7 @@ window.VAL_DROPS = {
    "slug": "count-to-three-card"
   },
   {
-   "id": 242,
+   "id": 249,
    "name": "Land of Heaven Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10810,7 +11802,7 @@ window.VAL_DROPS = {
    "slug": "land-of-heaven-card"
   },
   {
-   "id": 243,
+   "id": 250,
    "name": "My Place Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -10845,7 +11837,7 @@ window.VAL_DROPS = {
    "slug": "my-place-card"
   },
   {
-   "id": 244,
+   "id": 251,
    "name": "Holding Space Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -10892,7 +11884,7 @@ window.VAL_DROPS = {
    "slug": "holding-space-title"
   },
   {
-   "id": 245,
+   "id": 252,
    "name": "Ate Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -10942,7 +11934,7 @@ window.VAL_DROPS = {
    "slug": "ate-title"
   },
   {
-   "id": 246,
+   "id": 253,
    "name": "Better Together Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -10992,7 +11984,7 @@ window.VAL_DROPS = {
    "slug": "better-together-title"
   },
   {
-   "id": 247,
+   "id": 254,
    "name": "Ally Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11042,7 +12034,7 @@ window.VAL_DROPS = {
    "slug": "ally-title"
   },
   {
-   "id": 248,
+   "id": 255,
    "name": "Proud Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11092,7 +12084,7 @@ window.VAL_DROPS = {
    "slug": "proud-title"
   },
   {
-   "id": 249,
+   "id": 256,
    "name": "Pioneer Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -11140,216 +12132,6 @@ window.VAL_DROPS = {
    "regions": [],
    "alsoFrom": [],
    "slug": "pioneer-title"
-  },
-  {
-   "id": 250,
-   "name": "Gênio Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Gênio",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "genio-title"
-  },
-  {
-   "id": 251,
-   "name": "Calculated Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Calculated",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "calculated-title"
-  },
-  {
-   "id": 252,
-   "name": "Bossman Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Bossman",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "bossman-title"
-  },
-  {
-   "id": 253,
-   "name": "Cachando Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Cachando",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "cachando-title"
-  },
-  {
-   "id": 254,
-   "name": "Aura Farming Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Aura Farming",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "aura-farming-title"
-  },
-  {
-   "id": 255,
-   "name": "Eh? Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Participation",
-   "groupNote": null,
-   "title": "Eh?",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "eh-title"
-  },
-  {
-   "id": 256,
-   "name": "100% Title",
-   "type": "Title",
-   "category": "Pick'Ems",
-   "group": "Pick'Ems",
-   "subgroup": "Perfect Picks",
-   "groupNote": null,
-   "title": "100%",
-   "image": null,
-   "imageLarge": null,
-   "imageWide": null,
-   "details": [],
-   "period": null,
-   "ongoing": null,
-   "maybeActive": false,
-   "sources": [
-    {
-     "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
-     "label": "VALORANT Wiki: Player Titles",
-     "official": false,
-     "wiki": true
-    }
-   ],
-   "firstSeen": null,
-   "codes": null,
-   "regions": [],
-   "alsoFrom": [],
-   "slug": "100-title"
   },
   {
    "id": 257,

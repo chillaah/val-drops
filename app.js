@@ -3,7 +3,7 @@
 
   const CATEGORIES = [
     ["Broadcast Drops", "Rewards for watching official VCT broadcasts, co-streams and partner streams with a linked Riot account (Twitch and Kick Drops, Shotcall extension)."],
-    ["Pick'Ems", "Rewards for taking part in the official VCT Pick'Ems bracket predictions."],
+    ["Pick'Ems", "Rewards from the official VCT Pick'Ems bracket predictions, by tournament: a title or spray for taking part, buddies for the top 50% and top 20%, and the 100% Title for perfect picks."],
     ["Events & Partnerships", "Challenge events on Riot's FTW website (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), brand promos (Coinbase, ExpressVPN, Verizon, Xbox), merch codes, watch parties and Shotcall."],
     ["Code Redemption", "Items unlocked with public codes Riot announced, redeemable at the Riot redemption site."],
     ["Prime Gaming", "Monthly Prime Gaming (Amazon) drops, discontinued in March 2024."],
@@ -152,9 +152,11 @@
   const regionsHtml = (i) => i.regions.length
     ? `<div class="regions">${i.regions.map((r) => `<span class="region" title="${r.partial ? "Applies to one of the ways to get this item" : "Stated restriction"}">${esc(r.label)}${r.partial ? " (one way)" : ""}</span>`).join("")}</div>`
     : "";
-  const alsoHtml = (i) => i.alsoFrom.map((a) => {
+  // Cards list only where else an item came from once there are several (the 100% Title
+  // has one per Pick'Ems tournament); the item view always shows the details.
+  const alsoHtml = (i, { card = false } = {}) => i.alsoFrom.map((a) => {
     const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
-    const info = a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
+    const info = card && i.alsoFrom.length > 2 ? "" : a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
     return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
   }).join("");
   const sourcesHtml = (i) => i.sources.map((s) =>
@@ -177,7 +179,7 @@
 
   function card(i, { claim = false, context = false } = {}) {
     const details = detailsHtml(i);
-    const also = alsoHtml(i);
+    const also = alsoHtml(i, { card: true });
     const st = status(i);
     const how = claim ? howToClaim(i) : "";
     return `<article class="card${st ? " is-" + st : ""}" data-slug="${esc(i.slug)}" data-type="${esc(i.type)}">${thumb(i)}<div class="body">
@@ -334,7 +336,7 @@
         ? "Date not listed"
         : new Date(Date.UTC(+k.slice(0, 4), +k.slice(5, 7) - 1, 1)).toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
       html += `<section class="cat month"><h2>${esc(title)}<span class="count">${list.length}</span></h2>`;
-      if (k === "undated") html += `<p>The wiki doesn't give a date for these (most Pick'Ems, pro play and some promos).</p>`;
+      if (k === "undated") html += `<p>The wiki doesn't give a date for these (most pro play and some promos).</p>`;
       html += `<div class="grid">${list.map((i) => card(i, { context: true })).join("")}</div></section>`;
     }
     return html;

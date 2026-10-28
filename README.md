@@ -52,7 +52,7 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 | Source | Examples |
 |---|---|
 | **Broadcast Drops** | VCT Masters, Champions and Game Changers Twitch and Kick drops, co-streamer titles, Shotcall extension rewards, Red Bull Home Ground, Arcane premieres |
-| **Pick'Ems** | Top 50% and top 20% buddies, Pick'Ems sprays, participation and perfect-picks titles |
+| **Pick'Ems** | Per tournament: participation title or spray, top 50% and top 20% buddies with the points needed, pick windows, and the 100% Title |
 | **Events & Partnerships** | Challenge events on Riot's FTW site (Alpha vs. Omega, Frag or Die, Night Queue, MAHASONGKRAN), Coinbase, ExpressVPN, Verizon, Xbox Game Pass, merch figure codes, watch parties, RiotX Arcane |
 | **Code Redemption** | Public codes from Riot (Pride cards, community challenges) |
 | **Prime Gaming** | Monthly Prime Gaming drops from 2020 to 2024, including the Wayfinder Shorty skin |
@@ -68,7 +68,7 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 - [`data/curated.json`](data/curated.json) holds items the wiki doesn't list yet, such as the ExpressVPN × VCT rewards. Every entry there must cite an official page.
 - Claim dates follow the wiki and are in Pacific time. The site says so next to them and links the source to check. Notes the wiki keeps in tooltips, such as a claim window that was cut short, are shown next to the dates.
 
-**Wiki pages read:** [Broadcast Rewards](https://wiki.playvalorant.com/en-us/Broadcast_Rewards), [Prime Gaming Drops](https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops), [VALORANT X PS+ Bundles](https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles), [Closed Beta](https://wiki.playvalorant.com/en-us/Closed_Beta), the two Conflict event pages, and the out-of-game sections of [Sprays](https://wiki.playvalorant.com/en-us/Sprays), [Buddies](https://wiki.playvalorant.com/en-us/Buddies), [Player Cards](https://wiki.playvalorant.com/en-us/Player_Cards) and [Player Titles](https://wiki.playvalorant.com/en-us/Player_Titles) (Channel Drops, Shotcall Extension, Challenge Events, Code Redemption, Pick'Ems, Prime Gaming Drops, Pro play, Miscellaneous, China-Exclusive).
+**Wiki pages read:** [Broadcast Rewards](https://wiki.playvalorant.com/en-us/Broadcast_Rewards), [Prime Gaming Drops](https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops), [VALORANT X PS+ Bundles](https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles), [Closed Beta](https://wiki.playvalorant.com/en-us/Closed_Beta), [Pick'Ems](https://wiki.playvalorant.com/en-us/Pick'Ems), the two Conflict event pages, and the out-of-game sections of [Sprays](https://wiki.playvalorant.com/en-us/Sprays), [Buddies](https://wiki.playvalorant.com/en-us/Buddies), [Player Cards](https://wiki.playvalorant.com/en-us/Player_Cards) and [Player Titles](https://wiki.playvalorant.com/en-us/Player_Titles) (Channel Drops, Shotcall Extension, Challenge Events, Code Redemption, Pick'Ems, Prime Gaming Drops, Pro play, Miscellaneous, China-Exclusive).
 
 **Left out on purpose:** store, battle pass, agent and Premier rewards; items the wiki lists as unobtainable (in the game files but never handed out); Closed Beta items that were removed from every account at launch; and Radianite Points.
 
