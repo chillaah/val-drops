@@ -146,7 +146,8 @@
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
   // New to the site and claimable now or soon. Old items the wiki only just listed (e.g. Closed
   // Beta rewards) aren't news, so they skip the "Recently added" list and the New badge.
-  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
+  // Items dated only by leaks or estimates aren't announced, so they skip it too.
+  const isRecent = (i) => i.firstSeen && !i.unconfirmed && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
 
   const detailsHtml = (i) => i.details
     .map((row) => (i.codes ? row.filter((d) => !/^code$|expir/i.test(d.label)) : row))
@@ -178,6 +179,7 @@
     const allExpired = i.codes && i.codes.every(codeExpired);
     return (label ? `<span class="status ${st}">${badgeText(label)}</span>` : "") +
       (allExpired ? `<span class="status expired">Expired</span>` : "") +
+      (i.unconfirmed ? `<span class="status unconfirmed" title="${esc(i.unconfirmed)}">Unconfirmed date</span>` : "") +
       (isRecent(i) ? `<span class="added">${badgeText(`New · added ${fmtDay(i.firstSeen)}`)}</span>` : "");
   };
 
@@ -233,6 +235,7 @@
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${codesHtml(i)}
       ${detailsHtml(i) ? `<div class="details">${detailsHtml(i)}</div>` : ""}
+      ${i.unconfirmed ? `<p class="note"><b>Unconfirmed date:</b> ${esc(i.unconfirmed)}</p>` : ""}
       ${also ? `<div class="also"><p class="also-h">Also from</p>${also}</div>` : ""}
       <div class="src"><span class="lbl">Sources:</span> ${sourcesHtml(i)}</div>
       <div class="d-actions"><button type="button" class="chip" id="copy-link">Copy link</button></div>

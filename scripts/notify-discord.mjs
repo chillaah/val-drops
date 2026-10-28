@@ -48,6 +48,8 @@ const claimable = (i) => {
 };
 // China-exclusive items can't be claimed on other servers.
 const chinaOnly = (i) => i.regions?.some((r) => r.code === "CN");
+// Dates from leaks or estimates aren't announced; wait for an official source before posting.
+const unconfirmed = (i) => Boolean(i.unconfirmed);
 
 const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
@@ -105,9 +107,9 @@ async function main() {
   }
   const before = new Set((await loadItems(oldPath)).map(key));
   const fresh = (await loadItems(newPath)).filter((i) => !before.has(key(i)));
-  const added = fresh.filter((i) => claimable(i) && !chinaOnly(i));
+  const added = fresh.filter((i) => claimable(i) && !chinaOnly(i) && !unconfirmed(i));
   console.log(`${fresh.length} new item(s), ${added.length} worth posting.`);
-  for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : i.period?.end ? `ended ${i.period.end}` : "not claimable now or soon"}): ${i.name}`);
+  for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : unconfirmed(i) ? "unconfirmed date" : i.period?.end ? `ended ${i.period.end}` : "not claimable now or soon"}): ${i.name}`);
   if (!added.length) return;
 
   if (!before.size || added.length > MAX_ITEMS) {

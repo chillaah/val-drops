@@ -637,7 +637,8 @@ const SOURCE_LABELS = [
   [/(^|\.)instagram\.com$/, "Instagram", false],
   [/(^|\.)(twitter|x)\.com$/, "X", false],
 ];
-const RIOT_HANDLES = /^(valorant\w*|playvalorant|riot\w*|valesports\w*|vct\w*|lolesports)$/i;
+// Exact names, not prefixes: fan and leak accounts often start with "valorant" (@VALORANTLeaksEN).
+const RIOT_HANDLES = /^(valorant|playvalorant|valorantjp|valorantbrasil|valorant_latam|valorant_tr|valorantesports|valesports_(emea|americas|pacific|cn)|vctamericas|vctpacific|vctemea|riotgames|riotgamesjapan|riotsupport|lolesports)$/i;
 
 function describeSource(url) {
   let host;
@@ -753,6 +754,7 @@ function mergeDuplicates(items) {
       period: periods.sort((a, b) => (b.end || "9999").localeCompare(a.end || "9999"))[0] || null,
       ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
       maybeActive: ways.some((w) => w.maybeActive),
+      unconfirmed: ways.find((w) => w.unconfirmed)?.unconfirmed || null,
       sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
       // Known before (null) if any way was; otherwise the earliest date.
       firstSeen: ways.some((w) => w.firstSeen == null) ? null : ways.map((w) => w.firstSeen).sort()[0],
@@ -842,6 +844,8 @@ async function main() {
     for (const it of hits) {
       if (d.period) it.period = d.period;
       if (d.ongoing) it.ongoing = d.ongoing;
+      // Dates from leaks, game files or estimates: shown with a caveat and kept out of alerts.
+      if (d.unconfirmed) it.unconfirmed = d.unconfirmed;
       it.details = [...it.details, d.detail];
       it.refs.push(...d.refs);
     }
@@ -916,6 +920,7 @@ async function main() {
           maybeActive: it.category === "Code Redemption" && openCode,
         };
       })(),
+      unconfirmed: it.unconfirmed || null,
       sources,
       firstSeen: firstSeen(it),
       codes: it.category === "Code Redemption" ? parseCodes(it.detailRows) : null,
