@@ -44,6 +44,8 @@ const EVENT_PAGES = ["Alpha Vs. Omega Conflict", "Champions Conflict: Frag Or Di
 const FTW = "https://ftw.riotgames.com/en-us/valorant";
 const CHALLENGE_NOTE = "Drop rewards from challenge events on Riot's FTW website: complete the listed challenges in game, then claim the reward on the site.";
 const CHINA = { code: "CN", label: "China only" };
+const PICKEMS = "https://valorantesports.com/en-US/pickems";
+const PICKEMS_NOTE = "Make your picks on the VALORANT Esports site or in the client's Esports tab while the pick window is open. Taking part earns the participation reward; finishing in the top 50% earns the buddy, and the top 20% get both buddies.";
 // Miscellaneous rows that are earned in the client (tutorials, in-game modes, defaults).
 const IN_GAME = /Basic Training|default (card|spray|buddy)|Skirmish|Night Queue|Snowball Fight|MAHASONGKRAN|Console|Given to all existing accounts/i;
 
@@ -172,7 +174,8 @@ function parseTable(src) {
   for (const raw of rawRows) {
     if (raw.every((c) => c.header)) {
       if (raw.length === 1 && raw[0].colspan >= 3) rows.push({ kind: "group", text: clean(raw[0].text) });
-      else if (!headers) headers = raw.flatMap((c) => Array(c.colspan).fill(clean(c.text)));
+      // Line breaks in headers are layout only ("Points<br>Required").
+      else if (!headers) headers = raw.flatMap((c) => Array(c.colspan).fill(clean(c.text.replace(/<br\s*\/?>/g, " "))));
       continue;
     }
     const out = [];
@@ -393,6 +396,55 @@ async function parseTypePage({ page, type }) {
     it.group = (MISC_GROUPS.find(([re]) => re.test(how)) || [, "Other promotions & rewards"])[1];
     return !IN_GAME.test(how) || /Broadcast Drops|Coinbase|Watch Party|attend/i.test(how);
   });
+}
+
+// One section per tournament: a rewards table (target, points needed, players
+// eligible) and a pick window per stage ("Runtime for this portion ... was <dates>").
+async function parsePickEms() {
+  const text = await wikitext("Pick'Ems");
+  const items = [];
+  for (const sec of sections(text, 2)) {
+    if (/^(References|Navigation|Notes)$/i.test(sec.title)) continue;
+    const body = sec.body
+      .replace(/ TItle\b/g, " Title") // typo in several rows
+      // "<br>{{#tag:small|+ X Buddy}}" notes that top 20% also get the top 50% buddy (see PICKEMS_NOTE).
+      .replace(/(<br\s*\/?>)?\s*\{\{#tag:small\|[^{}]*\}\}/g, "");
+    const windows = [];
+    // Stage subsections first so their windows get a stage name; then any window outside one.
+    for (const stage of [...sections(body, 4), { title: null, body }]) {
+      for (const m of stage.body.matchAll(/Runtime for this portion of (?:the|this) event was ([^.\n]+)/g)) {
+        const p = findPeriods(m[1])[0];
+        if (p && !windows.some((w) => w.p.start === p.start)) windows.push({ stage: stage.title, value: m[1].trim(), p });
+      }
+    }
+    windows.sort((a, b) => a.p.start.localeCompare(b.p.start));
+    const dates = [];
+    if (windows.length) {
+      // "October 16 - 22, 2026", "February 19 - March 6, 2026" or, across a new year, both years.
+      const part = (d) => d.split("-").map(Number);
+      const month = (m) => MONTHS[m - 1][0].toUpperCase() + MONTHS[m - 1].slice(1);
+      const [y1, m1, d1] = part(windows[0].p.start), [y2, m2, d2] = part(windows.at(-1).p.end);
+      const value = y1 !== y2 ? `${month(m1)} ${d1}, ${y1} - ${month(m2)} ${d2}, ${y2}`
+        : m1 !== m2 ? `${month(m1)} ${d1} - ${month(m2)} ${d2}, ${y2}` : `${month(m1)} ${d1} - ${d2}, ${y2}`;
+      dates.push({ label: "Pick'Em Dates", value });
+      if (windows.length > 1) dates.push({ label: "Pick windows", value: windows.map((w) => (w.stage ? `${w.stage}: ` : "") + w.value).join(" • ") });
+    }
+    const rewards = (body.match(/===\s*Rewards\s*===([\s\S]*?)(?=\n===|$)/) || [])[1];
+    for (const t of findTables(rewards || "")) {
+      for (const it of itemsFromTable(t, { category: "Pick'Ems", group: sec.title, wikiPage: "Pick'Ems" })) {
+        it.details = [
+          ...it.details
+            .filter((d) => !/^(—|-|TBD)$/i.test(d.value))
+            .map((d) => (/^Eligible/i.test(d.label) ? { label: "Players who qualified", value: d.value } : d)),
+          ...dates,
+        ];
+        it.groupNote = PICKEMS_NOTE;
+        it.refs.push(PICKEMS);
+        items.push(it);
+      }
+    }
+  }
+  return items;
 }
 
 // The 2020 Closed Beta's reward pass. Players got into the beta through Twitch
@@ -731,6 +783,7 @@ async function main() {
     ...(await need("Prime Gaming Drops", parsePrimeGaming())),
     ...(await need("VALORANT X PS+ Bundles", parsePSPlus())),
     ...(await need("Closed Beta", parseClosedBeta())),
+    ...(await need("Pick'Ems", parsePickEms())),
     ...(await Promise.all(EVENT_PAGES.map((p) => need(p, parseEventPage(p))))).flat(),
   ].filter((it) => it.name && Object.values(CATEGORY_TYPES).includes(it.type));
 
