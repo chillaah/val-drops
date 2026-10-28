@@ -142,7 +142,9 @@
 
   // The date an item belongs to: when its claim window opened, or closed if that's all we know.
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
-  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS;
+  // New to the site and claimable now or soon. Old items the wiki only just listed (e.g. Closed
+  // Beta rewards) aren't news, so they skip the "Recently added" list and the New badge.
+  const isRecent = (i) => i.firstSeen && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
 
   const detailsHtml = (i) => i.details
     .map((row) => (i.codes ? row.filter((d) => !/^code$|expir/i.test(d.label)) : row))
@@ -317,7 +319,7 @@
     const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
     if (!recent.length) return "";
     return `<section class="cat" id="recent"><h2>Recently added<span class="count">${recent.length}</span></h2>
-      <p>New on this site in the last ${RECENT_DAYS} days, newest first.</p>
+      <p>Found in the last ${RECENT_DAYS} days and claimable now or soon, newest first.</p>
       <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
   }
 
