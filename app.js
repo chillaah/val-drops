@@ -418,7 +418,7 @@
     stat(items.length, "items tracked") +
     stat(live, "claimable now", live ? "#now" : null) +
     stat(new Set(items.map((i) => i.group)).size, "events & sources") +
-    stat(esc(new Date(generated).toLocaleDateString(undefined, { month: "short", day: "numeric" })), "last updated");
+    stat(esc(new Date(generated).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })), "last checked");
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 
