@@ -327,7 +327,7 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
 @media (max-width: 760px) {
   .links a:not(:first-child) { display: none; }
   .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 16px; }
-  .stats:empty { min-height: 108px; }
+  .stats:empty { min-height: 172px; }
 }
 @media (max-width: 680px) {
   .hero { padding: 28px 16px 28px; }

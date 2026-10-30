@@ -1,5 +1,5 @@
 (() => {
-  const { items, generated } = window.VAL_DROPS;
+  const { items, generated, checked } = window.VAL_DROPS;
 
   const CATEGORIES = [
     ["Broadcast Drops", "Rewards for watching official VCT broadcasts, co-streams and partner streams with a linked Riot account (Twitch and Kick Drops, Shotcall extension)."],
@@ -413,12 +413,15 @@
     typing = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
   });
   const live = items.filter((i) => status(i) === "active").length;
+  const day = (iso) => esc(new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" }));
   const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
   $("#meta").innerHTML =
     stat(items.length, "items tracked") +
     stat(live, "claimable now", live ? "#now" : null) +
     stat(new Set(items.map((i) => i.group)).size, "events & sources") +
-    stat(esc(new Date(generated).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })), "last checked");
+    stat(day(generated), "last updated") +
+    // Only deploys from the data refresh stamp "checked"; elsewhere the build time is the check time.
+    stat(day(checked || generated), "last checked");
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 

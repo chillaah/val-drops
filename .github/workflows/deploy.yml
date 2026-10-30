@@ -8,7 +8,7 @@ on:
   workflow_call:
     inputs:
       checked:
-        description: "When the wiki was last checked (ISO time). Stamped into the deployed data only."
+        description: "When the wiki was last checked (ISO time). Added to the deployed data only."
         type: string
         required: false
 
@@ -40,7 +40,7 @@ jobs:
         env:
           CHECKED: ${{ inputs.checked }}
         run: |
-          sed -i -E "s/^ \"generated\": \"[^\"]*\"/ \"generated\": \"$CHECKED\"/" _site/data/items.js
+          sed -i -E "s/^window\.VAL_DROPS = \{$/&\n \"checked\": \"$CHECKED\",/" _site/data/items.js
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
