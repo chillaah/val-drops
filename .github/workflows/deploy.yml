@@ -5,7 +5,12 @@ on:
   push:
     branches: [production]
   workflow_dispatch: {}
-  workflow_call: {}
+  workflow_call:
+    inputs:
+      checked:
+        description: "When the wiki was last checked (ISO time). Stamped into the deployed data only."
+        type: string
+        required: false
 
 permissions:
   contents: read
@@ -30,6 +35,11 @@ jobs:
         run: |
           mkdir _site
           cp -r index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml assets data img _site/
+      - name: Stamp last checked time
+        if: inputs.checked != ''
+        env:
+          CHECKED: ${{ inputs.checked }}
+        run: sed -i -E "s/^ \"generated\": \"[^\"]*\"/ \"generated\": \"$CHECKED\"/" _site/data/items.js
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
