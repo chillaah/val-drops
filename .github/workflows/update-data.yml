@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: read # to find the last successful run
 
 concurrency:
   group: update-data
@@ -38,7 +39,12 @@ jobs:
         run: sudo apt-get update -q && sudo apt-get install -y -q webp
       - name: Record check time
         id: checked
-        run: echo "at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
+          # Items whose claim window opened since then are posted to Discord.
+          echo "prev=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow update-data.yml --status success -L 1 --json createdAt -q '.[0].createdAt')" >> "$GITHUB_OUTPUT"
       - name: Rebuild data from the VALORANT Wiki
         run: |
           cp data/items.js "$RUNNER_TEMP/items.old.js"
@@ -62,12 +68,14 @@ jobs:
           git commit -m "data: update items from VALORANT Wiki"
           git push origin production
           echo "changed=true" >> "$GITHUB_OUTPUT"
-      - name: Post new items to Discord
-        if: steps.commit.outputs.changed == 'true'
-        # Runs after the push so the raw.githubusercontent.com image links resolve.
+      - name: Post new and now-claimable items to Discord
+        # Runs every time, since a claim window can open without the data changing,
+        # and after the push so the raw.githubusercontent.com image links resolve.
         continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_ADMIN_WEBHOOK_URL: ${{ secrets.DISCORD_ADMIN_WEBHOOK_URL }}
+          PREV_CHECK: ${{ steps.checked.outputs.prev }}
         run: node scripts/notify-discord.mjs "$RUNNER_TEMP/items.old.js" data/items.js
       - name: Merge production into development
         if: steps.commit.outputs.changed == 'true'

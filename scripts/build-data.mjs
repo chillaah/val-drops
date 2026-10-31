@@ -633,6 +633,7 @@ const SOURCE_LABELS = [
   [/(^|\.)coinbase\.com$/, "Coinbase", false],
   [/(^|\.)expressvpn\.com$/, "ExpressVPN", false],
   [/(^|\.)popmart\.com$/, "POP MART", false],
+  [/(^|\.)twitch\.tv$/, "Twitch", false],
   [/(^|\.)(youtube\.com|youtu\.be)$/, "YouTube", false],
   [/(^|\.)instagram\.com$/, "Instagram", false],
   [/(^|\.)(twitter|x)\.com$/, "X", false],
@@ -753,6 +754,7 @@ function mergeDuplicates(items) {
       // A null end means no end date is known yet, so it counts as the latest.
       period: periods.sort((a, b) => (b.end || "9999").localeCompare(a.end || "9999"))[0] || null,
       ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
+      channels: ways.find((w) => w.channels)?.channels || null,
       maybeActive: ways.some((w) => w.maybeActive),
       unconfirmed: ways.find((w) => w.unconfirmed)?.unconfirmed || null,
       sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
@@ -850,6 +852,15 @@ async function main() {
       it.refs.push(...d.refs);
     }
   }
+  // Channels a co-streamer Drop can be earned on, e.g. from the campaign on Twitch's Drops page.
+  for (const c of curated.channels) {
+    const hits = raw.filter((it) => it.type === c.type && normName(it.name) === normName(c.name));
+    if (!hits.length) console.warn(`  ! curated channels for ${c.name} match no item`);
+    for (const it of hits) {
+      it.channels = { platform: c.platform, logins: c.logins, partial: !!c.partial };
+      it.refs.push(...c.refs);
+    }
+  }
 
   // Merge duplicate rows (e.g. rowspan'd pro-play buddies) within the same group.
   const merged = new Map();
@@ -921,6 +932,7 @@ async function main() {
         };
       })(),
       unconfirmed: it.unconfirmed || null,
+      channels: it.channels || null,
       sources,
       firstSeen: firstSeen(it),
       codes: it.category === "Code Redemption" ? parseCodes(it.detailRows) : null,

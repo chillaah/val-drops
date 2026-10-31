@@ -43,7 +43,8 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 - **One card per item.** An item you can get in several ways, like Slime Mosh (a Twitch drop and a Coinbase reward), appears once with an "Also from" list.
 - **Recently added and timeline.** Items first seen in the last 30 days that can be claimed now or soon get their own section (old items the wiki only just listed don't count), and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
 - **Light and dark themes.** Follows your system setting until you pick one with the toggle in the header.
-- **Discord alerts.** New items can be posted to a Discord channel automatically ([setup](#discord-notifications)).
+- **Discord alerts.** New items, and items whose claim window just opened, can be posted to a Discord channel automatically ([setup](#discord-notifications)).
+- **Co-streamer channels.** For co-streamer Drops, "How to claim" links the participating Twitch channels, copied by hand into `channels` in [`data/curated.json`](data/curated.json) from Twitch's Drops page (Twitch has no public API for them).
 
 ## What's tracked
 
@@ -90,7 +91,7 @@ Each run:
 2. Checks the result. The scraper fails if a wiki page it reads suddenly yields no items (a renamed or restructured page), and `scripts/check-data.mjs` requires at least 200 items, no more than a 10% drop from the previous run, required fields and unique slugs. **If a wiki change breaks the scraper, the run fails and the live site keeps its last good data.**
    It also holds back the kinds of edit a wiki vandal would make: a changed code on an existing item, or a link to a site the data has never linked before. Check those on the wiki, then rerun **Update data** with **approve** ticked to publish them.
 3. Commits to `production` only if something changed, which redeploys the site.
-4. Posts new items to Discord, then merges `production` back into `development`.
+4. Posts new items, and items whose claim window opened since the last successful run, to Discord, then merges `production` back into `development`.
 
 New rewards usually reach the wiki within hours of Riot announcing them. They appear on the site at the next run, or right away if you start **Update data** from the Actions tab.
 
@@ -169,13 +170,15 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 
 ### Discord notifications
 
-When the update job finds new items, it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Only items claimable now or soon are posted (the same rule as "Recently added"), so old or undated items the wiki only just listed China-only items and items with an unconfirmed date are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
+When the update job finds new items, or an item's claim window has opened since the last successful run (like a Drop that starts on a set day), it posts each one to a Discord channel with its image, dates or how to get it, primary source, and a link to the item on the site. Only items claimable now or soon are posted (the same rule as "Recently added"), so old or undated items the wiki only just listed China-only items and items with an unconfirmed date are left out, and an item the wiki only moved to another section doesn't count as new. Image links point at the exact commit, so they keep working after later runs convert or prune images.
 
 1. In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and copy the webhook URL.
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.
 3. Optional: run the **Discord test** workflow to confirm the channel.
 
-If the secret isn't set, the step is skipped. A run with more than 25 new items posts one summary message instead of flooding the channel. To preview messages without posting, run `node scripts/notify-discord.mjs <old-items.js> data/items.js --dry-run`.
+When a co-streamer Drop goes live with no channels listed, a reminder to add them is posted too. Set `DISCORD_ADMIN_WEBHOOK_URL` to send those reminders to a separate (private) channel; without it they go to the main one.
+
+If the secret isn't set, the step is skipped. A run with more than 25 new items posts one summary message instead of flooding the channel. To preview messages without posting, run `PREV_CHECK=<ISO time> node scripts/notify-discord.mjs <old-items.js> data/items.js --dry-run`.
 
 ## License
 

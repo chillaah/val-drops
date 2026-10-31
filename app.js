@@ -125,6 +125,13 @@
     }).join("")}</div>`;
   }
 
+  // Only Twitch so far; its Drops page names the channels a co-streamer campaign runs on.
+  const CHANNEL_URL = { twitch: (login) => `https://www.twitch.tv/${encodeURIComponent(login.toLowerCase())}` };
+  const channelsHow = (c) => {
+    const links = c.logins.map((l) => `<a href="${CHANNEL_URL[c.platform](l)}" target="_blank" rel="noopener">${esc(l)}</a>`).join(", ");
+    return `With your Riot account linked, watch a participating live channel on Twitch${c.partial ? ", including" : ":"} ${links}.`;
+  };
+
   function howToClaim(i) {
     if (i.category === "Code Redemption") {
       const live = (i.codes || []).filter((c) => !codeExpired(c));
@@ -132,6 +139,7 @@
     }
     if (i.category === "Broadcast Drops") {
       if (/shotcall/i.test(i.subgroup || "")) return "Make predictions with the Shotcall extension on the official VALORANT Twitch stream.";
+      if (i.channels) return channelsHow(i.channels);
       if (/co-?stream/i.test(i.subgroup || "")) return "Watch eligible co-streamers on Twitch or Kick with your Riot account linked.";
       return "Link your Riot account to Twitch or Kick, then watch the official broadcast during the eligible dates.";
     }
