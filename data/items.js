@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-28T13:39:34.836Z",
+ "generated": "2026-10-31T21:46:24.050Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -12,7 +12,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Channel Drops",
-   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "groupNote": null,
    "title": "MIGA",
    "image": null,
    "imageLarge": null,
@@ -32,6 +32,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
@@ -58,7 +59,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Channel Drops",
-   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "groupNote": null,
    "title": null,
    "image": "img/Mais_que_amigas_friends_Spray.webp",
    "imageLarge": "img/Mais_que_amigas_friends_Spray_600.webp",
@@ -78,6 +79,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
@@ -104,7 +106,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Co-Streamers Channel Drops",
-   "groupNote": "For the Co-Streamers Channel Drops title, more information will announced at a later date.",
+   "groupNote": null,
    "title": "Braba",
    "image": null,
    "imageLarge": null,
@@ -124,11 +126,27 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": {
+    "platform": "twitch",
+    "logins": [
+     "patipvlr",
+     "miwTL",
+     "frttt",
+     "Loupiote3",
+     "melhssn_"
+    ],
+    "partial": true
+   },
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/valorantesports/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
      "label": "VALORANT Esports",
      "official": true
+    },
+    {
+     "url": "https://www.twitch.tv/drops/campaigns",
+     "label": "Twitch",
+     "official": false
     },
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -170,6 +188,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
@@ -221,6 +240,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
@@ -272,6 +292,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
@@ -323,6 +344,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
@@ -374,6 +396,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-shanghai-watch-and-earn",
@@ -425,6 +448,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -466,6 +490,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -554,6 +579,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -634,6 +660,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
@@ -680,6 +707,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
@@ -726,6 +754,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-london-everything-you-need-to-know",
@@ -772,6 +801,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTjp/status/2041088446090080490",
@@ -860,6 +890,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
@@ -906,6 +937,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
@@ -952,6 +984,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-santiago-watch-and-earn",
@@ -998,6 +1031,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
@@ -1049,6 +1083,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
@@ -1100,6 +1135,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
@@ -1151,6 +1187,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
@@ -1202,6 +1239,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2025-everything-you-need-to-know",
@@ -1253,6 +1291,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1989003798958711293",
@@ -1299,6 +1338,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1989003798958711293",
@@ -1345,6 +1385,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1396,6 +1437,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1447,6 +1489,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1498,6 +1541,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1579,6 +1623,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1630,6 +1675,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
@@ -1681,6 +1727,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
@@ -1727,6 +1774,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-toronto",
@@ -1773,6 +1821,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-bangkok-eyntk-2025",
@@ -1819,6 +1868,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/masters-bangkok-eyntk-2025",
@@ -1865,6 +1915,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1859186587407355997",
@@ -1953,6 +2004,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1859186587407355997",
@@ -1999,6 +2051,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1859186587407355997",
@@ -2045,6 +2098,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1859186587407355997",
@@ -2091,6 +2145,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/game-updates/valorant-x-arcane-the-season-2-arcane-collectors-set-is-coming/",
@@ -2137,6 +2192,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/game-updates/valorant-x-arcane-the-season-2-arcane-collectors-set-is-coming/",
@@ -2183,6 +2239,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2229,6 +2286,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2275,6 +2333,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2321,6 +2380,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2367,6 +2427,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2413,6 +2474,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2024",
@@ -2459,6 +2521,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/everything-you-need-to-know-champions-seoul",
@@ -2505,6 +2568,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/everything-you-need-to-know-champions-seoul",
@@ -2551,6 +2615,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-shanghai",
@@ -2597,6 +2662,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-shanghai",
@@ -2643,6 +2709,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-madrid",
@@ -2689,6 +2756,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-masters-madrid",
@@ -2735,6 +2803,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2023",
@@ -2781,6 +2850,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-and-earn-during-game-changers-championship-2023",
@@ -2827,6 +2897,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/redbullgaming/status/1720259674103324789",
@@ -2873,6 +2944,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
@@ -2919,6 +2991,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
@@ -2965,6 +3038,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
@@ -3011,6 +3085,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-vct-masters-earn-drops",
@@ -3057,6 +3132,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-vct-masters-earn-drops",
@@ -3103,6 +3179,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-vct-lock-in-earn-drops",
@@ -3149,6 +3226,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-vct-lock-in-earn-drops",
@@ -3195,6 +3273,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -3236,6 +3315,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-game-changers-championship-earn-drops",
@@ -3282,6 +3362,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-game-changers-championship-earn-drops",
@@ -3328,6 +3409,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -3369,6 +3451,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
@@ -3415,6 +3498,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
@@ -3461,6 +3545,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2022",
@@ -3507,6 +3592,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-items-and-drops-are-coming",
@@ -3553,6 +3639,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/champions-items-and-drops-are-coming",
@@ -3599,6 +3686,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
@@ -3645,6 +3733,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -3686,6 +3775,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -3727,6 +3817,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
@@ -3802,6 +3893,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -3843,6 +3935,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -3884,6 +3977,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -3925,6 +4019,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -3966,6 +4061,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4007,6 +4103,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4048,6 +4145,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4089,6 +4187,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4130,6 +4229,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4171,6 +4271,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4212,6 +4313,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4253,6 +4355,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4294,6 +4397,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4335,6 +4439,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4376,6 +4481,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4417,6 +4523,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4458,6 +4565,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4499,6 +4607,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4540,6 +4649,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4581,6 +4691,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4622,6 +4733,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4663,6 +4775,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4704,6 +4817,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4745,6 +4859,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4786,6 +4901,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4827,6 +4943,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4868,6 +4985,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4915,6 +5033,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4956,6 +5075,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -4997,6 +5117,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5038,6 +5159,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5079,6 +5201,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5120,6 +5243,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5161,6 +5285,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5202,6 +5327,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5243,6 +5369,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5284,6 +5411,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5325,6 +5453,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5366,6 +5495,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5407,6 +5537,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5448,6 +5579,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
@@ -5489,6 +5621,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5530,6 +5663,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5571,6 +5705,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5612,6 +5747,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5653,6 +5789,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5694,6 +5831,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5735,6 +5873,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5776,6 +5915,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5817,6 +5957,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5858,6 +5999,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5899,6 +6041,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -5959,6 +6102,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6000,6 +6144,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6041,6 +6186,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6082,6 +6228,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6123,6 +6270,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6164,6 +6312,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6205,6 +6354,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6246,6 +6396,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6287,6 +6438,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6328,6 +6480,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6369,6 +6522,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6410,6 +6564,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6451,6 +6606,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6492,6 +6648,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6533,6 +6690,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6574,6 +6732,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6615,6 +6774,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6656,6 +6816,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6697,6 +6858,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6738,6 +6900,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6779,6 +6942,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6820,6 +6984,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6861,6 +7026,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6902,6 +7068,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
@@ -6947,6 +7114,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
@@ -6992,6 +7160,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
@@ -7037,6 +7206,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
@@ -7082,6 +7252,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
@@ -7127,6 +7298,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
@@ -7172,6 +7344,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7222,6 +7395,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7272,6 +7446,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7322,6 +7497,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7611,6 +7787,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7673,6 +7850,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7735,6 +7913,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7789,6 +7968,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7851,6 +8031,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7913,6 +8094,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -7967,6 +8149,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8029,6 +8212,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8091,6 +8275,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8141,6 +8326,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8199,6 +8385,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8257,6 +8444,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8311,6 +8499,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8373,6 +8562,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8435,6 +8625,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8489,6 +8680,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8551,6 +8743,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8613,6 +8806,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8667,6 +8861,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8729,6 +8924,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8791,6 +8987,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/pickems",
@@ -8853,6 +9050,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -8920,6 +9118,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -8987,6 +9186,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9054,6 +9254,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9109,6 +9310,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9164,6 +9366,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9219,6 +9422,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9278,6 +9482,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9337,6 +9542,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9396,6 +9602,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9455,6 +9662,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9514,6 +9722,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.tiktok.com/effect/Wingman-3941490109",
@@ -9578,6 +9787,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://ftw.riotgames.com/en-us/valorant",
@@ -9633,6 +9843,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/community/valorant-community-challenges-2023/",
@@ -9689,6 +9900,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
@@ -9736,6 +9948,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/ko-kr/news/announcements/2026-chuseok-event/",
@@ -9787,6 +10000,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
@@ -9842,6 +10056,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The release date is an estimate.",
+   "channels": null,
    "sources": [
     {
      "url": "https://merch.riotgames.com/en-us/product/val-alpha-collection-cypher-figure/",
@@ -9892,6 +10107,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The release date is an estimate.",
+   "channels": null,
    "sources": [
     {
      "url": "https://merch.riotgames.com/en-us/product/val-alpha-collection-jett-figure/",
@@ -9942,6 +10158,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The release date is an estimate.",
+   "channels": null,
    "sources": [
     {
      "url": "https://merch.riotgames.com/en-us/product/val-alpha-collection-killjoy-figure/",
@@ -9992,6 +10209,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
@@ -10038,6 +10256,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/coinbase/status/2103623167126446528",
@@ -10088,6 +10307,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The release date is an estimate.",
+   "channels": null,
    "sources": [
     {
      "url": "https://merch.riotgames.com/en-us/product/val-alpha-collection-sage-figure/",
@@ -10138,6 +10358,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/valorantesports/news/vct-americas-stage-2-finals-so-paulo-event-guide",
@@ -10194,6 +10415,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed.",
+   "channels": null,
    "sources": [
     {
      "url": "https://valorant.fandom.com/wiki/Sprays",
@@ -10250,6 +10472,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed.",
+   "channels": null,
    "sources": [
     {
      "url": "https://valorant.fandom.com/wiki/Sprays",
@@ -10306,6 +10529,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages.",
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
@@ -10352,6 +10576,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
@@ -10399,6 +10624,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Sprays",
@@ -10444,6 +10670,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10495,6 +10722,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10546,6 +10774,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/community/valorant-community-challenges-2023/",
@@ -10639,6 +10868,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10716,6 +10946,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10759,6 +10990,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -10962,6 +11194,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -11016,6 +11249,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/announcements/get-riotx-arcane-gear-in-valorant/",
@@ -11066,6 +11300,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
@@ -11125,6 +11360,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.popmart.com/us/products/8962/valorant-classic-agents-series-figures",
@@ -11175,6 +11411,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://support-valorant.riotgames.com/hc/en-us/articles/6708651826579-How-to-Get-a-Riot-Gun-Buddy",
@@ -11240,6 +11477,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/riotstore/the-vlrnt-frgmt-collection/",
@@ -11290,6 +11528,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -11369,6 +11608,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.instagram.com/p/DK1jzwqxggO/",
@@ -11428,6 +11668,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://support-valorant.riotgames.com/hc/en-us/articles/40336256464403--I-Create-Gun-Buddy-FAQ",
@@ -11482,6 +11723,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.riotgames.com/en/news/get-rewarded-for-enabling-2fa",
@@ -11541,6 +11783,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://news.xbox.com/en-us/2022/12/08/riot-games-and-xbox-game-pass-benefits-coming-soon/",
@@ -11595,6 +11838,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://valorantesports.com/en-US/news/watch-play-and-earn-during-champions-2023",
@@ -11645,6 +11889,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Buddies",
@@ -11690,6 +11935,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -11741,6 +11987,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/en-us/news/community/valorant-community-challenges-2023/",
@@ -11797,6 +12044,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -11852,6 +12100,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -11922,6 +12171,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -11992,6 +12242,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -12062,6 +12313,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -12132,6 +12384,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -12202,6 +12455,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -12272,6 +12526,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
@@ -12337,6 +12592,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
@@ -12423,6 +12679,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://playvalorant.com/ko-kr/news/announcements/2026-chuseok-event/",
@@ -12478,6 +12735,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.instagram.com/p/DK1jzwqxggO/",
@@ -12529,6 +12787,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed.",
+   "channels": null,
    "sources": [
     {
      "url": "https://valorant.fandom.com/wiki/Player_Cards",
@@ -12580,6 +12839,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date is when the item first appeared in game files, not when it could be claimed.",
+   "channels": null,
    "sources": [
     {
      "url": "https://valorant.fandom.com/wiki/Player_Cards",
@@ -12636,6 +12896,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages.",
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTLeaksEN/status/2075960654708527413",
@@ -12692,6 +12953,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages.",
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTLeaksEN/status/2073370370883641373",
@@ -12748,6 +13010,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages.",
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTLeaksEN/status/2082584466812293172",
@@ -12804,6 +13067,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": "Riot hasn't announced this. The date comes from @VALORANTLeaksEN posts matched to dates from Chinese event pages.",
+   "channels": null,
    "sources": [
     {
      "url": "https://x.com/VALORANTLeaksEN/status/2044096873674223736",
@@ -12861,6 +13125,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": true,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -12912,6 +13177,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -12963,6 +13229,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13014,6 +13281,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13065,6 +13333,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13116,6 +13385,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13164,6 +13434,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13293,6 +13564,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13346,6 +13618,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13393,6 +13666,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13440,6 +13714,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13483,6 +13758,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13526,6 +13802,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13573,6 +13850,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13616,6 +13894,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13659,6 +13938,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13702,6 +13982,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13749,6 +14030,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13792,6 +14074,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13835,6 +14118,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13878,6 +14162,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13925,6 +14210,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -13968,6 +14254,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14011,6 +14298,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14054,6 +14342,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14101,6 +14390,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14144,6 +14434,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14187,6 +14478,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14230,6 +14522,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14277,6 +14570,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14323,6 +14617,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
@@ -14378,6 +14673,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
@@ -14438,6 +14734,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.riotgames.com/en/news/partner-program-closed-beta",
@@ -14488,6 +14785,7 @@ window.VAL_DROPS = {
    "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://wiki.playvalorant.com/en-us/Player_Titles",
@@ -14529,6 +14827,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.expressvpn.com/top/plus-partner/vct-us",
@@ -14579,6 +14878,7 @@ window.VAL_DROPS = {
    },
    "maybeActive": false,
    "unconfirmed": null,
+   "channels": null,
    "sources": [
     {
      "url": "https://www.expressvpn.com/top/plus-partner/vct-us",

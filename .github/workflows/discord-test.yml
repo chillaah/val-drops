@@ -1,6 +1,7 @@
 name: Discord test
 
-# Manually posts the newest item to the Discord webhook to check the setup.
+# Manually posts the newest item (or a chosen one) to the Discord webhook to check the
+# setup or to announce an item the scheduled run missed.
 on:
   workflow_dispatch:
     inputs:
@@ -8,6 +9,10 @@ on:
         description: "Post a test message (off = only show which webhook/channel the secret points to)"
         type: boolean
         default: false
+      item:
+        description: "Item to post as now claimable, by its slug (the ?item= part of its link). Empty = the newest item, posted as new."
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -33,8 +38,14 @@ jobs:
               console.log(`Channel ID:   ${w.channel_id}`);
               console.log(`Server ID:    ${w.guild_id}`);
             });'
+      - name: Post chosen item
+        if: inputs.post && inputs.item != ''
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ITEM: ${{ inputs.item }}
+        run: node scripts/notify-discord.mjs --item "$ITEM" data/items.js
       - name: Post newest item
-        if: inputs.post
+        if: inputs.post && inputs.item == ''
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
