@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-10-31T21:46:24.050Z",
+ "generated": "2026-11-02T04:51:28.832Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -12,7 +12,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Channel Drops",
-   "groupNote": null,
+   "groupNote": "For the Co-Streamer title, viewers can watch co-streamers via selected Twitch or Kick channels: • October 30th: patipvlr, miwtl, frttt, melhssn_ & loupiote3 (all on Twitch) • November 1st: • *Kick: sacy & tck10 • *Twitch: sofiaespanha, melhssn_ & loupiote3",
    "title": "MIGA",
    "image": null,
    "imageLarge": null,
@@ -59,7 +59,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Channel Drops",
-   "groupNote": null,
+   "groupNote": "For the Co-Streamer title, viewers can watch co-streamers via selected Twitch or Kick channels: • October 30th: patipvlr, miwtl, frttt, melhssn_ & loupiote3 (all on Twitch) • November 1st: • *Kick: sacy & tck10 • *Twitch: sofiaespanha, melhssn_ & loupiote3",
    "title": null,
    "image": "img/Mais_que_amigas_friends_Spray.webp",
    "imageLarge": "img/Mais_que_amigas_friends_Spray_600.webp",
@@ -106,7 +106,7 @@ window.VAL_DROPS = {
    "category": "Broadcast Drops",
    "group": "2026 VALORANT Game Changers Championship São Paulo",
    "subgroup": "Co-Streamers Channel Drops",
-   "groupNote": null,
+   "groupNote": "For the Co-Streamer title, viewers can watch co-streamers via selected Twitch or Kick channels: • October 30th: patipvlr, miwtl, frttt, melhssn_ & loupiote3 (all on Twitch) • November 1st: • *Kick: sacy & tck10 • *Twitch: sofiaespanha, melhssn_ & loupiote3",
    "title": "Braba",
    "image": null,
    "imageLarge": null,
@@ -7383,6 +7383,14 @@ window.VAL_DROPS = {
       "value": "Top 50%"
      },
      {
+      "label": "Points Required",
+      "value": "35 - 64"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "667.8k"
+     },
+     {
       "label": "Pick'Em Dates",
       "value": "October 16 - 22, 2026"
      }
@@ -7434,6 +7442,14 @@ window.VAL_DROPS = {
       "value": "Top 20%"
      },
      {
+      "label": "Points Required",
+      "value": "65+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "273.7k"
+     },
+     {
       "label": "Pick'Em Dates",
       "value": "October 16 - 22, 2026"
      }
@@ -7483,6 +7499,14 @@ window.VAL_DROPS = {
      {
       "label": "Target",
       "value": "Perfect Picks"
+     },
+     {
+      "label": "Points Required",
+      "value": "300"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "0"
      },
      {
       "label": "Pick'Em Dates",
