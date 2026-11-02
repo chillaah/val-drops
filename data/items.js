@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-11-01T04:50:01.958Z",
+ "generated": "2026-11-02T04:51:28.832Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -7383,6 +7383,14 @@ window.VAL_DROPS = {
       "value": "Top 50%"
      },
      {
+      "label": "Points Required",
+      "value": "35 - 64"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "667.8k"
+     },
+     {
       "label": "Pick'Em Dates",
       "value": "October 16 - 22, 2026"
      }
@@ -7434,6 +7442,14 @@ window.VAL_DROPS = {
       "value": "Top 20%"
      },
      {
+      "label": "Points Required",
+      "value": "65+"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "273.7k"
+     },
+     {
       "label": "Pick'Em Dates",
       "value": "October 16 - 22, 2026"
      }
@@ -7483,6 +7499,14 @@ window.VAL_DROPS = {
      {
       "label": "Target",
       "value": "Perfect Picks"
+     },
+     {
+      "label": "Points Required",
+      "value": "300"
+     },
+     {
+      "label": "Players who qualified",
+      "value": "0"
      },
      {
       "label": "Pick'Em Dates",
