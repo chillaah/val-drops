@@ -75,18 +75,27 @@
   }
 
   // ---------- claim status ----------
-  // Wiki dates are Pacific time, so compare against today's date in PT.
-  const ptDate = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d);
-  const TODAY = ptDate(new Date());
+  // Wiki dates are Pacific time, so compare against today's date in PT. Event Drops carry
+  // the venue's time zone (period.tz) and end at midnight there instead.
+  const dateIn = (tz) => new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(new Date());
+  const TODAY = dateIn("America/Los_Angeles");
+  const todays = new Map();
+  const todayOf = (i) => {
+    const tz = i.period?.tz;
+    if (!tz) return TODAY;
+    if (!todays.has(tz)) todays.set(tz, dateIn(tz));
+    return todays.get(tz);
+  };
   const dayNum = (s) => Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) / 864e5;
-  const daysFrom = (s) => dayNum(s) - dayNum(TODAY);
+  const daysFrom = (s, today = TODAY) => dayNum(s) - dayNum(today);
   const fmtDay = (s) => new Date(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)))
     .toLocaleDateString(undefined, { month: "short", day: "numeric", timeZone: "UTC" });
 
   function status(i) {
     const p = i.period;
-    if (p && p.end >= TODAY && (!p.start || p.start <= TODAY)) return "active";
-    if (p && p.start && p.start > TODAY) return "upcoming";
+    const today = todayOf(i);
+    if (p && p.end >= today && (!p.start || p.start <= today)) return "active";
+    if (p && p.start && p.start > today) return "upcoming";
     if (i.ongoing) return "active";
     if (i.maybeActive) return "maybe";
     return null;
@@ -94,13 +103,14 @@
 
   function statusLabel(i) {
     const st = status(i);
-    if (st === "active" && i.period && i.period.end >= TODAY && (!i.period.start || i.period.start <= TODAY)) {
-      const n = daysFrom(i.period.end);
+    const today = todayOf(i);
+    if (st === "active" && i.period && i.period.end >= today && (!i.period.start || i.period.start <= today)) {
+      const n = daysFrom(i.period.end, today);
       return n === 0 ? "Ends today" : n === 1 ? "Ends tomorrow" : `Ends in ${n} days · ${fmtDay(i.period.end)}`;
     }
     if (st === "active") return "Available now · no end date";
     if (st === "upcoming") {
-      const n = daysFrom(i.period.start);
+      const n = daysFrom(i.period.start, today);
       return n === 1 ? `Starts tomorrow · ${fmtDay(i.period.start)}` : `Starts in ${n} days · ${fmtDay(i.period.start)}`;
     }
     if (st === "maybe") return "Code may still work";
@@ -312,7 +322,7 @@
   });
 
   function nowSection(visible) {
-    const endOf = (i) => (i.period && i.period.end >= TODAY ? i.period.end : "9999");
+    const endOf = (i) => (i.period && i.period.end >= todayOf(i) ? i.period.end : "9999");
     const active = visible.filter((i) => status(i) === "active").sort((a, b) => endOf(a).localeCompare(endOf(b)));
     const upcoming = visible.filter((i) => status(i) === "upcoming")
       .sort((a, b) => a.period.start.localeCompare(b.period.start));

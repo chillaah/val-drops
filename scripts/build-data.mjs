@@ -623,6 +623,28 @@ function regionTags(it) {
 // ---------- merge, images, sources ----------
 
 // Matched against the whole hostname, so "riotgames.com.example.net" isn't labelled official.
+// Event Drops end with the broadcast, so a window ends at midnight where the event is held,
+// a few hours after the final, not midnight Pacific (half a day later for events in Asia).
+const EVENT_ZONES = [
+  [/São Paulo|Sao Paulo/i, "America/Sao_Paulo"],
+  [/Santiago/, "America/Santiago"],
+  [/Toronto/, "America/Toronto"],
+  [/London/, "Europe/London"],
+  [/Paris/, "Europe/Paris"],
+  [/Berlin/, "Europe/Berlin"],
+  [/Madrid/, "Europe/Madrid"],
+  [/Istanbul/, "Europe/Istanbul"],
+  [/Bangkok/, "Asia/Bangkok"],
+  [/Shanghai/, "Asia/Shanghai"],
+  [/Seoul/, "Asia/Seoul"],
+  [/Tokyo/, "Asia/Tokyo"],
+];
+const withZone = (period, it) => {
+  if (!period || !["Broadcast Drops", "Pick'Ems"].includes(it.category)) return period;
+  const zone = EVENT_ZONES.find(([re]) => re.test(it.group || ""));
+  return zone ? { ...period, tz: zone[1] } : period;
+};
+
 const SOURCE_LABELS = [
   [/(^|\.)valorantesports\.com$/, "VALORANT Esports", true],
   [/(^|\.)playvalorant\.com$/, "PlayVALORANT.com", true],
@@ -925,7 +947,7 @@ async function main() {
         const { period, openCode } = itemPeriod(it.detailRows);
         return {
           // Parsers that know the window better than the detail text (PS+ bundles) set it directly.
-          period: it.period || period,
+          period: withZone(it.period || period, it),
           ongoing: it.ongoing || null,
           // A public code whose expiry the wiki lists as unknown may still work.
           maybeActive: it.category === "Code Redemption" && openCode,
