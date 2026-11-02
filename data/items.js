@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-11-02T04:51:28.832Z",
+ "generated": "2026-11-02T05:00:25.325Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -27,7 +27,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-22",
-    "end": "2026-10-31"
+    "end": "2026-10-31",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -74,7 +75,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-11-01",
-    "end": "2026-11-01"
+    "end": "2026-11-01",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -121,7 +123,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-30",
-    "end": "2026-11-01"
+    "end": "2026-11-01",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -183,7 +186,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-24",
-    "end": "2026-10-17"
+    "end": "2026-10-17",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -235,7 +239,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-07",
-    "end": "2026-10-17"
+    "end": "2026-10-17",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -287,7 +292,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-18",
-    "end": "2026-10-18"
+    "end": "2026-10-18",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -339,7 +345,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-24",
-    "end": "2026-10-07"
+    "end": "2026-10-07",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -391,7 +398,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-24",
-    "end": "2026-10-07"
+    "end": "2026-10-07",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -655,7 +663,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-06-06",
-    "end": "2026-06-21"
+    "end": "2026-06-21",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -702,7 +711,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-06-06",
-    "end": "2026-06-21"
+    "end": "2026-06-21",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -749,7 +759,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-06-06",
-    "end": "2026-06-21"
+    "end": "2026-06-21",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -885,7 +896,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-28",
-    "end": "2026-03-15"
+    "end": "2026-03-15",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -932,7 +944,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-28",
-    "end": "2026-03-15"
+    "end": "2026-03-15",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -979,7 +992,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-28",
-    "end": "2026-03-15"
+    "end": "2026-03-15",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1026,7 +1040,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-20",
-    "end": "2025-11-29"
+    "end": "2025-11-29",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1078,7 +1093,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-30",
-    "end": "2025-11-30"
+    "end": "2025-11-30",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1130,7 +1146,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-28",
-    "end": "2025-11-30"
+    "end": "2025-11-30",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1182,7 +1199,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-28",
-    "end": "2025-11-30"
+    "end": "2025-11-30",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1234,7 +1252,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-28",
-    "end": "2025-11-30"
+    "end": "2025-11-30",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1380,7 +1399,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-12",
-    "end": "2025-09-29"
+    "end": "2025-09-29",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1432,7 +1452,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-10-03",
-    "end": "2025-10-04"
+    "end": "2025-10-04",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1484,7 +1505,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-10-05",
-    "end": "2025-10-05"
+    "end": "2025-10-05",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1536,7 +1558,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-12",
-    "end": "2025-10-05"
+    "end": "2025-10-05",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1618,7 +1641,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-12",
-    "end": "2025-10-05"
+    "end": "2025-10-05",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1670,7 +1694,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-12",
-    "end": "2025-10-05"
+    "end": "2025-10-05",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1722,7 +1747,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-06-07",
-    "end": "2025-06-21"
+    "end": "2025-06-21",
+    "tz": "America/Toronto"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1769,7 +1795,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-06-22",
-    "end": "2025-06-22"
+    "end": "2025-06-22",
+    "tz": "America/Toronto"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1816,7 +1843,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-02-20",
-    "end": "2025-03-01"
+    "end": "2025-03-01",
+    "tz": "Asia/Bangkok"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -1863,7 +1891,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-03-02",
-    "end": "2025-03-02"
+    "end": "2025-03-02",
+    "tz": "Asia/Bangkok"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2234,7 +2263,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-08",
-    "end": "2024-11-16"
+    "end": "2024-11-16",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2281,7 +2311,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-17",
-    "end": "2024-11-17"
+    "end": "2024-11-17",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2328,7 +2359,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-15",
-    "end": "2024-11-17"
+    "end": "2024-11-17",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2375,7 +2407,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-15",
-    "end": "2024-11-17"
+    "end": "2024-11-17",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2422,7 +2455,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-15",
-    "end": "2024-11-17"
+    "end": "2024-11-17",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2469,7 +2503,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-11-15",
-    "end": "2024-11-17"
+    "end": "2024-11-17",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2516,7 +2551,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-08-01",
-    "end": "2024-08-24"
+    "end": "2024-08-24",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2563,7 +2599,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-08-25",
-    "end": "2024-08-25"
+    "end": "2024-08-25",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2610,7 +2647,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-05-23",
-    "end": "2024-06-08"
+    "end": "2024-06-08",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2657,7 +2695,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-06-09",
-    "end": "2024-06-09"
+    "end": "2024-06-09",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2704,7 +2743,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-03-14",
-    "end": "2024-03-23"
+    "end": "2024-03-23",
+    "tz": "Europe/Madrid"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2751,7 +2791,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-03-24",
-    "end": "2024-03-24"
+    "end": "2024-03-24",
+    "tz": "Europe/Madrid"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2798,7 +2839,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-11-28",
-    "end": "2023-12-02"
+    "end": "2023-12-02",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -2845,7 +2887,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-12-03",
-    "end": "2023-12-03"
+    "end": "2023-12-03",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3080,7 +3123,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-06-11",
-    "end": "2023-06-25"
+    "end": "2023-06-25",
+    "tz": "Asia/Tokyo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3127,7 +3171,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-06-25",
-    "end": "2023-06-25"
+    "end": "2023-06-25",
+    "tz": "Asia/Tokyo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3174,7 +3219,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-02-13",
-    "end": "2023-03-04"
+    "end": "2023-03-04",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3221,7 +3267,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2023-03-04",
-    "end": "2023-03-04"
+    "end": "2023-03-04",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3310,7 +3357,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2022-11-15",
-    "end": "2022-11-19"
+    "end": "2022-11-19",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3357,7 +3405,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2022-11-20",
-    "end": "2022-11-20"
+    "end": "2022-11-20",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3446,7 +3495,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2022-08-31",
-    "end": "2022-09-13"
+    "end": "2022-09-13",
+    "tz": "Europe/Istanbul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3493,7 +3543,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2022-09-16",
-    "end": "2022-09-17"
+    "end": "2022-09-17",
+    "tz": "Europe/Istanbul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3540,7 +3591,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2022-09-18",
-    "end": "2022-09-18"
+    "end": "2022-09-18",
+    "tz": "Europe/Istanbul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3587,7 +3639,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2021-12-01",
-    "end": "2021-12-11"
+    "end": "2021-12-11",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3634,7 +3687,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2021-12-12",
-    "end": "2021-12-12"
+    "end": "2021-12-12",
+    "tz": "Europe/Berlin"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7339,7 +7393,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-16",
-    "end": "2026-10-22"
+    "end": "2026-10-22",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7398,7 +7453,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-16",
-    "end": "2026-10-22"
+    "end": "2026-10-22",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7457,7 +7513,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-16",
-    "end": "2026-10-22"
+    "end": "2026-10-22",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7516,7 +7573,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-10-16",
-    "end": "2026-10-22"
+    "end": "2026-10-22",
+    "tz": "America/Sao_Paulo"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7569,7 +7627,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2026-09-10",
-      "end": "2026-10-07"
+      "end": "2026-10-07",
+      "tz": "Asia/Shanghai"
      },
      "regions": []
     },
@@ -7603,7 +7662,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2026-05-27",
-      "end": "2026-06-12"
+      "end": "2026-06-12",
+      "tz": "Europe/London"
      },
      "regions": []
     },
@@ -7637,7 +7697,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2026-02-19",
-      "end": "2026-03-06"
+      "end": "2026-03-06",
+      "tz": "America/Santiago"
      },
      "regions": []
     },
@@ -7667,7 +7728,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2025-11-13",
-      "end": "2025-11-20"
+      "end": "2025-11-20",
+      "tz": "Asia/Seoul"
      },
      "regions": []
     },
@@ -7701,7 +7763,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2025-09-04",
-      "end": "2025-09-25"
+      "end": "2025-09-25",
+      "tz": "Europe/Paris"
      },
      "regions": []
     },
@@ -7735,7 +7798,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2025-05-28",
-      "end": "2025-06-13"
+      "end": "2025-06-13",
+      "tz": "America/Toronto"
      },
      "regions": []
     },
@@ -7769,7 +7833,8 @@ window.VAL_DROPS = {
      ],
      "period": {
       "start": "2024-07-27",
-      "end": "2024-08-14"
+      "end": "2024-08-14",
+      "tz": "Asia/Seoul"
      },
      "regions": []
     }
@@ -7806,7 +7871,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-10",
-    "end": "2026-10-07"
+    "end": "2026-10-07",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7869,7 +7935,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-10",
-    "end": "2026-10-07"
+    "end": "2026-10-07",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7932,7 +7999,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-09-10",
-    "end": "2026-10-07"
+    "end": "2026-10-07",
+    "tz": "Asia/Shanghai"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -7987,7 +8055,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-05-27",
-    "end": "2026-06-12"
+    "end": "2026-06-12",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8050,7 +8119,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-05-27",
-    "end": "2026-06-12"
+    "end": "2026-06-12",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8113,7 +8183,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-05-27",
-    "end": "2026-06-12"
+    "end": "2026-06-12",
+    "tz": "Europe/London"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8168,7 +8239,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-19",
-    "end": "2026-03-06"
+    "end": "2026-03-06",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8231,7 +8303,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-19",
-    "end": "2026-03-06"
+    "end": "2026-03-06",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8294,7 +8367,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2026-02-19",
-    "end": "2026-03-06"
+    "end": "2026-03-06",
+    "tz": "America/Santiago"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8345,7 +8419,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-13",
-    "end": "2025-11-20"
+    "end": "2025-11-20",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8404,7 +8479,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-13",
-    "end": "2025-11-20"
+    "end": "2025-11-20",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8463,7 +8539,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-11-13",
-    "end": "2025-11-20"
+    "end": "2025-11-20",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8518,7 +8595,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-04",
-    "end": "2025-09-25"
+    "end": "2025-09-25",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8581,7 +8659,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-04",
-    "end": "2025-09-25"
+    "end": "2025-09-25",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8644,7 +8723,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-09-04",
-    "end": "2025-09-25"
+    "end": "2025-09-25",
+    "tz": "Europe/Paris"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8699,7 +8779,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-05-28",
-    "end": "2025-06-13"
+    "end": "2025-06-13",
+    "tz": "America/Toronto"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8762,7 +8843,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-05-28",
-    "end": "2025-06-13"
+    "end": "2025-06-13",
+    "tz": "America/Toronto"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8825,7 +8907,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2025-05-28",
-    "end": "2025-06-13"
+    "end": "2025-06-13",
+    "tz": "America/Toronto"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8880,7 +8963,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-07-27",
-    "end": "2024-08-14"
+    "end": "2024-08-14",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -8943,7 +9027,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-07-27",
-    "end": "2024-08-14"
+    "end": "2024-08-14",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -9006,7 +9091,8 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2024-07-27",
-    "end": "2024-08-14"
+    "end": "2024-08-14",
+    "tz": "Asia/Seoul"
    },
    "ongoing": null,
    "maybeActive": false,

@@ -50,19 +50,23 @@ const key = (i) => i.type + "§" + i.name.normalize("NFC").toLowerCase().replace
 // Wiki dates are Pacific time. Only items claimable now or soon are worth a ping: an old
 // item the wiki only just listed (often with no date at all) isn't news. Same rule as the
 // site's "Recently added" list (status() in app.js).
-const pacificDay = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d);
-const TODAY = pacificDay(new Date());
+// Event Drops carry the venue's time zone (period.tz), as on the site.
+const dayIn = (d, tz = "America/Los_Angeles") => new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(d);
+const NOW = new Date();
+const PREV = PREV_CHECK && !isNaN(PREV_CHECK) ? PREV_CHECK : null;
 // A window that started after the last check's day and is still open. Comparing with the
 // last check, not "starts today", means a skipped or late run doesn't lose the post.
-const SINCE = PREV_CHECK && !isNaN(PREV_CHECK) ? pacificDay(PREV_CHECK) : null;
 const opened = (i) => {
   const p = i.period;
-  return Boolean(SINCE && p?.start && p.start > SINCE && p.start <= TODAY && (!p.end || p.end >= TODAY));
+  if (!PREV || !p?.start) return false;
+  const today = dayIn(NOW, p.tz);
+  return p.start > dayIn(PREV, p.tz) && p.start <= today && (!p.end || p.end >= today);
 };
 const claimable = (i) => {
   const p = i.period;
-  if (p?.end && p.end >= TODAY && (!p.start || p.start <= TODAY)) return true;
-  return Boolean(p?.start && p.start > TODAY) || Boolean(i.ongoing);
+  const today = dayIn(NOW, p?.tz);
+  if (p?.end && p.end >= today && (!p.start || p.start <= today)) return true;
+  return Boolean(p?.start && p.start > today) || Boolean(i.ongoing);
 };
 // China-exclusive items can't be claimed on other servers.
 const chinaOnly = (i) => i.regions?.some((r) => r.code === "CN");
@@ -145,13 +149,13 @@ async function main() {
   for (const i of fresh.filter((i) => !added.includes(i))) console.log(`  skipped (${chinaOnly(i) ? "China only" : unconfirmed(i) ? "unconfirmed date" : i.period?.end ? `ended ${i.period.end}` : "not claimable now or soon"}): ${i.name}`);
   // New items are posted as new, so don't post them twice.
   const opening = items.filter((i) => opened(i) && before.has(key(i)) && !chinaOnly(i) && !unconfirmed(i));
-  console.log(SINCE ? `${opening.length} item(s) claimable since ${SINCE}.` : "PREV_CHECK not set; skipping now-claimable posts.");
+  console.log(PREV ? `${opening.length} item(s) claimable since ${PREV.toISOString()}.` : "PREV_CHECK not set; skipping now-claimable posts.");
 
   // On the first run there's nothing to compare with, so post one summary.
   await postItems(added, "new out-of-game reward", "new out-of-game rewards", !before.size);
   await postItems(opening, "out-of-game reward now claimable", "out-of-game rewards now claimable");
 
-  const missing = [...added, ...opening].filter((i) => coStream(i) && !i.channels && !(i.period?.start > TODAY));
+  const missing = [...added, ...opening].filter((i) => coStream(i) && !i.channels && !(i.period?.start > dayIn(NOW, i.period?.tz)));
   if (missing.length) {
     await post({
       username: "VAL Drops",
