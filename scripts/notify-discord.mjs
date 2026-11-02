@@ -56,16 +56,18 @@ const NOW = new Date();
 const PREV = PREV_CHECK && !isNaN(PREV_CHECK) ? PREV_CHECK : null;
 // A window that started after the last check's day and is still open. Comparing with the
 // last check, not "starts today", means a skipped or late run doesn't lose the post.
+// Drops that end with an event's final have an exact time (period.endsAt) instead of a date.
+const notEnded = (p, today) => (p.endsAt ? NOW < new Date(p.endsAt) : !p.end || p.end >= today);
 const opened = (i) => {
   const p = i.period;
   if (!PREV || !p?.start) return false;
   const today = dayIn(NOW, p.tz);
-  return p.start > dayIn(PREV, p.tz) && p.start <= today && (!p.end || p.end >= today);
+  return p.start > dayIn(PREV, p.tz) && p.start <= today && notEnded(p, today);
 };
 const claimable = (i) => {
   const p = i.period;
   const today = dayIn(NOW, p?.tz);
-  if (p?.end && p.end >= today && (!p.start || p.start <= today)) return true;
+  if (p?.end && notEnded(p, today) && (!p.start || p.start <= today)) return true;
   return Boolean(p?.start && p.start > today) || Boolean(i.ongoing);
 };
 // China-exclusive items can't be claimed on other servers.
@@ -161,6 +163,17 @@ async function main() {
       username: "VAL Drops",
       content: `**Co-streamer Drop${missing.length > 1 ? "s" : ""} live with no channels listed:** ${missing.map((i) => i.name).join(", ")}.\n` +
         "Copy the participating channels from <https://www.twitch.tv/drops/campaigns> (signed in) into `channels` in data/curated.json.",
+      allowed_mentions: { parse: [] },
+    }, ADMIN_WEBHOOK);
+  }
+
+  // Event Drops (those with a venue time zone) without exact times end at midnight there.
+  const untimed = [...new Set([...added, ...opening].filter((i) => i.category === "Broadcast Drops" && i.period?.tz && !i.period.endsAt).map((i) => i.group))];
+  if (untimed.length) {
+    await post({
+      username: "VAL Drops",
+      content: `**Event Drops live without exact end times:** ${untimed.join(", ")}.\n` +
+        "Add each event's valorantesports.com tournament id to `events` in data/curated.json.",
       allowed_mentions: { parse: [] },
     }, ADMIN_WEBHOOK);
   }
