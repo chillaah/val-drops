@@ -1,5 +1,5 @@
 {
-  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image. Set 'ongoing' for offers without an end date so they show under Claimable now. 'regions' lists stated restrictions, e.g. {\"code\":\"EXCL\",\"label\":\"Not in some countries\"}. 'dates' adds a claim window the wiki doesn't give to an existing item (matched by type and name): 'period' {start, end} (end null if not known), or 'ongoing' {since, note}, plus the detail row shown on the card and the source(s) for it. Set 'unconfirmed' to a one-line reason when the date comes from leaks, game files or an estimate rather than an announcement: the site marks it and leaves it out of Recently added and Discord. 'channels' lists the channels a co-streamer Drop can be earned on (matched by type and name): 'platform' (\"twitch\"), 'logins', 'partial' true when the source names only some of them (Twitch's Drops page says \"including\"), and the source(s) in 'refs'.",
+  "_comment": "Out-of-game items not (yet) covered by the VALORANT Wiki. Every entry must cite an official source (Riot, VCT, or the partner's own page). 'file' is a VALORANT Wiki file name used for the image. Set 'ongoing' for offers without an end date so they show under Claimable now. 'regions' lists stated restrictions, e.g. {\"code\":\"EXCL\",\"label\":\"Not in some countries\"}. 'dates' adds a claim window the wiki doesn't give to an existing item (matched by type and name): 'period' {start, end} (end null if not known), or 'ongoing' {since, note}, plus the detail row shown on the card and the source(s) for it. Set 'unconfirmed' to a one-line reason when the date comes from leaks, game files or an estimate rather than an announcement: the site marks it and leaves it out of Recently added and Discord. 'channels' lists the channels a co-streamer Drop can be earned on (matched by type and name): 'platform' (\"twitch\"), 'logins', 'partial' true when the source names only some of them (Twitch's Drops page says \"including\"), and the source(s) in 'refs'. 'events' gives end times to Drops that end with an event's final (matched by group): 'official' is the tournament id in its valorantesports.com/en-US/tournament/<id> link. See scripts/event-times.mjs.",
   "items": [
     {
       "name": "Not Today Spray",
@@ -503,6 +503,12 @@
       "refs": [
         "https://www.twitch.tv/drops/campaigns"
       ]
+    }
+  ],
+  "events": [
+    {
+      "group": "2026 VALORANT Game Changers Championship São Paulo",
+      "official": "117200126947483851"
     }
   ]
 }

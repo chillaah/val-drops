@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-11-02T05:00:25.325Z",
+ "generated": "2026-11-02T05:19:10.153Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -76,7 +76,8 @@ window.VAL_DROPS = {
    "period": {
     "start": "2026-11-01",
     "end": "2026-11-01",
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "endsAt": "2026-11-02T02:15:00.000Z"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -124,7 +125,8 @@ window.VAL_DROPS = {
    "period": {
     "start": "2026-10-30",
     "end": "2026-11-01",
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "endsAt": "2026-11-02T02:15:00.000Z"
    },
    "ongoing": null,
    "maybeActive": false,

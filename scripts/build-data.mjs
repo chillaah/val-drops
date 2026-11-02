@@ -7,6 +7,7 @@ import { execFile } from "node:child_process";
 import path from "node:path";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
+import { eventEnd } from "./event-times.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const API = "https://wiki.playvalorant.com/en-us/api.php";
@@ -804,14 +805,45 @@ function mergeDuplicates(items) {
 
 // When each item first appeared on the site, carried forward from the previous
 // data/items.js. Items from the very first build have no known date (null).
-async function loadFirstSeen() {
-  let prev = [];
+async function loadPrevious() {
   try {
     const src = await readFile(path.join(ROOT, "data/items.js"), "utf8");
-    prev = JSON.parse(src.replace(/^window\.VAL_DROPS\s*=\s*/, "").replace(/;\s*$/, "")).items;
+    return JSON.parse(src.replace(/^window\.VAL_DROPS\s*=\s*/, "").replace(/;\s*$/, "")).items;
   } catch (e) {
     if (e.code !== "ENOENT") throw e;
+    return [];
   }
+}
+
+// Exact end times for Drops that end with an event's final (scripts/event-times.mjs).
+// Only events still running are looked up; finished ones keep the time from the last build,
+// so a source that later changes or disappears doesn't rewrite history.
+async function applyEventEnds(items, events, prev) {
+  const dayIn = (ms, tz) => new Intl.DateTimeFormat("en-CA", { timeZone: tz || "America/Los_Angeles" }).format(ms);
+  const recent = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
+  const keyOf = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
+  const before = new Map(prev.filter((i) => i.period?.endsAt).map((i) => [keyOf(i), i.period.endsAt]));
+  // Items can share a period object (curated dates), so give each its own copy.
+  const setEnd = (i, endsAt) => { i.period = { ...i.period, endsAt }; };
+  for (const ev of events) {
+    const own = items.filter((i) => i.group === ev.group && i.period);
+    if (!own.length) { console.warn(`  ! event times for ${ev.group} match no item`); continue; }
+    if (!own.some((i) => i.period.end >= recent)) {
+      for (const i of own) if (before.has(keyOf(i))) setEnd(i, before.get(keyOf(i)));
+      continue;
+    }
+    const r = await eventEnd(ev);
+    for (const w of r.warnings) console.warn(`  ! ${ev.group}: ${w}`);
+    for (const i of own) {
+      if (!r.endsAt) { if (before.has(keyOf(i))) setEnd(i, before.get(keyOf(i))); continue; }
+      // Only Drops that run to the final's day end with it; earlier windows keep their date.
+      if (i.period.end === dayIn(r.final, i.period.tz)) setEnd(i, r.endsAt);
+    }
+    if (r.endsAt) console.log(`  ${ev.group}: ends about ${r.endsAt}`);
+  }
+}
+
+function loadFirstSeen(prev) {
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
   const keyOf = (i) => [i.category, i.group, i.subgroup, i.name].join("§");
   // Fallback match on type + name so a renamed wiki section doesn't make old items look new.
@@ -897,7 +929,8 @@ async function main() {
     }
   }
 
-  const firstSeen = await loadFirstSeen();
+  const prev = await loadPrevious();
+  const firstSeen = loadFirstSeen(prev);
   const files = [...merged.values()].map((i) => i.file);
   const images = await resolveImages(files, ...THUMB_BOX);
   // Larger copies for the item detail view, only loaded when it opens.
@@ -962,6 +995,8 @@ async function main() {
     });
     if (n % 50 === 0) process.stdout.write(`  ${n} items\r`);
   }
+
+  await applyEventEnds(items, curated.events, prev);
 
   const out = {
     generated: new Date().toISOString(),

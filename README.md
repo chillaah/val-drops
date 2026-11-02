@@ -44,6 +44,7 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 - **Recently added and timeline.** Items first seen in the last 30 days that can be claimed now or soon get their own section (old items the wiki only just listed don't count), and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
 - **Light and dark themes.** Follows your system setting until you pick one with the toggle in the header.
 - **Discord alerts.** New items, and items whose claim window just opened, can be posted to a Discord channel automatically ([setup](#discord-notifications)).
+- **Event end times.** Drops that end with an event's final go offline a couple of hours after it, not at midnight. The build reads the grand final's scheduled start from the [official schedule](https://valorantesports.com) and sets the end to that + a full best-of-five (about 6¼ hours) + 2 hours for co-streamers. Each event needs one line in `events` in [`data/curated.json`](data/curated.json) with its tournament id. Without that line, or if the page can't be read, Drops from an event end at midnight in the host city. (vlr.gg has actual map times, but its terms forbid scripted access.)
 - **Co-streamer channels.** For co-streamer Drops, "How to claim" links the participating Twitch channels, copied by hand into `channels` in [`data/curated.json`](data/curated.json) from Twitch's Drops page (Twitch has no public API for them).
 
 ## What's tracked
@@ -141,6 +142,7 @@ docs/                            README screenshots (not deployed)
 scripts/build-data.mjs           wiki scraper
 scripts/check-data.mjs           blocks publishing if a scrape looks broken or an edit needs review
 scripts/prerender.mjs            writes the plain item list into index.html
+scripts/event-times.mjs          end times for event Drops from the official schedule
 scripts/notify-discord.mjs       posts new items to a Discord webhook
 scripts/og-image.html            source for assets/og.png (screenshot #og at 1200×630)
 .github/workflows/               CI, data updates, deploys
@@ -176,7 +178,7 @@ When the update job finds new items, or an item's claim window has opened since 
 2. In this repo, add it under **Settings → Secrets and variables → Actions** as `DISCORD_WEBHOOK_URL`.
 3. Optional: run the **Discord test** workflow to confirm the channel.
 
-When a co-streamer Drop goes live with no channels listed, a reminder to add them is posted too. Set `DISCORD_ADMIN_WEBHOOK_URL` to send those reminders to a separate (private) channel; without it they go to the main one.
+When a co-streamer Drop goes live with no channels listed, or an event's Drops go live with no `events` line for exact end times, a reminder is posted too. Set `DISCORD_ADMIN_WEBHOOK_URL` to send those reminders to a separate (private) channel; without it they go to the main one.
 
 If the secret isn't set, the step is skipped. A run with more than 25 new items posts one summary message instead of flooding the channel. To preview messages without posting, run `PREV_CHECK=<ISO time> node scripts/notify-discord.mjs <old-items.js> data/items.js --dry-run`.
 

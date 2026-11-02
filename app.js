@@ -91,10 +91,14 @@
   const fmtDay = (s) => new Date(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)))
     .toLocaleDateString(undefined, { month: "short", day: "numeric", timeZone: "UTC" });
 
+  // Drops that end with an event's final have an exact time (period.endsAt) instead.
+  const NOW = Date.now();
+  const isOpen = (p, today) => (!p.start || p.start <= today) && (p.endsAt ? NOW < Date.parse(p.endsAt) : p.end >= today);
+
   function status(i) {
     const p = i.period;
     const today = todayOf(i);
-    if (p && p.end >= today && (!p.start || p.start <= today)) return "active";
+    if (p && isOpen(p, today)) return "active";
     if (p && p.start && p.start > today) return "upcoming";
     if (i.ongoing) return "active";
     if (i.maybeActive) return "maybe";
@@ -104,7 +108,12 @@
   function statusLabel(i) {
     const st = status(i);
     const today = todayOf(i);
-    if (st === "active" && i.period && i.period.end >= today && (!i.period.start || i.period.start <= today)) {
+    if (st === "active" && i.period && isOpen(i.period, today)) {
+      // An estimate (final + game time + grace), so round to the quarter hour.
+      if (i.period.endsAt && Date.parse(i.period.endsAt) - NOW < 864e5) {
+        const at = new Date(Math.round(Date.parse(i.period.endsAt) / 9e5) * 9e5);
+        return `Ends about ${at.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })}`;
+      }
       const n = daysFrom(i.period.end, today);
       return n === 0 ? "Ends today" : n === 1 ? "Ends tomorrow" : `Ends in ${n} days · ${fmtDay(i.period.end)}`;
     }
