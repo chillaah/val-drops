@@ -3,6 +3,7 @@
 //
 // Usage: node scripts/build-data.mjs [--no-images]
 import { mkdir, readFile, writeFile, access, readdir, unlink } from "node:fs/promises";
+import { writePublicJson } from "./export-json.mjs";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { promisify } from "node:util";
@@ -1005,6 +1006,7 @@ async function main() {
   };
   if (!SKIP_IMAGES) await pruneImages(out.items);
   await writeFile(path.join(ROOT, "data/items.js"), "window.VAL_DROPS = " + JSON.stringify(out, null, 1) + ";\n");
+  await writePublicJson(out);
   const counts = out.items.reduce((a, i) => ((a[i.category] = (a[i.category] || 0) + 1), a), {});
   console.log(`Wrote ${out.items.length} items (${items.length - out.items.length} duplicates merged)`, counts);
 }

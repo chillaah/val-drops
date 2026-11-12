@@ -1,0 +1,24 @@
+name: Wrong info
+description: An item on the site has the wrong dates, code, image, region or claim steps
+title: "Wrong info: "
+labels: [data fix]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Item link
+      description: Open the item on the site and copy the address (it ends in ?item=...).
+      placeholder: https://chillaah.github.io/val-drops/?item=slime-mosh-buddy
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong, and what should it say?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: Where the correct information comes from, if you have one.

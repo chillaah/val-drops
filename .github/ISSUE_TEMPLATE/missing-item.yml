@@ -1,0 +1,36 @@
+name: Missing item
+description: A VALORANT reward from outside the store and battle pass that the site doesn't list
+title: "Missing item: "
+labels: [missing item]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Item name
+      placeholder: e.g. Slime Mosh Buddy
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Item type
+      options: [Title, Player Card, Gun Buddy, Spray, Gun Skin, Other]
+    validations:
+      required: true
+  - type: input
+    id: how
+    attributes:
+      label: How was it given out?
+      placeholder: e.g. Twitch Drops during VCT Masters Toronto, Prime Gaming, a partner promo
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: An official link (Riot, VALORANT Esports, the partner's page) or the wiki page, if you have one.
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Dates, regions, codes, screenshots.

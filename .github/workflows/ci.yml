@@ -29,4 +29,4 @@ jobs:
         # --approve: CI only checks the scraper; reviewing wiki edits is the update job's call.
         run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js" --approve
       - name: Check site files exist
-        run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
+        run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml data/items.json assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
