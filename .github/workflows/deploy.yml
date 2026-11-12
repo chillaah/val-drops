@@ -36,10 +36,23 @@ jobs:
           mkdir _site
           cp -r index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml assets data img _site/
       - name: Stamp last checked time
-        if: inputs.checked != ''
+        # A data refresh passes the time it checked the wiki. Any other deploy (a code
+        # change) keeps the live site's last check, so the date doesn't fall back to
+        # when the data last changed. It's skipped if it's older than this build's data.
         env:
           CHECKED: ${{ inputs.checked }}
         run: |
+          iso='[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9:.]+Z'
+          if [ -z "$CHECKED" ]; then
+            live=$(curl -fsS --max-time 20 "https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/data/items.js" | head -c 400 || true)
+            CHECKED=$(printf '%s' "$live" | grep -oE "\"checked\": \"$iso\"" | grep -oE "$iso" || true)
+            generated=$(head -c 400 _site/data/items.js | grep -oE "\"generated\": \"$iso\"" | grep -oE "$iso" || true)
+            if [ -z "$CHECKED" ] || [[ "$CHECKED" < "$generated" ]]; then
+              echo "No newer live check time to keep."; exit 0
+            fi
+            echo "Keeping live check time $CHECKED"
+          fi
+          [[ "$CHECKED" =~ ^$iso$ ]] || { echo "::error::Bad check time: $CHECKED"; exit 1; }
           sed -i -E "s/^window\.VAL_DROPS = \{$/&\n \"checked\": \"$CHECKED\",/" _site/data/items.js
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
