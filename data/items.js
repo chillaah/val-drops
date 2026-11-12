@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-11-02T05:19:10.153Z",
+ "generated": "2026-11-12T14:46:04.073Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -5652,6 +5652,174 @@ window.VAL_DROPS = {
   },
   {
    "id": 118,
+   "name": "BlastX Buddy",
+   "type": "Gun Buddy",
+   "category": "PlayStation Plus",
+   "group": "PS+ Bundle — November 2026",
+   "subgroup": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
+   "title": null,
+   "image": "img/BlastX_Buddy.webp",
+   "imageLarge": "img/BlastX_Buddy.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2026 until the next bundle"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": {
+    "since": "2026-11-01",
+    "note": "Current PS+ bundle since November 2026. No end date announced; bundles rotate about every three months."
+   },
+   "maybeActive": false,
+   "unconfirmed": null,
+   "channels": null,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
+     "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-11-12",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "blastx-buddy"
+  },
+  {
+   "id": 119,
+   "name": "Araxys Card",
+   "type": "Player Card",
+   "category": "PlayStation Plus",
+   "group": "PS+ Bundle — November 2026",
+   "subgroup": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
+   "title": null,
+   "image": "img/Araxys_Card_Large.webp",
+   "imageLarge": "img/Araxys_Card_Large_600.webp",
+   "imageWide": "img/Araxys_Card_Wide.webp",
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2026 until the next bundle"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": {
+    "since": "2026-11-01",
+    "note": "Current PS+ bundle since November 2026. No end date announced; bundles rotate about every three months."
+   },
+   "maybeActive": false,
+   "unconfirmed": null,
+   "channels": null,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
+     "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-11-12",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "araxys-card"
+  },
+  {
+   "id": 120,
+   "name": "Glitchpop Spray",
+   "type": "Spray",
+   "category": "PlayStation Plus",
+   "group": "PS+ Bundle — November 2026",
+   "subgroup": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
+   "title": null,
+   "image": "img/Glitchpop_Spray.webp",
+   "imageLarge": "img/Glitchpop_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2026 until the next bundle"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": {
+    "since": "2026-11-01",
+    "note": "Current PS+ bundle since November 2026. No end date announced; bundles rotate about every three months."
+   },
+   "maybeActive": false,
+   "unconfirmed": null,
+   "channels": null,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
+     "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-11-12",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "glitchpop-spray"
+  },
+  {
+   "id": 121,
+   "name": "Doodle Buds // Agents Spray",
+   "type": "Spray",
+   "category": "PlayStation Plus",
+   "group": "PS+ Bundle — November 2026",
+   "subgroup": null,
+   "groupNote": "Bundles rotate about every three months, and an old bundle can't be claimed once the next one is out. Dates are by month: Riot doesn't publish exact start and end days.",
+   "title": null,
+   "image": "img/Doodle_Buds_Agents_Spray.webp",
+   "imageLarge": "img/Doodle_Buds_Agents_Spray_600.webp",
+   "imageWide": null,
+   "details": [
+    [
+     {
+      "label": "Available",
+      "value": "November 2026 until the next bundle"
+     }
+    ]
+   ],
+   "period": null,
+   "ongoing": {
+    "since": "2026-11-01",
+    "note": "Current PS+ bundle since November 2026. No end date announced; bundles rotate about every three months."
+   },
+   "maybeActive": false,
+   "unconfirmed": null,
+   "channels": null,
+   "sources": [
+    {
+     "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
+     "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
+     "official": false,
+     "wiki": true
+    }
+   ],
+   "firstSeen": "2026-11-12",
+   "codes": null,
+   "regions": [],
+   "alsoFrom": [],
+   "slug": "doodle-buds-agents-spray"
+  },
+  {
+   "id": 122,
    "name": "Origin Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5666,15 +5834,15 @@ window.VAL_DROPS = {
     [
      {
       "label": "Available",
-      "value": "August 2026 until the next bundle"
+      "value": "August - October 2026"
      }
     ]
    ],
-   "period": null,
-   "ongoing": {
-    "since": "2026-08-01",
-    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
+   "period": {
+    "start": "2026-08-01",
+    "end": "2026-10-31"
    },
+   "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
    "channels": null,
@@ -5693,7 +5861,7 @@ window.VAL_DROPS = {
    "slug": "origin-buddy"
   },
   {
-   "id": 119,
+   "id": 123,
    "name": "Glitchpop Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5708,15 +5876,15 @@ window.VAL_DROPS = {
     [
      {
       "label": "Available",
-      "value": "August 2026 until the next bundle"
+      "value": "August - October 2026"
      }
     ]
    ],
-   "period": null,
-   "ongoing": {
-    "since": "2026-08-01",
-    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
+   "period": {
+    "start": "2026-08-01",
+    "end": "2026-10-31"
    },
+   "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
    "channels": null,
@@ -5735,7 +5903,7 @@ window.VAL_DROPS = {
    "slug": "glitchpop-card"
   },
   {
-   "id": 120,
+   "id": 124,
    "name": "BlastX Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5750,15 +5918,15 @@ window.VAL_DROPS = {
     [
      {
       "label": "Available",
-      "value": "August 2026 until the next bundle"
+      "value": "August - October 2026"
      }
     ]
    ],
-   "period": null,
-   "ongoing": {
-    "since": "2026-08-01",
-    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
+   "period": {
+    "start": "2026-08-01",
+    "end": "2026-10-31"
    },
+   "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
    "channels": null,
@@ -5777,7 +5945,7 @@ window.VAL_DROPS = {
    "slug": "blastx-spray"
   },
   {
-   "id": 121,
+   "id": 125,
    "name": "Celestial Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5792,15 +5960,15 @@ window.VAL_DROPS = {
     [
      {
       "label": "Available",
-      "value": "August 2026 until the next bundle"
+      "value": "August - October 2026"
      }
     ]
    ],
-   "period": null,
-   "ongoing": {
-    "since": "2026-08-01",
-    "note": "Current PS+ bundle since August 2026. No end date announced; bundles rotate about every three months."
+   "period": {
+    "start": "2026-08-01",
+    "end": "2026-10-31"
    },
+   "ongoing": null,
    "maybeActive": false,
    "unconfirmed": null,
    "channels": null,
@@ -5819,7 +5987,7 @@ window.VAL_DROPS = {
    "slug": "celestial-spray"
   },
   {
-   "id": 122,
+   "id": 126,
    "name": "Reaver, EP 5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -5861,7 +6029,7 @@ window.VAL_DROPS = {
    "slug": "reaver-ep-5-buddy"
   },
   {
-   "id": 123,
+   "id": 127,
    "name": "Crimsonbeast Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -5903,7 +6071,7 @@ window.VAL_DROPS = {
    "slug": "crimsonbeast-card"
   },
   {
-   "id": 124,
+   "id": 128,
    "name": "Team Ace // Raze Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5945,7 +6113,7 @@ window.VAL_DROPS = {
    "slug": "team-ace-raze-spray"
   },
   {
-   "id": 125,
+   "id": 129,
    "name": "Prime//2.0 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -5987,7 +6155,7 @@ window.VAL_DROPS = {
    "slug": "prime-2-0-spray"
   },
   {
-   "id": 126,
+   "id": 130,
    "name": "Ion, Ep5 Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6029,7 +6197,7 @@ window.VAL_DROPS = {
    "slug": "ion-ep5-buddy"
   },
   {
-   "id": 127,
+   "id": 131,
    "name": "Frontier Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6071,7 +6239,7 @@ window.VAL_DROPS = {
    "slug": "frontier-card"
   },
   {
-   "id": 128,
+   "id": 132,
    "name": "Gaia's Vengeance Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6132,7 +6300,7 @@ window.VAL_DROPS = {
    "slug": "gaia-s-vengeance-spray"
   },
   {
-   "id": 129,
+   "id": 133,
    "name": "Forsaken Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6174,7 +6342,7 @@ window.VAL_DROPS = {
    "slug": "forsaken-spray"
   },
   {
-   "id": 130,
+   "id": 134,
    "name": "Altitude Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6216,7 +6384,7 @@ window.VAL_DROPS = {
    "slug": "altitude-buddy"
   },
   {
-   "id": 131,
+   "id": 135,
    "name": "Valiant Hero Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6258,7 +6426,7 @@ window.VAL_DROPS = {
    "slug": "valiant-hero-card"
   },
   {
-   "id": 132,
+   "id": 136,
    "name": "RGX 11z Pro, Ep 4 Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6300,7 +6468,7 @@ window.VAL_DROPS = {
    "slug": "rgx-11z-pro-ep-4-spray"
   },
   {
-   "id": 133,
+   "id": 137,
    "name": "Soulstrife Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6342,7 +6510,7 @@ window.VAL_DROPS = {
    "slug": "soulstrife-spray"
   },
   {
-   "id": 134,
+   "id": 138,
    "name": "Araxys Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6384,7 +6552,7 @@ window.VAL_DROPS = {
    "slug": "araxys-buddy"
   },
   {
-   "id": 135,
+   "id": 139,
    "name": "Tigris Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6426,7 +6594,7 @@ window.VAL_DROPS = {
    "slug": "tigris-card"
   },
   {
-   "id": 136,
+   "id": 140,
    "name": "Magepunk Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6468,7 +6636,7 @@ window.VAL_DROPS = {
    "slug": "magepunk-spray"
   },
   {
-   "id": 137,
+   "id": 141,
    "name": "Oni Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6510,7 +6678,7 @@ window.VAL_DROPS = {
    "slug": "oni-spray"
   },
   {
-   "id": 138,
+   "id": 142,
    "name": "Prelude to Chaos Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6552,7 +6720,7 @@ window.VAL_DROPS = {
    "slug": "prelude-to-chaos-buddy"
   },
   {
-   "id": 139,
+   "id": 143,
    "name": "Kohaku & Matsuba Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6594,7 +6762,7 @@ window.VAL_DROPS = {
    "slug": "kohaku-matsuba-card"
   },
   {
-   "id": 140,
+   "id": 144,
    "name": "Imperium Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6636,7 +6804,7 @@ window.VAL_DROPS = {
    "slug": "imperium-spray"
   },
   {
-   "id": 141,
+   "id": 145,
    "name": "ChronoVoid Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6678,7 +6846,7 @@ window.VAL_DROPS = {
    "slug": "chronovoid-spray"
   },
   {
-   "id": 142,
+   "id": 146,
    "name": "Snowfall Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6720,7 +6888,7 @@ window.VAL_DROPS = {
    "slug": "snowfall-buddy"
   },
   {
-   "id": 143,
+   "id": 147,
    "name": "Celestial Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6762,7 +6930,7 @@ window.VAL_DROPS = {
    "slug": "celestial-card"
   },
   {
-   "id": 144,
+   "id": 148,
    "name": "Sentinels of Light Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6804,7 +6972,7 @@ window.VAL_DROPS = {
    "slug": "sentinels-of-light-spray"
   },
   {
-   "id": 145,
+   "id": 149,
    "name": "Sovereign Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6846,7 +7014,7 @@ window.VAL_DROPS = {
    "slug": "sovereign-spray"
   },
   {
-   "id": 146,
+   "id": 150,
    "name": "ChronoVoid Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -6888,7 +7056,7 @@ window.VAL_DROPS = {
    "slug": "chronovoid-buddy"
   },
   {
-   "id": 147,
+   "id": 151,
    "name": "Magepunk Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -6930,7 +7098,7 @@ window.VAL_DROPS = {
    "slug": "magepunk-card"
   },
   {
-   "id": 148,
+   "id": 152,
    "name": "Ion Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -6972,7 +7140,7 @@ window.VAL_DROPS = {
    "slug": "ion-spray"
   },
   {
-   "id": 149,
+   "id": 153,
    "name": "Team Ace Buddy",
    "type": "Gun Buddy",
    "category": "PlayStation Plus",
@@ -7014,7 +7182,7 @@ window.VAL_DROPS = {
    "slug": "team-ace-buddy"
   },
   {
-   "id": 150,
+   "id": 154,
    "name": "NO LIMITS Card",
    "type": "Player Card",
    "category": "PlayStation Plus",
@@ -7056,7 +7224,7 @@ window.VAL_DROPS = {
    "slug": "no-limits-card"
   },
   {
-   "id": 151,
+   "id": 155,
    "name": "Ego Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -7098,7 +7266,7 @@ window.VAL_DROPS = {
    "slug": "ego-spray"
   },
   {
-   "id": 152,
+   "id": 156,
    "name": "Origin Spray",
    "type": "Spray",
    "category": "PlayStation Plus",
@@ -7140,7 +7308,7 @@ window.VAL_DROPS = {
    "slug": "origin-spray"
   },
   {
-   "id": 153,
+   "id": 157,
    "name": "First Title",
    "type": "Title",
    "category": "Closed Beta",
@@ -7186,7 +7354,7 @@ window.VAL_DROPS = {
    "slug": "first-title"
   },
   {
-   "id": 154,
+   "id": 158,
    "name": "VALORANT Beta Card",
    "type": "Player Card",
    "category": "Closed Beta",
@@ -7232,7 +7400,7 @@ window.VAL_DROPS = {
    "slug": "valorant-beta-card"
   },
   {
-   "id": 155,
+   "id": 159,
    "name": "V1.0 Title",
    "type": "Title",
    "category": "Closed Beta",
@@ -7278,7 +7446,7 @@ window.VAL_DROPS = {
    "slug": "v1-0-title"
   },
   {
-   "id": 156,
+   "id": 160,
    "name": "Beta Pioneer Card",
    "type": "Player Card",
    "category": "Closed Beta",
@@ -7324,7 +7492,7 @@ window.VAL_DROPS = {
    "slug": "beta-pioneer-card"
   },
   {
-   "id": 157,
+   "id": 161,
    "name": "Closed Beta Coin Buddy",
    "type": "Gun Buddy",
    "category": "Closed Beta",
@@ -7370,7 +7538,7 @@ window.VAL_DROPS = {
    "slug": "closed-beta-coin-buddy"
   },
   {
-   "id": 158,
+   "id": 162,
    "name": "Gênio Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -7422,7 +7590,7 @@ window.VAL_DROPS = {
    "slug": "genio-title"
   },
   {
-   "id": 159,
+   "id": 163,
    "name": "tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -7482,7 +7650,7 @@ window.VAL_DROPS = {
    "slug": "to-na-sombra-buddy"
   },
   {
-   "id": 160,
+   "id": 164,
    "name": "Pick'Ems Master tô na sombra Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -7542,7 +7710,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-to-na-sombra-buddy"
   },
   {
-   "id": 161,
+   "id": 165,
    "name": "100% Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -7844,7 +8012,7 @@ window.VAL_DROPS = {
    "slug": "100-title"
   },
   {
-   "id": 162,
+   "id": 166,
    "name": "Calculated Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -7900,7 +8068,7 @@ window.VAL_DROPS = {
    "slug": "calculated-title"
   },
   {
-   "id": 163,
+   "id": 167,
    "name": "Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -7964,7 +8132,7 @@ window.VAL_DROPS = {
    "slug": "stone-of-heaven-buddy"
   },
   {
-   "id": 164,
+   "id": 168,
    "name": "Pick'Ems Master: Stone of Heaven Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8028,7 +8196,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-stone-of-heaven-buddy"
   },
   {
-   "id": 165,
+   "id": 169,
    "name": "Bossman Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8084,7 +8252,7 @@ window.VAL_DROPS = {
    "slug": "bossman-title"
   },
   {
-   "id": 166,
+   "id": 170,
    "name": "REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8148,7 +8316,7 @@ window.VAL_DROPS = {
    "slug": "ref-buddy"
   },
   {
-   "id": 167,
+   "id": 171,
    "name": "Pick'Ems Master: REF?!? Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8212,7 +8380,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-ref-buddy"
   },
   {
-   "id": 168,
+   "id": 172,
    "name": "Cachando Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8268,7 +8436,7 @@ window.VAL_DROPS = {
    "slug": "cachando-title"
   },
   {
-   "id": 169,
+   "id": 173,
    "name": "¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8332,7 +8500,7 @@ window.VAL_DROPS = {
    "slug": "rico-po-buddy"
   },
   {
-   "id": 170,
+   "id": 174,
    "name": "Pick'Ems Master: ¡Rico, po! Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8396,7 +8564,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-rico-po-buddy"
   },
   {
-   "id": 171,
+   "id": 175,
    "name": "Aura Farming Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8448,7 +8616,7 @@ window.VAL_DROPS = {
    "slug": "aura-farming-title"
   },
   {
-   "id": 172,
+   "id": 176,
    "name": "Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8508,7 +8676,7 @@ window.VAL_DROPS = {
    "slug": "pocket-killjoy-buddy"
   },
   {
-   "id": 173,
+   "id": 177,
    "name": "Pick'Ems Master: Pocket Killjoy Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8568,7 +8736,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-pocket-killjoy-buddy"
   },
   {
-   "id": 174,
+   "id": 178,
    "name": "¡Eureka! Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -8624,7 +8792,7 @@ window.VAL_DROPS = {
    "slug": "eureka-spray"
   },
   {
-   "id": 175,
+   "id": 179,
    "name": "G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8688,7 +8856,7 @@ window.VAL_DROPS = {
    "slug": "g-o-a-t-buddy"
   },
   {
-   "id": 176,
+   "id": 180,
    "name": "Pick'Ems Master: G.O.A.T. Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8752,7 +8920,7 @@ window.VAL_DROPS = {
    "slug": "pick-ems-master-g-o-a-t-buddy"
   },
   {
-   "id": 177,
+   "id": 181,
    "name": "Eh? Title",
    "type": "Title",
    "category": "Pick'Ems",
@@ -8808,7 +8976,7 @@ window.VAL_DROPS = {
    "slug": "eh-title"
   },
   {
-   "id": 178,
+   "id": 182,
    "name": "Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8872,7 +9040,7 @@ window.VAL_DROPS = {
    "slug": "sweet-victory-buddy"
   },
   {
-   "id": 179,
+   "id": 183,
    "name": "Pick 'Em Master Sweet Victory Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -8936,7 +9104,7 @@ window.VAL_DROPS = {
    "slug": "pick-em-master-sweet-victory-buddy"
   },
   {
-   "id": 180,
+   "id": 184,
    "name": "Crystal Ball Spray",
    "type": "Spray",
    "category": "Pick'Ems",
@@ -8992,7 +9160,7 @@ window.VAL_DROPS = {
    "slug": "crystal-ball-spray"
   },
   {
-   "id": 181,
+   "id": 185,
    "name": "Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -9056,7 +9224,7 @@ window.VAL_DROPS = {
    "slug": "gonggi-buddy"
   },
   {
-   "id": 182,
+   "id": 186,
    "name": "Pick 'Em Master Gonggi Buddy",
    "type": "Gun Buddy",
    "category": "Pick'Ems",
@@ -9120,7 +9288,7 @@ window.VAL_DROPS = {
    "slug": "pick-em-master-gonggi-buddy"
   },
   {
-   "id": 183,
+   "id": 187,
    "name": "V26 Conflict Hermanita Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9188,7 +9356,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-hermanita-card"
   },
   {
-   "id": 184,
+   "id": 188,
    "name": "V26 Conflict Face the Flames Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9256,7 +9424,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-face-the-flames-card"
   },
   {
-   "id": 185,
+   "id": 189,
    "name": "V26 Conflict Blood & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9324,7 +9492,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-blood-venom-card"
   },
   {
-   "id": 186,
+   "id": 190,
    "name": "V26 Conflict The Fall Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9392,7 +9560,7 @@ window.VAL_DROPS = {
    "slug": "v26-conflict-the-fall-card"
   },
   {
-   "id": 187,
+   "id": 191,
    "name": "Frag or Die: Alpha Sage Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9448,7 +9616,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-alpha-sage-card"
   },
   {
-   "id": 188,
+   "id": 192,
    "name": "Frag or Die: Omega Viper Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9504,7 +9672,7 @@ window.VAL_DROPS = {
    "slug": "frag-or-die-omega-viper-card"
   },
   {
-   "id": 189,
+   "id": 193,
    "name": "Jade & Venom Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9560,7 +9728,7 @@ window.VAL_DROPS = {
    "slug": "jade-venom-card"
   },
   {
-   "id": 190,
+   "id": 194,
    "name": "Broken Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -9620,7 +9788,7 @@ window.VAL_DROPS = {
    "slug": "broken-title"
   },
   {
-   "id": 191,
+   "id": 195,
    "name": "Official Seal Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9680,7 +9848,7 @@ window.VAL_DROPS = {
    "slug": "official-seal-spray"
   },
   {
-   "id": 192,
+   "id": 196,
    "name": "Hari Raya Homecoming Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9740,7 +9908,7 @@ window.VAL_DROPS = {
    "slug": "hari-raya-homecoming-card"
   },
   {
-   "id": 193,
+   "id": 197,
    "name": "Last Round Before Dawn Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9800,7 +9968,7 @@ window.VAL_DROPS = {
    "slug": "last-round-before-dawn-card"
   },
   {
-   "id": 194,
+   "id": 198,
    "name": "AlarmBoi Out Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -9865,7 +10033,7 @@ window.VAL_DROPS = {
    "slug": "alarmboi-out-spray"
   },
   {
-   "id": 195,
+   "id": 199,
    "name": "Songkran Splash Street Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -9925,7 +10093,7 @@ window.VAL_DROPS = {
    "slug": "songkran-splash-street-card"
   },
   {
-   "id": 196,
+   "id": 200,
    "name": "Drop It Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -9982,7 +10150,7 @@ window.VAL_DROPS = {
    "slug": "drop-it-spray"
   },
   {
-   "id": 197,
+   "id": 201,
    "name": "All Love Spray",
    "type": "Spray",
    "category": "Code Redemption",
@@ -10034,7 +10202,7 @@ window.VAL_DROPS = {
    "slug": "all-love-spray"
   },
   {
-   "id": 198,
+   "id": 202,
    "name": "A Piece of Rice Cake Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10086,7 +10254,7 @@ window.VAL_DROPS = {
    "slug": "a-piece-of-rice-cake-spray"
   },
   {
-   "id": 199,
+   "id": 203,
    "name": "Cake or Spike? Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10138,7 +10306,7 @@ window.VAL_DROPS = {
    "slug": "cake-or-spike-spray"
   },
   {
-   "id": 200,
+   "id": 204,
    "name": "Cypher Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10189,7 +10357,7 @@ window.VAL_DROPS = {
    "slug": "cypher-figure-spray"
   },
   {
-   "id": 201,
+   "id": 205,
    "name": "Jett Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10240,7 +10408,7 @@ window.VAL_DROPS = {
    "slug": "jett-figure-spray"
   },
   {
-   "id": 202,
+   "id": 206,
    "name": "Killjoy Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10291,7 +10459,7 @@ window.VAL_DROPS = {
    "slug": "killjoy-figure-spray"
   },
   {
-   "id": 203,
+   "id": 207,
    "name": "Loose Cannon Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10342,7 +10510,7 @@ window.VAL_DROPS = {
    "slug": "loose-cannon-spray"
   },
   {
-   "id": 204,
+   "id": 208,
    "name": "More Creds Pls Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10389,7 +10557,7 @@ window.VAL_DROPS = {
    "slug": "more-creds-pls-spray"
   },
   {
-   "id": 205,
+   "id": 209,
    "name": "Sage Figure Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10440,7 +10608,7 @@ window.VAL_DROPS = {
    "slug": "sage-figure-spray"
   },
   {
-   "id": 206,
+   "id": 210,
    "name": "VCT Americas Aura Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -10501,7 +10669,7 @@ window.VAL_DROPS = {
    "slug": "vct-americas-aura-spray"
   },
   {
-   "id": 207,
+   "id": 211,
    "name": "Hello Horse! Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -10558,7 +10726,7 @@ window.VAL_DROPS = {
    "slug": "hello-horse-spray"
   },
   {
-   "id": 208,
+   "id": 212,
    "name": "Volunteer to School Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -10615,7 +10783,7 @@ window.VAL_DROPS = {
    "slug": "volunteer-to-school-spray"
   },
   {
-   "id": 209,
+   "id": 213,
    "name": "Say Hi To Happiness Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -10672,7 +10840,7 @@ window.VAL_DROPS = {
    "slug": "say-hi-to-happiness-spray"
   },
   {
-   "id": 210,
+   "id": 214,
    "name": "With Sage, Comes Fame Spray",
    "type": "Spray",
    "category": "China Exclusive",
@@ -10709,7 +10877,7 @@ window.VAL_DROPS = {
    "slug": "with-sage-comes-fame-spray"
   },
   {
-   "id": 211,
+   "id": 215,
    "name": "Round Start Spray",
    "type": "Spray",
    "category": "Broadcast Drops",
@@ -10752,7 +10920,7 @@ window.VAL_DROPS = {
    "slug": "round-start-spray"
   },
   {
-   "id": 212,
+   "id": 216,
    "name": "Flyby Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -10804,7 +10972,7 @@ window.VAL_DROPS = {
    "slug": "flyby-hug-buddy"
   },
   {
-   "id": 213,
+   "id": 217,
    "name": "Bear Hug Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -10856,7 +11024,7 @@ window.VAL_DROPS = {
    "slug": "bear-hug-buddy"
   },
   {
-   "id": 214,
+   "id": 218,
    "name": "Seal of Approval Buddy",
    "type": "Gun Buddy",
    "category": "Code Redemption",
@@ -10913,7 +11081,7 @@ window.VAL_DROPS = {
    "slug": "seal-of-approval-buddy"
   },
   {
-   "id": 215,
+   "id": 219,
    "name": "Game Changers Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -11001,7 +11169,7 @@ window.VAL_DROPS = {
    "slug": "game-changers-winner-buddy"
   },
   {
-   "id": 216,
+   "id": 220,
    "name": "VCT Champions Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -11079,7 +11247,7 @@ window.VAL_DROPS = {
    "slug": "vct-champions-winner-buddy"
   },
   {
-   "id": 217,
+   "id": 221,
    "name": "VCT LOCK//IN Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -11123,7 +11291,7 @@ window.VAL_DROPS = {
    "slug": "vct-lock-in-winner-buddy"
   },
   {
-   "id": 218,
+   "id": 222,
    "name": "VCT Masters Winner Buddy",
    "type": "Gun Buddy",
    "category": "Pro Play",
@@ -11327,7 +11495,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-winner-buddy"
   },
   {
-   "id": 219,
+   "id": 223,
    "name": "Arcane Poro Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11382,7 +11550,7 @@ window.VAL_DROPS = {
    "slug": "arcane-poro-buddy"
   },
   {
-   "id": 220,
+   "id": 224,
    "name": "Cloudburst Soles Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11438,7 +11606,7 @@ window.VAL_DROPS = {
    "slug": "cloudburst-soles-buddy"
   },
   {
-   "id": 221,
+   "id": 225,
    "name": "Downtime Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11493,7 +11661,7 @@ window.VAL_DROPS = {
    "slug": "downtime-buddy"
   },
   {
-   "id": 222,
+   "id": 226,
    "name": "Fist Bump Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11555,7 +11723,7 @@ window.VAL_DROPS = {
    "slug": "fist-bump-buddy"
   },
   {
-   "id": 223,
+   "id": 227,
    "name": "FRGMT x WNGMN+ Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11610,7 +11778,7 @@ window.VAL_DROPS = {
    "slug": "frgmt-x-wngmn-buddy"
   },
   {
-   "id": 224,
+   "id": 228,
    "name": "Golden Smite Knife Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11686,7 +11854,7 @@ window.VAL_DROPS = {
    "slug": "golden-smite-knife-buddy"
   },
   {
-   "id": 225,
+   "id": 229,
    "name": "Hang Time Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11746,7 +11914,7 @@ window.VAL_DROPS = {
    "slug": "hang-time-buddy"
   },
   {
-   "id": 226,
+   "id": 230,
    "name": "\"I Create\" Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11801,7 +11969,7 @@ window.VAL_DROPS = {
    "slug": "i-create-buddy"
   },
   {
-   "id": 227,
+   "id": 231,
    "name": "Keep it Safer Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11861,7 +12029,7 @@ window.VAL_DROPS = {
    "slug": "keep-it-safer-buddy"
   },
   {
-   "id": 228,
+   "id": 232,
    "name": "Pocket Sage Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11916,7 +12084,7 @@ window.VAL_DROPS = {
    "slug": "pocket-sage-buddy"
   },
   {
-   "id": 229,
+   "id": 233,
    "name": "Riptide Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
@@ -11971,7 +12139,7 @@ window.VAL_DROPS = {
    "slug": "riptide-buddy"
   },
   {
-   "id": 230,
+   "id": 234,
    "name": "Sweet Calls Buddy",
    "type": "Gun Buddy",
    "category": "Broadcast Drops",
@@ -12017,7 +12185,7 @@ window.VAL_DROPS = {
    "slug": "sweet-calls-buddy"
   },
   {
-   "id": 231,
+   "id": 235,
    "name": "For Retribution Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12069,7 +12237,7 @@ window.VAL_DROPS = {
    "slug": "for-retribution-card"
   },
   {
-   "id": 232,
+   "id": 236,
    "name": "Not A Peep Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12126,7 +12294,7 @@ window.VAL_DROPS = {
    "slug": "not-a-peep-card"
   },
   {
-   "id": 233,
+   "id": 237,
    "name": "VERSUS // Deadlock + Gekko Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12178,7 +12346,7 @@ window.VAL_DROPS = {
    "slug": "versus-deadlock-gekko-card"
   },
   {
-   "id": 234,
+   "id": 238,
    "name": "Pride // Cotton Candy Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12249,7 +12417,7 @@ window.VAL_DROPS = {
    "slug": "pride-cotton-candy-card"
   },
   {
-   "id": 235,
+   "id": 239,
    "name": "Pride // Galactic Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12320,7 +12488,7 @@ window.VAL_DROPS = {
    "slug": "pride-galactic-card"
   },
   {
-   "id": 236,
+   "id": 240,
    "name": "Pride // Primary Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12391,7 +12559,7 @@ window.VAL_DROPS = {
    "slug": "pride-primary-card"
   },
   {
-   "id": 237,
+   "id": 241,
    "name": "Pride // Rainbow Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12462,7 +12630,7 @@ window.VAL_DROPS = {
    "slug": "pride-rainbow-card"
   },
   {
-   "id": 238,
+   "id": 242,
    "name": "Pride // Sherbet Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12533,7 +12701,7 @@ window.VAL_DROPS = {
    "slug": "pride-sherbet-card"
   },
   {
-   "id": 239,
+   "id": 243,
    "name": "Pride // Sunset Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12604,7 +12772,7 @@ window.VAL_DROPS = {
    "slug": "pride-sunset-card"
   },
   {
-   "id": 240,
+   "id": 244,
    "name": "Pride // Twilight Card",
    "type": "Player Card",
    "category": "Code Redemption",
@@ -12675,7 +12843,7 @@ window.VAL_DROPS = {
    "slug": "pride-twilight-card"
   },
   {
-   "id": 241,
+   "id": 245,
    "name": "Dance Break Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -12765,7 +12933,7 @@ window.VAL_DROPS = {
    "slug": "dance-break-card"
   },
   {
-   "id": 242,
+   "id": 246,
    "name": "Seoul Night Jett Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -12817,7 +12985,7 @@ window.VAL_DROPS = {
    "slug": "seoul-night-jett-card"
   },
   {
-   "id": 243,
+   "id": 247,
    "name": "Sloth Slugs Card",
    "type": "Player Card",
    "category": "Events & Partnerships",
@@ -12873,7 +13041,7 @@ window.VAL_DROPS = {
    "slug": "sloth-slugs-card"
   },
   {
-   "id": 244,
+   "id": 248,
    "name": "2024 Championship Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -12925,7 +13093,7 @@ window.VAL_DROPS = {
    "slug": "2024-championship-card"
   },
   {
-   "id": 245,
+   "id": 249,
    "name": "Best Memories Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -12982,7 +13150,7 @@ window.VAL_DROPS = {
    "slug": "best-memories-card"
   },
   {
-   "id": 246,
+   "id": 250,
    "name": "Blissful Burn Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -13039,7 +13207,7 @@ window.VAL_DROPS = {
    "slug": "blissful-burn-card"
   },
   {
-   "id": 247,
+   "id": 251,
    "name": "Count To Three Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -13096,7 +13264,7 @@ window.VAL_DROPS = {
    "slug": "count-to-three-card"
   },
   {
-   "id": 248,
+   "id": 252,
    "name": "Land of Heaven Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -13153,7 +13321,7 @@ window.VAL_DROPS = {
    "slug": "land-of-heaven-card"
   },
   {
-   "id": 249,
+   "id": 253,
    "name": "My Place Card",
    "type": "Player Card",
    "category": "China Exclusive",
@@ -13210,7 +13378,7 @@ window.VAL_DROPS = {
    "slug": "my-place-card"
   },
   {
-   "id": 250,
+   "id": 254,
    "name": "Holding Space Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13259,7 +13427,7 @@ window.VAL_DROPS = {
    "slug": "holding-space-title"
   },
   {
-   "id": 251,
+   "id": 255,
    "name": "Ate Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13311,7 +13479,7 @@ window.VAL_DROPS = {
    "slug": "ate-title"
   },
   {
-   "id": 252,
+   "id": 256,
    "name": "Better Together Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13363,7 +13531,7 @@ window.VAL_DROPS = {
    "slug": "better-together-title"
   },
   {
-   "id": 253,
+   "id": 257,
    "name": "Ally Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13415,7 +13583,7 @@ window.VAL_DROPS = {
    "slug": "ally-title"
   },
   {
-   "id": 254,
+   "id": 258,
    "name": "Proud Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13467,7 +13635,7 @@ window.VAL_DROPS = {
    "slug": "proud-title"
   },
   {
-   "id": 255,
+   "id": 259,
    "name": "Pioneer Title",
    "type": "Title",
    "category": "Code Redemption",
@@ -13519,7 +13687,7 @@ window.VAL_DROPS = {
    "slug": "pioneer-title"
   },
   {
-   "id": 256,
+   "id": 260,
    "name": "VCT Game Changer Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13567,7 +13735,7 @@ window.VAL_DROPS = {
    "slug": "vct-game-changer-title"
   },
   {
-   "id": 257,
+   "id": 261,
    "name": "2021 VCT Regional Masters Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13697,7 +13865,7 @@ window.VAL_DROPS = {
    "slug": "2021-vct-regional-masters-winner-title"
   },
   {
-   "id": 258,
+   "id": 262,
    "name": "VCT Masters Reykjavik Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13751,7 +13919,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-reykjavik-winner-title"
   },
   {
-   "id": 259,
+   "id": 263,
    "name": "VCT Masters Berlin Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13799,7 +13967,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-berlin-winner-title"
   },
   {
-   "id": 260,
+   "id": 264,
    "name": "2021 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13847,7 +14015,7 @@ window.VAL_DROPS = {
    "slug": "2021-vct-champion-title"
   },
   {
-   "id": 261,
+   "id": 265,
    "name": "VCT Masters Copenhagen Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13891,7 +14059,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-copenhagen-winner-title"
   },
   {
-   "id": 262,
+   "id": 266,
    "name": "2022 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13935,7 +14103,7 @@ window.VAL_DROPS = {
    "slug": "2022-vct-champion-title"
   },
   {
-   "id": 263,
+   "id": 267,
    "name": "2022 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -13983,7 +14151,7 @@ window.VAL_DROPS = {
    "slug": "2022-game-changers-winner-title"
   },
   {
-   "id": 264,
+   "id": 268,
    "name": "VCT LOCK//IN Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14027,7 +14195,7 @@ window.VAL_DROPS = {
    "slug": "vct-lock-in-winner-title"
   },
   {
-   "id": 265,
+   "id": 269,
    "name": "VCT Masters Tokyo Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14071,7 +14239,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-tokyo-winner-title"
   },
   {
-   "id": 266,
+   "id": 270,
    "name": "2023 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14115,7 +14283,7 @@ window.VAL_DROPS = {
    "slug": "2023-vct-champion-title"
   },
   {
-   "id": 267,
+   "id": 271,
    "name": "2023 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14163,7 +14331,7 @@ window.VAL_DROPS = {
    "slug": "2023-game-changers-winner-title"
   },
   {
-   "id": 268,
+   "id": 272,
    "name": "VCT Masters Madrid Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14207,7 +14375,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-madrid-winner-title"
   },
   {
-   "id": 269,
+   "id": 273,
    "name": "VCT Masters Shanghai Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14251,7 +14419,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-shanghai-winner-title"
   },
   {
-   "id": 270,
+   "id": 274,
    "name": "2024 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14295,7 +14463,7 @@ window.VAL_DROPS = {
    "slug": "2024-vct-champion-title"
   },
   {
-   "id": 271,
+   "id": 275,
    "name": "2024 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14343,7 +14511,7 @@ window.VAL_DROPS = {
    "slug": "2024-game-changers-winner-title"
   },
   {
-   "id": 272,
+   "id": 276,
    "name": "VCT Masters Bangkok Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14387,7 +14555,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-bangkok-winner-title"
   },
   {
-   "id": 273,
+   "id": 277,
    "name": "VCT Masters Toronto Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14431,7 +14599,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-toronto-winner-title"
   },
   {
-   "id": 274,
+   "id": 278,
    "name": "2025 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14475,7 +14643,7 @@ window.VAL_DROPS = {
    "slug": "2025-vct-champion-title"
   },
   {
-   "id": 275,
+   "id": 279,
    "name": "2025 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14523,7 +14691,7 @@ window.VAL_DROPS = {
    "slug": "2025-game-changers-winner-title"
   },
   {
-   "id": 276,
+   "id": 280,
    "name": "VCT Masters Santiago Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14567,7 +14735,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-santiago-winner-title"
   },
   {
-   "id": 277,
+   "id": 281,
    "name": "VCT Masters London Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14611,7 +14779,7 @@ window.VAL_DROPS = {
    "slug": "vct-masters-london-winner-title"
   },
   {
-   "id": 278,
+   "id": 282,
    "name": "2026 VCT Champion Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14655,7 +14823,7 @@ window.VAL_DROPS = {
    "slug": "2026-vct-champion-title"
   },
   {
-   "id": 279,
+   "id": 283,
    "name": "2026 Game Changers Winner Title",
    "type": "Title",
    "category": "Pro Play",
@@ -14703,7 +14871,7 @@ window.VAL_DROPS = {
    "slug": "2026-game-changers-winner-title"
   },
   {
-   "id": 280,
+   "id": 284,
    "name": "Gajeua Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -14755,7 +14923,7 @@ window.VAL_DROPS = {
    "slug": "gajeua-title"
   },
   {
-   "id": 281,
+   "id": 285,
    "name": "ONE // 2022 Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -14816,7 +14984,7 @@ window.VAL_DROPS = {
    "slug": "one-2022-title"
   },
   {
-   "id": 282,
+   "id": 286,
    "name": "VALORANT Partner Title",
    "type": "Title",
    "category": "Events & Partnerships",
@@ -14867,7 +15035,7 @@ window.VAL_DROPS = {
    "slug": "valorant-partner-title"
   },
   {
-   "id": 283,
+   "id": 287,
    "name": "Armchair IGL Title",
    "type": "Title",
    "category": "Broadcast Drops",
@@ -14913,7 +15081,7 @@ window.VAL_DROPS = {
    "slug": "armchair-igl-title"
   },
   {
-   "id": 284,
+   "id": 288,
    "name": "Not Today Spray",
    "type": "Spray",
    "category": "Events & Partnerships",
@@ -14964,7 +15132,7 @@ window.VAL_DROPS = {
    "slug": "not-today-spray"
   },
   {
-   "id": 285,
+   "id": 289,
    "name": "Lightning Kicks Buddy",
    "type": "Gun Buddy",
    "category": "Events & Partnerships",
