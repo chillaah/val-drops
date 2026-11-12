@@ -26,6 +26,7 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 
 - [Features](#features)
 - [What's tracked](#whats-tracked)
+- [Public data](#public-data)
 - [Sources and accuracy](#sources-and-accuracy)
 - [How it stays up to date](#how-it-stays-up-to-date)
 - [Quality](#quality)
@@ -62,6 +63,41 @@ Every **title, player card, gun buddy, spray and gun skin** earned outside the g
 | **Pro Play** | Tournament winner buddies and titles given to pros, tagged "Pro players only" |
 | **Closed Beta** | The 2020 Closed Beta reward pass, entered through Twitch drops (items removed at launch are left out) |
 | **China Exclusive** | Items only obtainable on the China version of VALORANT, tagged "China only" and not posted to Discord |
+
+## Public data
+
+All items are published as JSON, updated with the site:
+
+**https://chillaah.github.io/val-drops/data/items.json**
+
+Use it for Discord bots, trackers, spreadsheets or anything else. No key, no rate limit beyond GitHub Pages' own. Please credit the VALORANT Wiki and link back to this site (the text is CC BY-SA 3.0, see `license` in the file).
+
+```jsonc
+{
+  "schemaVersion": 1,          // bumped only if a field is renamed or removed
+  "generated": "2026-11-02T05:19:10.153Z",
+  "count": 285,
+  "items": [
+    {
+      "slug": "slime-mosh-buddy",            // stable id, also the site link: ?item=<slug>
+      "url": "https://chillaah.github.io/val-drops/?item=slime-mosh-buddy",
+      "name": "Slime Mosh Buddy",
+      "type": "Gun Buddy",                   // Title, Player Card, Gun Buddy, Spray, Gun Skin
+      "category": "Broadcast Drops",         // where it came from (see "What's tracked")
+      "group": "...",                        // event or campaign
+      "image": "https://...webp",            // full URLs; imageLarge and imageWide when available
+      "period": { "start": "2026-07-24", "end": "2026-07-24" },  // plus "tz" and "endsAt" for some events
+      "codes": [{ "code": "...", "expires": "2023-12-31", "defunct": false }],
+      "regions": [],                         // stated restrictions, e.g. "South Korea only"
+      "sources": [{ "url": "...", "label": "...", "official": true }],
+      "alsoFrom": [],                        // other ways to get the same item
+      "firstSeen": "2026-10-28"              // when the site first listed it (null for the first build)
+    }
+  ]
+}
+```
+
+Fields can be `null` when the source doesn't say. New fields may be added at any time without a version bump.
 
 ## Sources and accuracy
 
@@ -136,10 +172,12 @@ robots.txt, sitemap.xml          for search engines
 assets/                          favicon, touch icon, og.png preview image, no-JS stylesheet
 assets/fonts/                    self-hosted Geist and Geist Mono (SIL OFL, see OFL.txt)
 data/items.js                    generated item data (window.VAL_DROPS)
+data/items.json                  the same data as public JSON (see Public data)
 data/curated.json                hand-added items the wiki doesn't have yet
 img/                             item images saved from the wiki
 docs/                            README screenshots (not deployed)
 scripts/build-data.mjs           wiki scraper
+scripts/export-json.mjs          writes data/items.json
 scripts/check-data.mjs           blocks publishing if a scrape looks broken or an edit needs review
 scripts/prerender.mjs            writes the plain item list into index.html
 scripts/event-times.mjs          end times for event Drops from the official schedule
@@ -149,6 +187,8 @@ scripts/og-image.html            source for assets/og.png (screenshot #og at 120
 ```
 
 ### Adding a missing item
+
+Not a developer? [Open an issue](https://github.com/chillaah/val-drops/issues/new/choose) with the item name and a link, and it'll be added.
 
 1. Add an entry to [`data/curated.json`](data/curated.json) with `name`, `type`, `category`, `group`, `file` (the wiki image file name) and `refs` (official links).
 2. Run `npm run build` and check the result locally.
@@ -185,7 +225,7 @@ If the secret isn't set, the step is skipped. A run with more than 25 new items 
 ## License
 
 - **Code:** [MIT](LICENSE).
-- **Item data:** from the VALORANT Wiki under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **Item data** (including `data/items.json`): from the VALORANT Wiki under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 - **Fonts:** Geist and Geist Mono, under the [SIL Open Font License](assets/fonts/OFL.txt).
 
 This is a fan project and isn't affiliated with or endorsed by Riot Games. VALORANT and all related names, images and assets are trademarks or property of Riot Games, Inc.
