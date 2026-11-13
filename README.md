@@ -27,6 +27,7 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 - [Features](#features)
 - [What's tracked](#whats-tracked)
 - [Public data](#public-data)
+- [Get alerts in your Discord server](#get-alerts-in-your-discord-server)
 - [Sources and accuracy](#sources-and-accuracy)
 - [How it stays up to date](#how-it-stays-up-to-date)
 - [Quality](#quality)
@@ -44,7 +45,7 @@ Broadcast drops · Pick'Ems · Challenge events · Brand partnerships · Code re
 - **One card per item.** An item you can get in several ways, like Slime Mosh (a Twitch drop and a Coinbase reward), appears once with an "Also from" list.
 - **Recently added and timeline.** Items first seen in the last 30 days that can be claimed now or soon get their own section (old items the wiki only just listed don't count), and [`?sort=newest`](https://chillaah.github.io/val-drops/?sort=newest) shows everything month by month.
 - **Light and dark themes.** Follows your system setting until you pick one with the toggle in the header.
-- **Discord alerts.** New items, and items whose claim window just opened, can be posted to a Discord channel automatically ([setup](#discord-notifications)).
+- **Discord alerts.** New items, and items whose claim window just opened, can be posted to a Discord channel automatically ([setup](#discord-notifications)). Other servers can get the same alerts with one small workflow file ([how](#get-alerts-in-your-discord-server)).
 - **Event end times.** Drops that end with an event's final go offline a couple of hours after it, not at midnight. The build reads the grand final's scheduled start from the [official schedule](https://valorantesports.com) and sets the end to that + a full best-of-five (about 6¼ hours) + 2 hours for co-streamers. Each event needs one line in `events` in [`data/curated.json`](data/curated.json) with its tournament id. Without that line, or if the page can't be read, Drops from an event end at midnight in the host city. (vlr.gg has actual map times, but its terms forbid scripted access.)
 - **Co-streamer channels.** For co-streamer Drops, "How to claim" links the participating Twitch channels, copied by hand into `channels` in [`data/curated.json`](data/curated.json) from Twitch's Drops page (Twitch has no public API for them).
 
@@ -98,6 +99,26 @@ Use it for Discord bots, trackers, spreadsheets or anything else. No key, no rat
 ```
 
 Fields can be `null` when the source doesn't say. New fields may be added at any time without a version bump.
+
+## Get alerts in your Discord server
+
+Want new rewards posted in your own server? You don't need to copy this project. A small workflow in a GitHub repo of yours reads the site's [public data](#public-data) every 3 hours and posts anything new to your channel. It's free.
+
+1. **Make a webhook.** In Discord, open **Server Settings → Integrations → Webhooks → New Webhook**, pick the channel and click **Copy Webhook URL**.
+2. **Make a repo.** On GitHub, create a new **private** repository. Any name works, for example `val-drops-alerts`.
+3. **Add the webhook as a secret.** In that repo, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `DISCORD_WEBHOOK_URL` and paste the URL.
+4. **Add the workflow.** Create the file `.github/workflows/val-drops.yml` with the contents of [`examples/discord-alerts.yml`](examples/discord-alerts.yml).
+5. **Run it once.** Open the **Actions** tab, pick **VAL Drops alerts** and click **Run workflow**. A "VAL Drops alerts are set up" message appears in your channel. From then on, new rewards are posted as they're found.
+
+Good to know:
+- **Use a private repo.** GitHub turns off scheduled workflows in public repos with no activity for 60 days. Each run takes well under a minute, far inside the free Actions allowance.
+- **What gets posted:** the same items as this project's own alerts. That means new rewards you can claim now or soon, and rewards whose claim window just opened. Items you can't claim (ended, China only, unconfirmed dates) are left out.
+- **Flood guard:** more than 10 new items at once are posted as one summary. If the list suddenly shrinks, nothing is posted.
+- **To stop alerts,** delete the webhook in Discord or disable the workflow.
+
+### For the maintainer: pausing alerts in other servers
+
+Followers post whatever the live `data/items.json` contains. If production publishes wrong items, set `"paused": true` in [`data/alerts.json`](data/alerts.json) and deploy. Followers then post nothing, and they don't mark anything as seen. Fix the data, set it back to `false`, and the next run compares against the list from before the pause, so only the correct changes go out. The pause doesn't affect this repo's own Discord alerts. Messages that were already posted can't be removed from other servers.
 
 ## Sources and accuracy
 
@@ -174,6 +195,8 @@ assets/fonts/                    self-hosted Geist and Geist Mono (SIL OFL, see 
 data/items.js                    generated item data (window.VAL_DROPS)
 data/items.json                  the same data as public JSON (see Public data)
 data/curated.json                hand-added items the wiki doesn't have yet
+data/alerts.json                 pause switch for other servers' Discord alerts
+examples/discord-alerts.yml      workflow other servers copy to get Discord alerts
 img/                             item images saved from the wiki
 docs/                            README screenshots (not deployed)
 scripts/build-data.mjs           wiki scraper
@@ -209,6 +232,7 @@ Not a developer? [Open an issue](https://github.com/chillaah/val-drops/issues/ne
 | [Update data](.github/workflows/update-data.yml) | Every 6 hours, or manually | Scrapes, checks and commits new data to `production`, posts to Discord, merges back into `development`. Run it manually with **approve** to publish changes the check held for review. |
 | [Deploy](.github/workflows/deploy.yml) | Pushes to `production`, or manually | Publishes the site to GitHub Pages. |
 | [Discord test](.github/workflows/discord-test.yml) | Manually | Shows which channel the webhook posts to and can send one test message. |
+| [Discord alerts for other servers](.github/workflows/discord-follow.yml) | Called from other people's repos | Posts new items from the live `data/items.json` to their own Discord channel. See [Get alerts in your Discord server](#get-alerts-in-your-discord-server). |
 
 ### Discord notifications
 
