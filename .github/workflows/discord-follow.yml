@@ -1,0 +1,71 @@
+name: Discord alerts for other servers
+
+# Called from other people's repos to post VAL Drops alerts to their own Discord
+# channel. It reads the live site's data/items.json, so there's no scraping and no
+# site to host. See "Get alerts in your Discord server" in the README, and
+# examples/discord-alerts.yml for the file to copy.
+#
+# What was already posted is kept in that repo's Actions cache. The first run only
+# saves the list and posts a "set up" message. Set "paused": true in data/alerts.json
+# to stop every follower from posting; they pick up where they left off once it's false.
+on:
+  workflow_call:
+    secrets:
+      DISCORD_WEBHOOK_URL:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: chillaah/val-drops
+          ref: production
+          path: val-drops
+          sparse-checkout: scripts/notify-discord.mjs
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Restore what was already posted
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .val-drops-state
+          key: val-drops-alerts-${{ github.run_id }}
+          restore-keys: val-drops-alerts-
+      - name: Post new and now-claimable items
+        id: post
+        shell: bash
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SITE_URL: https://chillaah.github.io/val-drops/
+          FOLLOW: "1"
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "::error::Add your Discord webhook URL as the DISCORD_WEBHOOK_URL secret."; exit 1
+          fi
+          state=.val-drops-state
+          mkdir -p "$state"
+          now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          alerts=$(curl -fsS --max-time 20 "${SITE_URL}data/alerts.json" || true)
+          if grep -Eq '"paused"[[:space:]]*:[[:space:]]*true' <<<"$alerts"; then
+            echo "::notice::VAL Drops alerts are paused by the maintainer. Nothing was posted."
+            exit 0
+          fi
+          curl -fsS --max-time 30 "${SITE_URL}data/items.json" -o "$RUNNER_TEMP/items.json"
+          PREV_CHECK=$(cat "$state/checked" 2>/dev/null || true) \
+            node val-drops/scripts/notify-discord.mjs "$state/items.json" "$RUNNER_TEMP/items.json"
+          cp "$RUNNER_TEMP/items.json" "$state/items.json"
+          echo "$now" > "$state/checked"
+          echo "save=true" >> "$GITHUB_OUTPUT"
+      - name: Remember what was posted
+        if: steps.post.outputs.save == 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .val-drops-state
+          key: val-drops-alerts-${{ github.run_id }}
