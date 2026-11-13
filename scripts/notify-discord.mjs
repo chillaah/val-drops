@@ -10,6 +10,10 @@
 //                            "now claimable" posts are sent
 //        SITE_URL            (default: https://<owner>.github.io/<repo>/ from GITHUB_REPOSITORY)
 //        RAW_BASE            (default: raw.githubusercontent.com/<repo>/<current commit>/)
+//        FOLLOW=1            run for someone else's server (.github/workflows/discord-follow.yml):
+//                            no maintainer alerts, a "set up" message instead of a summary on
+//                            the first run, a lower flood limit, and nothing is posted if the
+//                            item list shrank a lot (a broken publish, not real removals)
 import { readFile } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 
@@ -17,6 +21,7 @@ const args = process.argv.slice(2);
 const ITEM = args.includes("--item") ? args[args.indexOf("--item") + 1] : null;
 const [oldPath, newPath = oldPath] = args.filter((a, k) => !a.startsWith("--") && args[k - 1] !== "--item");
 const DRY_RUN = process.argv.includes("--dry-run");
+const FOLLOW = process.env.FOLLOW === "1";
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
 const ADMIN_WEBHOOK = process.env.DISCORD_ADMIN_WEBHOOK_URL || WEBHOOK;
 const PREV_CHECK = process.env.PREV_CHECK ? new Date(process.env.PREV_CHECK) : null;
@@ -30,7 +35,8 @@ const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${RE
 
 // More new items than this in one run usually means the scraper or the wiki
 // layout changed, so post one summary instead of flooding the channel.
-const MAX_ITEMS = 25;
+// Other people's servers get a lower limit.
+const MAX_ITEMS = FOLLOW ? 10 : 25;
 const COLOR = 0xff4655;
 
 async function loadItems(file) {
@@ -145,6 +151,18 @@ async function main() {
   }
   const before = new Set((await loadItems(oldPath)).map(key));
   const items = await loadItems(newPath);
+  if (FOLLOW && !before.size) {
+    console.log(`First run: saved ${items.length} items. New ones will be posted from the next run.`);
+    await post({
+      username: "VAL Drops",
+      content: `**VAL Drops alerts are set up for this channel.** New VALORANT rewards you can claim will be posted here.\nWhat's claimable now: <${SITE_URL}>`,
+      allowed_mentions: { parse: [] },
+    });
+    return;
+  }
+  if (FOLLOW && items.length < before.size * 0.8) {
+    throw new Error(`Item list shrank from ${before.size} to ${items.length}. That looks like a broken publish, so nothing was posted.`);
+  }
   const fresh = items.filter((i) => !before.has(key(i)));
   const added = fresh.filter((i) => claimable(i) && !chinaOnly(i) && !unconfirmed(i));
   console.log(`${fresh.length} new item(s), ${added.length} worth posting.`);
@@ -156,6 +174,8 @@ async function main() {
   // On the first run there's nothing to compare with, so post one summary.
   await postItems(added, "new out-of-game reward", "new out-of-game rewards", !before.size);
   await postItems(opening, "out-of-game reward now claimable", "out-of-game rewards now claimable");
+
+  if (FOLLOW) return; // the reminders below are for the maintainer only
 
   const missing = [...added, ...opening].filter((i) => coStream(i) && !i.channels && !(i.period?.start > dayIn(NOW, i.period?.tz)));
   if (missing.length) {
