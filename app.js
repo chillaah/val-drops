@@ -258,7 +258,7 @@
       <span class="type">${esc(i.type)}</span>
       <p class="ctx">${esc(contextOf(i))}</p>
       ${regionsHtml(i)}
-      ${i.groupNote ? `<p class="note">${esc(i.groupNote)}</p>` : ""}
+      ${i.groupNote ? `<p class="note group-note"><b>Note:</b> ${esc(i.groupNote)}</p>` : ""}
       ${how ? `<p class="how"><b>How to claim:</b> ${how}</p>` : ""}
       ${codesHtml(i)}
       ${detailsHtml(i) ? `<div class="details">${detailsHtml(i)}</div>` : ""}
@@ -417,7 +417,7 @@
         const gi = inCat.filter((i) => i.group === g);
         const showHead = g !== cat;
         html += `<div class="group">${showHead ? `<h3>${esc(g)}</h3>` : ""}`;
-        if (gi[0].groupNote) html += `<p class="note">${esc(gi[0].groupNote)}</p>`;
+        if (gi[0].groupNote) html += `<p class="note group-note"><b>Note:</b> ${esc(gi[0].groupNote)}</p>`;
         const subs = [...new Set(gi.map((i) => i.subgroup))];
         for (const s of subs) {
           if (s) html += `<div class="sub">${esc(s)}</div>`;
