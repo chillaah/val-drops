@@ -126,7 +126,7 @@ a { color: inherit; }
 .eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--ok); }
 .hero h1 { margin: 0; font-size: clamp(36px, 6vw, 56px); line-height: 1.05; font-weight: 650; letter-spacing: -.035em; }
 .hero h1 em { font-style: normal; color: var(--muted); }
-.lede { margin: 14px 0 0; max-width: 60ch; color: var(--muted); font-size: 16px; }
+.lede { margin: 14px 0 0; color: var(--muted); font-size: 16px; }
 
 .stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 28px; }
 .stat { display: flex; flex-direction: column; gap: 2px; text-decoration: none; }
@@ -187,6 +187,9 @@ main.wrap { padding-bottom: 20px; }
 .group { margin: 28px 0; }
 .group h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; letter-spacing: -.01em; }
 .note { margin: 0 0 10px; font-size: 13px; color: var(--muted); max-width: 90ch; }
+/* Notes copied from the wiki or written per source: a caveat, not the event's description. */
+.group-note { margin: 6px 0 12px; padding: 8px 12px; border-left: 3px solid var(--info); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--surface-2); }
+.group-note b { color: var(--text); font-weight: 600; }
 .sub { margin: 16px 0 8px; font-size: 12px; font-weight: 500; color: var(--dim); }
 .month { margin-top: 40px; }
 .month > h2 { font-size: 19px; }
