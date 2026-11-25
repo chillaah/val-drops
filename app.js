@@ -440,15 +440,22 @@
     typing = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
   });
   const live = items.filter((i) => status(i) === "active").length;
-  const day = (iso) => esc(new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" }));
   const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
+  // One freshness stat: "last updated Nov 12" next to a later check date read as stale,
+  // so show how long ago the wiki was checked, plus when the newest item was found.
+  // Only deploys from the data refresh stamp "checked"; elsewhere the build time is the check time.
+  const lastCheck = checked || generated;
+  const mins = Math.max(0, Math.round((Date.now() - new Date(lastCheck)) / 60000));
+  const ago = mins < 60 ? (mins < 2 ? "just now" : `${mins}m ago`)
+    : mins < 48 * 60 ? `${Math.round(mins / 60)}h ago` : `${Math.round(mins / 1440)}d ago`;
+  const exact = new Date(lastCheck).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  const newest = items.map((i) => i.firstSeen).filter(Boolean).sort().pop();
   $("#meta").innerHTML =
     stat(items.length, "items tracked") +
     stat(live, "claimable now", live ? "#now" : null) +
     stat(new Set(items.map((i) => i.group)).size, "events & sources") +
-    stat(day(generated), "last updated") +
-    // Only deploys from the data refresh stamp "checked"; elsewhere the build time is the check time.
-    stat(day(checked || generated), "last checked");
+    stat(`<time datetime="${esc(lastCheck)}" title="Checked ${esc(exact)}">${ago}</time>`,
+      `last checked${newest ? ` · newest item ${esc(fmtDay(newest))}` : ""}`);
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 
