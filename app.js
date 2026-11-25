@@ -171,8 +171,9 @@
 
   // The date an item belongs to: when its claim window opened, or closed if that's all we know.
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
-  // New to the site and claimable now or soon. Old items the wiki only just listed (e.g. Closed
-  // Beta rewards) aren't news, so they skip the "Recently added" list and the New badge.
+  // New to the site and claimable now or soon, which marks its card with a New badge. There's no
+  // separate "Recently added" list: these are all already in Claimable now. Old items the wiki
+  // only just listed (e.g. Closed Beta rewards) aren't news, so they skip the badge.
   // Items dated only by leaks or estimates aren't announced, so they skip it too.
   const isRecent = (i) => i.firstSeen && !i.unconfirmed && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
 
@@ -330,29 +331,39 @@
     setTimeout(() => (b.textContent = "Copy"), 1500);
   });
 
+  // Rewards that cost money to claim, with what they need. Judged by the item's main source:
+  // an expired free way to get it (alsoFrom, e.g. an old watch party code) doesn't make it free now.
+  const PAID = [
+    [(i) => i.category === "PlayStation Plus", "PlayStation Plus on PS5"],
+    [(i) => i.category === "Prime Gaming", "Amazon Prime (Prime Gaming)"],
+    [(i) => /ExpressVPN/.test(i.group), "a paid ExpressVPN plan"],
+    [(i) => i.group === "Merch & collectibles", "buying the merch item"],
+  ];
+  const paidNeed = (i) => PAID.find(([test]) => test(i))?.[1] || null;
+  const isPaid = (i) => !!paidNeed(i);
+
   function nowSection(visible) {
     const endOf = (i) => (i.period && i.period.end >= todayOf(i) ? i.period.end : "9999");
     const active = visible.filter((i) => status(i) === "active").sort((a, b) => endOf(a).localeCompare(endOf(b)));
+    const free = active.filter((i) => !isPaid(i));
+    const paid = active.filter(isPaid);
     const upcoming = visible.filter((i) => status(i) === "upcoming")
       .sort((a, b) => a.period.start.localeCompare(b.period.start));
     const maybe = visible.filter((i) => status(i) === "maybe");
     if (!active.length && !upcoming.length && !maybe.length) return "";
     const grid = (list) => `<div class="grid">${list.map((i) => card(i, { claim: true })).join("")}</div>`;
+    const head = (title, n) => `<h3>${title}${n ? `<span class="count">${n}</span>` : ""}</h3>`;
     let html = `<section class="cat now" id="now"><h2><span class="live" aria-hidden="true"></span>Claimable now<span class="count">${active.length}</span></h2>
-      <p>Rewards you can still get, soonest-ending first. Dates are in Pacific time and follow the wiki, so check the linked source before relying on them.</p>`;
-    html += active.length ? grid(active) : `<p class="note">Nothing claimable right now.</p>`;
-    if (upcoming.length) html += `<div class="group"><h3>Coming soon</h3>${grid(upcoming)}</div>`;
-    if (maybe.length) html += `<div class="group"><h3>Codes that may still work</h3>
+      <p>Rewards you can still get, free ones first, then soonest-ending. Dates are in Pacific time and follow the wiki, so check the linked source before relying on them.</p>`;
+    // Free first: a few paid bundles shouldn't bury the one free reward.
+    html += `<div class="group">${head("Free", free.length)}${free.length ? grid(free) : `<p class="note">Nothing free to claim right now.</p>`}</div>`;
+    // Public codes cost nothing to redeem, so they sit with the free rewards.
+    if (maybe.length) html += `<div class="group">${head("Free codes that may still work", maybe.length)}
       <p class="note">Public codes the wiki lists without an expiry date. They might still redeem.</p>${grid(maybe)}</div>`;
+    if (paid.length) html += `<div class="group">${head("Needs a subscription or purchase", paid.length)}
+      <p class="note">These cost money: ${esc([...new Set(paid.map(paidNeed))].join(", "))}.</p>${grid(paid)}</div>`;
+    if (upcoming.length) html += `<div class="group">${head("Coming soon", upcoming.length)}${grid(upcoming)}</div>`;
     return html + `</section>`;
-  }
-
-  function recentSection(visible) {
-    const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
-    if (!recent.length) return "";
-    return `<section class="cat" id="recent"><h2>Recently added<span class="count">${recent.length}</span></h2>
-      <p>Found in the last ${RECENT_DAYS} days and claimable now or soon, newest first.</p>
-      <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
   }
 
   // ---------- next drop countdown ----------
@@ -455,13 +466,28 @@
     };
   }
 
+  // Phones hide the chip rows behind a Filters button; its badge shows how many are on.
+  function filterCount() {
+    const n = [state.cat, state.type, state.region].filter(Boolean).length;
+    const badge = $("#filters-toggle .n");
+    badge.textContent = n;
+    badge.hidden = !n;
+    $("#filters-toggle").setAttribute("aria-label", n ? `Filters, ${n} active` : "Filters");
+  }
+  $("#filters-toggle").addEventListener("click", (e) => {
+    const open = e.currentTarget.getAttribute("aria-expanded") !== "true";
+    e.currentTarget.setAttribute("aria-expanded", open);
+    $(".controls").classList.toggle("filters-open", open);
+  });
+
   function render() {
     chips($("#cats"), CATEGORIES.map((c) => [c[0], c[0]]), "cat", (v) => (i) => categoriesOf(i).includes(v), `<span class="lbl">Source</span>`);
     chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)).map((t) => [t, t]), "type", (v) => (i) => i.type === v, `<span class="lbl">Type</span>`);
     chips($("#regions"), REGIONS.map(([v, label]) => [v, label]), "region", regionTest, `<span class="lbl">Region</span>`);
     const visible = items.filter((i) => matches(i));
     sortChips();
-    let html = nextDropBlock(visible) + nowSection(visible) + recentSection(visible);
+    filterCount();
+    let html = nextDropBlock(visible) + nowSection(visible);
     if (state.sort === "newest") {
       $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
       return;
@@ -504,15 +530,22 @@
     typing = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
   });
   const live = items.filter((i) => status(i) === "active").length;
-  const day = (iso) => esc(new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" }));
   const stat = (n, label, href) => `<${href ? `a href="${href}"` : "div"} class="stat"><b>${n}</b><span>${label}</span></${href ? "a" : "div"}>`;
+  // One freshness stat: "last updated Nov 12" next to a later check date read as stale,
+  // so show how long ago the wiki was checked, plus when the newest item was found.
+  // Only deploys from the data refresh stamp "checked"; elsewhere the build time is the check time.
+  const lastCheck = checked || generated;
+  const mins = Math.max(0, Math.round((Date.now() - new Date(lastCheck)) / 60000));
+  const ago = mins < 60 ? (mins < 2 ? "just now" : `${mins}m ago`)
+    : mins < 48 * 60 ? `${Math.round(mins / 60)}h ago` : `${Math.round(mins / 1440)}d ago`;
+  const exact = new Date(lastCheck).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  const newest = items.map((i) => i.firstSeen).filter(Boolean).sort().pop();
   $("#meta").innerHTML =
     stat(items.length, "items tracked") +
     stat(live, "claimable now", live ? "#now" : null) +
     stat(new Set(items.map((i) => i.group)).size, "events & sources") +
-    stat(day(generated), "last updated") +
-    // Only deploys from the data refresh stamp "checked"; elsewhere the build time is the check time.
-    stat(day(checked || generated), "last checked");
+    stat(`<time datetime="${esc(lastCheck)}" title="Checked ${esc(exact)}">${ago}</time>`,
+      `last checked${newest ? ` · newest item ${esc(fmtDay(newest))}` : ""}`);
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 
