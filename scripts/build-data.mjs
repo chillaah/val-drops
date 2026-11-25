@@ -1,5 +1,5 @@
-// Builds data/items.js from the VALORANT Wiki (wiki.playvalorant.com, community-run, CC BY-SA 3.0)
-// plus a small hand-curated file (data/curated.json) for items the wiki lacks.
+// Builds site/data/items.js from the VALORANT Wiki (wiki.playvalorant.com, community-run, CC BY-SA 3.0)
+// plus a small hand-curated file (site/data/curated.json) for items the wiki lacks.
 //
 // Usage: node scripts/build-data.mjs [--no-images]
 import { mkdir, readFile, writeFile, access, readdir, unlink } from "node:fs/promises";
@@ -10,7 +10,8 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { eventEnd } from "./event-times.mjs";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Everything these scripts read and write lives in the site folder.
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "site");
 const API = "https://wiki.playvalorant.com/en-us/api.php";
 const WIKI = "https://wiki.playvalorant.com/en-us/";
 const UA = "val-drops/1.0 (fan site; data aggregation)";

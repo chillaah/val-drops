@@ -47,18 +47,18 @@ jobs:
           echo "prev=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow update-data.yml --status success -L 1 --json createdAt -q '.[0].createdAt')" >> "$GITHUB_OUTPUT"
       - name: Rebuild data from the VALORANT Wiki
         run: |
-          cp data/items.js "$RUNNER_TEMP/items.old.js"
+          cp site/data/items.js "$RUNNER_TEMP/items.old.js"
           node scripts/build-data.mjs
           node scripts/prerender.mjs
       - name: Check data before publishing
         # Stops a broken scrape (wiki layout change) or a suspicious wiki edit from going live.
-        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js" ${{ inputs.approve && '--approve' || '' }}
+        run: node scripts/check-data.mjs site/data/items.js "$RUNNER_TEMP/items.old.js" ${{ inputs.approve && '--approve' || '' }}
       - name: Commit to production
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data img index.html
+          git add -A site/data site/img site/index.html
           # Ignore the "generated" timestamp so unchanged data doesn't create commits.
           if git diff --cached --quiet -I '"generated"'; then
             echo "No new items."
@@ -76,7 +76,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_ADMIN_WEBHOOK_URL: ${{ secrets.DISCORD_ADMIN_WEBHOOK_URL }}
           PREV_CHECK: ${{ steps.checked.outputs.prev }}
-        run: node scripts/notify-discord.mjs "$RUNNER_TEMP/items.old.js" data/items.js
+        run: node scripts/notify-discord.mjs "$RUNNER_TEMP/items.old.js" site/data/items.js
       - name: Merge production into development
         if: steps.commit.outputs.changed == 'true'
         run: |

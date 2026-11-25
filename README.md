@@ -11,8 +11,8 @@
 ### [chillaah.github.io/val-drops](https://chillaah.github.io/val-drops/)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshot-dark.webp">
-  <img src="docs/screenshot-light.webp" alt="VAL DROPS home page: freshness stats, filters and the Claimable now section split into free and paid rewards" width="800">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/screenshot-dark.webp">
+  <img src="docs/images/screenshot-light.webp" alt="VAL DROPS home page: freshness stats, filters and the Claimable now section split into free and paid rewards" width="800">
 </picture>
 
 </div>
@@ -25,7 +25,7 @@
 - **Free JSON API** and **Discord alerts** for your own server.
 
 <div align="center">
-<img src="docs/demo.gif" alt="VAL DROPS in use: scrolling Claimable now, opening an item and searching" width="800">
+<img src="docs/images/demo.gif" alt="VAL DROPS in use: scrolling Claimable now, opening an item and searching" width="800">
 </div>
 
 ## Use the data
@@ -52,6 +52,6 @@ Missing an item? [Open an issue](https://github.com/chillaah/val-drops/issues/ne
 
 ## License
 
-Code is [MIT](LICENSE) ([NOTICE](NOTICE) says what that covers). Item data comes from the VALORANT Wiki under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Fonts are Geist and Geist Mono under the [SIL Open Font License](assets/fonts/OFL.txt).
+Code is [MIT](LICENSE) ([NOTICE](NOTICE) says what that covers). Item data comes from the VALORANT Wiki under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Fonts are Geist and Geist Mono under the [SIL Open Font License](site/assets/fonts/OFL.txt).
 
 This is a fan project and isn't affiliated with or endorsed by Riot Games. VALORANT and all related names, images and assets are trademarks or property of Riot Games, Inc.

@@ -9,7 +9,7 @@
 //        PREV_CHECK          ISO time of the last successful check; without it no
 //                            "now claimable" posts are sent
 //        SITE_URL            (default: https://<owner>.github.io/<repo>/ from GITHUB_REPOSITORY)
-//        RAW_BASE            (default: raw.githubusercontent.com/<repo>/<current commit>/)
+//        RAW_BASE            (default: raw.githubusercontent.com/<repo>/<current commit>/site/)
 //        FOLLOW=1            run for someone else's server (.github/workflows/discord-follow.yml):
 //                            no maintainer alerts, a "set up" message instead of a summary on
 //                            the first run, a lower flood limit, and nothing is posted if the
@@ -31,7 +31,7 @@ const SITE_URL = process.env.SITE_URL || `https://${OWNER}.github.io/${NAME}/`;
 // Image links point at this commit, not the branch: later runs convert or prune
 // images, and Discord fetches embed images long after the post goes out.
 const commit = () => { try { return execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(); } catch { return "production"; } };
-const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${REPO}/${commit()}/`;
+const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${REPO}/${commit()}/site/`;
 
 // More new items than this in one run usually means the scraper or the wiki
 // layout changed, so post one summary instead of flooding the channel.
@@ -81,7 +81,7 @@ const chinaOnly = (i) => i.regions?.some((r) => r.code === "CN");
 // Dates from leaks or estimates aren't announced; wait for an official source before posting.
 const unconfirmed = (i) => Boolean(i.unconfirmed);
 
-// Co-streamer Drops can only be earned on certain channels, listed via data/curated.json.
+// Co-streamer Drops can only be earned on certain channels, listed via site/data/curated.json.
 const coStream = (i) => /co-?stream/i.test(i.subgroup || "");
 const CHANNEL_URL = { twitch: (login) => `https://www.twitch.tv/${encodeURIComponent(login.toLowerCase())}` };
 
@@ -182,7 +182,7 @@ async function main() {
     await post({
       username: "VAL Drops",
       content: `**Co-streamer Drop${missing.length > 1 ? "s" : ""} live with no channels listed:** ${missing.map((i) => i.name).join(", ")}.\n` +
-        "Copy the participating channels from <https://www.twitch.tv/drops/campaigns> (signed in) into `channels` in data/curated.json.",
+        "Copy the participating channels from <https://www.twitch.tv/drops/campaigns> (signed in) into `channels` in site/data/curated.json.",
       allowed_mentions: { parse: [] },
     }, ADMIN_WEBHOOK);
   }
@@ -193,7 +193,7 @@ async function main() {
     await post({
       username: "VAL Drops",
       content: `**Event Drops live without exact end times:** ${untimed.join(", ")}.\n` +
-        "Add each event's valorantesports.com tournament id to `events` in data/curated.json.",
+        "Add each event's valorantesports.com tournament id to `events` in site/data/curated.json.",
       allowed_mentions: { parse: [] },
     }, ADMIN_WEBHOOK);
   }

@@ -1,16 +1,16 @@
 <!doctype html>
-<!-- Source for assets/og.png (1200×630 social preview). Serve the repo root (python3 -m http.server),
+<!-- Source for site/assets/og.png (1200×630 social preview). Serve the repo root (python3 -m http.server),
      open /scripts/og-image.html at a 1200×630 viewport and screenshot #og to regenerate it.
      The raw screenshot is ~700KB; shrink it to a 256-colour PNG (~215KB) with:
-     ffmpeg -i shot.png -vf "split[a][b];[a]palettegen=stats_mode=full[p];[b][p]paletteuse=dither=sierra2_4a" assets/og.png
-     Art is real item images from img/; no Riot logos or wordmarks, since this is a fan project.
+     ffmpeg -i shot.png -vf "split[a][b];[a]palettegen=stats_mode=full[p];[b][p]paletteuse=dither=sierra2_4a" site/assets/og.png
+     Art is real item images from site/img/; no Riot logos or wordmarks, since this is a fan project.
      The name and tagline are sized to stay readable when Reddit shrinks the image to ~240px wide. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <style>
-  @font-face { font-family: "Geist"; font-weight: 400 700; src: url(../assets/fonts/geist-latin.woff2) format("woff2"); }
-  @font-face { font-family: "Geist Mono"; font-weight: 500; src: url(../assets/fonts/geist-mono-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Geist"; font-weight: 400 700; src: url(../site/assets/fonts/geist-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Geist Mono"; font-weight: 500; src: url(../site/assets/fonts/geist-mono-latin.woff2) format("woff2"); }
   body { margin: 0; }
   #og {
     position: relative; overflow: hidden;
@@ -54,13 +54,13 @@
 <body>
 <div id="og">
   <div class="art">
-    <img class="card c1" src="../img/Sakura_Tokyo_Card_Large_600.webp" alt="">
-    <img class="card c2" src="../img/Glitchpop_Card_Large_600.webp" alt="">
-    <img class="card c3" src="../img/Horrors_I_ve_Seen_Card_Large_600.webp" alt="">
-    <img class="spray s1" src="../img/Not_Today_Spray_600.webp" alt="">
-    <img class="spray s2" src="../img/All_Love_Spray_600.webp" alt="">
-    <img class="buddy b1" src="../img/Pocket_Sage_Buddy.webp" alt="">
-    <img class="buddy b2" src="../img/Flyby_Hug_Buddy.webp" alt="">
+    <img class="card c1" src="../site/img/Sakura_Tokyo_Card_Large_600.webp" alt="">
+    <img class="card c2" src="../site/img/Glitchpop_Card_Large_600.webp" alt="">
+    <img class="card c3" src="../site/img/Horrors_I_ve_Seen_Card_Large_600.webp" alt="">
+    <img class="spray s1" src="../site/img/Not_Today_Spray_600.webp" alt="">
+    <img class="spray s2" src="../site/img/All_Love_Spray_600.webp" alt="">
+    <img class="buddy b1" src="../site/img/Pocket_Sage_Buddy.webp" alt="">
+    <img class="buddy b2" src="../site/img/Flyby_Hug_Buddy.webp" alt="">
   </div>
   <div class="text">
     <div class="brand">

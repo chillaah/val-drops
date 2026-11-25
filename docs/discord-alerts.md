@@ -18,4 +18,4 @@ Good to know:
 
 ## For the maintainer: pausing alerts in other servers
 
-Followers post whatever the live `data/items.json` contains. If production publishes wrong items, set `"paused": true` in [`data/alerts.json`](../data/alerts.json) and deploy. Followers then post nothing, and they don't mark anything as seen. Fix the data, set it back to `false`, and the next run compares against the list from before the pause, so only the correct changes go out. The pause doesn't affect this repo's own Discord alerts. Messages that were already posted can't be removed from other servers.
+Followers post whatever the live `data/items.json` contains. If production publishes wrong items, set `"paused": true` in [`site/data/alerts.json`](../site/data/alerts.json) and deploy. Followers then post nothing, and they don't mark anything as seen. Fix the data, set it back to `false`, and the next run compares against the list from before the pause, so only the correct changes go out. The pause doesn't affect this repo's own Discord alerts. Messages that were already posted can't be removed from other servers.
