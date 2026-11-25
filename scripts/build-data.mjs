@@ -768,20 +768,21 @@ function mergeDuplicates(items) {
     // Stable sort keeps wiki order for undated ways.
     const sorted = [...ways].sort((a, b) => date(b).localeCompare(date(a)));
     const [primary, ...rest] = sorted;
-    const periods = ways.map((w) => w.period).filter(Boolean);
     const seen = new Set();
     out.push({
       ...primary,
       image: primary.image || rest.find((w) => w.image)?.image || null,
       imageLarge: primary.imageLarge || rest.find((w) => w.imageLarge)?.imageLarge || null,
       imageWide: primary.imageWide || rest.find((w) => w.imageWide)?.imageWide || null,
-      // A null end means no end date is known yet, so it counts as the latest.
-      period: periods.sort((a, b) => (b.end || "9999").localeCompare(a.end || "9999"))[0] || null,
-      ongoing: ways.find((w) => w.ongoing)?.ongoing || null,
+      // The dates go with the primary's details; each other way keeps its own in alsoFrom.
+      // (Taking the latest end across ways gave an ongoing offer an old event's end date.)
+      period: primary.period || null,
+      ongoing: primary.ongoing || null,
       channels: ways.find((w) => w.channels)?.channels || null,
       maybeActive: ways.some((w) => w.maybeActive),
-      unconfirmed: ways.find((w) => w.unconfirmed)?.unconfirmed || null,
-      sources: ways.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
+      unconfirmed: primary.unconfirmed || null,
+      // The primary's citations first, then the other ways' (each also listed in its alsoFrom entry).
+      sources: sorted.flatMap((w) => w.sources).filter((s) => !seen.has(s.url) && seen.add(s.url)),
       // Known before (null) if any way was; otherwise the earliest date.
       firstSeen: ways.some((w) => w.firstSeen == null) ? null : ways.map((w) => w.firstSeen).sort()[0],
       // A tag that applies to only some ways is "partial": the item can still be had elsewhere.
@@ -789,6 +790,9 @@ function mergeDuplicates(items) {
         .map((t) => ({ ...t, partial: !ways.every((w) => w.regions.some((r) => r.code === t.code)) })),
       alsoFrom: rest.map((w) => ({
         category: w.category, group: w.group, subgroup: w.subgroup, details: w.details, period: w.period, regions: w.regions,
+        sources: w.sources,
+        // Public codes stay with the way they redeem for.
+        ...(w.codes ? { codes: w.codes } : {}),
       })),
     });
   }
