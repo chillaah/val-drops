@@ -19,14 +19,14 @@ jobs:
         with:
           node-version: 22
       - name: Syntax check
-        run: for f in scripts/*.mjs app.js theme.js; do node --check "$f"; done
+        run: for f in scripts/*.mjs site/app.js site/theme.js; do node --check "$f"; done
       - name: Build data (no image download)
         run: |
-          cp data/items.js "$RUNNER_TEMP/items.old.js"
+          cp site/data/items.js "$RUNNER_TEMP/items.old.js"
           node scripts/build-data.mjs --no-images
           node scripts/prerender.mjs
       - name: Sanity-check output
         # --approve: CI only checks the scraper; reviewing wiki edits is the update job's call.
-        run: node scripts/check-data.mjs data/items.js "$RUNNER_TEMP/items.old.js" --approve
+        run: node scripts/check-data.mjs site/data/items.js "$RUNNER_TEMP/items.old.js" --approve
       - name: Check site files exist
-        run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml data/items.json assets/favicon.svg assets/og.png; do test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done
+        run: for f in index.html 404.html app.js theme.js styles.css robots.txt sitemap.xml data/items.json assets/favicon.svg assets/og.png; do f="site/$f"; test -f "$f" || { echo "::error::Missing $f"; exit 1; }; done

@@ -1,4 +1,4 @@
-// Fails if a freshly built data/items.js looks broken, so a wiki layout change
+// Fails if a freshly built site/data/items.js looks broken, so a wiki layout change
 // can't publish a half-empty site.
 //
 // With a previous build it also holds back the kinds of wiki edit a vandal

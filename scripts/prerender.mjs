@@ -1,4 +1,4 @@
-// Writes a plain list of every item into index.html, between the prerender
+// Writes a plain list of every item into site/index.html, between the prerender
 // markers inside <main id="list">. It's what search engines, link previews and
 // visitors without JavaScript see; app.js replaces it with the full cards.
 //
@@ -7,7 +7,8 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Everything these scripts read and write lives in the site folder.
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "site");
 const START = "<!-- prerender:start -->";
 const END = "<!-- prerender:end -->";
 
