@@ -355,6 +355,70 @@
       <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
   }
 
+  // ---------- next drop countdown ----------
+  // Wiki dates have no time of day, so a window "opens" at midnight on its start date in the
+  // item's zone (Pacific unless the event gives its venue's). Find that instant by shifting UTC
+  // midnight by the zone's offset; twice, in case a DST change falls in between.
+  const opensAt = (i) => {
+    const tz = i.period.tz || "America/Los_Angeles";
+    const day = Date.UTC(+i.period.start.slice(0, 4), +i.period.start.slice(5, 7) - 1, +i.period.start.slice(8, 10));
+    const fmt = new Intl.DateTimeFormat("en-US", { timeZone: tz, hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric" });
+    let t = day;
+    for (let k = 0; k < 2; k++) {
+      const p = Object.fromEntries(fmt.formatToParts(t).map((x) => [x.type, x.value]));
+      t += day - Date.UTC(+p.year, p.month - 1, +p.day, +p.hour, +p.minute);
+    }
+    return t;
+  };
+  const opensIn = (t) => {
+    const m = Math.ceil((t - Date.now()) / 6e4);
+    if (m <= 0) return "Opening now";
+    const d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60);
+    return `Opens in ${d ? `${d}d ${h}h` : h ? `${h}h ${m % 60}m` : `${m}m`}`;
+  };
+
+  // Ticks only the countdown text; stops once the block is gone (filtered out) or it hits zero.
+  let ndTimer = null;
+  const ndTick = () => {
+    const el = document.querySelector(".next-drop [data-opens]");
+    if (!el) { clearInterval(ndTimer); ndTimer = null; return; }
+    el.textContent = opensIn(+el.dataset.opens);
+    if (+el.dataset.opens <= Date.now()) { clearInterval(ndTimer); ndTimer = null; }
+  };
+
+  // The soonest upcoming reward window, with everything from the same event opening that day.
+  function nextDropBlock(visible) {
+    const upcoming = visible.filter((i) => status(i) === "upcoming")
+      .sort((a, b) => opensAt(a) - opensAt(b));
+    if (!upcoming.length) return "";
+    const first = upcoming[0];
+    const batch = upcoming.filter((i) => i.group === first.group && i.period.start === first.period.start);
+    const names = batch.map((i) => i.name);
+    const what = names.length > 3 ? `${names.length} rewards`
+      : names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
+    const t = opensAt(first);
+    const local = new Date(t).toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    if (!ndTimer) ndTimer = setInterval(ndTick, 30e3);
+    return `<button type="button" class="next-drop" data-slug="${esc(first.slug)}">
+      <span class="nd-label"><span class="nd-dot" aria-hidden="true"></span>Next drop</span>
+      <span class="nd-main"><span class="nd-event">${esc(first.group)}</span><span class="nd-what">${esc(what)}</span></span>
+      <span class="nd-when"><b data-opens="${t}">${opensIn(t)}</b><time datetime="${esc(first.period.start)}" title="${esc(local)} your time">${fmtDay(first.period.start)}${first.unconfirmed ? " · unconfirmed" : ""}</time></span>
+    </button>`;
+  }
+
+  // Jump to the item's card on the page, or open the item view if it isn't shown.
+  $("#list").addEventListener("click", (e) => {
+    const nd = e.target.closest(".next-drop");
+    if (!nd) return;
+    const c = [...document.querySelectorAll("#list .card")].find((x) => x.dataset.slug === nd.dataset.slug);
+    if (!c) return openItem(nd.dataset.slug);
+    c.scrollIntoView({ block: "center" });
+    c.querySelector("button.name")?.focus({ preventScroll: true });
+    c.classList.remove("nd-flash");
+    void c.offsetWidth; // restart the highlight if clicked twice
+    c.classList.add("nd-flash");
+  });
+
   // Timeline view: items grouped by the month of their own date, newest first.
   function timeline(visible) {
     const months = new Map();
@@ -397,7 +461,7 @@
     chips($("#regions"), REGIONS.map(([v, label]) => [v, label]), "region", regionTest, `<span class="lbl">Region</span>`);
     const visible = items.filter((i) => matches(i));
     sortChips();
-    let html = nowSection(visible) + recentSection(visible);
+    let html = nextDropBlock(visible) + nowSection(visible) + recentSection(visible);
     if (state.sort === "newest") {
       $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
       return;
