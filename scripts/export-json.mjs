@@ -1,4 +1,4 @@
-// Writes data/items.json, a public copy of data/items.js for other projects to use
+// Writes site/data/items.json, a public copy of site/data/items.js for other projects to use
 // (bots, trackers, spreadsheets). Same items, but image paths are full URLs and the
 // file carries its own licence and attribution so it can be used on its own.
 //
@@ -8,7 +8,8 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Everything these scripts read and write lives in the site folder.
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "site");
 export const SITE = "https://chillaah.github.io/val-drops/";
 export const SCHEMA_VERSION = 1;
 

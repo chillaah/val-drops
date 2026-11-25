@@ -1,7 +1,7 @@
 // Exact end times for event Drops, from the official VALORANT Esports schedule.
 //
 // The wiki only gives dates, so a Drop that ends with an event's final would stay live until
-// midnight. Each event in data/curated.json's 'events' names its tournament on
+// midnight. Each event in site/data/curated.json's 'events' names its tournament on
 // valorantesports.com; this reads the grand final's scheduled start from the tournament page
 // and estimates when co-streamers stop: a full best-of-five after it starts, plus a grace period.
 // (vlr.gg has actual map times, but its terms forbid scripted access.)

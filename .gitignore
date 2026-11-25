@@ -19,3 +19,5 @@ _site/
 # Local tooling
 .gstack/
 .claude/
+.agents/
+skills-lock.json

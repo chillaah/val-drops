@@ -43,7 +43,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ITEM: ${{ inputs.item }}
-        run: node scripts/notify-discord.mjs --item "$ITEM" data/items.js
+        run: node scripts/notify-discord.mjs --item "$ITEM" site/data/items.js
       - name: Post newest item
         if: inputs.post && inputs.item == ''
         env:
@@ -53,9 +53,9 @@ jobs:
           # Fake an "old" snapshot without the first (newest) item so exactly one post goes out.
           node -e '
             global.window = {};
-            require("./data/items.js");
+            require("./site/data/items.js");
             const d = window.VAL_DROPS;
             d.items = d.items.slice(1);
             require("fs").writeFileSync(process.argv[1], "window.VAL_DROPS = " + JSON.stringify(d) + ";\n");
           ' "$RUNNER_TEMP/old.js"
-          node scripts/notify-discord.mjs "$RUNNER_TEMP/old.js" data/items.js
+          node scripts/notify-discord.mjs "$RUNNER_TEMP/old.js" site/data/items.js
