@@ -1,0 +1,10 @@
+VAL DROPS
+
+The MIT license in LICENSE covers the source code only (scripts/, app.js, index.html,
+styles.css). Item data in data/items.js is derived from the VALORANT Wiki
+(https://wiki.playvalorant.com) and is licensed CC BY-SA 3.0. Images and all
+VALORANT names and assets are the property of Riot Games, Inc.
+
+Fonts: Geist and Geist Mono, under the SIL Open Font License (assets/fonts/OFL.txt).
+
+This is a fan project and isn't affiliated with or endorsed by Riot Games.
