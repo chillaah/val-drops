@@ -3,7 +3,7 @@
 // one with the toggle; that choice is remembered in localStorage.
 (() => {
   const KEY = "theme";
-  const COLORS = { light: "#fafafa", dark: "#09090b" };
+  const COLORS = { light: "#f8f7fc", dark: "#0e0b16" };
   const root = document.documentElement;
   const system = matchMedia("(prefers-color-scheme: dark)");
 
