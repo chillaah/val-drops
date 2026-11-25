@@ -190,11 +190,20 @@
   const alsoHtml = (i, { card = false } = {}) => i.alsoFrom.map((a) => {
     const where = [a.category, a.group !== a.category ? a.group : null, a.subgroup].filter(Boolean).join(" · ");
     const info = card && i.alsoFrom.length > 2 ? "" : a.details.map((row) => row.map((d) => (d.label ? `<b>${esc(d.label)}:</b> ` : "") + bullets(d.value)).join("<br>")).join("<br>");
-    return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}</div>`;
+    const src = !card && a.sources?.length ? `<div class="src">${linksHtml(a.sources)}</div>` : "";
+    return `<div><span class="where">${esc(where)}</span>${info ? `<br>${info}` : ""}${src}</div>`;
   }).join("");
-  const sourcesHtml = (i) => i.sources.map((s) =>
+  const linksHtml = (list) => list.map((s) =>
     `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.official ? '<span class="off">✓</span> ' : ""}${esc(s.label)}</a>`
   ).join("");
+  // An item's sources cover every way to get it. Each "also from" entry lists its own, so the
+  // main listing shows only the rest (the ExpressVPN card shouldn't cite a 2024 watch party).
+  const ownSources = (i) => {
+    const elsewhere = new Set(i.alsoFrom.flatMap((a) => (a.sources || []).map((s) => s.url)));
+    const own = i.sources.filter((s) => !elsewhere.has(s.url));
+    return own.length ? own : i.sources;
+  };
+  const sourcesHtml = (i) => linksHtml(ownSources(i));
   const contextOf = (i) => [i.category, i.group !== i.category ? i.group : null, i.subgroup].filter(Boolean).join(" · ");
   // The part after " · " is detail that phone cards drop, so the badge stays on one line.
   const badgeText = (s) => {
@@ -278,7 +287,7 @@
       e.target.textContent = (await copyText(itemUrl(slug).href)) ? "Link copied" : "Copy failed";
     };
     if (push) history.pushState({ item: slug }, "", itemUrl(slug));
-    document.title = `${i.name} · VALORANT Out-of-Game Rewards`;
+    document.title = `${i.name} · VAL DROPS`;
     // Focus the dialog, not ×: a deep link would otherwise open with a focus ring on it.
     if (!dlg.open) { dlg.showModal(); dlg.focus(); }
     $("#item-body").scrollTop = 0;
@@ -545,7 +554,7 @@
     stat(live, "claimable now", live ? "#now" : null) +
     stat(new Set(items.map((i) => i.group)).size, "events & sources") +
     stat(`<time datetime="${esc(lastCheck)}" title="Checked ${esc(exact)}">${ago}</time>`,
-      `last checked${newest ? ` · newest item ${esc(fmtDay(newest))}` : ""}`);
+      `last checked${newest ? `<span class="newest"> · newest item ${esc(fmtDay(newest))}</span>` : ""}`);
   render();
   if (params.get("item")) openItem(params.get("item"), { push: false });
 

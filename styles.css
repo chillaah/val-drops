@@ -327,6 +327,7 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
 .d-info .note { margin: 0; }
 .d-info .src { margin-top: 6px; }
 .d-info .src .lbl { color: var(--dim); }
+.also .src { border-top: 0; padding-top: 4px; margin-top: 2px; }
 .d-actions { margin-top: 4px; }
 .d-actions .chip { color: var(--text); }
 
@@ -341,11 +342,11 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
 @media (max-width: 760px) {
   .links a:not(:first-child) { display: none; }
   /* One short swipeable row so the list starts on the first screen. */
-  .stats { flex-wrap: nowrap; gap: 22px; margin: 18px -16px 0; padding: 0 16px; overflow-x: auto; scrollbar-width: none; }
-  .stats::-webkit-scrollbar { display: none; }
-  .stat { flex: none; }
+  /* Four stats in one row that fits a phone; the "newest item" aside is desktop-only. */
+  .stats { display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; gap: 12px; margin-top: 18px; }
+  .stat .newest { display: none; }
   .stat b { font-size: 20px; }
-  .stat span { font-size: 12px; white-space: nowrap; }
+  .stat span { font-size: 12px; line-height: 1.3; }
   .stats:empty { min-height: 42px; }
 }
 @media (max-width: 680px) {
