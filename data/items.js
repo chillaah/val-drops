@@ -1,5 +1,5 @@
 window.VAL_DROPS = {
- "generated": "2026-11-12T14:46:04.073Z",
+ "generated": "2026-11-25T15:36:00.914Z",
  "primarySource": {
   "label": "VALORANT Wiki",
   "url": "https://wiki.playvalorant.com/en-us/"
@@ -557,6 +557,25 @@ window.VAL_DROPS = {
        "code": "JP-IRL",
        "label": "In person: Japan"
       }
+     ],
+     "sources": [
+      {
+       "url": "https://twitter.com/RiotGamesJapan/status/1590600161562021888",
+       "label": "X @RiotGamesJapan",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+       "label": "VALORANT Wiki: Player Cards",
+       "official": false,
+       "wiki": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+       "label": "VALORANT Wiki: Broadcast Rewards",
+       "official": false,
+       "wiki": true
+      }
      ]
     }
    ],
@@ -638,7 +657,31 @@ window.VAL_DROPS = {
       "start": "2026-07-24",
       "end": "2026-07-24"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://www.coinbase.com/en/campaigns/valorant25",
+       "label": "Coinbase",
+       "official": false
+      },
+      {
+       "url": "https://www.riotgames.com/en/news/lol-valorant-esports-coinbase-partnership",
+       "label": "Riot Games",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Buddies",
+       "label": "VALORANT Wiki: Buddies",
+       "official": false,
+       "wiki": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+       "label": "VALORANT Wiki: Broadcast Drops",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "slime-mosh-buddy"
@@ -870,6 +913,20 @@ window.VAL_DROPS = {
       {
        "code": "JP",
        "label": "Japan only"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+       "label": "VALORANT Wiki: Player Cards",
+       "official": false,
+       "wiki": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Broadcast_Rewards",
+       "label": "VALORANT Wiki: Broadcast Rewards",
+       "official": false,
+       "wiki": true
       }
      ]
     }
@@ -1616,7 +1673,20 @@ window.VAL_DROPS = {
       "start": "2021-09-01",
       "end": "2021-09-30"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://support-valorant.riotgames.com/hc/en-us/articles/43551780702611-Shotcall-FAQ",
+       "label": "Riot Support",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Prime_Gaming_Drops",
+       "label": "VALORANT Wiki: Prime Gaming Drops",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "just-business-spray"
@@ -1985,7 +2055,20 @@ window.VAL_DROPS = {
       "start": "2023-11-02",
       "end": "2023-11-05"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://x.com/redbullgaming/status/1720259674103324789",
+       "label": "X @redbullgaming",
+       "official": false
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+       "label": "VALORANT Wiki: Broadcast Drops",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Broadcast Drops",
@@ -2003,7 +2086,15 @@ window.VAL_DROPS = {
       "start": "2022-12-11",
       "end": "2022-12-16"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Broadcast_Drops",
+       "label": "VALORANT Wiki: Broadcast Drops",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "clutch-spray"
@@ -3868,7 +3959,7 @@ window.VAL_DROPS = {
    ],
    "period": {
     "start": "2020-04-07",
-    "end": "2020-05-28"
+    "end": "2020-05-22"
    },
    "ongoing": null,
    "maybeActive": false,
@@ -3917,7 +4008,20 @@ window.VAL_DROPS = {
       "start": "2020-04-07",
       "end": "2020-05-28"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://playvalorant.com/en-us/news/announcements/valorant-closed-beta-ends-may-28/",
+       "label": "PlayVALORANT.com",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Closed_Beta",
+       "label": "VALORANT Wiki: Closed Beta",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "beta-watch-card"
@@ -6294,7 +6398,15 @@ window.VAL_DROPS = {
       "start": "2024-11-01",
       "end": "2025-02-28"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://wiki.playvalorant.com/en-us/VALORANT_X_PS%2B_Bundles",
+       "label": "VALORANT Wiki: VALORANT X PS+ Bundles",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "gaia-s-vengeance-spray"
@@ -7800,7 +7912,20 @@ window.VAL_DROPS = {
       "end": "2026-10-07",
       "tz": "Asia/Shanghai"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -7835,7 +7960,20 @@ window.VAL_DROPS = {
       "end": "2026-06-12",
       "tz": "Europe/London"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -7870,7 +8008,20 @@ window.VAL_DROPS = {
       "end": "2026-03-06",
       "tz": "America/Santiago"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -7901,7 +8052,20 @@ window.VAL_DROPS = {
       "end": "2025-11-20",
       "tz": "Asia/Seoul"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -7936,7 +8100,20 @@ window.VAL_DROPS = {
       "end": "2025-09-25",
       "tz": "Europe/Paris"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -7971,7 +8148,20 @@ window.VAL_DROPS = {
       "end": "2025-06-13",
       "tz": "America/Toronto"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     },
     {
      "category": "Pick'Ems",
@@ -8006,7 +8196,20 @@ window.VAL_DROPS = {
       "end": "2024-08-14",
       "tz": "Asia/Seoul"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://valorantesports.com/en-US/pickems",
+       "label": "VALORANT Esports",
+       "official": true
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Pick'Ems",
+       "label": "VALORANT Wiki: Pick'Ems",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "100-title"
@@ -12862,10 +13065,7 @@ window.VAL_DROPS = {
      }
     ]
    ],
-   "period": {
-    "start": null,
-    "end": "2024-09-01"
-   },
+   "period": null,
    "ongoing": {
     "since": "2026-03-12",
     "note": "Ongoing ExpressVPN partner offer since March 12, 2026. No end date announced."
@@ -12874,6 +13074,16 @@ window.VAL_DROPS = {
    "unconfirmed": null,
    "channels": null,
    "sources": [
+    {
+     "url": "https://www.expressvpn.com/top/plus-partner/vct-us",
+     "label": "ExpressVPN",
+     "official": false
+    },
+    {
+     "url": "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships",
+     "label": "tomsguide.com",
+     "official": false
+    },
     {
      "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
      "label": "X @Velocityy07",
@@ -12889,16 +13099,6 @@ window.VAL_DROPS = {
      "label": "VALORANT Wiki: Player Cards",
      "official": false,
      "wiki": true
-    },
-    {
-     "url": "https://www.expressvpn.com/top/plus-partner/vct-us",
-     "label": "ExpressVPN",
-     "official": false
-    },
-    {
-     "url": "https://www.tomsguide.com/computing/vpns/grab-expressvpn-at-its-cheapest-ever-price-thanks-to-its-new-competitive-esports-partnerships",
-     "label": "tomsguide.com",
-     "official": false
     }
    ],
    "firstSeen": null,
@@ -12927,7 +13127,25 @@ window.VAL_DROPS = {
       "start": null,
       "end": "2024-09-01"
      },
-     "regions": []
+     "regions": [],
+     "sources": [
+      {
+       "url": "https://twitter.com/Velocityy07/status/1828404166303326690",
+       "label": "X @Velocityy07",
+       "official": false
+      },
+      {
+       "url": "https://www.instagram.com/p/C-b7OeuyMRo/?hl=en",
+       "label": "Instagram post",
+       "official": false
+      },
+      {
+       "url": "https://wiki.playvalorant.com/en-us/Player_Cards",
+       "label": "VALORANT Wiki: Player Cards",
+       "official": false,
+       "wiki": true
+      }
+     ]
     }
    ],
    "slug": "dance-break-card"
