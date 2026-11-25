@@ -17,23 +17,26 @@
     width: 1200px; height: 630px; box-sizing: border-box; padding: 64px 0 64px 72px;
     /* A dark card with a soft brand glow reads as a distinct tile on both dark and light feeds. */
     background:
-      radial-gradient(640px 520px at 92% 40%, rgba(255, 70, 85, .30), transparent 70%),
-      radial-gradient(500px 400px at 0% 100%, rgba(255, 70, 85, .10), transparent 70%),
-      #09090b;
+      radial-gradient(640px 520px at 92% 40%, rgba(124, 58, 237, .38), transparent 70%),
+      radial-gradient(520px 420px at 0% 100%, rgba(255, 70, 85, .16), transparent 70%),
+      #0e0b16;
     color: #fafafa; font-family: "Geist", sans-serif;
   }
-  #og::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 12px; background: #ff4655; }
+  #og::after { content: ""; position: absolute; left: 0; top: 0; right: 0; height: 10px; background: linear-gradient(90deg, #ff4655, #a78bfa); }
 
   .text { position: relative; z-index: 2; width: 590px; height: 100%; display: flex; flex-direction: column; }
   .brand { display: flex; align-items: center; gap: 24px; }
   .brand svg { width: 104px; height: 104px; flex: none; }
-  h1 { margin: 0; font-size: 116px; line-height: .9; font-weight: 700; letter-spacing: -.045em; }
-  h1 span { display: block; color: #ff4655; }
-  p { margin: auto 0 0; font-size: 40px; line-height: 1.18; font-weight: 600; letter-spacing: -.02em; color: #fafafa; }
-  p em { font-style: normal; color: #a1a1aa; }
+  h1 { margin: 0; font-size: 106px; line-height: .9; font-weight: 700; letter-spacing: -.045em; }
+  h1 span { display: block; background: linear-gradient(90deg, #ff4655, #a78bfa); -webkit-background-clip: text; background-clip: text; color: transparent; padding-bottom: 6px; }
+  .live { display: inline-flex; align-items: center; gap: 12px; align-self: flex-start; margin: 22px 0 26px; padding: 6px 16px 6px 13px; border-radius: 999px;
+    font: 600 24px "Geist", sans-serif; color: #6ee7b7; background: rgba(110, 231, 183, .12); border: 1px solid rgba(110, 231, 183, .35); }
+  .live::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: #6ee7b7; }
+  p { margin: auto 0 0; max-width: 520px; font-size: 38px; line-height: 1.18; font-weight: 600; letter-spacing: -.02em; color: #fafafa; }
+  p em { font-style: normal; color: #a9a3ba; }
   .titles { display: flex; gap: 12px; margin-top: 30px; }
   .titles span { font: 500 24px "Geist Mono", monospace; padding: 8px 16px; border-radius: 999px;
-    background: #18181b; border: 1px solid #34343a; color: #e4e4e7; white-space: nowrap; }
+    background: #1c1729; border: 1px solid #3b3449; color: #e9e5f5; white-space: nowrap; }
 
   /* Right-hand collage: fanned player cards with sprays and buddies on top. */
   .art { position: absolute; inset: 0; }
@@ -64,9 +67,10 @@
   </div>
   <div class="text">
     <div class="brand">
-      <svg viewBox="0 0 32 32"><path fill="#ff4655" d="M0 0h32v22.4L22.4 32H0z"/><path fill="#fff" d="M7 7h4.6L16 19.6 20.4 7H25l-6.6 18h-4.8z"/></svg>
+      <svg viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4655"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#g)"/><g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" transform="translate(16 16) scale(.8) translate(-16 -16)"><path d="M10.5 10.5a7.8 7.8 0 0 0 0 11M21.5 10.5a7.8 7.8 0 0 1 0 11"/><path stroke-opacity=".55" d="M6 6a14.2 14.2 0 0 0 0 20M26 6a14.2 14.2 0 0 1 0 20"/></g><circle cx="16" cy="16" r="3.4" fill="#6ee7b7"/></svg>
       <h1>VAL<span>DROPS</span></h1>
     </div>
+    <span class="live">Claimable now</span>
     <p>Every VALORANT drop, Pick'Ems reward, promo and code <em>in one place</em></p>
     <div class="titles"><span>CLUUUTCH</span><span>Aura Farming</span><span>13-0</span></div>
   </div>

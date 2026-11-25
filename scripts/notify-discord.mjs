@@ -37,7 +37,7 @@ const RAW_BASE = process.env.RAW_BASE || `https://raw.githubusercontent.com/${RE
 // layout changed, so post one summary instead of flooding the channel.
 // Other people's servers get a lower limit.
 const MAX_ITEMS = FOLLOW ? 10 : 25;
-const COLOR = 0xff4655;
+const COLOR = 0x7c3aed; // brand violet
 
 async function loadItems(file) {
   try {
