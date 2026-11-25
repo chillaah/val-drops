@@ -171,8 +171,9 @@
 
   // The date an item belongs to: when its claim window opened, or closed if that's all we know.
   const itemDate = (i) => i.period?.start || i.period?.end || i.ongoing?.since || null;
-  // New to the site and claimable now or soon. Old items the wiki only just listed (e.g. Closed
-  // Beta rewards) aren't news, so they skip the "Recently added" list and the New badge.
+  // New to the site and claimable now or soon, which marks its card with a New badge. There's no
+  // separate "Recently added" list: these are all already in Claimable now. Old items the wiki
+  // only just listed (e.g. Closed Beta rewards) aren't news, so they skip the badge.
   // Items dated only by leaks or estimates aren't announced, so they skip it too.
   const isRecent = (i) => i.firstSeen && !i.unconfirmed && daysFrom(i.firstSeen) > -RECENT_DAYS && ["active", "upcoming"].includes(status(i));
 
@@ -330,29 +331,39 @@
     setTimeout(() => (b.textContent = "Copy"), 1500);
   });
 
+  // Rewards that cost money to claim, with what they need. Judged by the item's main source:
+  // an expired free way to get it (alsoFrom, e.g. an old watch party code) doesn't make it free now.
+  const PAID = [
+    [(i) => i.category === "PlayStation Plus", "PlayStation Plus on PS5"],
+    [(i) => i.category === "Prime Gaming", "Amazon Prime (Prime Gaming)"],
+    [(i) => /ExpressVPN/.test(i.group), "a paid ExpressVPN plan"],
+    [(i) => i.group === "Merch & collectibles", "buying the merch item"],
+  ];
+  const paidNeed = (i) => PAID.find(([test]) => test(i))?.[1] || null;
+  const isPaid = (i) => !!paidNeed(i);
+
   function nowSection(visible) {
     const endOf = (i) => (i.period && i.period.end >= todayOf(i) ? i.period.end : "9999");
     const active = visible.filter((i) => status(i) === "active").sort((a, b) => endOf(a).localeCompare(endOf(b)));
+    const free = active.filter((i) => !isPaid(i));
+    const paid = active.filter(isPaid);
     const upcoming = visible.filter((i) => status(i) === "upcoming")
       .sort((a, b) => a.period.start.localeCompare(b.period.start));
     const maybe = visible.filter((i) => status(i) === "maybe");
     if (!active.length && !upcoming.length && !maybe.length) return "";
     const grid = (list) => `<div class="grid">${list.map((i) => card(i, { claim: true })).join("")}</div>`;
+    const head = (title, n) => `<h3>${title}${n ? `<span class="count">${n}</span>` : ""}</h3>`;
     let html = `<section class="cat now" id="now"><h2><span class="live" aria-hidden="true"></span>Claimable now<span class="count">${active.length}</span></h2>
-      <p>Rewards you can still get, soonest-ending first. Dates are in Pacific time and follow the wiki, so check the linked source before relying on them.</p>`;
-    html += active.length ? grid(active) : `<p class="note">Nothing claimable right now.</p>`;
-    if (upcoming.length) html += `<div class="group"><h3>Coming soon</h3>${grid(upcoming)}</div>`;
-    if (maybe.length) html += `<div class="group"><h3>Codes that may still work</h3>
+      <p>Rewards you can still get, free ones first, then soonest-ending. Dates are in Pacific time and follow the wiki, so check the linked source before relying on them.</p>`;
+    // Free first: a few paid bundles shouldn't bury the one free reward.
+    html += `<div class="group">${head("Free", free.length)}${free.length ? grid(free) : `<p class="note">Nothing free to claim right now.</p>`}</div>`;
+    // Public codes cost nothing to redeem, so they sit with the free rewards.
+    if (maybe.length) html += `<div class="group">${head("Free codes that may still work", maybe.length)}
       <p class="note">Public codes the wiki lists without an expiry date. They might still redeem.</p>${grid(maybe)}</div>`;
+    if (paid.length) html += `<div class="group">${head("Needs a subscription or purchase", paid.length)}
+      <p class="note">These cost money: ${esc([...new Set(paid.map(paidNeed))].join(", "))}.</p>${grid(paid)}</div>`;
+    if (upcoming.length) html += `<div class="group">${head("Coming soon", upcoming.length)}${grid(upcoming)}</div>`;
     return html + `</section>`;
-  }
-
-  function recentSection(visible) {
-    const recent = visible.filter(isRecent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen));
-    if (!recent.length) return "";
-    return `<section class="cat" id="recent"><h2>Recently added<span class="count">${recent.length}</span></h2>
-      <p>Found in the last ${RECENT_DAYS} days and claimable now or soon, newest first.</p>
-      <div class="grid">${recent.map((i) => card(i, { context: true })).join("")}</div></section>`;
   }
 
   // Timeline view: items grouped by the month of their own date, newest first.
@@ -412,7 +423,7 @@
     const visible = items.filter((i) => matches(i));
     sortChips();
     filterCount();
-    let html = nowSection(visible) + recentSection(visible);
+    let html = nowSection(visible);
     if (state.sort === "newest") {
       $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
       return;
