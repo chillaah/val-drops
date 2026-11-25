@@ -65,15 +65,20 @@
 
   <div class="controls">
     <div class="wrap">
-      <label class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Search items, events, partners, codes…" aria-label="Search">
-      </label>
-      <div class="chips" id="cats" role="group" aria-label="Source"></div>
-      <div class="filter-row">
-        <div class="chips" id="types" role="group" aria-label="Item type"></div>
-        <div class="chips regions-f" id="regions" role="group" aria-label="Region"></div>
-        <div class="chips sort" id="sort" role="group" aria-label="Sort"></div>
+      <div class="search-row">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="search" placeholder="Search items, events, partners, codes…" aria-label="Search">
+        </label>
+        <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters<span class="n" hidden></span></button>
+      </div>
+      <div class="filters" id="filters">
+        <div class="chips" id="cats" role="group" aria-label="Source"></div>
+        <div class="filter-row">
+          <div class="chips" id="types" role="group" aria-label="Item type"></div>
+          <div class="chips regions-f" id="regions" role="group" aria-label="Region"></div>
+          <div class="chips sort" id="sort" role="group" aria-label="Sort"></div>
+        </div>
       </div>
     </div>
   </div>
