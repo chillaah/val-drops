@@ -144,7 +144,8 @@ a.stat:hover span { color: var(--text); text-decoration: underline; text-underli
   border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
 }
 .controls > .wrap { display: flex; flex-direction: column; }
-.search { position: relative; display: block; order: 1; margin-top: 10px; }
+.search-row { display: flex; gap: 8px; order: 1; margin-top: 10px; }
+.search { position: relative; display: block; flex: 1; min-width: 0; }
 .search svg { position: absolute; left: 12px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); fill: none; stroke: var(--dim); stroke-width: 2; stroke-linecap: round; }
 #q {
   width: 100%; padding: 10px 12px 10px 36px; border-radius: 10px; border: 1px solid var(--border);
@@ -174,6 +175,16 @@ a.stat:hover span { color: var(--text); text-decoration: underline; text-underli
 .chip small { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; }
 .chip[aria-pressed="true"] { background: var(--pressed-bg); border-color: var(--pressed-bg); color: var(--pressed-text); }
 .chip[aria-pressed="true"] small { color: inherit; opacity: .7; }
+/* Phones only: the chip rows fold away behind this button (see small screens). */
+.filters-toggle {
+  display: none; align-items: center; gap: 6px; flex: none; padding: 0 14px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); font: 500 14px var(--sans); cursor: pointer;
+}
+.filters-toggle[aria-expanded="true"] { border-color: var(--border-strong); }
+.filters-toggle .n {
+  min-width: 18px; padding: 1px 5px; border-radius: 999px; font-size: 11px; text-align: center;
+  background: var(--pressed-bg); color: var(--pressed-text); font-variant-numeric: tabular-nums;
+}
 
 /* ---------- sections ---------- */
 main.wrap { padding-bottom: 20px; }
@@ -329,8 +340,13 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
 /* ---------- small screens ---------- */
 @media (max-width: 760px) {
   .links a:not(:first-child) { display: none; }
-  .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 16px; }
-  .stats:empty { min-height: 172px; }
+  /* One short swipeable row so the list starts on the first screen. */
+  .stats { flex-wrap: nowrap; gap: 22px; margin: 18px -16px 0; padding: 0 16px; overflow-x: auto; scrollbar-width: none; }
+  .stats::-webkit-scrollbar { display: none; }
+  .stat { flex: none; }
+  .stat b { font-size: 20px; }
+  .stat span { font-size: 12px; white-space: nowrap; }
+  .stats:empty { min-height: 42px; }
 }
 @media (max-width: 680px) {
   .hero { padding: 28px 16px 28px; }
@@ -342,6 +358,10 @@ button.name:focus-visible { outline: 2px solid var(--text); outline-offset: 2px;
   /* Cards stay short; tapping one opens the item view with the details, "Also from", sources and dates. */
   .card .details, .card .also, .card .src, .card .more { display: none; }
   .filter-row { display: block; }
+  /* Chip rows fold behind the Filters button, opening under the search box. */
+  .filters-toggle { display: inline-flex; }
+  .filters { order: 2; }
+  .controls:not(.filters-open) .filters { display: none; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .thumb { height: 120px; padding: 10px; }
   .thumb img, .thumb.card-img img { max-height: 100px; }

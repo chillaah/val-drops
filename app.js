@@ -391,12 +391,27 @@
     };
   }
 
+  // Phones hide the chip rows behind a Filters button; its badge shows how many are on.
+  function filterCount() {
+    const n = [state.cat, state.type, state.region].filter(Boolean).length;
+    const badge = $("#filters-toggle .n");
+    badge.textContent = n;
+    badge.hidden = !n;
+    $("#filters-toggle").setAttribute("aria-label", n ? `Filters, ${n} active` : "Filters");
+  }
+  $("#filters-toggle").addEventListener("click", (e) => {
+    const open = e.currentTarget.getAttribute("aria-expanded") !== "true";
+    e.currentTarget.setAttribute("aria-expanded", open);
+    $(".controls").classList.toggle("filters-open", open);
+  });
+
   function render() {
     chips($("#cats"), CATEGORIES.map((c) => [c[0], c[0]]), "cat", (v) => (i) => categoriesOf(i).includes(v), `<span class="lbl">Source</span>`);
     chips($("#types"), TYPES.filter((t) => items.some((i) => i.type === t)).map((t) => [t, t]), "type", (v) => (i) => i.type === v, `<span class="lbl">Type</span>`);
     chips($("#regions"), REGIONS.map(([v, label]) => [v, label]), "region", regionTest, `<span class="lbl">Region</span>`);
     const visible = items.filter((i) => matches(i));
     sortChips();
+    filterCount();
     let html = nowSection(visible) + recentSection(visible);
     if (state.sort === "newest") {
       $("#list").innerHTML = html + (timeline(visible) || `<p class="empty">No items match your filters.</p>`);
